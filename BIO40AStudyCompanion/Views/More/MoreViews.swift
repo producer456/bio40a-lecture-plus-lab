@@ -18,6 +18,14 @@ struct MoreView: View {
                     Label("Search", systemImage: "magnifyingglass")
                 }
             }
+            Section("Class") {
+                NavigationLink(destination: AssignmentLogListView()) {
+                    Label("Assignment Log", systemImage: "doc.text.magnifyingglass")
+                }
+                NavigationLink(destination: StudyMaterialLibraryView()) {
+                    Label("Study Materials", systemImage: "folder.fill")
+                }
+            }
             Section("Progress") {
                 NavigationLink(destination: WeakSpotsView()) {
                     Label("Weak Spots", systemImage: "exclamationmark.triangle.fill")
@@ -429,11 +437,22 @@ struct BookmarksView: View {
 
 struct SettingsView: View {
     @Environment(ContentService.self) private var content
+    @AppStorage("userName") private var userName = ""
     @AppStorage("notificationsEnabled") private var notificationsEnabled = true
     @AppStorage("dailyFlashcardGoal") private var dailyFlashcardGoal = 20
 
     var body: some View {
         List {
+            Section("Profile") {
+                HStack {
+                    Text("Name")
+                    Spacer()
+                    TextField("Your name", text: $userName)
+                        .multilineTextAlignment(.trailing)
+                        .foregroundStyle(.secondary)
+                }
+            }
+
             Section("Notifications") {
                 Toggle("Due Date Reminders", isOn: $notificationsEnabled)
                     .onChange(of: notificationsEnabled) { _, enabled in

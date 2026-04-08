@@ -102,6 +102,7 @@ struct QuizView: View {
     @State private var missedIDs: [String] = []
     @State private var quizComplete = false
     @State private var answers: [Int: Int] = [:] // questionIndex: selectedAnswer
+    @AppStorage("userName") private var userName = ""
 
     var body: some View {
         if quizComplete {
@@ -301,12 +302,13 @@ struct QuizView: View {
     }
 
     private var scoreMessage: String {
+        let name = userName.isEmpty ? "" : ", \(userName)"
         let pct = Double(score) / Double(questions.count)
-        if pct >= 0.9 { return "Excellent work!" }
-        if pct >= 0.8 { return "Great job!" }
-        if pct >= 0.7 { return "Good effort, keep studying!" }
-        if pct >= 0.6 { return "Review the material and try again" }
-        return "Focus on your weak spots and retry"
+        if pct >= 0.9 { return "Excellent work\(name)!" }
+        if pct >= 0.8 { return "Great job\(name)!" }
+        if pct >= 0.7 { return "Good effort\(name), keep studying!" }
+        if pct >= 0.6 { return "Review the material and try again\(name)" }
+        return "Focus on your weak spots\(name) and retry"
     }
 
     private func recordPerformance(question: QuizQuestion, wasCorrect: Bool) {

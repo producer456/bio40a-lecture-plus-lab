@@ -7,6 +7,7 @@ struct HomeView: View {
     @Query private var studyProgress: [StudyProgress]
     @Query(sort: \PerformanceRecord.date, order: .reverse) private var performanceRecords: [PerformanceRecord]
     @Query(sort: \FlashcardProgress.nextReviewDate) private var flashcardProgress: [FlashcardProgress]
+    @AppStorage("userName") private var userName = ""
 
     var body: some View {
         ScrollView {
@@ -42,9 +43,11 @@ struct HomeView: View {
 
     private var greetingText: String {
         let hour = Calendar.current.component(.hour, from: Date())
-        if hour < 12 { return "Good morning" }
-        if hour < 17 { return "Good afternoon" }
-        return "Good evening"
+        let greeting: String
+        if hour < 12 { greeting = "Good morning" }
+        else if hour < 17 { greeting = "Good afternoon" }
+        else { greeting = "Good evening" }
+        return userName.isEmpty ? greeting : "\(greeting), \(userName)"
     }
 
     private var currentWeek: Int? {

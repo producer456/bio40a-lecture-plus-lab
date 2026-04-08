@@ -5,10 +5,36 @@ struct ChapterDetailView: View {
     let chapter: Chapter
     @Environment(\.modelContext) private var modelContext
     @Query private var bookmarks: [UserBookmark]
+    @Query private var allMaterials: [StudyMaterial]
     @State private var selectedSection: ChapterSection?
+
+    private var chapterMaterials: [StudyMaterial] {
+        allMaterials.filter { $0.linkedChapterIDs.contains(chapter.id) }
+    }
 
     var body: some View {
         List {
+            // Uploaded Materials
+            if !chapterMaterials.isEmpty {
+                Section("Your Materials (\(chapterMaterials.count))") {
+                    ForEach(chapterMaterials) { material in
+                        NavigationLink(destination: StudyMaterialDetailView(material: material)) {
+                            HStack(spacing: 10) {
+                                Image(systemName: material.materialType == "photo" ? "photo.fill" : material.materialType == "pdf" ? "doc.fill" : "doc.text.fill")
+                                    .foregroundStyle(material.materialType == "pdf" ? .red : .blue)
+                                VStack(alignment: .leading) {
+                                    Text(material.title)
+                                        .font(.subheadline)
+                                    Text(MaterialCategory(rawValue: material.category)?.label ?? material.category)
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             // Quick Review
             Section("Quick Review") {
                 NavigationLink(destination: QuickReviewView(chapter: chapter)) {
