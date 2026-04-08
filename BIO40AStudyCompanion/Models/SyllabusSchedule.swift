@@ -19,15 +19,6 @@ struct WeekEntry: Codable, Identifiable, Hashable {
     let topic: String
     let chapters: [String]?
     let assignments: [Assignment]?
-
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        week = try container.decode(Int.self, forKey: .week)
-        startDate = try container.decode(String.self, forKey: .startDate)
-        topic = try container.decode(String.self, forKey: .topic)
-        chapters = try container.decodeIfPresent([String].self, forKey: .chapters)
-        assignments = try container.decodeIfPresent([Assignment].self, forKey: .assignments)
-    }
 }
 
 // MARK: - Assignment

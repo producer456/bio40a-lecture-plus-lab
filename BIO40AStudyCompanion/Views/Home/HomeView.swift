@@ -50,8 +50,8 @@ struct HomeView: View {
     private var currentWeek: Int? {
         let today = Date()
         return content.syllabus?.lectureSchedule.first { entry in
-            guard let start = dateFromString(entry.startDate) else { return false }
-            let end = Calendar.current.date(byAdding: .day, value: 7, to: start)!
+            guard let start = dateFromString(entry.startDate),
+                  let end = Calendar.current.date(byAdding: .day, value: 7, to: start) else { return false }
             return today >= start && today < end
         }?.week
     }
@@ -83,7 +83,7 @@ struct HomeView: View {
                             Text(assignment.name)
                                 .font(.subheadline)
                                 .fontWeight(.medium)
-                            if let due = ISO8601DateFormatter().date(from: assignment.dueDate.replacingOccurrences(of: "-07:00", with: "-0700").replacingOccurrences(of: "-08:00", with: "-0800")) {
+                            if let due = parseDueDate(assignment.dueDate) {
                                 Text(due, style: .relative)
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
@@ -197,7 +197,9 @@ struct HomeView: View {
     private var quizAverage: String {
         let recent = quizAttempts.prefix(5)
         guard !recent.isEmpty else { return "--" }
-        let avg = Double(recent.reduce(0) { $0 + $1.score }) / Double(recent.reduce(0) { $0 + $1.totalQuestions })
+        let totalQuestions = recent.reduce(0) { $0 + $1.totalQuestions }
+        guard totalQuestions > 0 else { return "--" }
+        let avg = Double(recent.reduce(0) { $0 + $1.score }) / Double(totalQuestions)
         return "\(Int(avg * 100))%"
     }
 

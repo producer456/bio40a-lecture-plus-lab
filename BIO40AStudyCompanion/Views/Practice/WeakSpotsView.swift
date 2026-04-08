@@ -112,7 +112,7 @@ struct WeakSpotsView: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             } else {
-                ForEach(weak, id: \.sectionID) { topic in
+                ForEach(weak, id: \.compositeKey) { topic in
                     HStack {
                         RoundedRectangle(cornerRadius: 3)
                             .fill(colorForAccuracy(topic.accuracy))
@@ -230,6 +230,7 @@ struct WeakSpotsView: View {
     }
 
     private struct WeakTopic {
+        let compositeKey: String
         let sectionID: String
         let sectionTitle: String
         let chapterTitle: String
@@ -238,18 +239,19 @@ struct WeakSpotsView: View {
     }
 
     private func weakTopics() -> [WeakTopic] {
-        let grouped = Dictionary(grouping: performanceRecords, by: \.sectionID)
-        return grouped.compactMap { sectionID, records in
+        let grouped = Dictionary(grouping: performanceRecords) { "\($0.chapterID)|\($0.sectionID)" }
+        return grouped.compactMap { key, records in
             guard records.count >= 2 else { return nil }
             let accuracy = Double(records.filter(\.wasCorrect).count) / Double(records.count)
             guard accuracy < 0.7 else { return nil }
 
             let chapterID = records.first?.chapterID ?? ""
+            let sectionID = records.first?.sectionID ?? ""
             let chapter = content.chapter(id: chapterID)
             let sectionTitle = chapter?.sections.first { $0.id == sectionID }?.title ?? sectionID
             let chapterTitle = chapter?.title ?? chapterID
 
-            return WeakTopic(sectionID: sectionID, sectionTitle: sectionTitle, chapterTitle: chapterTitle, accuracy: accuracy, sampleSize: records.count)
+            return WeakTopic(compositeKey: key, sectionID: sectionID, sectionTitle: sectionTitle, chapterTitle: chapterTitle, accuracy: accuracy, sampleSize: records.count)
         }
         .sorted { $0.accuracy < $1.accuracy }
         .prefix(5)

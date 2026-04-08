@@ -9,7 +9,7 @@ struct QuizSetupView: View {
     @State private var selectedChapters: Set<String> = []
     @State private var questionCount = 20
     @State private var focusWeakSpots = false
-    @State private var startQuiz = false
+    @State private var generatedQuiz: [QuizQuestion]? = nil
 
     var body: some View {
         List {
@@ -51,10 +51,9 @@ struct QuizSetupView: View {
 
             Section {
                 let available = selectedChapters.flatMap { content.questionsForChapter($0) }.count
-                NavigationLink(destination: QuizView(
-                    questions: generateQuiz(),
-                    chapterTitle: "Practice Quiz"
-                )) {
+                Button {
+                    generatedQuiz = generateQuiz()
+                } label: {
                     HStack {
                         Image(systemName: "play.fill")
                         Text("Start Quiz")
@@ -67,6 +66,9 @@ struct QuizSetupView: View {
             }
         }
         .navigationTitle("Practice Quiz")
+        .navigationDestination(item: $generatedQuiz) { questions in
+            QuizView(questions: questions, chapterTitle: "Practice Quiz")
+        }
     }
 
     private func generateQuiz() -> [QuizQuestion] {
@@ -148,7 +150,7 @@ struct QuizView: View {
                             }
                         } label: {
                             HStack(alignment: .top) {
-                                Text("\(["A", "B", "C", "D"][index]).")
+                                Text("\(index < 4 ? ["A", "B", "C", "D"][index] : String(UnicodeScalar(65 + index)!)).")
                                     .fontWeight(.bold)
                                     .frame(width: 24)
                                 Text(choice)
@@ -272,10 +274,10 @@ struct QuizView: View {
                                     Text(q.question)
                                         .font(.subheadline)
                                         .fontWeight(.medium)
-                                    Text("Your answer: \(q.choices[selected])")
+                                    Text("Your answer: \(selected < q.choices.count ? q.choices[selected] : "Unknown")")
                                         .font(.caption)
                                         .foregroundStyle(.red)
-                                    Text("Correct: \(q.choices[q.correctAnswer])")
+                                    Text("Correct: \(q.correctAnswer < q.choices.count ? q.choices[q.correctAnswer] : "Unknown")")
                                         .font(.caption)
                                         .foregroundStyle(.green)
                                 }

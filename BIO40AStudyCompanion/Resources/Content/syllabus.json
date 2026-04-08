@@ -351,8 +351,7 @@
     {
       "week": 5,
       "startDate": "2026-05-04",
-      "topic": "In-class Assessment Activity",
-      "chapters": []
+      "topic": "In-class Assessment Activity"
     },
     {
       "week": 6,
@@ -374,8 +373,7 @@
     {
       "week": 8,
       "startDate": "2026-05-25",
-      "topic": "Holiday / Open OH",
-      "chapters": []
+      "topic": "Holiday / Open OH"
     },
     {
       "week": 9,
@@ -397,14 +395,12 @@
     {
       "week": 11,
       "startDate": "2026-06-15",
-      "topic": "In-class Assessment Activity",
-      "chapters": []
+      "topic": "In-class Assessment Activity"
     },
     {
       "week": 12,
       "startDate": "2026-06-22",
-      "topic": "No Lab: Lecture Final Only",
-      "chapters": []
+      "topic": "No Lab: Lecture Final Only"
     }
   ],
   "grading": {
@@ -437,8 +433,8 @@
       "event": "Last day to drop for full refund"
     },
     {
-      "date": "2026-05-23",
-      "event": "Memorial Day Weekend begins"
+      "date": "2026-05-25",
+      "event": "Memorial Day (college closed)"
     },
     {
       "date": "2026-05-29",
@@ -446,7 +442,11 @@
     },
     {
       "date": "2026-06-19",
-      "event": "Juneteenth Holiday"
+      "event": "Juneteenth Holiday (college closed)"
+    },
+    {
+      "date": "2026-06-22",
+      "event": "Final exams begin"
     },
     {
       "date": "2026-06-26",

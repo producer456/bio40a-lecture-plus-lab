@@ -49,7 +49,10 @@ final class ContentService {
     }
 
     private func loadJSON<T: Decodable>(filename: String) -> T? {
-        guard let url = Bundle.main.url(forResource: filename, withExtension: "json") else {
+        // Try Content subdirectory first (folder reference), then root
+        let url: URL? = Bundle.main.url(forResource: filename, withExtension: "json", subdirectory: "Content")
+            ?? Bundle.main.url(forResource: filename, withExtension: "json")
+        guard let url else {
             print("[ContentService] Missing: \(filename).json")
             return nil
         }

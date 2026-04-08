@@ -46,7 +46,7 @@ struct QuizGeneratorService {
         var selected: [QuizQuestion] = []
         for chapterID in weakChapters {
             let chapterQuestions = allQuestions
-                .filter { $0.chapterID == chapterID || $0.chapterID ?? "" == chapterID }
+                .filter { $0.chapterID == chapterID }
                 .shuffled()
             selected.append(contentsOf: chapterQuestions)
             if selected.count >= count { break }

@@ -1,7 +1,7 @@
 import Foundation
 
 struct QuizQuestion: Codable, Identifiable, Hashable {
-    var id: String?
+    var id: String? = UUID().uuidString
     let question: String
     let choices: [String]
     let correctAnswer: Int

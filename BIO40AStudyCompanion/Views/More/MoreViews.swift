@@ -214,32 +214,50 @@ struct SearchContentView: View {
                         .foregroundStyle(.secondary)
                 } else {
                     ForEach(Array(results.enumerated()), id: \.offset) { _, result in
-                        VStack(alignment: .leading, spacing: 4) {
-                            HStack {
-                                Image(systemName: iconForMatchType(result.matchType))
-                                    .foregroundStyle(.blue)
-                                    .font(.caption)
-                                Text(result.title)
-                                    .font(.subheadline)
-                                    .fontWeight(.medium)
-                            }
-                            Text(result.snippet)
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                                .lineLimit(3)
-                            if let ch = content.chapter(id: result.chapterID) {
-                                Text("Ch. \(ch.number): \(ch.title)")
-                                    .font(.caption2)
-                                    .foregroundStyle(.tertiary)
+                        Group {
+                            if let chapter = content.chapter(id: result.chapterID),
+                               let sectionID = result.sectionID,
+                               let section = chapter.sections.first(where: { $0.id == sectionID }) {
+                                NavigationLink(destination: SectionContentView(section: section, chapter: chapter)) {
+                                    searchResultRow(result)
+                                }
+                            } else if let chapter = content.chapter(id: result.chapterID) {
+                                NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
+                                    searchResultRow(result)
+                                }
+                            } else {
+                                searchResultRow(result)
                             }
                         }
-                        .padding(.vertical, 4)
                     }
                 }
             }
         }
         .searchable(text: $searchText, prompt: "Search content...")
         .navigationTitle("Search")
+    }
+
+    private func searchResultRow(_ result: SearchResult) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Image(systemName: iconForMatchType(result.matchType))
+                    .foregroundStyle(.blue)
+                    .font(.caption)
+                Text(result.title)
+                    .font(.subheadline)
+                    .fontWeight(.medium)
+            }
+            Text(result.snippet)
+                .font(.caption)
+                .foregroundStyle(.secondary)
+                .lineLimit(3)
+            if let ch = content.chapter(id: result.chapterID) {
+                Text("Ch. \(ch.number): \(ch.title)")
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
+            }
+        }
+        .padding(.vertical, 4)
     }
 
     private func iconForMatchType(_ type: SearchResult.MatchType) -> String {
@@ -325,7 +343,7 @@ struct ProgressDashboardView: View {
                     let total = content.flashcardDecks.flatMap(\.cards).count
                     let mastered = flashcardProgress.filter { $0.repetitions >= 3 }.count
                     let learning = flashcardProgress.filter { $0.repetitions > 0 && $0.repetitions < 3 }.count
-                    let unseen = total - flashcardProgress.count
+                    let unseen = max(0, total - flashcardProgress.count)
 
                     HStack(spacing: 20) {
                         masteryStatView(label: "Mastered", count: mastered, color: .green)
@@ -410,6 +428,7 @@ struct BookmarksView: View {
 // MARK: - Settings
 
 struct SettingsView: View {
+    @Environment(ContentService.self) private var content
     @AppStorage("notificationsEnabled") private var notificationsEnabled = true
     @AppStorage("dailyFlashcardGoal") private var dailyFlashcardGoal = 20
 
@@ -417,6 +436,16 @@ struct SettingsView: View {
         List {
             Section("Notifications") {
                 Toggle("Due Date Reminders", isOn: $notificationsEnabled)
+                    .onChange(of: notificationsEnabled) { _, enabled in
+                        if enabled {
+                            NotificationService.shared.requestPermission()
+                            if let syllabus = content.syllabus {
+                                NotificationService.shared.scheduleAssignmentNotifications(syllabus: syllabus)
+                            }
+                        } else {
+                            NotificationService.shared.cancelAll()
+                        }
+                    }
             }
 
             Section("Study Goals") {

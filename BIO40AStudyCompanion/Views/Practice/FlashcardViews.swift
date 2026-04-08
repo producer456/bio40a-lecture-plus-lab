@@ -82,7 +82,7 @@ struct FlashcardStudyView: View {
                 cardView
             }
         }
-        .navigationTitle(chapterID != nil ? "Ch. \(chapterID!.replacingOccurrences(of: "ch", with: "").replacingOccurrences(of: "0", with: ""))" : "Review")
+        .navigationTitle(chapterID != nil ? "Ch. \(content.chapter(id: chapterID!)?.number ?? 0)" : "Review")
         .navigationBarTitleDisplayMode(.inline)
         .onAppear { loadCards() }
     }
@@ -185,6 +185,7 @@ struct FlashcardStudyView: View {
     }
 
     private func loadCards() {
+        currentIndex = 0
         if let chapterID {
             cards = content.flashcardDecks.first { $0.chapterID == chapterID }?.cards ?? []
         } else {

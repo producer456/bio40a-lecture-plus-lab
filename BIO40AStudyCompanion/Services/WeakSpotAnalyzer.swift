@@ -49,6 +49,8 @@ struct WeakSpotReport: Sendable {
 }
 
 // MARK: - Weak Spot Analyzer
+// NOTE: This class is currently unused. WeakSpotsView contains inline analysis logic.
+// Available for future refactoring to centralize weak-spot analysis.
 
 @Observable
 final class WeakSpotAnalyzer {

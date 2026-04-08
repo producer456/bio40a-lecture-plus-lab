@@ -166,8 +166,8 @@ struct ScheduleView: View {
     private func isCurrentWeek(_ startDate: String) -> Bool {
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd"
-        guard let start = formatter.date(from: startDate) else { return false }
-        let end = Calendar.current.date(byAdding: .day, value: 7, to: start)!
+        guard let start = formatter.date(from: startDate),
+              let end = Calendar.current.date(byAdding: .day, value: 7, to: start) else { return false }
         return Date() >= start && Date() < end
     }
 

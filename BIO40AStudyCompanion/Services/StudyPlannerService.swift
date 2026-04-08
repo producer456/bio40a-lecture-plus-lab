@@ -43,6 +43,8 @@ struct StudyPlan: Sendable {
 }
 
 // MARK: - Study Planner Service
+// NOTE: This service is currently unused. Available for future refactoring
+// to provide automated weekly study plan generation.
 
 struct StudyPlannerService {
 

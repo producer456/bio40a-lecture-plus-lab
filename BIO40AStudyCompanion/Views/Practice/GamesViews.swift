@@ -131,9 +131,9 @@ struct MatchingGameView: View {
                             .font(.caption)
                             .foregroundStyle(.secondary)
                         ForEach(Array(shuffledDefinitions.enumerated()), id: \.offset) { index, def in
-                            let originalIndex = terms.firstIndex { $0.definition == def } ?? -1
+                            let originalIndex = terms.firstIndex { $0.definition == def }
                             Button {
-                                if !matched.contains(originalIndex) {
+                                if let origIdx = originalIndex, !matched.contains(origIdx) {
                                     selectedDef = index
                                     checkMatch()
                                 }
@@ -143,10 +143,10 @@ struct MatchingGameView: View {
                                     .multilineTextAlignment(.leading)
                                     .frame(maxWidth: .infinity, alignment: .leading)
                                     .padding(10)
-                                    .background(defBackground(index, originalIndex: originalIndex), in: RoundedRectangle(cornerRadius: 10))
+                                    .background(defBackground(index, originalIndex: originalIndex ?? -1), in: RoundedRectangle(cornerRadius: 10))
                             }
                             .tint(.primary)
-                            .disabled(matched.contains(originalIndex))
+                            .disabled(originalIndex.map { matched.contains($0) } ?? true)
                         }
                     }
                 }

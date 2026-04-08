@@ -97,7 +97,8 @@ struct LessonsListView: View {
 
     private func chapterProgress(_ chapterID: String) -> Double {
         let chapterSections = studyProgress.filter { $0.chapterID == chapterID }
-        guard !chapterSections.isEmpty else { return 0 }
-        return chapterSections.reduce(0) { $0 + $1.readPercentage } / Double(chapterSections.count)
+        let totalSections = content.chapter(id: chapterID)?.sections.count ?? 1
+        guard totalSections > 0 else { return 0 }
+        return chapterSections.reduce(0) { $0 + $1.readPercentage } / Double(totalSections)
     }
 }
