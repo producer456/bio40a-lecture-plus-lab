@@ -1,0 +1,3866 @@
+[
+  {
+    "question": "Which of the following specialties might focus on studying all of the structures of the ankle and foot?",
+    "choices": [
+      "microscopic anatomy",
+      "muscle anatomy",
+      "regional anatomy",
+      "systemic anatomy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s01_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s01"
+  },
+  {
+    "question": "A scientist wants to study how the body uses foods and fluids during a marathon run. This scientist is most likely a(n) ________.",
+    "choices": [
+      "exercise physiologist",
+      "microscopic anatomist",
+      "regional physiologist",
+      "systemic anatomist"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s01_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s01"
+  },
+  {
+    "question": "The smallest independently functioning biological unit of an organism is a(n) ________.",
+    "choices": [
+      "cell",
+      "molecule",
+      "organ",
+      "tissue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s02_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s02"
+  },
+  {
+    "question": "A collection of similar tissues that performs a specific function is an ________.",
+    "choices": [
+      "organ",
+      "organelle",
+      "organism",
+      "organ system"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s02_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s02"
+  },
+  {
+    "question": "The body system responsible for structural support and movement is the ________.",
+    "choices": [
+      "cardiovascular system",
+      "endocrine system",
+      "muscular system",
+      "skeletal system"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch01_s02_q02",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s02"
+  },
+  {
+    "question": "Metabolism can be defined as the ________.",
+    "choices": [
+      "adjustment by an organism to external or internal changes process",
+      "whereby all unspecialized cells become specialized to perform distinct",
+      "functions process whereby new cells are formed to replace worn-out",
+      "cells sum of all chemical reactions in an organism"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch01_s03_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s03"
+  },
+  {
+    "question": "Adenosine triphosphate (ATP) is an important molecule because it ________.",
+    "choices": [
+      "is the result of catabolism releases",
+      "energy in uncontrolled bursts stores",
+      "energy for use by body",
+      "cells All of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s03_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s03"
+  },
+  {
+    "question": "Cancer cells can be characterized as \u201cgeneric\u201d cells that perform no specialized body function. Thus cancer cells lack ________.",
+    "choices": [
+      "differentiation",
+      "reproduction",
+      "responsiveness",
+      "both reproduction and responsiveness"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s03_q02",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s03"
+  },
+  {
+    "question": "Humans have the most urgent need for a continuous supply of ________.",
+    "choices": [
+      "food",
+      "nitrogen",
+      "oxygen",
+      "water"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s04_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s04"
+  },
+  {
+    "question": "Which of the following statements about nutrients is true?",
+    "choices": [
+      "All classes of nutrients are essential to human survival. Because the body cannot store any micronutrients",
+      "they need to be consumed nearly every day. Carbohydrates",
+      "lipids",
+      "and proteins are micronutrients. Macronutrients are vitamins and minerals."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s04_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s04"
+  },
+  {
+    "question": "C.J. is stuck in their car during a bitterly cold blizzard. Their body responds to the cold by ________.",
+    "choices": [
+      "increasing the blood to the hands",
+      "and feet becoming lethargic to conserve",
+      "heat breaking down stored energy",
+      "significantly increasing blood oxygen levels"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s04_q02",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s04"
+  },
+  {
+    "question": "After you eat lunch, nerve cells in your stomach respond to the distension (the stimulus) resulting from the food. They relay this information to ________.",
+    "choices": [
+      "a control",
+      "center a set",
+      "point",
+      "effectors sensors"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch01_s05_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s05"
+  },
+  {
+    "question": "Stimulation of the heat-loss center causes ________.",
+    "choices": [
+      "blood vessels in the skin to constrict",
+      "breathing to become slow and shallow",
+      "sweat glands to increase their",
+      "output All of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s05_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s05"
+  },
+  {
+    "question": "Which of the following is an example of a normal physiologic process that uses a positive feedback loop?",
+    "choices": [
+      "blood pressure regulation",
+      "childbirth regulation",
+      "of fluid balance",
+      "temperature regulation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch01_s05_q02",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s05"
+  },
+  {
+    "question": "In 1901, Wilhelm R\u00f6ntgen was the first person to win the Nobel Prize for physics. For what discovery did he win?",
+    "choices": [
+      "nuclear physics radiopharmaceuticals",
+      "the link",
+      "between radiation and cancer",
+      "X-rays"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch01_s07_q00",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s07"
+  },
+  {
+    "question": "Which of the following imaging techniques would be best to use to study the uptake of nutrients by rapidly multiplying cancer cells?",
+    "choices": [
+      "CT",
+      "MRI",
+      "PET",
+      "ultrasonography"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s07_q01",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s07"
+  },
+  {
+    "question": "Which of the following imaging studies can be used most safely during pregnancy?",
+    "choices": [
+      "CT scans",
+      "PET",
+      "scans ultrasounds",
+      "X-rays"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch01_s07_q02",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s07"
+  },
+  {
+    "question": "What are two major disadvantages of MRI scans?",
+    "choices": [
+      "release of radiation and poor quality images high cost and the need for shielding",
+      "from the magnetic signals can only view metabolically active tissues and inadequate",
+      "availability of equipment release of radiation and the need for a patient",
+      "to be confined to metal tube for up to 30 minutes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch01_s07_q03",
+    "chapterID": "ch01",
+    "sectionID": "ch01_s07"
+  },
+  {
+    "question": "Together, just four elements make up more than 95 percent of the body\u2019s mass. These include ________.",
+    "choices": [
+      "calcium, magnesium, iron, and carbon",
+      "oxygen, calcium, iron, and nitrogen",
+      "sodium, chlorine, carbon, and hydrogen",
+      "oxygen, carbon, hydrogen, and nitrogen"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s01_q00",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s01"
+  },
+  {
+    "question": "The smallest unit of an element that still retains the distinctive behavior of that element is an ________.",
+    "choices": [
+      "electron atom",
+      "elemental",
+      "particle",
+      "isotope"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s01_q01",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s01"
+  },
+  {
+    "question": "The characteristic that gives an element its distinctive properties is its number of ________.",
+    "choices": [
+      "protons",
+      "neutrons",
+      "electrons",
+      "atoms"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s01_q02",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s01"
+  },
+  {
+    "question": "On the periodic table of the elements, mercury (Hg) has an atomic number of 80 and a mass number of 200.59. It has seven stable isotopes. The most abundant of these probably have ________.",
+    "choices": [
+      "about 80 neutrons each fewer",
+      "than 80 neutrons each",
+      "more than 80 neutrons each",
+      "more electrons than neutrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s01_q03",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s01"
+  },
+  {
+    "question": "Nitrogen has an atomic number of seven. How many electron shells does it likely have?",
+    "choices": [
+      "one",
+      "two",
+      "three",
+      "four"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s01_q04",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s01"
+  },
+  {
+    "question": "Which of the following is a molecule, but not a compound?",
+    "choices": [
+      "H 2 O",
+      "2 H",
+      "H 2",
+      "H +"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s02_q00",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s02"
+  },
+  {
+    "question": "A molecule of ammonia contains one atom of nitrogen and three atoms of hydrogen. These are linked with ________.",
+    "choices": [
+      "ionic bonds nonpolar",
+      "covalent bonds",
+      "polar covalent bonds",
+      "hydrogen bonds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s02_q01",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s02"
+  },
+  {
+    "question": "A substance formed of crystals of equal numbers of cations and anions held together by ionic bonds is called a(n) ________.",
+    "choices": [
+      "noble gas",
+      "salt",
+      "electrolyte",
+      "dipole"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s02_q02",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s02"
+  },
+  {
+    "question": "Which of the following statements about chemical bonds is true?",
+    "choices": [
+      "Covalent bonds are stronger than ionic bonds",
+      "in biological systems. Hydrogen bonds occur",
+      "between two atoms of hydrogen. Bonding readily",
+      "occurs between nonpolar and polar molecules."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s02_q03",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s02"
+  },
+  {
+    "question": "The energy stored in a foot of snow on a steep roof is ________.",
+    "choices": [
+      "potential energy",
+      "kinetic energy",
+      "radiant energy",
+      "activation energy"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s03_q00",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "The bonding of calcium, phosphorus, and other elements produces mineral crystals that are found in bone. This is an example of a(n) ________",
+    "choices": [
+      "reaction.",
+      "catabolic",
+      "synthesis",
+      "decomposition exchange"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s03_q01",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "is a general notation for a(n) ________",
+    "choices": [
+      "reaction. anabolic",
+      "endergonic",
+      "decomposition",
+      "exchange"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s03_q02",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "________",
+    "choices": [
+      "reactions release energy.",
+      "Catabolic Exergonic",
+      "Decomposition Catabolic, exergonic,",
+      "and decomposition"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s03_q03",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "Which of the following combinations of atoms is most likely to result in a chemical reaction?",
+    "choices": [
+      "hydrogen and hydrogen",
+      "hydrogen and helium",
+      "helium and helium",
+      "neon and helium"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s03_q04",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "Chewing a bite of bread mixes it with saliva and facilitates its chemical breakdown. This is most likely due to the fact that ________.",
+    "choices": [
+      "the inside of the mouth maintains",
+      "a very high temperature chewing",
+      "stores potential energy chewing facilitates",
+      "synthesis reactions saliva contains enzymes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s03_q05",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "Critical Thinking Questions AB + CD \u2192 AD + BE Is this a legitimate example of an exchange reaction?",
+    "choices": [
+      "Why or why not? It is not. An exchange reaction might be",
+      "AB + CD \u2192 AC + BD or AB + CD \u2192",
+      "AD + BC . In all chemical reactions, including exchange reactions, the components",
+      "of the reactants are identical to the components of the products."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s03_q06",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s03"
+  },
+  {
+    "question": "CH 4 is methane. This compound is ________.",
+    "choices": [
+      "inorganic",
+      "organic",
+      "reactive",
+      "a crystal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s04_q00",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s04"
+  },
+  {
+    "question": "Which of the following is most likely to be found evenly distributed in water in a homogeneous solution?",
+    "choices": [
+      "sodium ions and chloride",
+      "ions NaCl",
+      "molecules salt crystals",
+      "red blood cells"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s04_q01",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s04"
+  },
+  {
+    "question": "Jenny mixes up a batch of pancake batter, then stirs in some chocolate chips. As she is waiting for the first few pancakes to cook, she notices the chocolate chips sinking to the bottom of the clear glass mixing bowl. The chocolate-chip batter is an example of a ________.",
+    "choices": [
+      "solvent",
+      "solute",
+      "solution",
+      "suspension"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s04_q02",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s04"
+  },
+  {
+    "question": "A substance dissociates into K + and Cl \u2013 in solution. The substance is a(n) ________.",
+    "choices": [
+      "acid",
+      "base",
+      "salt",
+      "buffer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s04_q03",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s04"
+  },
+  {
+    "question": "Ty is three years old and as a result of a \u201cstomach bug\u201d has been vomiting for about 24 hours. His blood pH is 7.48. What does this mean?",
+    "choices": [
+      "Ty\u2019s blood is slightly acidic. Ty\u2019s",
+      "blood is slightly alkaline. Ty\u2019s",
+      "blood is highly acidic. Ty\u2019s blood",
+      "is within the normal range"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s04_q04",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s04"
+  },
+  {
+    "question": "C 6 H 12 O 6 is the chemical formula for a ________.",
+    "choices": [
+      "polymer of",
+      "carbohydrate pentose",
+      "monosaccharide hexose",
+      "monosaccharide all of the above"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s05_q00",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "What organic compound do brain cells primarily rely on for fuel?",
+    "choices": [
+      "glucose",
+      "glycogen",
+      "galactose",
+      "glycerol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s05_q01",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "Which of the following is a functional group that is part of a building block of proteins?",
+    "choices": [
+      "phosphate",
+      "adenine",
+      "amino",
+      "ribose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch02_s05_q02",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "A pentose sugar is a part of the monomer used to build which type of macromolecule?",
+    "choices": [
+      "polysaccharides nucleic",
+      "acids",
+      "phosphorylated glucose",
+      "glycogen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s05_q03",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "A phospholipid ________.",
+    "choices": [
+      "has both polar and nonpolar regions is made",
+      "up of a triglyceride bonded to a phosphate",
+      "group is a building block of ATP can donate",
+      "both cations and anions in solution"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch02_s05_q04",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "In DNA, nucleotide bonding forms a compound with a characteristic shape known as a(n) ________.",
+    "choices": [
+      "beta chain pleated",
+      "sheet",
+      "alpha helix",
+      "double helix"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s05_q05",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "Uracil ________.",
+    "choices": [
+      "contains nitrogen is a pyrimidine",
+      "is found",
+      "in RNA all",
+      "of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch02_s05_q06",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "The ability of an enzyme\u2019s active sites to bind only substrates of compatible shape and charge is known as ________.",
+    "choices": [
+      "selectivity",
+      "specificity",
+      "subjectivity",
+      "specialty"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch02_s05_q07",
+    "chapterID": "ch02",
+    "sectionID": "ch02_s05"
+  },
+  {
+    "question": "Because they are embedded within the membrane, ion channels are examples of ________.",
+    "choices": [
+      "receptor proteins",
+      "integral proteins",
+      "peripheral proteins",
+      "glycoproteins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s01_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s01"
+  },
+  {
+    "question": "The diffusion of substances within a solution tends to move those substances ________",
+    "choices": [
+      "their ________ gradient.",
+      "up; electrical up;",
+      "electrochemical down; pressure",
+      "down; concentration"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch03_s01_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s01"
+  },
+  {
+    "question": "Ion pumps and phagocytosis are both examples of ________.",
+    "choices": [
+      "endocytosis passive",
+      "transport active",
+      "transport facilitated",
+      "diffusion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s01_q02",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s01"
+  },
+  {
+    "question": "Choose the answer that best completes the following analogy: Diffusion is to ________",
+    "choices": [
+      "as endocytosis is to ________.",
+      "filtration; phagocytosis osmosis;",
+      "pinocytosis solutes; fluid",
+      "gradient; chemical energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s01_q03",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s01"
+  },
+  {
+    "question": "Choose the term that best completes the following analogy: Cytoplasm is to cytosol as a swimming pool containing chlorine and flotation toys is to ________.",
+    "choices": [
+      "the walls of the pool",
+      "the pool water",
+      "containing chlorine the flotation",
+      "toys the water"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch03_s02_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s02"
+  },
+  {
+    "question": "The rough ER has its name due to what associated structures?",
+    "choices": [
+      "Golgi apparatus",
+      "ribosomes",
+      "lysosomes",
+      "proteins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s02_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s02"
+  },
+  {
+    "question": "Which of the following is a function of the rough ER?",
+    "choices": [
+      "production of proteins detoxification",
+      "of certain substances synthesis of steroid",
+      "hormones regulation",
+      "of intracellular calcium concentration"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch03_s02_q02",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s02"
+  },
+  {
+    "question": "Which of the following is a feature common to all three components of the cytoskeleton?",
+    "choices": [
+      "They all serve to scaffold the organelles within the cell.",
+      "They are all characterized by roughly the same",
+      "diameter. They are all polymers of protein subunits. They",
+      "all help the cell resist compression and tension."
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s02_q03",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s02"
+  },
+  {
+    "question": "Which of the following organelles produces large quantities of ATP when both glucose and oxygen are available to the cell?",
+    "choices": [
+      "mitochondria",
+      "peroxisomes",
+      "lysosomes",
+      "ER"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch03_s02_q04",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s02"
+  },
+  {
+    "question": "The nucleus and mitochondria share which of the following features?",
+    "choices": [
+      "protein-lined membrane pores a double",
+      "cell membrane the synthesis of ribosomes",
+      "the production",
+      "of cellular energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s03_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s03"
+  },
+  {
+    "question": "Which of the following structures could be found within the nucleolus?",
+    "choices": [
+      "chromatin",
+      "histones",
+      "ribosomes",
+      "nucleosomes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s03_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s03"
+  },
+  {
+    "question": "Which of the following sequences on a DNA molecule would be complementary to GCTTATAT?",
+    "choices": [
+      "TAGGCGCG",
+      "ATCCGCGC",
+      "CGAATATA",
+      "TGCCTCTC"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s03_q02",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s03"
+  },
+  {
+    "question": "Which of the following is part of the elongation step of DNA synthesis?",
+    "choices": [
+      "pulling apart the two DNA strands",
+      "attaching complementary nucleotides to the template",
+      "strand untwisting the DNA",
+      "helix none of the above"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s03_q03",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s03"
+  },
+  {
+    "question": "Which of the following is not a difference between DNA and RNA?",
+    "choices": [
+      "DNA contains thymine whereas RNA contains uracil DNA contains",
+      "deoxyribose and RNA contains ribose DNA contains alternating",
+      "sugar-phosphate molecules whereas RNA does not contain sugars RNA",
+      "is single stranded and DNA is double stranded"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s04_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s04"
+  },
+  {
+    "question": "Transcription and translation take place in the ________",
+    "choices": [
+      "and ________, respectively.",
+      "nucleus; cytoplasm nucleolus;",
+      "nucleus nucleolus; cytoplasm",
+      "cytoplasm; nucleus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch03_s04_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s04"
+  },
+  {
+    "question": "How many \u201cletters\u201d of an RNA molecule, in sequence, does it take to provide the code for a single amino acid?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s04_q02",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s04"
+  },
+  {
+    "question": "Which of the following is not entirely or mostly made out of RNA?",
+    "choices": [
+      "the carriers that shuttle amino acids to a growing",
+      "polypeptide strand the ribosome",
+      "the messenger molecule that provides the code",
+      "for protein synthesis the intron"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s04_q03",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s04"
+  },
+  {
+    "question": "Which of the following phases is characterized by preparation for DNA synthesis?",
+    "choices": [
+      "G 0",
+      "G 1",
+      "G 2",
+      "S"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s05_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s05"
+  },
+  {
+    "question": "A mutation in the gene for a cyclin protein might result in which of the following?",
+    "choices": [
+      "a cell with additional genetic material",
+      "than normal cancer a cell",
+      "with less genetic material than normal",
+      "any of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch03_s05_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s05"
+  },
+  {
+    "question": "What is a primary function of tumor suppressor genes?",
+    "choices": [
+      "stop all cells from dividing stop certain cells",
+      "from dividing help oncogenes produce",
+      "oncoproteins allow the cell to skip",
+      "certain phases of the cell cycle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch03_s05_q02",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s05"
+  },
+  {
+    "question": "Critical Thinking Questions What would happen if anaphase proceeded even though the sister chromatids were not properly attached to their respective microtubules and lined up at the metaphase plate?",
+    "choices": [
+      "One or both of the new daughter cells",
+      "would accidently receive duplicate chromosomes and/or would",
+      "be missing certain chromosomes. What are cyclins and cyclin-dependent",
+      "kinases, and how do they interact?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch03_s05_q03",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s05"
+  },
+  {
+    "question": "Which type of stem cell gives rise to red and white blood cells?",
+    "choices": [
+      "endothelial",
+      "epithelial",
+      "hematopoietic",
+      "mesenchymal"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s06_q00",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s06"
+  },
+  {
+    "question": "What multipotent stem cells from children sometimes banked by parents?",
+    "choices": [
+      "fetal stem cells embryonic stem cells",
+      "cells from the umbilical cord and from baby teeth",
+      "hematopoietic stem cells",
+      "from red and white blood cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch03_s06_q01",
+    "chapterID": "ch03",
+    "sectionID": "ch03_s06"
+  },
+  {
+    "question": "Which of the following is not a type of tissue?",
+    "choices": [
+      "muscle",
+      "nervous",
+      "embryonic",
+      "epithelial"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s01_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s01"
+  },
+  {
+    "question": "The process by which a less specialized cell matures into a more specialized cell is called ________.",
+    "choices": [
+      "differentiation",
+      "maturation",
+      "modification",
+      "specialization"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s01_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s01"
+  },
+  {
+    "question": "Differentiated cells in a developing embryo derive from ________.",
+    "choices": [
+      "endothelium, mesothelium, and epithelium ectoderm,",
+      "mesoderm, and endoderm connective tissue,",
+      "epithelial tissue, and muscle tissue",
+      "epidermis, mesoderm, and endothelium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s01_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s01"
+  },
+  {
+    "question": "Which of the following lines the body cavities exposed to the external environment?",
+    "choices": [
+      "mesothelium",
+      "lamina",
+      "propria",
+      "mesenteries mucosa"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch04_s01_q03",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s01"
+  },
+  {
+    "question": "In observing epithelial cells under a microscope, the cells are arranged in a single layer and look tall and narrow, and the nucleus is located close to the basal side of the cell. The specimen is what type of epithelial tissue?",
+    "choices": [
+      "columnar",
+      "stratified",
+      "squamous",
+      "transitional"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s02_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s02"
+  },
+  {
+    "question": "Which of the following is the epithelial tissue that lines the interior of blood vessels?",
+    "choices": [
+      "columnar pseudostratified",
+      "simple",
+      "squamous",
+      "transitional"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s02_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s02"
+  },
+  {
+    "question": "Which type of epithelial tissue specializes in moving particles across its surface?",
+    "choices": [
+      "transitional stratified",
+      "columnar pseudostratified",
+      "ciliated columnar",
+      "stratified squamous"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s02_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s02"
+  },
+  {
+    "question": "The ________",
+    "choices": [
+      "exocrine gland stores its secretion until the glandular",
+      "cell ruptures, whereas the ________ gland releases",
+      "its apical region and reforms. holocrine;",
+      "apocrine eccrine; endocrine apocrine; holocrine eccrine; apocrine"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s02_q03",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s02"
+  },
+  {
+    "question": "Connective tissue is made of which three essential components?",
+    "choices": [
+      "cells, ground substance, and carbohydrate fibers",
+      "cells, ground substance, and protein fibers",
+      "collagen, ground substance, and protein fibers",
+      "matrix, ground substance, and fluid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s03_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "Under the microscope, a tissue specimen shows cells located in spaces scattered in a transparent background. This is probably ________.",
+    "choices": [
+      "loose connective",
+      "tissue a tendon",
+      "bone",
+      "hyaline cartilage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch04_s03_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "Which connective tissue specializes in storage of fat?",
+    "choices": [
+      "tendon adipose",
+      "tissue reticular",
+      "tissue dense",
+      "connective tissue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s03_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "Ligaments connect bones together and withstand a lot of stress. What type of connective tissue should you expect ligaments to contain?",
+    "choices": [
+      "areolar tissue adipose",
+      "tissue dense regular",
+      "connective tissue dense",
+      "irregular connective tissue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s03_q03",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "In adults, new connective tissue cells originate from the ________.",
+    "choices": [
+      "mesoderm",
+      "mesenchyme",
+      "ectoderm",
+      "endoderm"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s03_q04",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "In bone, the main cells are ________.",
+    "choices": [
+      "fibroblasts",
+      "chondrocytes",
+      "lymphocytes",
+      "osteocytes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch04_s03_q05",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s03"
+  },
+  {
+    "question": "Striations, cylindrical cells, and multiple nuclei are observed in ________.",
+    "choices": [
+      "skeletal muscle only cardiac",
+      "muscle only smooth",
+      "muscle only skeletal",
+      "and cardiac muscles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s04_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s04"
+  },
+  {
+    "question": "The cells of muscles, myocytes, develop from ________.",
+    "choices": [
+      "myoblasts",
+      "endoderm",
+      "fibrocytes",
+      "chondrocytes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s04_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s04"
+  },
+  {
+    "question": "Skeletal muscle is composed of very hard working cells. Which organelles do you expect to find in abundance in skeletal muscle cell?",
+    "choices": [
+      "nuclei striations",
+      "golgi",
+      "bodies",
+      "mitochondria"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch04_s04_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s04"
+  },
+  {
+    "question": "The cells responsible for the transmission of the nerve impulse are ________.",
+    "choices": [
+      "neurons",
+      "oligodendrocytes",
+      "astrocytes",
+      "microglia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch04_s05_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s05"
+  },
+  {
+    "question": "The nerve impulse travels down a(n) ________",
+    "choices": [
+      ", away from the cell",
+      "body.",
+      "dendrite axon microglia collagen",
+      "fiber"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s05_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s05"
+  },
+  {
+    "question": "Which of the following central nervous system cells regulate ions, regulate the uptake and/or breakdown of some neurotransmitters, and contribute to the formation of the blood-brain barrier?",
+    "choices": [
+      "microglia",
+      "neuroglia",
+      "oligodendrocytes",
+      "astrocytes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch04_s05_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s05"
+  },
+  {
+    "question": "Which of the following processes is not a cardinal sign of inflammation?",
+    "choices": [
+      "redness",
+      "heat",
+      "fever",
+      "swelling"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s06_q00",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s06"
+  },
+  {
+    "question": "When a mast cell reacts to an irritation, which of the following chemicals does it release?",
+    "choices": [
+      "collagen histamine",
+      "hyaluronic",
+      "acid",
+      "meylin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s06_q01",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s06"
+  },
+  {
+    "question": "Atrophy refers to ________.",
+    "choices": [
+      "loss of elasticity",
+      "loss of mass",
+      "loss of rigidity",
+      "loss of permeability"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch04_s06_q02",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s06"
+  },
+  {
+    "question": "Individuals can slow the rate of aging by modifying all of these lifestyle aspects except for ________.",
+    "choices": [
+      "diet exercise",
+      "genetic",
+      "factors",
+      "stress"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch04_s06_q03",
+    "chapterID": "ch04",
+    "sectionID": "ch04_s06"
+  },
+  {
+    "question": "The papillary layer of the dermis is most closely associated with which layer of the epidermis?",
+    "choices": [
+      "stratum spinosum",
+      "stratum corneum",
+      "stratum granulosum",
+      "stratum basale"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch05_s01_q00",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s01"
+  },
+  {
+    "question": "Langerhans cells are commonly found in the ________.",
+    "choices": [
+      "stratum spinosum",
+      "stratum corneum",
+      "stratum granulosum",
+      "stratum basale"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch05_s01_q01",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s01"
+  },
+  {
+    "question": "The papillary and reticular layers of the dermis are composed mainly of ________.",
+    "choices": [
+      "melanocytes keratinocytes",
+      "connective",
+      "tissue adipose",
+      "tissue"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s01_q02",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s01"
+  },
+  {
+    "question": "Collagen lends ________",
+    "choices": [
+      "to the skin.",
+      "elasticity",
+      "structure color UV",
+      "protection"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch05_s01_q03",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s01"
+  },
+  {
+    "question": "Which of the following is not a function of the hypodermis?",
+    "choices": [
+      "protects underlying organs helps maintain body",
+      "temperature source of blood",
+      "vessels in the epidermis a site",
+      "to long-term energy storage"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s01_q04",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s01"
+  },
+  {
+    "question": "In response to stimuli from the sympathetic nervous system, the arrector pili ________.",
+    "choices": [
+      "are glands on the skin surface",
+      "can lead to excessive",
+      "sweating are responsible for goose",
+      "bumps secrete sebum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s02_q00",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s02"
+  },
+  {
+    "question": "The hair matrix contains ________.",
+    "choices": [
+      "the hair follicle the hair",
+      "shaft the glassy",
+      "membrane a layer",
+      "of basal cells"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch05_s02_q01",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s02"
+  },
+  {
+    "question": "Eccrine sweat glands ________.",
+    "choices": [
+      "are present on hair are present",
+      "in the skin throughout the body",
+      "and produce watery sweat produce",
+      "sebum act as a moisturizer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch05_s02_q02",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s02"
+  },
+  {
+    "question": "Sebaceous glands ________.",
+    "choices": [
+      "are a type of sweat gland are",
+      "associated with hair follicles may function",
+      "in response to touch release a watery",
+      "solution of salt and metabolic waste"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch05_s02_q03",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s02"
+  },
+  {
+    "question": "Similar to the hair, nails grow continuously throughout our lives. Which of the following is furthest from the nail growth center?",
+    "choices": [
+      "nail bed",
+      "hyponychium",
+      "nail root",
+      "eponychium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch05_s02_q04",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s02"
+  },
+  {
+    "question": "One of the functions of the integumentary system is protection. Which of the following does not directly contribute to that function?",
+    "choices": [
+      "stratum lucidum",
+      "desmosomes folic",
+      "acid synthesis Merkel",
+      "cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s03_q00",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s03"
+  },
+  {
+    "question": "An individual using a sharp knife notices a small amount of blood where he just cut himself. Which of the following layers of skin did he have to cut into in order to bleed?",
+    "choices": [
+      "stratum corneum",
+      "stratum basale",
+      "papillary dermis stratum",
+      "granulosum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s03_q01",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s03"
+  },
+  {
+    "question": "As you are walking down the beach, you see a dead, dry, shriveled-up fish. Which layer of your epidermis keeps you from drying out?",
+    "choices": [
+      "stratum corneum",
+      "stratum basale",
+      "stratum spinosum",
+      "stratum granulosum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch05_s03_q02",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s03"
+  },
+  {
+    "question": "If you cut yourself and bacteria enter the wound, which of the following cells would help get rid of the bacteria?",
+    "choices": [
+      "Merkel cells",
+      "keratinocytes",
+      "Langerhans cells",
+      "melanocytes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s03_q03",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s03"
+  },
+  {
+    "question": "Critical Thinking Questions Why do people sweat excessively when exercising outside on a hot day?",
+    "choices": [
+      "Sweating cools the body when it becomes warm. When the body temperature rises, such as when exercising on a hot day, the dermal blood vessels dilate, and the sweat glands begin to secrete more sweat. The evaporation of the sweat from the surface",
+      "of the skin cools the body by dissipating heat. Explain your skin\u2019s response to a drop in body core temperature. When the core body temperature drops, the body switches to heat-conservation mode. This can include an inhibition to excessive",
+      "sweating and a decrease of blood flow to the papillary layers of the skin. This reduction of blood flow helps conserve body heat. References American Academy of Dermatology (US). Tattoos and body piercings [Internet]. Schaumburg, IL; c2013 [cited 2012",
+      "Nov 1]. Available from: http://www.aad.org/media-resources/stats-and-facts/prevention-and-care/tattoos-and-body-piercings/ . Meissner corpuscle (also, tactile corpuscle) receptor in the skin that responds to light touch Pacinian corpuscle (also, lamellated corpuscle) receptor in the skin that responds to vibration rickets disease in children caused by vitamin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch05_s03_q04",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s03"
+  },
+  {
+    "question": "In general, skin cancers ________.",
+    "choices": [
+      "are easily treatable and not a major health",
+      "concern occur due to poor hygiene",
+      "can be reduced by limiting exposure to the sun",
+      "affect only the epidermis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s04_q00",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s04"
+  },
+  {
+    "question": "Bedsores ________.",
+    "choices": [
+      "can be treated with topical moisturizers",
+      "can result from deep massages",
+      "are preventable by eliminating pressure points",
+      "are caused by dry skin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s04_q01",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s04"
+  },
+  {
+    "question": "An individual has spent too much time sun bathing. Not only is their skin painful to touch, but small blisters have appeared in the affected area. This indicates that they have damaged which layers of skin?",
+    "choices": [
+      "epidermis only",
+      "hypodermis only",
+      "epidermis and",
+      "hypodermis epidermis and dermis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch05_s04_q02",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s04"
+  },
+  {
+    "question": "After a skin injury, the body initiates a wound-healing response. The first step of this response is the formation of a blood clot to stop bleeding. Which of the following would be the next response?",
+    "choices": [
+      "increased production of melanin by melanocytes increased",
+      "production of connective tissue an increase",
+      "in Pacinian corpuscles around the wound an increased",
+      "activity in the stratum lucidum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch05_s04_q03",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s04"
+  },
+  {
+    "question": "Squamous cell carcinomas are the second most common of the skin cancers and are capable of metastasizing if not treated. This cancer affects which cells?",
+    "choices": [
+      "basal cells of the stratum basale",
+      "melanocytes of the stratum basale",
+      "keratinocytes of the stratum spinosum Langerhans",
+      "cells of the stratum lucidum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch05_s04_q04",
+    "chapterID": "ch05",
+    "sectionID": "ch05_s04"
+  },
+  {
+    "question": "Which function of the skeletal system would be especially important if you were in a car accident?",
+    "choices": [
+      "storage of minerals",
+      "protection of internal",
+      "organs facilitation of movement",
+      "fat storage"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s01_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "Bone tissue can be described as ________.",
+    "choices": [
+      "dead calcified tissue",
+      "cartilage the skeletal",
+      "system dense, hard",
+      "connective tissue"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s01_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "Without red marrow, bones would not be able to ________.",
+    "choices": [
+      "store phosphate store",
+      "calcium make",
+      "blood cells move",
+      "like levers"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s01_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "Yellow marrow has been identified as ________.",
+    "choices": [
+      "an area of fat storage",
+      "a point of attachment for muscles",
+      "the hard portion of bone",
+      "the cause of kyphosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s01_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "Which of the following can be found in areas of movement?",
+    "choices": [
+      "hematopoiesis cartilage",
+      "yellow",
+      "marrow red",
+      "marrow"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s01_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "The skeletal system is made of ________.",
+    "choices": [
+      "muscles and tendons",
+      "bones and cartilage",
+      "vitreous humor minerals",
+      "and fat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s01_q05",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s01"
+  },
+  {
+    "question": "Most of the bones of the arms and hands are long bones; however, the bones in the wrist are categorized as ________.",
+    "choices": [
+      "flat bones",
+      "short bones",
+      "sesamoid bones",
+      "irregular bones"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s02_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s02"
+  },
+  {
+    "question": "Sesamoid bones are found embedded in ________.",
+    "choices": [
+      "joints",
+      "muscles",
+      "ligaments",
+      "tendons"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s02_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s02"
+  },
+  {
+    "question": "Bones that surround the spinal cord are classified as ________",
+    "choices": [
+      "bones. irregular",
+      "sesamoid",
+      "flat",
+      "short"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s02_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s02"
+  },
+  {
+    "question": "Which category of bone is among the most numerous in the skeleton?",
+    "choices": [
+      "long bone",
+      "sesamoid bone",
+      "short bone",
+      "flat bone"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s02_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s02"
+  },
+  {
+    "question": "Long bones enable body movement by acting as a ________.",
+    "choices": [
+      "counterweight resistive",
+      "force",
+      "lever",
+      "fulcrum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s02_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s02"
+  },
+  {
+    "question": "Which of the following occurs in the spongy bone of the epiphysis?",
+    "choices": [
+      "bone growth",
+      "bone remodeling",
+      "hematopoiesis shock",
+      "absorption"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s03_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "The diaphysis contains ________.",
+    "choices": [
+      "the metaphysis fat",
+      "stores",
+      "spongy bone",
+      "compact bone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s03_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "The fibrous membrane covering the outer surface of the bone is the ________.",
+    "choices": [
+      "periosteum",
+      "epiphysis",
+      "endosteum",
+      "diaphysis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s03_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "Which of the following cells are capable of undergoing mitosis?",
+    "choices": [
+      "osteoblasts osteoclasts",
+      "osteocytes",
+      "osteogenic",
+      "cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s03_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "Which cells do not originate from osteogenic cells?",
+    "choices": [
+      "osteoblasts",
+      "osteoclasts",
+      "osteocytes",
+      "osteoprogenitor cells"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s03_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "Which of the following are found in compact bone and cancellous bone?",
+    "choices": [
+      "Haversian systems",
+      "Haversian canals",
+      "lamellae",
+      "lacunae"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s03_q05",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "Which of the following are only found in cancellous bone?",
+    "choices": [
+      "canaliculi Volkmann\u2019s",
+      "canals",
+      "trabeculae calcium",
+      "salts"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s03_q06",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "The area of a bone where the nutrient foramen passes forms what kind of bone marking?",
+    "choices": [
+      "a hole",
+      "a facet",
+      "a canal",
+      "a fissure"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s03_q07",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s03"
+  },
+  {
+    "question": "Why is cartilage slow to heal?",
+    "choices": [
+      "because it eventually develops into bone because",
+      "it is semi-solid and flexible because it",
+      "does not have a blood supply because",
+      "endochondral ossification replaces all cartilage with bone"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s04_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Why are osteocytes spread out in bone tissue?",
+    "choices": [
+      "They develop from mesenchymal cells. They are",
+      "surrounded by osteoid. They travel through the capillaries.",
+      "Formation of osteoid spreads out the osteoblasts",
+      "that formed the ossification centers."
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s04_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "In endochondral ossification, what happens to the chondrocytes?",
+    "choices": [
+      "They develop into osteocytes. They die in the calcified",
+      "matrix that surrounds them and form the medullary",
+      "cavity. They grow and form the periosteum. They",
+      "group together to form the primary ossification center."
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s04_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Which of the following bones is (are) formed by intramembranous ossification?",
+    "choices": [
+      "the metatarsals the femur",
+      "the ribs",
+      "the flat bones",
+      "of the cranium"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s04_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Bones grow in length due to activity in the ________.",
+    "choices": [
+      "epiphyseal plate",
+      "perichondrium",
+      "periosteum medullary",
+      "cavity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s04_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Bones grow in diameter due to bone formation ________.",
+    "choices": [
+      "in the medullary cavity",
+      "beneath the periosteum",
+      "in the epiphyseal plate",
+      "within the metaphysis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s04_q05",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Which of the following represents the correct sequence of zones in the epiphyseal plate?",
+    "choices": [
+      "proliferation, reserved, maturation, calcification",
+      "maturation, proliferation, reserved, calcification",
+      "calcification, maturation, proliferation, reserved",
+      "calcification, reserved, proliferation, maturation"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s04_q06",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "Critical Thinking Questions In what ways do intramembranous and endochondral ossification differ?",
+    "choices": [
+      "In intramembranous ossification, bone develops directly from sheets of mesenchymal connective tissue, but in endochondral ossification, bone develops by replacing hyaline cartilage. Intramembranous ossification is complete",
+      "by the end of the adolescent growth spurt, while endochondral ossification lasts into young adulthood. The flat bones of the face, most of the cranial",
+      "bones, and a good deal of the clavicles (collarbones) are formed via intramembranous ossification, while bones at the base of the skull and the long",
+      "bones form via endochondral ossification. Considering how a long bone develops, what are the similarities and differences between a primary and a secondary ossification center?"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s04_q07",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s04"
+  },
+  {
+    "question": "A fracture can be both ________.",
+    "choices": [
+      "open and closed",
+      "open and transverse",
+      "transverse and greenstick",
+      "greenstick and comminuted"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s05_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "How can a fractured diaphysis release fat globules into the bloodstream?",
+    "choices": [
+      "The bone pierces fat stores in the skin. The yellow marrow",
+      "in the diaphysis is exposed and damaged. The injury triggers",
+      "the body to release fat from healthy bones. The red marrow",
+      "in the fractured bone releases fat to heal the fracture."
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s05_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "In a compound fracture, ________.",
+    "choices": [
+      "the break occurs at an angle to the bone",
+      "the broken bone does not tear the skin one",
+      "fragment of broken bone is compressed",
+      "into the other broken bone pierces the skin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s05_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "The internal and external calli are replaced by ________.",
+    "choices": [
+      "hyaline cartilage",
+      "trabecular bone",
+      "osteogenic cells",
+      "osteoclasts"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch06_s05_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "The first type of bone to form during fracture repair is ________",
+    "choices": [
+      "bone. compact",
+      "lamellar",
+      "spongy",
+      "dense"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s05_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "Critical Thinking Questions What is the difference between closed reduction and open reduction?",
+    "choices": [
+      "In what type of fracture would closed reduction most likely occur? In what type",
+      "of fracture would open reduction most likely occur? In closed reduction, the broken",
+      "ends of a fractured bone can be reset without surgery. Open reduction requires surgery",
+      "to return the broken ends of the bone to their correct anatomical position."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s05_q05",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s05"
+  },
+  {
+    "question": "Wolff\u2019s law, which describes the effect of mechanical forces in bone modeling/remodeling, would predict that ________",
+    "choices": [
+      "a right-handed pitcher will have thicker bones in his right arm compared to his left.",
+      "a right-handed cyclist will have thicker bones in her right leg",
+      "compared to her left. a broken bone will heal thicker than it was",
+      "before the fracture. a bed-ridden patient will have thicker bones than an athlete."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s06_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s06"
+  },
+  {
+    "question": "Which one of the following foods is best for bone health?",
+    "choices": [
+      "carrots liver",
+      "leafy",
+      "green vegetables",
+      "oranges"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch06_s06_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s06"
+  },
+  {
+    "question": "Which of the following hormones are responsible for the adolescent growth spurt?",
+    "choices": [
+      "estrogen and testosterone calcitonin and calcitriol",
+      "growth",
+      "hormone and parathyroid hormone",
+      "thyroxine and progesterone"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch06_s06_q02",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s06"
+  },
+  {
+    "question": "With respect to their direct effects on osseous tissue, which pair of hormones has actions that oppose each other?",
+    "choices": [
+      "estrogen and testosterone calcitonin and calcitriol",
+      "estrogen",
+      "and progesterone calcitonin and parathyroid",
+      "hormone"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s06_q03",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s06"
+  },
+  {
+    "question": "Critical Thinking Questions If you were a dietician who had a young female patient with a family history of osteoporosis, what foods would you suggest she include in her diet?",
+    "choices": [
+      "Why? Since maximum bone mass is achieved",
+      "by age 30, I",
+      "would want this patient to have",
+      "adequate calcium and vitamin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s06_q04",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s06"
+  },
+  {
+    "question": "When calcium levels are too high or too low, which body system is primarily affected?",
+    "choices": [
+      "skeletal system",
+      "endocrine system",
+      "digestive system",
+      "nervous system"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s07_q00",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s07"
+  },
+  {
+    "question": "A Which of the following is most likely to be released when blood calcium levels are elevated?",
+    "choices": [
+      "thyroxine",
+      "calcitonin",
+      "parathyroid",
+      "hormone vitamin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch06_s07_q01",
+    "chapterID": "ch06",
+    "sectionID": "ch06_s07"
+  },
+  {
+    "question": "Which of the following is part of the axial skeleton?",
+    "choices": [
+      "shoulder bones",
+      "thigh bone",
+      "foot bones",
+      "vertebral column"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s01_q00",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s01"
+  },
+  {
+    "question": "Which of the following is a function of the axial skeleton?",
+    "choices": [
+      "allows for movement of the wrist and hand protects",
+      "nerves and blood vessels at",
+      "the elbow supports trunk of body allows",
+      "for movements of the ankle and foot"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch07_s01_q01",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s01"
+  },
+  {
+    "question": "The axial skeleton ________.",
+    "choices": [
+      "consists of 126 bones forms the vertical",
+      "axis of the body includes all bones",
+      "of the body trunk and limbs includes",
+      "only the bones of the lower limbs"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch07_s01_q02",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s01"
+  },
+  {
+    "question": "Which of the following is a bone of the brain case?",
+    "choices": [
+      "parietal bone",
+      "zygomatic bone",
+      "maxillary bone",
+      "lacrimal bone"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s02_q00",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "The lambdoid suture joins the parietal bone to the ________.",
+    "choices": [
+      "frontal bone occipital",
+      "bone other",
+      "parietal bone",
+      "temporal bone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch07_s02_q01",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "The middle cranial fossa ________.",
+    "choices": [
+      "is bounded anteriorly by the petrous ridge is bounded posteriorly",
+      "by the lesser wing of the sphenoid bone is divided",
+      "at the midline by a small area of the ethmoid",
+      "bone has the foramen rotundum, foramen ovale, and foramen spinosum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s02_q02",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "The paranasal sinuses are ________.",
+    "choices": [
+      "air-filled spaces found within the frontal",
+      "maxilla",
+      "sphenoid",
+      "and ethmoid bones only air-filled spaces found within all bones of the skull not connected to the nasal cavity divided at the midline by the nasal septum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s02_q03",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "Parts of the sphenoid bone include the ________.",
+    "choices": [
+      "sella turcica squamous",
+      "portion",
+      "glabella zygomatic",
+      "process"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s02_q04",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "The bony openings of the skull include the ________.",
+    "choices": [
+      "carotid canal, which is located in the anterior cranial fossa superior orbital",
+      "fissure, which is located at the superior margin of the anterior orbit",
+      "mental foramen, which is located just below the orbit",
+      "hypoglossal canal, which is located in the posterior cranial fossa"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s02_q05",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s02"
+  },
+  {
+    "question": "The cervical region of the vertebral column consists of ________.",
+    "choices": [
+      "seven vertebrae 12 vertebrae",
+      "five vertebrae a single",
+      "bone derived from the fusion",
+      "of five vertebrae"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s03_q00",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s03"
+  },
+  {
+    "question": "The primary curvatures of the vertebral column ________.",
+    "choices": [
+      "include the lumbar curve are remnants",
+      "of the original fetal curvature",
+      "include the cervical curve develop",
+      "after the time of birth"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch07_s03_q01",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s03"
+  },
+  {
+    "question": "A typical vertebra has ________.",
+    "choices": [
+      "a vertebral foramen that passes through the body a superior articular",
+      "process that projects downward to articulate with the superior portion of the next",
+      "lower vertebra lamina that spans between the transverse process",
+      "and spinous process a pair of laterally projecting spinous processes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch07_s03_q02",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s03"
+  },
+  {
+    "question": "A typical lumbar vertebra has ________.",
+    "choices": [
+      "a short, rounded spinous",
+      "process a bifid spinous",
+      "process articulation sites for ribs",
+      "a transverse foramen"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s03_q03",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s03"
+  },
+  {
+    "question": "Which is found only in the cervical region of the vertebral column?",
+    "choices": [
+      "nuchal ligament ligamentum",
+      "flavum supraspinous",
+      "ligament anterior longitudinal",
+      "ligament"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s03_q04",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s03"
+  },
+  {
+    "question": "The sternum ________.",
+    "choices": [
+      "consists of only two parts, the manubrium and xiphoid process",
+      "has the sternal angle located between the manubrium and body",
+      "receives direct attachments from the costal cartilages of all 12",
+      "pairs of ribs articulates directly with the thoracic vertebrae"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch07_s04_q00",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s04"
+  },
+  {
+    "question": "The sternal angle is the ________.",
+    "choices": [
+      "junction between the body and xiphoid process",
+      "site for attachment of the clavicle",
+      "site for attachment of the floating ribs",
+      "junction between the manubrium and body"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s04_q01",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s04"
+  },
+  {
+    "question": "The tubercle of a rib ________.",
+    "choices": [
+      "is for articulation with the transverse process of a thoracic",
+      "vertebra is for articulation with the body of a thoracic",
+      "vertebra provides for passage of blood vessels and a nerve",
+      "is the area of greatest rib curvature"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch07_s04_q02",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s04"
+  },
+  {
+    "question": "True ribs are ________.",
+    "choices": [
+      "ribs 8\u201312 attached via their costal cartilage to the next",
+      "higher rib made entirely of bone, and thus",
+      "do not have a costal cartilage attached",
+      "via their costal cartilage directly to the sternum"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s04_q03",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s04"
+  },
+  {
+    "question": "Embryonic development of the axial skeleton involves ________.",
+    "choices": [
+      "intramembranous ossification, which forms the facial bones. endochondral ossification, which forms",
+      "the ribs and sternum the notochord, which produces the cartilage",
+      "models for the vertebrae the formation of hyaline cartilage models,",
+      "which give rise to the flat bones of the skull"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch07_s05_q00",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s05"
+  },
+  {
+    "question": "A fontanelle ________.",
+    "choices": [
+      "is the cartilage model for a vertebra that later is converted into bone",
+      "gives rise to the facial bones and vertebrae is the rod-like",
+      "structure that runs the length of the early embryo is the area of fibrous",
+      "connective tissue found at birth between the brain case bones"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch07_s05_q01",
+    "chapterID": "ch07",
+    "sectionID": "ch07_s05"
+  },
+  {
+    "question": "Which part of the clavicle articulates with the manubrium?",
+    "choices": [
+      "shaft sternal",
+      "end acromial",
+      "end coracoid",
+      "process"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch08_s01_q00",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s01"
+  },
+  {
+    "question": "A shoulder separation results from injury to the ________.",
+    "choices": [
+      "glenohumeral joint",
+      "costoclavicular joint",
+      "acromioclavicular joint",
+      "sternoclavicular joint"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s01_q01",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s01"
+  },
+  {
+    "question": "Which feature lies between the spine and superior border of the scapula?",
+    "choices": [
+      "suprascapular notch",
+      "glenoid cavity",
+      "superior angle",
+      "supraspinous fossa"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch08_s01_q02",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s01"
+  },
+  {
+    "question": "What structure is an extension of the spine of the scapula?",
+    "choices": [
+      "acromion coracoid",
+      "process supraglenoid",
+      "tubercle glenoid",
+      "cavity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch08_s01_q03",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s01"
+  },
+  {
+    "question": "How many bones are there in the upper limbs combined?",
+    "choices": [
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch08_s02_q00",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s02"
+  },
+  {
+    "question": "Which bony landmark is located on the lateral side of the proximal humerus?",
+    "choices": [
+      "greater tubercle",
+      "trochlea lateral",
+      "epicondyle lesser",
+      "tubercle"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch08_s02_q01",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s02"
+  },
+  {
+    "question": "Which region of the humerus articulates with the radius as part of the elbow joint?",
+    "choices": [
+      "trochlea styloid",
+      "process",
+      "capitulum olecranon",
+      "process"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s02_q02",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s02"
+  },
+  {
+    "question": "Which is the lateral-most carpal bone of the proximal row?",
+    "choices": [
+      "trapezium",
+      "hamate",
+      "pisiform",
+      "scaphoid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch08_s02_q03",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s02"
+  },
+  {
+    "question": "The radius bone ________.",
+    "choices": [
+      "is found on the medial side of the forearm has",
+      "a head that articulates with the radial notch of the ulna does",
+      "not articulate with any of the carpal bones",
+      "has the radial tuberosity located near its distal end"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch08_s02_q04",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s02"
+  },
+  {
+    "question": "How many bones fuse in adulthood to form the hip bone?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch08_s03_q00",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s03"
+  },
+  {
+    "question": "Which component forms the superior part of the hip bone?",
+    "choices": [
+      "ilium",
+      "pubis",
+      "ischium",
+      "sacrum"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch08_s03_q01",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s03"
+  },
+  {
+    "question": "Which of the following supports body weight when sitting?",
+    "choices": [
+      "iliac crest",
+      "ischial tuberosity",
+      "ischiopubic ramus",
+      "pubic body"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch08_s03_q02",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s03"
+  },
+  {
+    "question": "The ischial spine is found between which of the following structures?",
+    "choices": [
+      "inferior pubic ramus and ischial ramus pectineal",
+      "line and arcuate line lesser sciatic notch",
+      "and greater sciatic notch anterior superior iliac",
+      "spine and posterior superior iliac spine"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s03_q03",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s03"
+  },
+  {
+    "question": "The pelvis ________.",
+    "choices": [
+      "has a subpubic angle that is larger in females consists of the two hip",
+      "bones, but does not include the sacrum or coccyx has an obturator foramen,",
+      "an opening that is defined in part by the sacrospinous and sacrotuberous ligaments",
+      "has a space located inferior to the pelvic brim called the greater pelvis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch08_s03_q04",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s03"
+  },
+  {
+    "question": "Which bony landmark of the femur serves as a site for muscle attachments?",
+    "choices": [
+      "fovea capitis lesser",
+      "trochanter",
+      "head medial",
+      "condyle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch08_s04_q00",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s04"
+  },
+  {
+    "question": "What structure contributes to the knee joint?",
+    "choices": [
+      "lateral malleolus of the fibula tibial",
+      "tuberosity medial condyle",
+      "of the tibia lateral",
+      "epicondyle of the femur"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s04_q01",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s04"
+  },
+  {
+    "question": "Which tarsal bone articulates with the tibia and fibula?",
+    "choices": [
+      "calcaneus",
+      "cuboid",
+      "navicular",
+      "talus"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch08_s04_q02",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s04"
+  },
+  {
+    "question": "What is the total number of bones found in the foot and toes?",
+    "choices": [
+      "7",
+      "14",
+      "26",
+      "30"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s04_q03",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s04"
+  },
+  {
+    "question": "The tibia ________.",
+    "choices": [
+      "has an expanded distal end called the lateral malleolus is not",
+      "a weight-bearing bone is firmly anchored to the fibula by an interosseous",
+      "membrane can be palpated (felt) under",
+      "the skin only at its proximal and distal ends"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s04_q04",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s04"
+  },
+  {
+    "question": "Which event takes place during the seventh week of development?",
+    "choices": [
+      "appearance of the upper and lower limb buds flattening",
+      "of the distal limb bud into a paddle",
+      "shape the first appearance of hyaline cartilage models",
+      "of future bones the rotation of the limbs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch08_s05_q00",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s05"
+  },
+  {
+    "question": "During endochondral ossification of a long bone, ________.",
+    "choices": [
+      "a primary ossification center will develop within the epiphysis mesenchyme",
+      "will differentiate directly into bone tissue",
+      "growth of the epiphyseal plate will produce bone",
+      "lengthening all epiphyseal plates will disappear before birth"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch08_s05_q01",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s05"
+  },
+  {
+    "question": "The clavicle ________.",
+    "choices": [
+      "develops via intramembranous ossification develops via endochondral",
+      "ossification is the last bone of the body",
+      "to begin ossification is fully",
+      "ossified at the time of birth"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch08_s05_q02",
+    "chapterID": "ch08",
+    "sectionID": "ch08_s05"
+  },
+  {
+    "question": "The joint between adjacent vertebrae that includes an invertebral disc is classified as which type of joint?",
+    "choices": [
+      "diarthrosis",
+      "multiaxial",
+      "amphiarthrosis",
+      "synarthrosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s01_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s01"
+  },
+  {
+    "question": "Which of these joints is classified as a synarthrosis?",
+    "choices": [
+      "the pubic symphysis the manubriosternal",
+      "joint",
+      "an invertebral disc",
+      "the shoulder joint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s01_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s01"
+  },
+  {
+    "question": "Which of these joints is classified as a biaxial diarthrosis?",
+    "choices": [
+      "the metacarpophalangeal joint",
+      "the hip joint",
+      "the elbow joint",
+      "the pubic symphysis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s01_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s01"
+  },
+  {
+    "question": "Synovial joints ________.",
+    "choices": [
+      "may be functionally classified as a synarthrosis are joints where the bones",
+      "are connected to each other by hyaline cartilage may",
+      "be functionally classified as an amphiarthrosis are joints where the bones",
+      "articulate with each other within a fluid-filled joint cavity"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s01_q03",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s01"
+  },
+  {
+    "question": "Which type of fibrous joint connects the tibia and fibula?",
+    "choices": [
+      "syndesmosis",
+      "symphysis",
+      "suture",
+      "gomphosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s02_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s02"
+  },
+  {
+    "question": "An example of a wide fibrous joint is ________.",
+    "choices": [
+      "the interosseous membrane of the forearm",
+      "a gomphosis a suture",
+      "joint",
+      "a synostosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s02_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s02"
+  },
+  {
+    "question": "A gomphosis ________.",
+    "choices": [
+      "is formed by an interosseous membrane connects",
+      "the tibia and fibula bones of the leg",
+      "contains a joint cavity",
+      "anchors a tooth to the jaw"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s02_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s02"
+  },
+  {
+    "question": "A syndesmosis is ________.",
+    "choices": [
+      "a narrow fibrous joint the type of joint",
+      "that unites bones of the skull a fibrous",
+      "joint that unites parallel bones the type of joint",
+      "that anchors the teeth in the jaws"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s02_q03",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s02"
+  },
+  {
+    "question": "A cartilaginous joint ________.",
+    "choices": [
+      "has a joint cavity is called a symphysis when",
+      "the bones are united by fibrocartilage anchors",
+      "the teeth to the jaws is formed by a wide",
+      "sheet of fibrous connective tissue"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s03_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s03"
+  },
+  {
+    "question": "A synchondrosis is ________.",
+    "choices": [
+      "found at the pubic symphysis where bones",
+      "are connected together with fibrocartilage a type",
+      "of fibrous joint found at the first",
+      "sternocostal joint of the thoracic cage"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s03_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s03"
+  },
+  {
+    "question": "Which of the following are joined by a symphysis?",
+    "choices": [
+      "adjacent vertebrae the first rib and the sternum",
+      "the end and shaft",
+      "of a long bone",
+      "the radius and ulna bones"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s03_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s03"
+  },
+  {
+    "question": "The epiphyseal plate of a growing long bone in a child is classified as a ________.",
+    "choices": [
+      "synchondrosis",
+      "synostosis",
+      "symphysis",
+      "syndesmosis"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s03_q03",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s03"
+  },
+  {
+    "question": "Which type of joint provides the greatest range of motion?",
+    "choices": [
+      "ball-and-socket",
+      "hinge",
+      "condyloid",
+      "plane"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s04_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "Which type of joint allows for only uniaxial movement?",
+    "choices": [
+      "saddle joint",
+      "hinge joint",
+      "condyloid joint",
+      "ball-and-socket joint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s04_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "Which of the following is a type of synovial joint?",
+    "choices": [
+      "a synostosis a suture",
+      "a plane",
+      "joint",
+      "a synchondrosis"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s04_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "A bursa ________.",
+    "choices": [
+      "surrounds a tendon at the point where the tendon crosses a joint",
+      "secretes the lubricating fluid for a synovial joint prevents friction between skin and bone,",
+      "or a muscle tendon and bone is the strong band of connective",
+      "tissue that holds bones together at a synovial joint"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s04_q03",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "At synovial joints, ________.",
+    "choices": [
+      "the articulating ends of the bones are directly connected by fibrous connective",
+      "tissue the ends of the bones are enclosed within a space called",
+      "a subcutaneous bursa intrinsic ligaments are located entirely inside of the articular",
+      "capsule the joint cavity is filled with a thick, lubricating fluid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s04_q04",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "At a synovial joint, the synovial membrane ________.",
+    "choices": [
+      "forms the fibrous connective walls of the joint",
+      "cavity is the layer of cartilage that covers",
+      "the articulating surfaces of the bones forms the intracapsular",
+      "ligaments secretes the lubricating synovial fluid"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s04_q05",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "Condyloid joints ________.",
+    "choices": [
+      "are a type of ball-and-socket joint",
+      "include the radiocarpal joint are",
+      "a uniaxial diarthrosis joint are found",
+      "at the proximal radioulnar joint"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s04_q06",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "A meniscus is ________.",
+    "choices": [
+      "a fibrocartilage pad that provides padding between bones a fluid-filled space",
+      "that prevents friction between a muscle tendon and underlying bone",
+      "the articular cartilage that covers the ends of a bone at",
+      "a synovial joint the lubricating fluid within a synovial joint"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s04_q07",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s04"
+  },
+  {
+    "question": "The primary support for the glenohumeral joint is provided by the ________.",
+    "choices": [
+      "coracohumeral ligament glenoid",
+      "labrum rotator cuff",
+      "muscles",
+      "subacromial bursa"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s06_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s06"
+  },
+  {
+    "question": "The proximal radioulnar joint ________.",
+    "choices": [
+      "is supported by the annular ligament contains an articular",
+      "disc that strongly unites the bones is supported",
+      "by the ulnar collateral ligament is a hinge",
+      "joint that allows for flexion/extension of the forearm"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s06_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s06"
+  },
+  {
+    "question": "Which statement is true concerning the knee joint?",
+    "choices": [
+      "The lateral meniscus is an intrinsic ligament located on the lateral side",
+      "of the knee joint. Hyperextension is resisted by the posterior cruciate ligament.",
+      "The anterior cruciate ligament supports the knee when it is flexed and weight",
+      "bearing. The medial meniscus is attached to the tibial collateral ligament."
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch09_s06_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s06"
+  },
+  {
+    "question": "The ankle joint ________.",
+    "choices": [
+      "is also called the subtalar joint allows for gliding",
+      "movements that produce inversion/eversion of the foot",
+      "is a uniaxial hinge joint is supported by the tibial",
+      "collateral ligament on the lateral side"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s06_q03",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s06"
+  },
+  {
+    "question": "Which region of the vertebral column has the greatest range of motion for axial rotation?",
+    "choices": [
+      "sacral",
+      "cervical",
+      "lumbar",
+      "thoracic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s06_q04",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s06"
+  },
+  {
+    "question": "Intramembranous ossification ________.",
+    "choices": [
+      "gives rise to the bones of the limbs produces the bones",
+      "of the top and sides of the skull produces",
+      "the bones of the face and base of the skull",
+      "involves the conversion of a hyaline cartilage model into bone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch09_s07_q00",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s07"
+  },
+  {
+    "question": "Synovial joints ________.",
+    "choices": [
+      "are derived from fontanelles are",
+      "produced by intramembranous ossification develop",
+      "at an interzone site are",
+      "produced by endochondral ossification"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch09_s07_q01",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s07"
+  },
+  {
+    "question": "Endochondral ossification is ________.",
+    "choices": [
+      "the process that replaces hyaline cartilage with bone tissue",
+      "the process by which mesenchyme differentiates directly into bone",
+      "tissue completed before birth the process that gives rise",
+      "to the joint interzone and future joint cavity"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch09_s07_q02",
+    "chapterID": "ch09",
+    "sectionID": "ch09_s07"
+  },
+  {
+    "question": "Muscle that has a striped appearance is described as being ________.",
+    "choices": [
+      "elastic",
+      "nonstriated",
+      "excitable",
+      "striated"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s01_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s01"
+  },
+  {
+    "question": "Which element is important in directly triggering contraction?",
+    "choices": [
+      "sodium (Na + )",
+      "calcium (Ca ++ )",
+      "potassium (K + )",
+      "chloride (Cl - )"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s01_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s01"
+  },
+  {
+    "question": "Which of the following properties is not common to all three muscle tissues?",
+    "choices": [
+      "excitability the need for ATP",
+      "at rest, uses",
+      "shielding proteins to cover",
+      "actin-binding sites elasticity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s01_q02",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s01"
+  },
+  {
+    "question": "The correct order for the smallest to the largest unit of organization in muscle tissue is ________.",
+    "choices": [
+      "fascicle, filament, muscle fiber, myofibril",
+      "filament, myofibril, muscle fiber, fascicle",
+      "muscle fiber, fascicle, filament, myofibril",
+      "myofibril, muscle fiber, filament, fascicle"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s02_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s02"
+  },
+  {
+    "question": "Depolarization of the sarcolemma means ________.",
+    "choices": [
+      "the inside of the membrane has become less negative as sodium ions",
+      "accumulate the outside of the membrane has become less negative as sodium",
+      "ions accumulate the inside of the membrane has become more negative as",
+      "sodium ions accumulate the sarcolemma has completely lost any electrical charge"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch10_s02_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s02"
+  },
+  {
+    "question": "In relaxed muscle, the myosin-binding site on actin is blocked by ________.",
+    "choices": [
+      "titin",
+      "troponin",
+      "myoglobin",
+      "tropomyosin"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s03_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "According to the sliding filament model, binding sites on actin open when ________.",
+    "choices": [
+      "creatine phosphate levels rise",
+      "ATP levels rise",
+      "acetylcholine levels rise calcium",
+      "ion levels rise"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s03_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "The cell membrane of a muscle fiber is called ________.",
+    "choices": [
+      "myofibril",
+      "sarcolemma",
+      "sarcoplasm",
+      "myofilament"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s03_q02",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "Muscle relaxation occurs when ________.",
+    "choices": [
+      "calcium ions are actively transported out of the sarcoplasmic",
+      "reticulum calcium ions diffuse out of the sarcoplasmic",
+      "reticulum calcium ions are actively transported into the sarcoplasmic",
+      "reticulum calcium ions diffuse into the sarcoplasmic reticulum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s03_q03",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "During muscle contraction, the cross-bridge detaches when ________.",
+    "choices": [
+      "the myosin head binds to an ADP",
+      "molecule the myosin head binds to an ATP",
+      "molecule calcium ions bind to troponin calcium",
+      "ions bind to actin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s03_q04",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "Thin and thick filaments are organized into functional units called ________.",
+    "choices": [
+      "myofibrils",
+      "myofilaments",
+      "T-tubules",
+      "sarcomeres"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s03_q05",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "Critical Thinking Questions How would muscle contractions be affected if skeletal muscle fibers did not have T-tubules?",
+    "choices": [
+      "Without T-tubules, action potential conduction into the interior of the cell",
+      "would happen much more slowly, causing delays between neural",
+      "stimulation and muscle contraction, resulting in slower, weaker contractions. What",
+      "causes the striated appearance of skeletal muscle tissue? Dark"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch10_s03_q06",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s03"
+  },
+  {
+    "question": "During which phase of a twitch in a muscle fiber is tension the greatest?",
+    "choices": [
+      "resting phase",
+      "repolarization phase",
+      "contraction phase",
+      "relaxation phase"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s04_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s04"
+  },
+  {
+    "question": "Muscle fatigue is caused by ________.",
+    "choices": [
+      "buildup of ATP and lactic acid levels exhaustion of energy",
+      "reserves and buildup of lactic acid levels",
+      "buildup of ATP and pyruvic acid levels exhaustion of energy",
+      "reserves and buildup of pyruvic acid levels"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s05_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s05"
+  },
+  {
+    "question": "A sprinter would experience muscle fatigue sooner than a marathon runner due to ________.",
+    "choices": [
+      "anaerobic metabolism in the muscles of the sprinter anaerobic",
+      "metabolism in the muscles of the marathon runner",
+      "aerobic metabolism in the muscles of the sprinter",
+      "glycolysis in the muscles of the marathon runner"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch10_s05_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s05"
+  },
+  {
+    "question": "What aspect of creatine phosphate allows it to supply energy to muscles?",
+    "choices": [
+      "ATPase activity",
+      "phosphate bonds",
+      "carbon bonds",
+      "hydrogen bonds"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s05_q02",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s05"
+  },
+  {
+    "question": "Drug X blocks ATP regeneration from ADP and phosphate. How will muscle cells respond to this drug?",
+    "choices": [
+      "by absorbing ATP from the bloodstream",
+      "by using ADP as an energy",
+      "source by using glycogen as an energy",
+      "source none of the above"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s05_q03",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s05"
+  },
+  {
+    "question": "The muscles of a professional sprinter are most likely to have ________.",
+    "choices": [
+      "80 percent fast-twitch muscle fibers and 20 percent slow-twitch muscle fibers",
+      "20 percent fast-twitch muscle fibers and 80 percent slow-twitch muscle fibers",
+      "50 percent fast-twitch muscle fibers and 50 percent slow-twitch muscle fibers",
+      "40 percent fast-twitch muscle fibers and 60 percent slow-twitch muscle fibers"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch10_s06_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s06"
+  },
+  {
+    "question": "The muscles of a professional marathon runner are most likely to have ________.",
+    "choices": [
+      "80 percent fast-twitch muscle fibers and 20 percent slow-twitch muscle fibers",
+      "20 percent fast-twitch muscle fibers and 80 percent slow-twitch muscle fibers",
+      "50 percent fast-twitch muscle fibers and 50 percent slow-twitch muscle fibers",
+      "40 percent fast-twitch muscle fibers and 60 percent slow-twitch muscle fibers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch10_s06_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s06"
+  },
+  {
+    "question": "Which of the following statements is true ?",
+    "choices": [
+      "Fast fibers have a small diameter.",
+      "Fast fibers contain loosely packed myofibrils.",
+      "Fast fibers have large glycogen reserves.",
+      "Fast fibers have many mitochondria."
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s06_q02",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s06"
+  },
+  {
+    "question": "Which of the following statements is false ?",
+    "choices": [
+      "Slow fibers have a small network of capillaries.",
+      "Slow fibers contain the pigment myoglobin.",
+      "Slow fibers contain a large number of mitochondria.",
+      "Slow fibers contract for extended periods."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch10_s06_q03",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s06"
+  },
+  {
+    "question": "Cardiac muscles differ from skeletal muscles in that they ________.",
+    "choices": [
+      "are striated utilize",
+      "aerobic metabolism",
+      "contain myofibrils contain intercalated",
+      "discs"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s07_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s07"
+  },
+  {
+    "question": "If cardiac muscle cells were prevented from undergoing aerobic metabolism, they ultimately would ________.",
+    "choices": [
+      "undergo glycolysis synthesize",
+      "ATP",
+      "stop contracting",
+      "start contracting"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s07_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s07"
+  },
+  {
+    "question": "From which embryonic cell type does muscle tissue develop?",
+    "choices": [
+      "ganglion cells",
+      "myotube cells",
+      "myoblast cells",
+      "satellite cells"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch10_s09_q00",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s09"
+  },
+  {
+    "question": "Which cell type helps to repair injured muscle fibers?",
+    "choices": [
+      "ganglion cells",
+      "myotube cells",
+      "myoblast cells",
+      "satellite cells"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch10_s09_q01",
+    "chapterID": "ch10",
+    "sectionID": "ch10_s09"
+  },
+  {
+    "question": "Which of the following is unique to the muscles of facial expression?",
+    "choices": [
+      "They all originate from the scalp musculature.",
+      "They insert onto the cartilage found around",
+      "the face. They only insert onto the facial",
+      "bones. They insert into the skin."
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch11_s01_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "Which of the following helps an agonist work?",
+    "choices": [
+      "a synergist",
+      "a fixator",
+      "an insertion",
+      "an antagonist"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s01_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "Which of the following statements is correct about what happens during flexion?",
+    "choices": [
+      "The angle between bones is increased. The",
+      "angle between bones is decreased. The bone",
+      "moves away from the body. The bone",
+      "moves toward the center of the body."
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s01_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "Which is moved the least during muscle contraction?",
+    "choices": [
+      "the origin",
+      "the insertion",
+      "the ligaments",
+      "the joints"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s01_q03",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "Which muscle has a convergent pattern of fascicles?",
+    "choices": [
+      "biceps brachii",
+      "gluteus maximus",
+      "pectoralis major rectus",
+      "femoris"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s01_q04",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "A muscle that has a pattern of fascicles running along the long axis of the muscle has which of the following fascicle arrangements?",
+    "choices": [
+      "circular",
+      "pennate",
+      "parallel",
+      "rectus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s01_q05",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "Which arrangement best describes a bipennate muscle?",
+    "choices": [
+      "The muscle fibers feed in on an angle to a long tendon from both sides. The muscle fibers feed in on",
+      "an angle to a long tendon from all directions. The muscle fibers feed in on an angle to a long",
+      "tendon from one side. The muscle fibers on one side of a tendon feed into it at a certain angle",
+      "and muscle fibers on the other side of the tendon feed into it at the opposite angle."
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s01_q06",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s01"
+  },
+  {
+    "question": "The location of a muscle\u2019s insertion and origin can determine ________.",
+    "choices": [
+      "action the force of contraction",
+      "muscle name",
+      "the load a muscle",
+      "can carry"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s02_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s02"
+  },
+  {
+    "question": "Where is the temporalis muscle located?",
+    "choices": [
+      "on the forehead in the neck",
+      "on the side",
+      "of the head",
+      "on the chin"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s02_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s02"
+  },
+  {
+    "question": "Which muscle name does not make sense?",
+    "choices": [
+      "extensor digitorum gluteus",
+      "minimus biceps",
+      "femoris extensor minimus",
+      "longus"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch11_s02_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s02"
+  },
+  {
+    "question": "Which of the following terms would be used in the name of a muscle that moves the leg away from the body?",
+    "choices": [
+      "flexor",
+      "adductor",
+      "extensor",
+      "abductor"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch11_s02_q03",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s02"
+  },
+  {
+    "question": "Which of the following is a prime mover in head flexion?",
+    "choices": [
+      "occipitofrontalis",
+      "corrugator",
+      "supercilii",
+      "sternocleidomastoid masseter"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s03_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s03"
+  },
+  {
+    "question": "Where is the inferior oblique muscle located?",
+    "choices": [
+      "in the abdomen in the eye",
+      "socket",
+      "in the anterior neck",
+      "in the face"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s03_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s03"
+  },
+  {
+    "question": "What is the action of the masseter?",
+    "choices": [
+      "swallowing chewing",
+      "moving the lips",
+      "closing",
+      "the eye"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s03_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s03"
+  },
+  {
+    "question": "The names of the extrinsic tongue muscles commonly end in ________.",
+    "choices": [
+      "-glottis",
+      "-glossus",
+      "-gluteus",
+      "-hyoid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s03_q03",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s03"
+  },
+  {
+    "question": "What is the function of the erector spinae?",
+    "choices": [
+      "movement of the arms",
+      "stabilization of the pelvic",
+      "girdle postural support rotating",
+      "of the vertebral column"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s03_q04",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s03"
+  },
+  {
+    "question": "Which of the following abdominal muscles is not a part of the anterior abdominal wall?",
+    "choices": [
+      "quadratus lumborum",
+      "rectus abdominis",
+      "interior oblique",
+      "exterior oblique"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s04_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s04"
+  },
+  {
+    "question": "Which muscle pair plays a role in respiration?",
+    "choices": [
+      "intertransversarii, interspinales semispinalis cervicis,",
+      "semispinalis thoracis trapezius,",
+      "rhomboids",
+      "diaphragm, scalene"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch11_s04_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s04"
+  },
+  {
+    "question": "What is the linea alba?",
+    "choices": [
+      "a small muscle that helps with compression of the abdominal organs",
+      "a long tendon that runs down the middle of the rectus",
+      "abdominis a long band of collagen fibers that connects the hip",
+      "to the knee another name for the tendinous inscription"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s04_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s04"
+  },
+  {
+    "question": "The rhomboid major and minor muscles are deep to the ________.",
+    "choices": [
+      "rectus abdominis scalene",
+      "muscles",
+      "trapezius ligamentum",
+      "nuchae"
+    ],
+    "correctAnswer": 2,
+    "explanation": "",
+    "id": "ch11_s05_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s05"
+  },
+  {
+    "question": "Which muscle extends the forearm?",
+    "choices": [
+      "biceps",
+      "brachii",
+      "triceps",
+      "brachii brachialis deltoid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s05_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s05"
+  },
+  {
+    "question": "What is the origin of the wrist flexors?",
+    "choices": [
+      "the lateral epicondyle of the humerus",
+      "the medial epicondyle of the humerus",
+      "the carpal bones of the wrist",
+      "the deltoid tuberosity of the humerus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s05_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s05"
+  },
+  {
+    "question": "Which muscles stabilize the pectoral girdle?",
+    "choices": [
+      "axial and scapular",
+      "axial",
+      "appendicular axial",
+      "and appendicular"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s05_q03",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s05"
+  },
+  {
+    "question": "The large muscle group that attaches the leg to the pelvic girdle and produces extension of the hip joint is the ________",
+    "choices": [
+      "group.",
+      "gluteal",
+      "obturator",
+      "adductor abductor"
+    ],
+    "correctAnswer": 0,
+    "explanation": "",
+    "id": "ch11_s06_q00",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s06"
+  },
+  {
+    "question": "Which muscle produces movement that allows you to cross your legs?",
+    "choices": [
+      "the gluteus",
+      "maximus the",
+      "piriformis the",
+      "gracilis the sartorius"
+    ],
+    "correctAnswer": 3,
+    "explanation": "",
+    "id": "ch11_s06_q01",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s06"
+  },
+  {
+    "question": "What is the largest muscle in the lower leg?",
+    "choices": [
+      "soleus",
+      "gastrocnemius",
+      "tibialis",
+      "anterior tibialis posterior"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s06_q02",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s06"
+  },
+  {
+    "question": "The vastus intermedius muscle is deep to which of the following muscles?",
+    "choices": [
+      "biceps femoris rectus",
+      "femoris vastus",
+      "medialis vastus",
+      "lateralis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "",
+    "id": "ch11_s06_q03",
+    "chapterID": "ch11",
+    "sectionID": "ch11_s06"
+  }
+]

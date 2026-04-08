@@ -1,0 +1,456 @@
+{
+  "lectureSchedule": [
+    {
+      "week": 1,
+      "startDate": "2026-04-06",
+      "topic": "Welcome & Anatomical Language",
+      "chapters": [
+        "ch01"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 1",
+          "code": "P1",
+          "dueDate": "2026-04-08T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 1",
+          "code": "H1",
+          "dueDate": "2026-04-12T23:59:00-07:00",
+          "type": "homework"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "startDate": "2026-04-13",
+      "topic": "Chemistry of Life",
+      "chapters": [
+        "ch02"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 2",
+          "code": "P2",
+          "dueDate": "2026-04-13T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 2",
+          "code": "H2",
+          "dueDate": "2026-04-19T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 1",
+          "code": "Q1",
+          "dueDate": "2026-04-15T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "startDate": "2026-04-20",
+      "topic": "Cells",
+      "chapters": [
+        "ch03"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 3",
+          "code": "P3",
+          "dueDate": "2026-04-20T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 3",
+          "code": "H3",
+          "dueDate": "2026-04-26T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 2",
+          "code": "Q2",
+          "dueDate": "2026-04-22T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "startDate": "2026-04-27",
+      "topic": "Midterm 1",
+      "chapters": [
+        "ch01",
+        "ch02",
+        "ch03"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 4",
+          "code": "P4",
+          "dueDate": "2026-04-27T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Midterm 1",
+          "code": "MT1",
+          "dueDate": "2026-04-27T14:00:00-07:00",
+          "type": "midterm"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "startDate": "2026-05-04",
+      "topic": "Tissues & Integumentary Tissue",
+      "chapters": [
+        "ch04"
+      ],
+      "assignments": [
+        {
+          "name": "Homework 4",
+          "code": "H4",
+          "dueDate": "2026-05-10T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Pre-lecture Work 5",
+          "code": "P5",
+          "dueDate": "2026-05-04T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 5",
+          "code": "H5",
+          "dueDate": "2026-05-10T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 3",
+          "code": "Q3",
+          "dueDate": "2026-05-06T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "startDate": "2026-05-11",
+      "topic": "Integumentary System",
+      "chapters": [
+        "ch05"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 6",
+          "code": "P6",
+          "dueDate": "2026-05-11T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 6",
+          "code": "H6",
+          "dueDate": "2026-05-17T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 4",
+          "code": "Q4",
+          "dueDate": "2026-05-13T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "startDate": "2026-05-18",
+      "topic": "Bone Tissue",
+      "chapters": [
+        "ch06"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 7",
+          "code": "P7",
+          "dueDate": "2026-05-18T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 7",
+          "code": "H7",
+          "dueDate": "2026-05-24T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Midterm 2",
+          "code": "MT2",
+          "dueDate": "2026-05-20T14:00:00-07:00",
+          "type": "midterm"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "startDate": "2026-05-25",
+      "topic": "Skeletal System",
+      "chapters": [
+        "ch07",
+        "ch08"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 8",
+          "code": "P8",
+          "dueDate": "2026-05-27T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 8",
+          "code": "H8",
+          "dueDate": "2026-05-31T23:59:00-07:00",
+          "type": "homework"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "startDate": "2026-06-01",
+      "topic": "Joints",
+      "chapters": [
+        "ch09"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 9",
+          "code": "P9",
+          "dueDate": "2026-06-01T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 9",
+          "code": "H9",
+          "dueDate": "2026-06-07T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 5",
+          "code": "Q5",
+          "dueDate": "2026-06-03T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "startDate": "2026-06-08",
+      "topic": "Muscle Tissue & Muscular System",
+      "chapters": [
+        "ch10",
+        "ch11"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 10",
+          "code": "P10",
+          "dueDate": "2026-06-08T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 10",
+          "code": "H10",
+          "dueDate": "2026-06-14T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Quiz 6",
+          "code": "Q6",
+          "dueDate": "2026-06-10T14:00:00-07:00",
+          "type": "quiz"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "startDate": "2026-06-15",
+      "topic": "Muscular System Review",
+      "chapters": [
+        "ch11"
+      ],
+      "assignments": [
+        {
+          "name": "Pre-lecture Work 11",
+          "code": "P11",
+          "dueDate": "2026-06-15T12:00:00-07:00",
+          "type": "preLecture"
+        },
+        {
+          "name": "Homework 11",
+          "code": "H11",
+          "dueDate": "2026-06-21T23:59:00-07:00",
+          "type": "homework"
+        },
+        {
+          "name": "Midterm 3",
+          "code": "MT3",
+          "dueDate": "2026-06-17T14:00:00-07:00",
+          "type": "midterm"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "startDate": "2026-06-22",
+      "topic": "Finals Week",
+      "chapters": [],
+      "assignments": [
+        {
+          "name": "Final Exam",
+          "code": "FIN",
+          "dueDate": "2026-06-24T14:00:00-07:00",
+          "type": "final"
+        }
+      ]
+    }
+  ],
+  "labSchedule": [
+    {
+      "week": 1,
+      "startDate": "2026-04-06",
+      "topic": "Lab Intro / Intro to Anatomy Language",
+      "chapters": [
+        "ch01"
+      ]
+    },
+    {
+      "week": 2,
+      "startDate": "2026-04-13",
+      "topic": "Cells and Homeostasis",
+      "chapters": [
+        "ch03"
+      ]
+    },
+    {
+      "week": 3,
+      "startDate": "2026-04-20",
+      "topic": "Homeostasis and Tissues",
+      "chapters": [
+        "ch04"
+      ]
+    },
+    {
+      "week": 4,
+      "startDate": "2026-04-27",
+      "topic": "Integumentary System",
+      "chapters": [
+        "ch05"
+      ]
+    },
+    {
+      "week": 5,
+      "startDate": "2026-05-04",
+      "topic": "In-class Assessment Activity",
+      "chapters": []
+    },
+    {
+      "week": 6,
+      "startDate": "2026-05-11",
+      "topic": "Skeletal System Part 1: Bone Tissue",
+      "chapters": [
+        "ch06"
+      ]
+    },
+    {
+      "week": 7,
+      "startDate": "2026-05-18",
+      "topic": "Skeletal System Part 2: Skeletal Injuries",
+      "chapters": [
+        "ch07",
+        "ch08"
+      ]
+    },
+    {
+      "week": 8,
+      "startDate": "2026-05-25",
+      "topic": "Holiday / Open OH",
+      "chapters": []
+    },
+    {
+      "week": 9,
+      "startDate": "2026-06-01",
+      "topic": "Muscular Tissue and Health",
+      "chapters": [
+        "ch10",
+        "ch11"
+      ]
+    },
+    {
+      "week": 10,
+      "startDate": "2026-06-08",
+      "topic": "Joints and Exercise",
+      "chapters": [
+        "ch09"
+      ]
+    },
+    {
+      "week": 11,
+      "startDate": "2026-06-15",
+      "topic": "In-class Assessment Activity",
+      "chapters": []
+    },
+    {
+      "week": 12,
+      "startDate": "2026-06-22",
+      "topic": "No Lab: Lecture Final Only",
+      "chapters": []
+    }
+  ],
+  "grading": {
+    "lecture": {
+      "lectureActivities": 0.12,
+      "preLectureWork": 0.06,
+      "homework": 0.15,
+      "quizzes": 0.08,
+      "midtermsAndFinal": 0.24,
+      "totalWeight": 0.65
+    },
+    "lab": {
+      "preLabs": 0.1,
+      "labActivities": 0.1,
+      "labAssessments": 0.15,
+      "totalWeight": 0.35
+    }
+  },
+  "importantDates": [
+    {
+      "date": "2026-04-06",
+      "event": "First day of Spring Quarter"
+    },
+    {
+      "date": "2026-04-17",
+      "event": "Last day to add classes"
+    },
+    {
+      "date": "2026-04-19",
+      "event": "Last day to drop for full refund"
+    },
+    {
+      "date": "2026-05-23",
+      "event": "Memorial Day Weekend begins"
+    },
+    {
+      "date": "2026-05-29",
+      "event": "Last day to drop with W"
+    },
+    {
+      "date": "2026-06-19",
+      "event": "Juneteenth Holiday"
+    },
+    {
+      "date": "2026-06-26",
+      "event": "Last day of Spring Quarter"
+    }
+  ]
+}
