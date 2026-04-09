@@ -22,18 +22,18 @@ struct TabNavigationView: View {
             .tag(1)
 
             NavigationStack {
-                PracticeMenuView()
+                HowWeLearnView()
             }
             .tabItem {
-                Label("Practice", systemImage: "gamecontroller.fill")
+                Label("How We Learn", systemImage: "brain.head.profile.fill")
             }
             .tag(2)
 
             NavigationStack {
-                ScheduleView()
+                PracticeMenuView()
             }
             .tabItem {
-                Label("Schedule", systemImage: "calendar")
+                Label("Practice", systemImage: "gamecontroller.fill")
             }
             .tag(3)
 

@@ -18,6 +18,7 @@
 		1BCE9F4F0BA08A4CDCAD061E /* BIO40AStudyCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E0C42FDAAC3E128E5D4305 /* BIO40AStudyCompanionApp.swift */; };
 		212D47B94AFFD3DBC591B5A9 /* GlossaryTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055B9AC687B77CADA0A1D5FF /* GlossaryTerm.swift */; };
 		362DC20F014EE903E1BF0B1E /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B2DE7E82358BD2B4F08F0 /* ContentService.swift */; };
+		38C2E161CC536766EB765524 /* HowWeLearnViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B84D0F77D0103FC0A9EC8 /* HowWeLearnViews.swift */; };
 		3BAA4783F144C8465FAA2659 /* ChapterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858CE26702E3219B766B9E4 /* ChapterDetailView.swift */; };
 		4FA5BF9A448645D3D5774676 /* StudyPlannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9A8C505944C019BB34B21 /* StudyPlannerService.swift */; };
 		4FDADD0650A588ECCDC4A537 /* StudyMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEFCCE32016EB1787500840 /* StudyMaterial.swift */; };
@@ -26,6 +27,7 @@
 		76706D5B2ECC70AA49502DD0 /* FlashcardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E0E88300906C21F9BDD0E /* FlashcardViews.swift */; };
 		787A9729D19DC9B62454CE80 /* QuizAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23FE0EC1034FD2DAAE25DB /* QuizAttempt.swift */; };
 		7A2CF13026331B70674DEAF6 /* InteractionComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80768608B973F64CB46ED240 /* InteractionComponents.swift */; };
+		7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343AECDADE46AC2C5212AD0 /* LearningTechnique.swift */; };
 		8B63A09ED372F095F27F33D1 /* StudyMaterialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */; };
 		9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C1B65DDF86358E3FDB223 /* MoreViews.swift */; };
 		94E2098B9ED6EDDBDCDFBBA7 /* QuizGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A0C11D7DC8091A4EC4D8B /* QuizGeneratorService.swift */; };
@@ -48,6 +50,7 @@
 /* Begin PBXFileReference section */
 		055B9AC687B77CADA0A1D5FF /* GlossaryTerm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryTerm.swift; sourceTree = "<group>"; };
 		0C93540B1698A374845E0AF1 /* AssignmentReflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentReflection.swift; sourceTree = "<group>"; };
+		125B84D0F77D0103FC0A9EC8 /* HowWeLearnViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeLearnViews.swift; sourceTree = "<group>"; };
 		13E75C33C5AEBA177FB66A3F /* PracticeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMenuView.swift; sourceTree = "<group>"; };
 		16DE59F89AA7AF66B9892A01 /* QuizViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViews.swift; sourceTree = "<group>"; };
 		18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMaterialViews.swift; sourceTree = "<group>"; };
@@ -68,6 +71,7 @@
 		7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveLessonView.swift; sourceTree = "<group>"; };
 		80768608B973F64CB46ED240 /* InteractionComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionComponents.swift; sourceTree = "<group>"; };
 		8882EF7984DE8DDFC519CC66 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
+		9343AECDADE46AC2C5212AD0 /* LearningTechnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningTechnique.swift; sourceTree = "<group>"; };
 		98B9A8C505944C019BB34B21 /* StudyPlannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlannerService.swift; sourceTree = "<group>"; };
 		A22A0C11D7DC8091A4EC4D8B /* QuizGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGeneratorService.swift; sourceTree = "<group>"; };
 		A5970A5B55D102CE9EDA414B /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 				6A03E6A76ECA98C6DA2BFEB8 /* Flashcard.swift */,
 				612548A79521F41E51BEC831 /* FlashcardProgress.swift */,
 				055B9AC687B77CADA0A1D5FF /* GlossaryTerm.swift */,
+				9343AECDADE46AC2C5212AD0 /* LearningTechnique.swift */,
 				2008BF725C5D1AC26D7FFCAB /* PerformanceRecord.swift */,
 				DB23FE0EC1034FD2DAAE25DB /* QuizAttempt.swift */,
 				299C962C2F1BE39AE083A93C /* QuizQuestion.swift */,
@@ -143,6 +148,14 @@
 				18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */,
 			);
 			path = Assignments;
+			sourceTree = "<group>";
+		};
+		4F240FB6EE481B8BA1AC1B85 /* HowWeLearn */ = {
+			isa = PBXGroup;
+			children = (
+				125B84D0F77D0103FC0A9EC8 /* HowWeLearnViews.swift */,
+			);
+			path = HowWeLearn;
 			sourceTree = "<group>";
 		};
 		7A5F7B1EAB1529B5630FC8B0 /* More */ = {
@@ -205,6 +218,7 @@
 			children = (
 				4CD993675F64B6D3363300BD /* Assignments */,
 				B7BA69657C92E35A96173BF5 /* Home */,
+				4F240FB6EE481B8BA1AC1B85 /* HowWeLearn */,
 				8D427BDB162DD149CAA9543E /* InteractiveLearning */,
 				49AB501741DEA3A32C8E6F25 /* Lessons */,
 				7A5F7B1EAB1529B5630FC8B0 /* More */,
@@ -326,8 +340,10 @@
 				15A229B3110C4AC3AFCD340D /* GamesViews.swift in Sources */,
 				212D47B94AFFD3DBC591B5A9 /* GlossaryTerm.swift in Sources */,
 				17FBFED420E56D028FE0F53E /* HomeView.swift in Sources */,
+				38C2E161CC536766EB765524 /* HowWeLearnViews.swift in Sources */,
 				7A2CF13026331B70674DEAF6 /* InteractionComponents.swift in Sources */,
 				B1DB2A601BE0AD5E476B2B7F /* InteractiveLessonView.swift in Sources */,
+				7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */,
 				0E63F3D0980F11DDA8BB0228 /* LessonsListView.swift in Sources */,
 				9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */,
 				C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */,

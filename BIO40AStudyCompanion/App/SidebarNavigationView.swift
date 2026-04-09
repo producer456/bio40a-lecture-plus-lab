@@ -4,6 +4,7 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
     case home = "Home"
     case lessons = "Lessons"
     case interactiveLearning = "Interactive Learning"
+    case howWeLearn = "How We Learn"
     case flashcards = "Flashcards"
     case quizzes = "Quizzes"
     case games = "Games"
@@ -24,6 +25,7 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
         case .home: return "house.fill"
         case .lessons: return "book.fill"
         case .interactiveLearning: return "hand.tap.fill"
+        case .howWeLearn: return "brain.head.profile.fill"
         case .flashcards: return "rectangle.on.rectangle.angled"
         case .quizzes: return "checkmark.circle.fill"
         case .games: return "gamecontroller.fill"
@@ -68,6 +70,8 @@ struct SidebarNavigationView: View {
             NavigationStack { LessonsListView() }
         case .interactiveLearning:
             NavigationStack { InteractiveLearningListView() }
+        case .howWeLearn:
+            NavigationStack { HowWeLearnView() }
         case .flashcards:
             NavigationStack { FlashcardDeckView() }
         case .quizzes:
