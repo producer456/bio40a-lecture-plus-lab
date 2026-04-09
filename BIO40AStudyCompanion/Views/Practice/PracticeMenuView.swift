@@ -15,6 +15,9 @@ struct PracticeMenuView: View {
             }
 
             Section("Games") {
+                NavigationLink(destination: BodyExplorerView()) {
+                    practiceRow(icon: "cube.fill", title: "3D Body Explorer", subtitle: "Rotate, explore, and quiz on 3D anatomy", color: .indigo)
+                }
                 NavigationLink(destination: MatchingGameView()) {
                     practiceRow(icon: "rectangle.grid.2x2.fill", title: "Term Matching", subtitle: "Match terms to definitions", color: .blue)
                 }
