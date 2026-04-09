@@ -247,7 +247,6 @@ struct InteractiveLessonView: View {
     @ViewBuilder
     private func termCheckView(term: String, definition: String, options: [String], index: Int) -> some View {
         let answered = answeredInteractions.contains(index)
-        @State var selected: Int? = nil
 
         TermCheckInteraction(
             term: term,
@@ -272,7 +271,7 @@ struct InteractiveLessonView: View {
                 markInteraction(index: index, correct: isCorrect)
                 if let chID = question.chapterID, let sID = question.sectionID {
                     let record = PerformanceRecord(
-                        questionID: question.id ?? UUID().uuidString,
+                        questionID: question.id,
                         chapterID: chID,
                         sectionID: sID,
                         wasCorrect: isCorrect,

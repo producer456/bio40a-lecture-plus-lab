@@ -29,14 +29,14 @@ final class NotificationService {
         center.removeAllPendingNotificationRequests()
 
         let now = Date()
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd"
+        let isoFormatter = ISO8601DateFormatter()
+        isoFormatter.formatOptions = [.withInternetDateTime]
         var requests: [(date: Date, request: UNNotificationRequest)] = []
 
         for week in syllabus.lectureSchedule {
             guard let assignments = week.assignments else { continue }
             for assignment in assignments {
-                guard let dueDate = dateFormatter.date(from: assignment.dueDate) else { continue }
+                guard let dueDate = isoFormatter.date(from: assignment.dueDate) else { continue }
 
                 // 24-hour reminder
                 if let reminder24h = Calendar.current.date(byAdding: .hour, value: -24, to: dueDate),

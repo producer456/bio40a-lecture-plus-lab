@@ -313,7 +313,7 @@ struct QuizView: View {
 
     private func recordPerformance(question: QuizQuestion, wasCorrect: Bool) {
         let record = PerformanceRecord(
-            questionID: question.id ?? UUID().uuidString,
+            questionID: question.id,
             chapterID: question.chapterID ?? "",
             sectionID: question.sectionID ?? "",
             wasCorrect: wasCorrect

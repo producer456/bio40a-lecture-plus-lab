@@ -84,7 +84,7 @@ extension LearningTechnique {
         LearningTechnique(
             id: "dual_coding",
             name: "Dual Coding",
-            icon: "eye.and.text.fill",
+            icon: "text.below.photo.fill",
             color: .teal,
             tagline: "See it AND say it — two pathways to memory",
             explanation: "Information encoded in both verbal and visual formats creates two independent memory traces, making retrieval more likely. When you can both describe a concept in words AND visualize it as an image, you have two pathways to access that knowledge.",
