@@ -35,14 +35,6 @@ struct ChapterDetailView: View {
                 }
             }
 
-            // Diagram Labeling
-            let diagramCount = DiagramDataStore.exercises.filter { $0.chapterID == chapter.id }.count
-            if diagramCount > 0 {
-                Section("Diagram Labeling (\(diagramCount))") {
-                    DiagramExerciseListView(chapterID: chapter.id)
-                }
-            }
-
             // Quick Review
             Section("Quick Review") {
                 NavigationLink(destination: QuickReviewView(chapter: chapter)) {
