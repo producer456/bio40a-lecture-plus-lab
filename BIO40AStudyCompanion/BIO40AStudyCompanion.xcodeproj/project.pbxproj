@@ -25,12 +25,14 @@
 		6A08B80B193F986B67361A30 /* WeakSpotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF687326A64C644C255665A /* WeakSpotsView.swift */; };
 		76706D5B2ECC70AA49502DD0 /* FlashcardViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237E0E88300906C21F9BDD0E /* FlashcardViews.swift */; };
 		787A9729D19DC9B62454CE80 /* QuizAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB23FE0EC1034FD2DAAE25DB /* QuizAttempt.swift */; };
+		7A2CF13026331B70674DEAF6 /* InteractionComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80768608B973F64CB46ED240 /* InteractionComponents.swift */; };
 		8B63A09ED372F095F27F33D1 /* StudyMaterialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */; };
 		9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30C1B65DDF86358E3FDB223 /* MoreViews.swift */; };
 		94E2098B9ED6EDDBDCDFBBA7 /* QuizGeneratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22A0C11D7DC8091A4EC4D8B /* QuizGeneratorService.swift */; };
 		A16EF66DD31F59FAB76E10CB /* SidebarNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C143148FB20D70973F3B795 /* SidebarNavigationView.swift */; };
 		A9E3A2BAE061349DC860DB4A /* Content in Resources */ = {isa = PBXBuildFile; fileRef = D663568277E7826BA3097869 /* Content */; };
 		AFEF422A8D1CDC1F91254E2A /* SpacedRepetitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0D8B2353B58CF049C07F /* SpacedRepetitionEngine.swift */; };
+		B1DB2A601BE0AD5E476B2B7F /* InteractiveLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */; };
 		C221B9461BD18F8114F7F730 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253ADDB011C133536649645 /* TabNavigationView.swift */; };
 		C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA493E55C779371FF00C5AB /* NotificationService.swift */; };
 		C7AC6905BACDE629F9509CBF /* AssignmentReflectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92B5CA7B297D71FCF36C0 /* AssignmentReflectionViews.swift */; };
@@ -63,6 +65,8 @@
 		6EA493E55C779371FF00C5AB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		7B8A3752E18E04A1BF36D5C6 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		7CEFCCE32016EB1787500840 /* StudyMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMaterial.swift; sourceTree = "<group>"; };
+		7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveLessonView.swift; sourceTree = "<group>"; };
+		80768608B973F64CB46ED240 /* InteractionComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionComponents.swift; sourceTree = "<group>"; };
 		8882EF7984DE8DDFC519CC66 /* LessonsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonsListView.swift; sourceTree = "<group>"; };
 		98B9A8C505944C019BB34B21 /* StudyPlannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlannerService.swift; sourceTree = "<group>"; };
 		A22A0C11D7DC8091A4EC4D8B /* QuizGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGeneratorService.swift; sourceTree = "<group>"; };
@@ -169,6 +173,15 @@
 			path = Practice;
 			sourceTree = "<group>";
 		};
+		8D427BDB162DD149CAA9543E /* InteractiveLearning */ = {
+			isa = PBXGroup;
+			children = (
+				80768608B973F64CB46ED240 /* InteractionComponents.swift */,
+				7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */,
+			);
+			path = InteractiveLearning;
+			sourceTree = "<group>";
+		};
 		949498C1F916F3D10ADF95AE /* Schedule */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +205,7 @@
 			children = (
 				4CD993675F64B6D3363300BD /* Assignments */,
 				B7BA69657C92E35A96173BF5 /* Home */,
+				8D427BDB162DD149CAA9543E /* InteractiveLearning */,
 				49AB501741DEA3A32C8E6F25 /* Lessons */,
 				7A5F7B1EAB1529B5630FC8B0 /* More */,
 				894856232290759E86663BF7 /* Practice */,
@@ -312,6 +326,8 @@
 				15A229B3110C4AC3AFCD340D /* GamesViews.swift in Sources */,
 				212D47B94AFFD3DBC591B5A9 /* GlossaryTerm.swift in Sources */,
 				17FBFED420E56D028FE0F53E /* HomeView.swift in Sources */,
+				7A2CF13026331B70674DEAF6 /* InteractionComponents.swift in Sources */,
+				B1DB2A601BE0AD5E476B2B7F /* InteractiveLessonView.swift in Sources */,
 				0E63F3D0980F11DDA8BB0228 /* LessonsListView.swift in Sources */,
 				9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */,
 				C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */,

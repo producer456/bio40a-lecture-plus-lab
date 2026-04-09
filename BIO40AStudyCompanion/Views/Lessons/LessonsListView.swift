@@ -22,6 +22,27 @@ struct LessonsListView: View {
             .padding()
 
             List {
+                // Interactive Learning prominent link
+                Section {
+                    NavigationLink(destination: InteractiveLearningListView()) {
+                        HStack(spacing: 14) {
+                            Image(systemName: "hand.tap.fill")
+                                .font(.title2)
+                                .foregroundStyle(.blue)
+                                .frame(width: 36)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Learning Through Interaction")
+                                    .font(.subheadline)
+                                    .fontWeight(.semibold)
+                                Text("Read lessons with inline quizzes & challenges")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        .padding(.vertical, 4)
+                    }
+                }
+
                 switch selectedView {
                 case .byWeek:
                     weekView

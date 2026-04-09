@@ -3,6 +3,7 @@ import SwiftUI
 enum SidebarDestination: String, CaseIterable, Identifiable {
     case home = "Home"
     case lessons = "Lessons"
+    case interactiveLearning = "Interactive Learning"
     case flashcards = "Flashcards"
     case quizzes = "Quizzes"
     case games = "Games"
@@ -22,6 +23,7 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
         switch self {
         case .home: return "house.fill"
         case .lessons: return "book.fill"
+        case .interactiveLearning: return "hand.tap.fill"
         case .flashcards: return "rectangle.on.rectangle.angled"
         case .quizzes: return "checkmark.circle.fill"
         case .games: return "gamecontroller.fill"
@@ -64,6 +66,8 @@ struct SidebarNavigationView: View {
             NavigationStack { HomeView() }
         case .lessons:
             NavigationStack { LessonsListView() }
+        case .interactiveLearning:
+            NavigationStack { InteractiveLearningListView() }
         case .flashcards:
             NavigationStack { FlashcardDeckView() }
         case .quizzes:
