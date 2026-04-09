@@ -34,3 +34,8 @@ targets:
         PRODUCT_NAME: "BIO 40A Study"
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         INFOPLIST_KEY_CFBundleDisplayName: "BIO 40A Study"
+        DEVELOPMENT_TEAM: 9TUXM4MBAV
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "Apple Development"
+        INFOPLIST_KEY_NSCameraUsageDescription: "Take photos of handouts, worksheets, and returned exams to add to your study materials"
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Select photos of class materials to add to your study library"

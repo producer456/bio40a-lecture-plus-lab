@@ -26,7 +26,11 @@ struct ChapterSection: Codable, Identifiable, Hashable {
     let title: String
     let objectives: [String]
     let content: [String]
-    let chapterReview: String
+    let chapterReview: [String]
     let reviewQuestions: [QuizQuestion]
     let glossary: [GlossaryTerm]
+
+    var chapterReviewText: String {
+        chapterReview.joined(separator: " ")
+    }
 }

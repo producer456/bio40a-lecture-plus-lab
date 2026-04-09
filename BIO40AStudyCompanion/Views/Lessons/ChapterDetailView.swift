@@ -144,12 +144,12 @@ struct SectionContentView: View {
                 }
 
                 // Chapter Review
-                if !section.chapterReview.isEmpty {
+                if !section.chapterReviewText.isEmpty {
                     Divider()
                     VStack(alignment: .leading, spacing: 8) {
                         Text("Chapter Review")
                             .font(.headline)
-                        Text(section.chapterReview)
+                        Text(section.chapterReviewText)
                             .font(.body)
                             .foregroundStyle(.secondary)
                     }
@@ -224,11 +224,11 @@ struct QuickReviewView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 ForEach(chapter.sections) { section in
-                    if !section.chapterReview.isEmpty {
+                    if !section.chapterReviewText.isEmpty {
                         VStack(alignment: .leading, spacing: 8) {
                             Text(section.title)
                                 .font(.headline)
-                            Text(section.chapterReview)
+                            Text(section.chapterReviewText)
                                 .font(.body)
                                 .lineSpacing(4)
                         }
