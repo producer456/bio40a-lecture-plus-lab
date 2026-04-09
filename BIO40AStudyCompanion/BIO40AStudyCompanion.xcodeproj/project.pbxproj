@@ -20,6 +20,7 @@
 		362DC20F014EE903E1BF0B1E /* ContentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99B2DE7E82358BD2B4F08F0 /* ContentService.swift */; };
 		38C2E161CC536766EB765524 /* HowWeLearnViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125B84D0F77D0103FC0A9EC8 /* HowWeLearnViews.swift */; };
 		3BAA4783F144C8465FAA2659 /* ChapterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F858CE26702E3219B766B9E4 /* ChapterDetailView.swift */; };
+		403F37492B9BB2E7342B069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6CF90A6B476FA6E291F652 /* Assets.xcassets */; };
 		4FA5BF9A448645D3D5774676 /* StudyPlannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B9A8C505944C019BB34B21 /* StudyPlannerService.swift */; };
 		4FDADD0650A588ECCDC4A537 /* StudyMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEFCCE32016EB1787500840 /* StudyMaterial.swift */; };
 		58C609B752E96CAF38D9BB7C /* StudyProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA258F5283800592D4F89844 /* StudyProgress.swift */; };
@@ -63,6 +64,7 @@
 		3058F609309638B725FAD9D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4C143148FB20D70973F3B795 /* SidebarNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarNavigationView.swift; sourceTree = "<group>"; };
 		4FAA8845C222EE50CE08967B /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		5D6CF90A6B476FA6E291F652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		612548A79521F41E51BEC831 /* FlashcardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardProgress.swift; sourceTree = "<group>"; };
 		6A03E6A76ECA98C6DA2BFEB8 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		6EA493E55C779371FF00C5AB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
@@ -98,10 +100,19 @@
 				AAE8907B09386B93895C0C1B /* App */,
 				35C11479A3AE585BE2B2665B /* Extensions */,
 				3E909E1B69872F60247A1070 /* Models */,
+				03D082DDF67E399D59359DF3 /* Resources */,
 				BE006316A47D45012D36918B /* Services */,
 				B5472A6CAF0B7E29C573D1D8 /* Views */,
 				8514F802BDD22D3E28AB131D /* Products */,
 			);
+			sourceTree = "<group>";
+		};
+		03D082DDF67E399D59359DF3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D6CF90A6B476FA6E291F652 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		35C11479A3AE585BE2B2665B /* Extensions */ = {
@@ -317,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403F37492B9BB2E7342B069A /* Assets.xcassets in Resources */,
 				A9E3A2BAE061349DC860DB4A /* Content in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

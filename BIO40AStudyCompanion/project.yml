@@ -28,6 +28,7 @@ targets:
       - path: Resources/Content
         type: folder
         buildPhase: resources
+      - path: Resources/Assets.xcassets
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.bio40a.studycompanion
