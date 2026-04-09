@@ -17,7 +17,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/800_Dancer",
+          "caption": "Dancer: The appendicular skeleton consists of the upper and lower limb bones, the bones of the hands and feet, and the bones that anchor the limbs to the axial skeleton. (credit: Melissa Dooley/flickr)"
+        }
+      ]
     },
     {
       "id": "ch08_s01",
@@ -267,6 +273,20 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/801_Appendicular_Skeleton",
+          "caption": "Axial and Appendicular Skeletons: The axial skeleton forms the central axis of the body and consists of the skull, vertebral column, and thoracic cage. The appendicular skeleton consists of the pectoral and pelvic girdles, the limb bones, and the bones of the hands and feet."
+        },
+        {
+          "imageName": "TextbookImages/803_The_Scapula",
+          "caption": "Scapula: The isolated scapula is shown here from its anterior (deep) side and its posterior (superficial) side."
+        },
+        {
+          "imageName": "TextbookImages/802_Pectoral_Girdle",
+          "caption": "Pectoral Girdle: The pectoral girdle consists of the clavicle and the scapula, which serve to attach the upper limb to the sternum of the axial skeleton."
         }
       ]
     },
@@ -742,6 +762,28 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/815_The_Carpal_Tunnel",
+          "caption": "Carpal Tunnel: The carpal tunnel is the passageway by which nine muscle tendons and a major nerve enter the hand from the anterior forearm. The walls and floor of the carpal tunnel are formed by the U-shaped grouping of the carpal bones, and the roof is formed by the flexor retinaculum, a strong ligament that anteriorly unites the bones."
+        },
+        {
+          "imageName": "TextbookImages/805_Ulna_and_Radius",
+          "caption": "Ulna and Radius: The ulna is located on the medial side of the forearm, and the radius is on the lateral side. These bones are attached to each other by an interosseous membrane."
+        },
+        {
+          "imageName": "TextbookImages/804_Humerus_and_Elbow",
+          "caption": "Humerus and Elbow Joint: The humerus is the single bone of the upper arm region. It articulates with the radius and ulna bones of the forearm to form the elbow joint."
+        },
+        {
+          "imageName": "TextbookImages/816_Hand_Gripping",
+          "caption": "Hand During Gripping: During tight gripping\u2014compare (b) to (a)\u2014the fourth and, particularly, the fifth metacarpal bones are pulled anteriorly. This increases the contact between the object and the medial side of the hand, thus improving the firmness of the grip."
+        },
+        {
+          "imageName": "TextbookImages/806_Hand_and_Wrist",
+          "caption": "Bones of the Wrist and Hand: The eight carpal bones form the base of the hand. These are arranged into proximal and distal rows of four bones each. The metacarpal bones form the palm of the hand. The thumb and fingers consist of the phalanx bones."
+        }
       ]
     },
     {
@@ -1097,6 +1139,24 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/808_Hip_Bone",
+          "caption": "The Hip Bone: The adult hip bone consists of three regions. The ilium forms the large, fan-shaped superior portion, the ischium forms the posteroinferior portion, and the pubis forms the anteromedial portion."
+        },
+        {
+          "imageName": "TextbookImages/817_Ligaments_of_Pelvis",
+          "caption": "Ligaments of the Pelvis: The posterior sacroiliac ligament supports the sacroiliac joint. The sacrospinous ligament spans the sacrum to the ischial spine, and the sacrotuberous ligament spans the sacrum to the ischial tuberosity. The sacrospinous and sacrotuberous ligaments contribute to the formation of the greater and lesser sciatic foramina."
+        },
+        {
+          "imageName": "TextbookImages/807_Pelvis",
+          "caption": "Pelvis: The pelvic girdle is formed by a single hip bone. The hip bone attaches the lower limb to the axial skeleton through its articulation with the sacrum. The right and left hip bones, plus the sacrum and the coccyx, together form the pelvis."
+        },
+        {
+          "imageName": "TextbookImages/809_Male_Female_Pelvic_Girdle",
+          "caption": "Male and Female Pelvis: The female pelvis is adapted for childbirth and is broader, with a larger subpubic angle, a rounder pelvic brim, and a wider and more shallow lesser pelvic cavity than the male pelvis."
         }
       ]
     },
@@ -1563,6 +1623,24 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/810_Femur_and_Patella",
+          "caption": "Femur and Patella: The femur is the single bone of the thigh region. It articulates superiorly with the hip bone at the hip joint, and inferiorly with the tibia at the knee joint. The patella only articulates with the distal end of the femur."
+        },
+        {
+          "imageName": "TextbookImages/811_Tibia_and_fibula",
+          "caption": "Tibia and Fibula: The tibia is the larger, weight-bearing bone located on the medial side of the leg. The fibula is the slender bone of the lateral side of the leg and does not bear weight."
+        },
+        {
+          "imageName": "TextbookImages/818_Femur_Q_Angle",
+          "caption": "The Q-Angle: The Q-angle is a measure of the amount of lateral deviation of the femur from the vertical line of the tibia. Adult females have a larger Q-angle due to their wider pelvis than adult males."
+        },
+        {
+          "imageName": "TextbookImages/812_Bones_of_the_Foot",
+          "caption": "Bones of the Foot: The bones of the foot are divided into three groups. The posterior foot is formed by the seven tarsal bones. The mid-foot has the five metatarsal bones. The toes contain the phalanges."
+        }
       ]
     },
     {
@@ -1637,6 +1715,16 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/819_Embryo_at_Seven_Weeks",
+          "caption": "Embryo at Seven Weeks: Limb buds are visible in an embryo at the end of the seventh week of development (embryo derived from an ectopic pregnancy). (credit: Ed Uthman/flickr)"
+        },
+        {
+          "imageName": "TextbookImages/813_Clubfoot",
+          "caption": "Clubfoot: Clubfoot is a common deformity of the ankle and foot that is present at birth. Most cases are corrected without surgery, and affected individuals will grow up to lead normal, active lives. (credit: James W. Hanson)"
         }
       ]
     }

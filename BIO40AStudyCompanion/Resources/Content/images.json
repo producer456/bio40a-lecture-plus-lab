@@ -1,0 +1,1265 @@
+{
+  "ch01_s00": [
+    {
+      "imageName": "TextbookImages/100_Blood_Pressure",
+      "caption": "Blood Pressure: A proficiency in anatomy and physiology is fundamental to any career in the health professions. (credit: Bryan Mason/flickr)",
+      "filename": "100_Blood_Pressure.jpg"
+    }
+  ],
+  "ch01_s01": [
+    {
+      "imageName": "TextbookImages/01_01ab_Gross_and_Microscopic_Anatomy",
+      "caption": "Gross and Microscopic Anatomy: (a) Gross anatomy considers large structures such as the brain. (b) Microscopic anatomy can deal with the same structures, though at a different scale. This is a micrograph of nerve cells from the brain. LM \u00d7 1600. (credit a: University of Wisconsin and Michigan State Comparative Mammalian Brain Collections/BrainMuseum.org; credit b: Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "01_01ab_Gross_and_Microscopic_Anatomy.jpg"
+    }
+  ],
+  "ch01_s02": [
+    {
+      "imageName": "TextbookImages/101_Levels_of_Org_in_Body",
+      "caption": "Levels of Structural Organization of the Human Body: The organization of the body often is discussed in terms of six distinct levels of increasing complexity, from the smallest chemical building blocks to a unique human organism.",
+      "filename": "101_Levels_of_Org_in_Body.jpg"
+    },
+    {
+      "imageName": "TextbookImages/102_Organ_Systems_of_Body_Page1_",
+      "caption": "Organ Systems of the Human Body: Organs that work together are grouped into organ systems.",
+      "filename": "102_Organ_Systems_of_Body(Page1).jpg"
+    },
+    {
+      "imageName": "TextbookImages/102_Organ_Systems_of_Body_Page2_",
+      "caption": "Organ Systems of the Human Body (continued): Organs that work together are grouped into organ systems.",
+      "filename": "102_Organ_Systems_of_Body(Page2).jpg"
+    }
+  ],
+  "ch01_s03": [
+    {
+      "imageName": "TextbookImages/01_05_Marathon_Runners",
+      "caption": "Marathon Runners: Runners demonstrate two characteristics of living humans\u2014responsiveness and movement. Anatomic structures and physiological processes allow runners to coordinate the action of muscle groups and sweat in response to rising internal body temperature. (credit: Phil Roeder/flickr)",
+      "filename": "01_05_Marathon_Runners.jpg"
+    },
+    {
+      "imageName": "TextbookImages/103_Metabolism",
+      "caption": "Metabolism: Anabolic reactions are building reactions, and they consume energy. Catabolic reactions break materials down and release energy. Metabolism includes both anabolic and catabolic reactions.",
+      "filename": "103_Metabolism.jpg"
+    }
+  ],
+  "ch01_s04": [
+    {
+      "imageName": "TextbookImages/01_07_Harsh_Conditions",
+      "caption": "Harsh Conditions: Climbers on Mount Everest must accommodate extreme cold, low oxygen levels, and low barometric pressure in an environment hostile to human life. (credit: Melanie Ko/flickr)",
+      "filename": "01_07_Harsh_Conditions.jpg"
+    },
+    {
+      "imageName": "TextbookImages/01_06_Extreme_Heat",
+      "caption": "Extreme Heat: Humans acclimate to some degree to repeated exposure to high temperatures. (credit: McKay Savage/flickr)",
+      "filename": "01_06_Extreme_Heat.jpg"
+    }
+  ],
+  "ch01_s05": [
+    {
+      "imageName": "TextbookImages/105_Negative_Feedback_Loops",
+      "caption": "Negative Feedback System: In a negative feedback system, a stimulus\u2014a deviation from a set point\u2014is resisted through a physiological process that returns the body to homeostasis. (a) A negative feedback system has five basic steps. (b) Body temperature is regulated by negative feedback.",
+      "filename": "105_Negative_Feedback_Loops.jpg"
+    },
+    {
+      "imageName": "TextbookImages/106_Pregnancy_Positive_Feedback",
+      "caption": "Positive Feedback Loop: Normal childbirth is driven by a positive feedback loop. A positive feedback loop results in a change in the body\u2019s status, rather than a return to homeostasis.",
+      "filename": "106_Pregnancy-Positive_Feedback.jpg"
+    }
+  ],
+  "ch01_s06": [
+    {
+      "imageName": "TextbookImages/107_Regions_of_Human_Body",
+      "caption": "Regions of the Human Body: The human body is shown in anatomical position in an (a) anterior view and a (b) posterior view. The regions of the body are labeled in boldface.",
+      "filename": "107_Regions_of_Human_Body.jpg"
+    },
+    {
+      "imageName": "TextbookImages/109_Planes_of_Body",
+      "caption": "Planes of the Body: The three planes most commonly used in anatomical and medical imaging are the sagittal, frontal (or coronal), and transverse plane. Oblique planes provide unique perspectives for viewing anatomical structures and movements.",
+      "filename": "109_Planes_of_Body.jpg"
+    },
+    {
+      "imageName": "TextbookImages/112_Serous_Membrane_new",
+      "caption": "Serous Membrane: Serous membrane lines the pericardial cavity and reflects back to cover the heart\u2014much the same way that an underinflated balloon would form two layers surrounding a fist.",
+      "filename": "112_Serous_Membrane_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/111_Abdominal_Quadrant_Regions",
+      "caption": "Regions and Quadrants of the Peritoneal Cavity: There are (a) nine abdominal regions and (b) four abdominal quadrants in the peritoneal cavity.",
+      "filename": "111_Abdominal_Quadrant_Regions.jpg"
+    },
+    {
+      "imageName": "TextbookImages/110_Dorsal_Ventral_Body_Cavities",
+      "caption": "Dorsal and Ventral Body Cavities: The ventral cavity includes the thoracic and abdominopelvic cavities and their subdivisions. The dorsal cavity includes the cranial and spinal cavities.",
+      "filename": "110_Dorsal_Ventral_Body_Cavities.jpg"
+    }
+  ],
+  "ch01_s07": [
+    {
+      "imageName": "TextbookImages/113abcd_Medical_Imaging_Techniques",
+      "caption": "Medical Imaging Techniques: (a) The results of a CT scan of the head are shown as successive transverse sections. (b) An MRI machine generates a magnetic field around a patient. (c) PET scans use radiopharmaceuticals to create images of active blood flow and physiologic activity of the organ or organs being targeted. (d) Ultrasound technology is used to monitor pregnancies because it is the least invasive of imaging techniques and uses no electromagnetic radiation. (credit a: Akira Ohgaki/flickr; credit b: \u201cDigital Cate\u201d/flickr; credit c: \u201cRaziel\u201d/Wikimedia Commons; credit d: \u201cIsis\u201d/Wikimedia Commons)",
+      "filename": "113abcd_Medical_Imaging_Techniques.jpg"
+    },
+    {
+      "imageName": "TextbookImages/01_16_X_ray_of_Hand",
+      "caption": "X-Ray of a Hand: High energy electromagnetic radiation allows the internal structures of the body, such as bones, to be seen in X-rays like these. (credit: Trace Meek/flickr)",
+      "filename": "01_16_X-ray_of_Hand.jpg"
+    }
+  ],
+  "ch02_s00": [
+    {
+      "imageName": "TextbookImages/200_DNA_Double_Helix_02",
+      "caption": "Human DNA: Human DNA is described as a double helix that resembles a molecular spiral staircase. In humans the DNA is organized into 46 chromosomes.",
+      "filename": "200_DNA_Double_Helix-02.jpg"
+    }
+  ],
+  "ch02_s01": [
+    {
+      "imageName": "TextbookImages/202_Two_Models_of_Atomic_Structure",
+      "caption": "Two Models of Atomic Structure: (a) In the planetary model, the electrons of helium are shown in fixed orbits, depicted as rings, at a precise distance from the nucleus, somewhat like planets orbiting the sun. (b) In the electron cloud model, the electrons of helium are shown in the variety of locations they would have at different distances from the nucleus over time.",
+      "filename": "202_Two_Models_of_Atomic_Structure.jpg"
+    },
+    {
+      "imageName": "TextbookImages/206_Electron_Shells_01",
+      "caption": "Electron Shells: Electrons orbit the atomic nucleus at distinct levels of energy called electron shells. (a) With one electron, hydrogen only half-fills its electron shell. Helium also has a single shell, but its two electrons completely fill it. (b) The electrons of carbon completely fill its first electron shell, but only half-fills its second. (c) Neon, an element that does not occur in the body, has 10 electrons, filling both of its electron shells.",
+      "filename": "206_Electron_Shells-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/205_Multi_image_Panel_of_PET_Scan_01",
+      "caption": "PET Scan: PET highlights areas in the body where there is relatively high glucose use, which is characteristic of cancerous tissue. This PET scan shows sites of the spread of a large primary tumor to other sites.",
+      "filename": "205_Multi-image_Panel_of_PET_Scan-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/201_Elements_of_the_Human_Body_01",
+      "caption": "Elements of the Human Body: The main elements that compose the human body are shown from most abundant to least abundant.",
+      "filename": "201_Elements_of_the_Human_Body-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/203_Periodic_Table_02",
+      "caption": "The Periodic Table of the Elements: (credit: R.A. Dragoset, A. Musgrove, C.W. Clark, W.C. Martin)",
+      "filename": "203_Periodic_Table-02.jpg"
+    }
+  ],
+  "ch02_s02": [
+    {
+      "imageName": "TextbookImages/210_Hydrogen_Bonds_Between_Water_Molecules_01",
+      "caption": "Hydrogen Bonds between Water Molecules: Notice that the bonds occur between the weakly positive charge on the hydrogen atoms and the weakly negative charge on the oxygen atoms. Hydrogen bonds are relatively weak, and therefore are indicated with a dotted (rather than a solid) line.",
+      "filename": "210_Hydrogen_Bonds_Between_Water_Molecules-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/209_Polar_Covalent_Bonds_in_a_Water_Molecule",
+      "caption": "Polar Covalent Bonds in a Water Molecule",
+      "filename": "209_Polar_Covalent_Bonds_in_a_Water_Molecule.jpg"
+    },
+    {
+      "imageName": "TextbookImages/207_Ionic_Bonding_01",
+      "caption": "Ionic Bonding: (a) Sodium readily donates the solitary electron in its valence shell to chlorine, which needs only one electron to have a full valence shell. (b) The opposite electrical charges of the resulting sodium cation and chloride anion result in the formation of a bond of attraction called an ionic bond. (c) The attraction of many sodium and chloride ions results in the formation of large groupings called crystals.",
+      "filename": "207_Ionic_Bonding-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/208_Covalent_Bonding_01",
+      "caption": "Covalent Bonding",
+      "filename": "208_Covalent_Bonding-01.jpg"
+    }
+  ],
+  "ch02_s03": [
+    {
+      "imageName": "TextbookImages/211_Three_Fundamental_Chemical_Reactions_01",
+      "caption": "The Three Fundamental Chemical Reactions: The atoms and molecules involved in the three fundamental chemical reactions can be imagined as words.",
+      "filename": "211_Three_Fundamental_Chemical_Reactions-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/212_Enzymes_01",
+      "caption": "Enzymes: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin.",
+      "filename": "212_Enzymes-01.jpg"
+    }
+  ],
+  "ch02_s04": [
+    {
+      "imageName": "TextbookImages/213_Dehydration_Synthesis_and_Hydrolysis_01",
+      "caption": "Dehydration Synthesis and Hydrolysis: Monomers, the basic units for building larger molecules, form polymers (two or more chemically-bonded monomers). (a) In dehydration synthesis, two monomers are covalently bonded in a reaction in which one gives up a hydroxyl group and the other a hydrogen atom. A molecule of water is released as a byproduct during dehydration reactions. (b) In hydrolysis, the covalent bond between two monomers is split by the addition of a hydrogen atom to one and a hydroxyl group to the other, which requires the contribution of one molecule of water.",
+      "filename": "213_Dehydration_Synthesis_and_Hydrolysis-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/214_Dissociation_of_Sodium_Chloride_in_Water_01",
+      "caption": "Dissociation of Sodium Chloride in Water: Notice that the crystals of sodium chloride dissociate not into molecules of NaCl, but into Na+ cations and Cl\u2013 anions, each completely surrounded by water molecules.",
+      "filename": "214_Dissociation_of_Sodium_Chloride_in_Water-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/215_Acids_and_Bases_01",
+      "caption": "Acids and Bases: (a) In aqueous solution, an acid dissociates into hydrogen ions (H+) and anions. Nearly every molecule of a strong acid dissociates, producing a high concentration of H+. (b) In aqueous solution, a base dissociates into hydroxyl ions (OH\u2013) and cations. Nearly every molecule of a strong base dissociates, producing a high concentration of OH\u2013.",
+      "filename": "215_Acids_and_Bases-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/216_pH_Scale_01",
+      "caption": "The pH Scale",
+      "filename": "216_pH_Scale-01.jpg"
+    }
+  ],
+  "ch02_s05": [
+    {
+      "imageName": "TextbookImages/225_Peptide_Bond_01",
+      "caption": "The Shape of Proteins: (a) The primary structure is the sequence of amino acids that make up the polypeptide chain. (b) The secondary structure, which can take the form of an alpha-helix or a beta-pleated sheet, is maintained by hydrogen bonds between amino acids in different regions of the original polypeptide strand. (c) The tertiary structure occurs as a result of further folding and bonding of the secondary structure. (d) The quaternary structure occurs as a result of interactions between two or more tertiary subunits. The example shown here is hemoglobin, a protein in red blood cells which transports oxygen to body tissues.",
+      "filename": "225_Peptide_Bond-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/224_Peptide_Bond_01",
+      "caption": "Peptide Bond: Different amino acids join together to form peptides, polypeptides, or proteins via dehydration synthesis. The bonds between the amino acids are peptide bonds R1 and R2 may be the same or different side chains.",
+      "filename": "224_Peptide_Bond-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/219_Three_Important_Polysaccharides_01",
+      "caption": "Three Important Polysaccharides: Three important polysaccharides are starches, glycogen, and fiber.",
+      "filename": "219_Three_Important_Polysaccharides-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/220_Triglycerides_01",
+      "caption": "Triglycerides: Triglycerides are composed of glycerol attached to three fatty acids via dehydration synthesis. Notice that glycerol gives up a hydrogen atom, and the carboxyl groups on the fatty acids each give up a hydroxyl group.",
+      "filename": "220_Triglycerides-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/221_Fatty_Acids_Shapes_01",
+      "caption": "Fatty Acid Shapes: The level of saturation of a fatty acid affects its shape. (a) Saturated fatty acid chains are straight. (b) Unsaturated fatty acid chains are kinked.",
+      "filename": "221_Fatty_Acids_Shapes-01.jpg"
+    }
+  ],
+  "ch03_s00": [
+    {
+      "imageName": "TextbookImages/0300_Flourescence_Stained_new",
+      "caption": "Fluorescence-stained Cell Undergoing Mitosis: A lung cell from a newt, commonly studied for its similarity to human lung cells, is stained with fluorescent dyes. The green stain reveals mitotic spindles, red is the cell membrane and part of the cytoplasm, and the structures that appear light blue are chromosomes. This cell is in anaphase of mitosis. (credit: \u201cMortadelo2005\u201d/Wikimedia Commons)",
+      "filename": "0300_Flourescence_Stained_new.jpg"
+    }
+  ],
+  "ch03_s01": [
+    {
+      "imageName": "TextbookImages/0305_Simple_Diffusion_Across_Plasma_Membrane",
+      "caption": "Simple Diffusion across the Cell (Plasma) Membrane: The structure of the lipid bilayer allows small, uncharged substances such as oxygen and carbon dioxide, and hydrophobic molecules such as lipids, to pass through the cell membrane, down their concentration gradient, by simple diffusion.",
+      "filename": "0305_Simple_Diffusion_Across_Plasma_Membrane.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0306_Facilitated_Diffusion",
+      "caption": "Facilitated Diffusion: (a) Facilitated diffusion of substances crossing the cell (plasma) membrane takes place with the help of proteins such as channel proteins and carrier proteins. Channel proteins are less selective than carrier proteins, and usually mildly discriminate between their cargo based on size and charge. (b) Carrier proteins are more selective, often only allowing one particular type of molecule to cross.",
+      "filename": "0306_Facilitated_Diffusion.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0303_Lipid_Bilayer_With_Various_Components",
+      "caption": "Cell Membrane: The cell membrane of the cell is a phospholipid bilayer containing many different molecular components, including proteins and cholesterol, some with carbohydrate groups attached.",
+      "filename": "0303_Lipid_Bilayer_With_Various_Components.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0302_Phospholipid_Bilayer",
+      "caption": "Phospholipid Bilayer: The phospholipid bilayer consists of two adjacent sheets of phospholipids, arranged tail to tail. The hydrophobic tails associate with one another, forming the interior of the membrane. The polar heads contact the fluid inside and outside of the cell.",
+      "filename": "0302_Phospholipid_Bilayer.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0301_Phospholipid_Structure",
+      "caption": "Phospholipid Structure: A phospholipid molecule consists of a polar phosphate \u201chead,\u201d which is hydrophilic and a non-polar lipid \u201ctail,\u201d which is hydrophobic. Unsaturated fatty acids result in kinks in the hydrophobic tails.",
+      "filename": "0301_Phospholipid_Structure.jpg"
+    }
+  ],
+  "ch03_s02": [
+    {
+      "imageName": "TextbookImages/0313_Endoplasmic_Reticulum",
+      "caption": "Endoplasmic Reticulum (ER): (a) The ER is a winding network of thin membranous sacs found in close association with the cell nucleus. The smooth and rough endoplasmic reticula are very different in appearance and function (source: mouse tissue). (b) Rough ER is studded with numerous ribosomes, which are sites of protein synthesis (source: mouse tissue). EM \u00d7 110,000. (c) Smooth ER synthesizes phospholipids, steroid hormones, regulates the concentration of cellular Ca++, metabolizes some carbohydrates, and breaks down certain toxins (source: mouse tissue). EM \u00d7 110,510. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "0313_Endoplasmic_Reticulum.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0315_Mitochondrion_new",
+      "caption": "Mitochondrion: The mitochondria are the energy-conversion factories of the cell. (a) A mitochondrion is composed of two separate lipid bilayer membranes. Along the inner membrane are various molecules that work together to produce ATP, the cell\u2019s major energy currency. (b) An electron micrograph of mitochondria. EM \u00d7 236,000. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "0315_Mitochondrion_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0312_Animal_Cell_and_Components",
+      "caption": "Prototypical Human Cell: While this image is not indicative of any one particular human cell, it is a prototypical example of a cell containing the primary organelles and internal structures.",
+      "filename": "0312_Animal_Cell_and_Components.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0314_Golgi_Apparatus",
+      "caption": "Golgi Apparatus: (a) The Golgi apparatus manipulates products from the rough ER, and also produces new organelles called lysosomes. Proteins and other products of the ER are sent to the Golgi apparatus, which organizes, modifies, packages, and tags them. Some of these products are transported to other areas of the cell and some are exported from the cell through exocytosis. Enzymatic proteins are packaged as new lysosomes (or packaged and sent for fusion with existing lysosomes). (b) An electron micrograph of the Golgi apparatus.",
+      "filename": "0314_Golgi_Apparatus.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0317_Cytoskeletal_Components",
+      "caption": "The Three Components of the Cytoskeleton: The cytoskeleton consists of (a) microtubules, (b) microfilaments, and (c) intermediate filaments. The cytoskeleton plays an important role in maintaining cell shape and structure, promoting cellular movement, and aiding cell division.",
+      "filename": "0317_Cytoskeletal_Components.jpg"
+    }
+  ],
+  "ch03_s03": [
+    {
+      "imageName": "TextbookImages/0319_Multinucleate_Muscle_Tissue_Micrograph",
+      "caption": "Multinucleate Muscle Cell: Unlike cardiac muscle cells and smooth muscle cells, which have a single nucleus, a skeletal muscle cell contains many nuclei, and is referred to as \u201cmultinucleated.\u201d These muscle cells are long and fibrous (often referred to as muscle fibers). During development, many smaller cells fuse to form a mature muscle fiber. The nuclei of the fused cells are conserved in the mature cell, thus imparting a multinucleate characteristic to mature muscle cells. LM \u00d7 104.3. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "0319_Multinucleate_Muscle_Tissue_Micrograph.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0321_DNA_Macrostructure",
+      "caption": "DNA Macrostructure: Strands of DNA are wrapped around supporting histones. These proteins are increasingly bundled and condensed into chromatin, which is packed tightly into chromosomes when the cell is ready to divide.",
+      "filename": "0321_DNA_Macrostructure.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0318_Nucleus",
+      "caption": "The Nucleus: The nucleus is the control center of the cell. The nucleus of living cells contains the genetic material that determines the entire structure and function of that cell.",
+      "filename": "0318_Nucleus.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0320_RBC_Extruding_Nucleus_Micrograph",
+      "caption": "Red Blood Cell Extruding Its Nucleus: Mature red blood cells lack a nucleus. As they mature, erythroblasts extrude their nucleus, making room for more hemoglobin. The two panels here show an erythroblast before and after ejecting its nucleus, respectively. (credit: modification of micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "0320_RBC_Extruding_Nucleus_Micrograph.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0322_DNA_Nucleotides",
+      "caption": "Molecular Structure of DNA: The DNA double helix is composed of two complementary strands. The strands are bonded together via their nitrogenous base pairs using hydrogen bonds.",
+      "filename": "0322_DNA_Nucleotides.jpg"
+    }
+  ],
+  "ch03_s04": [
+    {
+      "imageName": "TextbookImages/0328_Transcription_translation_Summary",
+      "caption": "From DNA to Protein: Transcription through Translation: Transcription within the cell nucleus produces an mRNA molecule, which is modified and then sent into the cytoplasm for translation. The transcript is decoded into a protein with the help of a ribosome and tRNA molecules.",
+      "filename": "0328_Transcription-translation_Summary.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0325_Transcription",
+      "caption": "Transcription: from DNA to mRNA: In the first of the two stages of making protein from DNA, a gene on the DNA molecule is transcribed into a complementary mRNA molecule.",
+      "filename": "0325_Transcription.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0327_Translation",
+      "caption": "Translation from RNA to Protein: During translation, the mRNA transcript is \u201cread\u201d by a functional complex consisting of the ribosome and tRNA molecules. tRNAs bring the appropriate amino acids in sequence to the growing polypeptide chain by matching their anti-codons with codons on the mRNA strand.",
+      "filename": "0327_Translation.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0324_DNA_Translation_and_Codons",
+      "caption": "The Genetic Code: DNA holds all of the genetic information necessary to build a cell\u2019s proteins. The nucleotide sequence of a gene is ultimately translated into an amino acid sequence of the gene\u2019s corresponding protein.",
+      "filename": "0324_DNA_Translation_and_Codons.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0326_Splicing",
+      "caption": "Splicing RNA: In the nucleus, a structure called a spliceosome cuts out introns (noncoding regions) within a pre-mRNA transcript and reconnects the exons.",
+      "filename": "0326_Splicing.jpg"
+    }
+  ],
+  "ch03_s05": [
+    {
+      "imageName": "TextbookImages/0332_Cell_Cycle_With_Cyclins_and_Checkpoints",
+      "caption": "Control of the Cell Cycle: Cells proceed through the cell cycle under the control of a variety of molecules, such as cyclins and cyclin-dependent kinases. These control molecules determine whether or not the cell is prepared to move into the following stage.",
+      "filename": "0332_Cell_Cycle_With_Cyclins_and_Checkpoints.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0329_Cell_Cycle",
+      "caption": "Cell Cycle: The two major phases of the cell cycle include mitosis (designated M), when the cell divides, and interphase, when the cell grows and performs all of its normal functions. Interphase is further subdivided into G1, S, and G2 phases.",
+      "filename": "0329_Cell_Cycle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0330_Homologous_Pair_of_Chromosomes",
+      "caption": "A Homologous Pair of Chromosomes with their Attached Sister Chromatids: The red and blue colors correspond to a homologous pair of chromosomes. Each member of the pair was separately inherited from one parent. Each chromosome in the homologous pair is also bound to an identical sister chromatid, which is produced by DNA replication, and results in the familiar \u201cX\u201d shape.",
+      "filename": "0330_Homologous_Pair_of_Chromosomes.jpg"
+    }
+  ],
+  "ch03_s06": [
+    {
+      "imageName": "TextbookImages/0337_Hematopoiesis_new",
+      "caption": "Hematopoiesis: The process of hematopoiesis involves the differentiation of multipotent cells into blood and immune cells. The multipotent hematopoietic stem cells give rise to many different cell types, including the cells of the immune system and red blood cells.",
+      "filename": "0337_Hematopoiesis_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0338_RNA_Polymerase_Binding",
+      "caption": "Transcription Factors Regulate Gene Expression: While each body cell contains the organism\u2019s entire genome, different cells regulate gene expression with the use of various transcription factors. Transcription factors are proteins that affect the binding of RNA polymerase to a particular gene on the DNA molecule.",
+      "filename": "0338_RNA_Polymerase_Binding.jpg"
+    },
+    {
+      "imageName": "TextbookImages/422_Feature_Stem_Cell_new",
+      "caption": "Stem Cells: The capacity of stem cells to differentiate into specialized cells make them potentially valuable in therapeutic applications designed to replace damaged cells of different body tissues.",
+      "filename": "422_Feature_Stem_Cell_new.png"
+    }
+  ],
+  "ch04_s00": [
+    {
+      "imageName": "TextbookImages/400_Micrograph_of_Cervical_Tissue_updated",
+      "caption": "Micrograph of Cervical Tissue: This figure is a view of the regular architecture of normal tissue contrasted with the irregular arrangement of cancerous cells. (credit: \u201cHaymanj\u201d/Wikimedia Commons)",
+      "filename": "400_Micrograph_of_Cervical_Tissue_updated.jpg"
+    }
+  ],
+  "ch04_s01": [
+    {
+      "imageName": "TextbookImages/413_Types_of_Membranes",
+      "caption": "Tissue Membranes: The two broad categories of tissue membranes in the body are (1) connective tissue membranes, which include synovial membranes, and (2) epithelial membranes, which include mucous membranes, serous membranes, and the cutaneous membrane, in other words, the skin.",
+      "filename": "413_Types_of_Membranes.jpg"
+    },
+    {
+      "imageName": "TextbookImages/401_Types_of_Tissue",
+      "caption": "Four Types of Tissue: Body: The four types of tissues are exemplified in nervous tissue, stratified squamous epithelial tissue, cardiac muscle tissue, and connective tissue. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "401_Types_of_Tissue.jpg"
+    },
+    {
+      "imageName": "TextbookImages/419_420_421_Table_04_01_updated",
+      "caption": "Embryonic Origin of Tissues and Major Organs",
+      "filename": "419_420_421_Table_04_01_updated.jpg"
+    }
+  ],
+  "ch04_s02": [
+    {
+      "imageName": "TextbookImages/403_Epithelial_Tissue",
+      "caption": "Cells of Epithelial Tissue: Simple epithelial tissue is organized as a single layer of cells and stratified epithelial tissue is formed by several layers of cells.",
+      "filename": "403_Epithelial_Tissue.jpg"
+    },
+    {
+      "imageName": "TextbookImages/423_Table_04_02_Summary_of_Epithelial_Tissue_CellsN",
+      "caption": "Summary of Epithelial Tissue Cells",
+      "filename": "423_Table_04_02_Summary_of_Epithelial_Tissue_CellsN.jpg"
+    },
+    {
+      "imageName": "TextbookImages/407_Sebaceous_Glands",
+      "caption": "Sebaceous Glands: These glands secrete oils that lubricate and protect the skin. They are holocrine glands and they are destroyed after releasing their contents. New glandular cells form to replace the cells that are lost. LM \u00d7 400. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "407_Sebaceous_Glands.jpg"
+    },
+    {
+      "imageName": "TextbookImages/402_Types_of_Cell_Junctions_new",
+      "caption": "Types of Cell Junctions: The three basic types of cell-to-cell junctions are tight junctions, gap junctions, and anchoring junctions.",
+      "filename": "402_Types_of_Cell_Junctions_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/404_Goblet_Cell_new",
+      "caption": "Goblet Cell: (a) In the lining of the small intestine, columnar epithelium cells are interspersed with goblet cells. (b) The arrows in this micrograph point to the mucous-secreting goblet cells. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "404_Goblet_Cell_new.jpg"
+    }
+  ],
+  "ch04_s03": [
+    {
+      "imageName": "TextbookImages/410_Reticular_Tissue",
+      "caption": "Reticular Tissue: This is a loose connective tissue made up of a network of reticular fibers that provides a supportive framework for soft organs. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "410_Reticular_Tissue.jpg"
+    },
+    {
+      "imageName": "TextbookImages/412_Types_of_Cartilage_new",
+      "caption": "Types of Cartilage: Cartilage is a connective tissue consisting of collagenous fibers embedded in a firm matrix of chondroitin sulfates. (a) Hyaline cartilage provides support with some flexibility. The example is from dog tissue. (b) Fibrocartilage provides some compressibility and can absorb pressure. (c) Elastic cartilage provides firm but elastic support. From top, LM \u00d7 300, LM \u00d7 1200, LM \u00d7 1016. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "412_Types_of_Cartilage-new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/424_Blood_A_Fluid_Connective_Tissue_new",
+      "caption": "Blood: A Fluid Connective Tissue: Blood is a fluid connective tissue containing erythrocytes and various types of leukocytes that circulate in a liquid extracellular matrix. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "424_Blood_A_Fluid_Connective_Tissue-new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/408_Connective_Tissue",
+      "caption": "Connective Tissue Proper: Fibroblasts produce this fibrous tissue. Connective tissue proper includes the fixed cells fibrocytes, adipocytes, and mesenchymal cells. LM \u00d7 400. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "408_Connective_Tissue.jpg"
+    },
+    {
+      "imageName": "TextbookImages/409_Adipose_Tissue",
+      "caption": "Adipose Tissue: This is a loose connective tissue that consists of fat cells with little extracellular matrix. It stores fat for energy and provides insulation. LM \u00d7 800. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "409_Adipose_Tissue.jpg"
+    }
+  ],
+  "ch04_s04": [
+    {
+      "imageName": "TextbookImages/414_Skeletal_Smooth_Cardiac",
+      "caption": "Muscle Tissue: (a) Skeletal muscle cells have prominent striation and nuclei on their periphery. (b) Smooth muscle cells have a single nucleus and no visible striations. (c) Cardiac muscle cells appear striated and have a single nucleus. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "414_Skeletal_Smooth_Cardiac.jpg"
+    }
+  ],
+  "ch04_s05": [
+    {
+      "imageName": "TextbookImages/415_Neuron",
+      "caption": "The Neuron: The cell body of a neuron, also called the soma, contains the nucleus and mitochondria. The dendrites transfer the nerve impulse to the soma. The axon carries the action potential away to another excitable cell. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "415_Neuron.jpg"
+    },
+    {
+      "imageName": "TextbookImages/416_Nervous_Tissue_new",
+      "caption": "Nervous Tissue: Nervous tissue is made up of neurons and neuroglia. The cells of nervous tissue are specialized to transmit and receive impulses. LM \u00d7 872. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "416_Nervous_Tissue-new.jpg"
+    }
+  ],
+  "ch04_s06": [
+    {
+      "imageName": "TextbookImages/418_Development_of_Cancer",
+      "caption": "Development of Cancer: Note the change in cell size, nucleus size, and organization in the tissue.",
+      "filename": "418_Development_of_Cancer.jpg"
+    },
+    {
+      "imageName": "TextbookImages/417_Tissue_Repair",
+      "caption": "Tissue Healing: During wound repair, collagen fibers are laid down randomly by fibroblasts that move into repair the area.",
+      "filename": "417_Tissue_Repair.jpg"
+    }
+  ],
+  "ch05_s00": [
+    {
+      "imageName": "TextbookImages/500_Splash_Image",
+      "caption": "Your skin is a vital part of your life and appearance (a\u2013b). Some people choose to embellish it with tattoos (a) or makeup (b). (credit a: Steve Teo; credit b: \u201cspaceodissey\u201d/flickr)",
+      "filename": "500_Splash_Image.jpg"
+    }
+  ],
+  "ch05_s01": [
+    {
+      "imageName": "TextbookImages/501_Structure_of_the_skin",
+      "caption": "Layers of Skin: The skin is composed of two main layers: the epidermis, made of closely packed epithelial cells, and the dermis, made of dense, irregular connective tissue that houses blood vessels, hair follicles, sweat glands, and other structures. Beneath the dermis lies the hypodermis, which is composed mainly of loose connective and fatty tissues.",
+      "filename": "501_Structure_of_the_skin.jpg"
+    },
+    {
+      "imageName": "TextbookImages/502ab_Thin_Skin_versus_Thick_Skin",
+      "caption": "Thin Skin versus Thick Skin: These slides show cross-sections of the epidermis and dermis of (a) thin and (b) thick skin. Note the significant difference in the thickness of the epithelial layer of the thick skin. From top, LM \u00d7 40, LM \u00d7 40. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "502ab_Thin_Skin_versus_Thick_Skin.jpg"
+    },
+    {
+      "imageName": "TextbookImages/503_Epidermis",
+      "caption": "Epidermis: The epidermis is epithelium composed of multiple layers of cells. The basal layer consists of cuboidal cells, whereas the outer layers are squamous, keratinized cells, so the whole epithelium is often described as being keratinized stratified squamous epithelium. LM \u00d7 40. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "503_Epidermis.jpg"
+    },
+    {
+      "imageName": "TextbookImages/506_Layers_of_the_Dermis",
+      "caption": "Layers of the Dermis: This stained slide shows the two components of the dermis\u2014the papillary layer and the reticular layer. Both are made of connective tissue with fibers of collagen extending from one to the other, making the border between the two somewhat indistinct. The dermal papillae extending into the epidermis belong to the papillary layer, whereas the dense collagen fiber bundles below belong to the reticular layer. LM \u00d7 10. (credit: modification of work by \u201ckilbad\u201d/Wikimedia Commons)",
+      "filename": "506_Layers_of_the_Dermis.jpg"
+    },
+    {
+      "imageName": "TextbookImages/502_Layers_of_epidermis",
+      "caption": "Layers of the Epidermis: The epidermis of thick skin has five layers: stratum basale, stratum spinosum, stratum granulosum, stratum lucidum, and stratum corneum.",
+      "filename": "502_Layers_of_epidermis.jpg"
+    }
+  ],
+  "ch05_s02": [
+    {
+      "imageName": "TextbookImages/511_Hair_Follicle",
+      "caption": "Hair Follicle: The slide shows a cross-section of a hair follicle. Basal cells of the hair matrix in the center differentiate into cells of the inner root sheath. Basal cells at the base of the hair root form the outer root sheath. LM \u00d7 4. (credit: modification of work by \u201ckilbad\u201d/Wikimedia Commons)",
+      "filename": "511_Hair_Follicle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/506_Hair",
+      "caption": "Hair: Hair follicles originate in the epidermis and have many different parts.",
+      "filename": "506_Hair.jpg"
+    },
+    {
+      "imageName": "TextbookImages/507_Nails",
+      "caption": "Nails: The nail is an accessory structure of the integumentary system.",
+      "filename": "507_Nails.jpg"
+    },
+    {
+      "imageName": "TextbookImages/508_Eccrine_gland",
+      "caption": "Eccrine Gland: Eccrine glands are coiled glands in the dermis that release sweat that is mostly water.",
+      "filename": "508_Eccrine_gland.jpg"
+    }
+  ],
+  "ch05_s03": [
+    {
+      "imageName": "TextbookImages/514_Light_Micrograph_of_a_Meissner_Corpuscle",
+      "caption": "Light Micrograph of a Meissner Corpuscle: In this micrograph of a skin cross-section, you can see a Meissner corpuscle (arrow), a type of touch receptor located in a dermal papilla adjacent to the basement membrane and stratum basale of the overlying epidermis. LM \u00d7 100. (credit: \u201cWbensmith\u201d/Wikimedia Commons)",
+      "filename": "514_Light_Micrograph_of_a_Meissner_Corpuscle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/515_Thermoregulation",
+      "caption": "Thermoregulation: During strenuous physical activities, such as skiing (a) or running (c), the dermal blood vessels dilate and sweat secretion increases (b). These mechanisms prevent the body from overheating. In contrast, the dermal blood vessels constrict to minimize heat loss in response to low temperatures (b). (credit a: \u201cTrysil\u201d/flickr; credit c: Ralph Daily)",
+      "filename": "515_Thermoregulation.jpg"
+    },
+    {
+      "imageName": "TextbookImages/516_Aging",
+      "caption": "Aging: Generally, skin, especially on the face and hands, starts to display the first noticeable signs of aging, as it loses its elasticity over time. (credit: Janet Ramsden)",
+      "filename": "516_Aging.jpg"
+    }
+  ],
+  "ch05_s04": [
+    {
+      "imageName": "TextbookImages/517_Basal_Cell_Carcinoma",
+      "caption": "Basal Cell Carcinoma: Basal cell carcinoma can take several different forms. Similar to other forms of skin cancer, it is readily cured if caught early and treated. (credit: John Hendrix, MD)",
+      "filename": "517_Basal_Cell_Carcinoma.jpg"
+    },
+    {
+      "imageName": "TextbookImages/518_Squamous_Cell_Carcinoma",
+      "caption": "Squamous Cell Carcinoma: Squamous cell carcinoma presents here as a lesion on an individual\u2019s nose. (credit: the National Cancer Institute)",
+      "filename": "518_Squamous_Cell_Carcinoma.jpg"
+    },
+    {
+      "imageName": "TextbookImages/520_Eczema",
+      "caption": "Eczema: Eczema is a common skin disorder that presents as a red, flaky rash. (credit: \u201cJambula\u201d Wikimedia Commons / NIAID, Flickr)",
+      "filename": "520_Eczema.jpg"
+    },
+    {
+      "imageName": "TextbookImages/515_Acne_formation",
+      "caption": "Acne: Acne is a result of over-productive sebaceous glands, which leads to formation of blackheads and inflammation of the skin.",
+      "filename": "515_Acne_formation.jpg"
+    },
+    {
+      "imageName": "TextbookImages/519_Melanoma",
+      "caption": "Melanoma: Melanomas typically present as large brown or black patches with uneven borders and a raised surface. (credit: the National Cancer Institute / Centers for Disease Control)",
+      "filename": "519_Melanoma.jpg"
+    }
+  ],
+  "ch06_s00": [
+    {
+      "imageName": "TextbookImages/600_Child_Looking_at_Bones",
+      "caption": "Child Looking at Bones: Bone is a living tissue. Unlike the bones of a fossil made inert by a process of mineralization, a child\u2019s bones will continue to grow and develop while contributing to the support and function of other body systems. (credit: James Emery)",
+      "filename": "600_Child_Looking_at_Bones.jpg"
+    }
+  ],
+  "ch06_s01": [
+    {
+      "imageName": "TextbookImages/617_Bone_Support_Movement",
+      "caption": "Bones Support Movement: Bones act as levers when muscles span a joint and contract. (credit: Benjamin J. DeLong)",
+      "filename": "617_Bone_Support_Movement.jpg"
+    },
+    {
+      "imageName": "TextbookImages/620_Arms_Brace",
+      "caption": "Complex Brace: An orthopedist will sometimes prescribe the use of a brace that reinforces the underlying bone structure it is being used to support. (credit: Becky Stern/Flickr)",
+      "filename": "620_Arms_Brace.jpg"
+    },
+    {
+      "imageName": "TextbookImages/618_Bones_Protect_Brain",
+      "caption": "Bones Protect Brain: The cranium completely surrounds and protects the brain from non-traumatic injury.",
+      "filename": "618_Bones_Protect_Brain.jpg"
+    },
+    {
+      "imageName": "TextbookImages/619_Red_and_Yellow_Bone_Marrow",
+      "caption": "Head of Femur Showing Red and Yellow Marrow: The head of the femur contains both yellow and red marrow. Yellow marrow stores fat. Red marrow is responsible for hematopoiesis. (credit: modification of work by \u201cstevenfruitsmaak\u201d/Wikimedia Commons)",
+      "filename": "619_Red_and_Yellow_Bone_Marrow.jpg"
+    }
+  ],
+  "ch06_s02": [
+    {
+      "imageName": "TextbookImages/601_Bone_Classification",
+      "caption": "Classifications of Bones: Bones are classified according to their shape.",
+      "filename": "601_Bone_Classification.jpg"
+    }
+  ],
+  "ch06_s03": [
+    {
+      "imageName": "TextbookImages/621_Anatomy_of_a_Flat_Bone",
+      "caption": "Anatomy of a Flat Bone: This cross-section of a flat bone shows the spongy bone (diplo\u00eb) lined on either side by a layer of compact bone.",
+      "filename": "621_Anatomy_of_a_Flat_Bone.jpg"
+    },
+    {
+      "imageName": "TextbookImages/602_Bone_Markings",
+      "caption": "Bone Features: The surface features of bones depend on their function, location, attachment of ligaments and tendons, or the penetration of blood vessels and nerves.",
+      "filename": "602_Bone_Markings.jpg"
+    },
+    {
+      "imageName": "TextbookImages/624_Diagram_of_Compact_Bone_new",
+      "caption": "Diagram of Compact Bone: (a) This cross-sectional view of compact bone shows the basic structural unit, the osteon. (b) In this micrograph of the osteon, you can clearly see the concentric lamellae and central canals. LM \u00d7 40. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "624_Diagram_of_Compact_Bone-new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/604_Bone_cells",
+      "caption": "Bone Cells: Four types of cells are found within bone tissue. Osteogenic cells are undifferentiated and develop into osteoblasts. When osteoblasts get trapped within the calcified matrix, their structure and function changes, and they become osteocytes. Osteoclasts develop from monocytes and macrophages and differ in appearance from other bone cells.",
+      "filename": "604_Bone_cells.jpg"
+    },
+    {
+      "imageName": "TextbookImages/609_Body_Supply_to_the_Bone",
+      "caption": "Diagram of Blood and Nerve Supply to Bone: Blood vessels and nerves enter the bone through the nutrient foramen.",
+      "filename": "609_Body_Supply_to_the_Bone.jpg"
+    }
+  ],
+  "ch06_s04": [
+    {
+      "imageName": "TextbookImages/608_Endochrondal_Ossification",
+      "caption": "Endochondral Ossification: Endochondral ossification follows five steps. (a) Mesenchymal cells differentiate into chondrocytes. (b) The cartilage model of the future bony skeleton and the perichondrium form. (c) Capillaries penetrate cartilage. Perichondrium transforms into periosteum. Periosteal collar develops. Primary ossification center develops. (d) Cartilage and chondrocytes continue to grow at ends of the bone. (e) Secondary ossification centers develop. (f) Cartilage remains at epiphyseal (growth) plate and at joint surface as articular cartilage.",
+      "filename": "608_Endochrondal_Ossification.jpg"
+    },
+    {
+      "imageName": "TextbookImages/611_Intramembraneous_Ossification",
+      "caption": "Intramembranous Ossification: Intramembranous ossification follows four steps. (a) Mesenchymal cells group into clusters, and ossification centers form. (b) Secreted osteoid traps osteoblasts, which then become osteocytes. (c) Trabecular matrix and periosteum form. (d) Compact bone develops superficial to the trabecular bone, and crowded blood vessels condense into red marrow.",
+      "filename": "611_Intramembraneous_Ossification.jpg"
+    },
+    {
+      "imageName": "TextbookImages/622_Longitudinal_Bone_Growth",
+      "caption": "Longitudinal Bone Growth: The epiphyseal plate is responsible for longitudinal bone growth.",
+      "filename": "622_Longitudinal_Bone_Growth.jpg"
+    },
+    {
+      "imageName": "TextbookImages/623_Epiphyseal_Plate_Line",
+      "caption": "Progression from Epiphyseal Plate to Epiphyseal Line: As a bone matures, the epiphyseal plate progresses to an epiphyseal line. (a) Epiphyseal plates are visible in a growing bone. (b) Epiphyseal lines are the remnants of epiphyseal plates in a mature bone.",
+      "filename": "623_Epiphyseal_Plate-Line.jpg"
+    }
+  ],
+  "ch06_s05": [
+    {
+      "imageName": "TextbookImages/613_Stages_of_Fracture_Repair",
+      "caption": "Stages in Fracture Repair: The healing of a bone fracture follows a series of progressive steps: (a) A fracture hematoma forms. (b) Internal and external calli form. (c) Cartilage of the calli is replaced by trabecular bone. (d) Remodeling occurs.",
+      "filename": "613_Stages_of_Fracture_Repair.jpg"
+    },
+    {
+      "imageName": "TextbookImages/612_Types_of_Fractures",
+      "caption": "Types of Fractures: Compare healthy bone with different types of fractures: (a) closed fracture, (b) open fracture, (c) transverse fracture, (d) spiral fracture, (e) comminuted fracture, (f) impacted fracture, (g) greenstick fracture, and (h) oblique fracture.",
+      "filename": "612_Types_of_Fractures.jpg"
+    }
+  ],
+  "ch06_s06": [
+    {
+      "imageName": "TextbookImages/615_Age_and_Bone_Mass",
+      "caption": "Graph Showing Relationship Between Age and Bone Mass: Bone density peaks at about 30 years of age. Females lose bone mass more rapidly than males.",
+      "filename": "615_Age_and_Bone_Mass.jpg"
+    },
+    {
+      "imageName": "TextbookImages/614_Synthesis_of_Vitamin_D",
+      "caption": "Synthesis of Vitamin D: Sunlight is one source of vitamin D.",
+      "filename": "614_Synthesis_of_Vitamin_D.jpg"
+    }
+  ],
+  "ch06_s07": [
+    {
+      "imageName": "TextbookImages/625_Calcium_Homeostasis",
+      "caption": "Pathways in Calcium Homeostasis: The body regulates calcium homeostasis with two pathways; one is signaled to turn on when blood calcium levels drop below normal and one is the pathway that is signaled to turn on when blood calcium levels are elevated.",
+      "filename": "625_Calcium_Homeostasis.jpg"
+    }
+  ],
+  "ch07_s00": [
+    {
+      "imageName": "TextbookImages/700_Lateral_View_of_Skull_01",
+      "caption": "Lateral View of the Human Skull",
+      "filename": "700_Lateral_View_of_Skull-01.jpg"
+    }
+  ],
+  "ch07_s01": [
+    {
+      "imageName": "TextbookImages/701_Axial_Skeleton_01",
+      "caption": "Axial and Appendicular Skeleton: The axial skeleton supports the head, neck, back, and chest and thus forms the vertical axis of the body. It consists of the skull, vertebral column (including the sacrum and coccyx), and the thoracic cage, formed by the ribs and sternum. The appendicular skeleton is made up of all bones of the upper and lower limbs.",
+      "filename": "701_Axial_Skeleton-01.jpg"
+    }
+  ],
+  "ch07_s02": [
+    {
+      "imageName": "TextbookImages/707_Superior_Inferior_View_of_Skull_Base_01",
+      "caption": "External and Internal Views of Base of Skull: (a) The hard palate is formed anteriorly by the palatine processes of the maxilla bones and posteriorly by the horizontal plate of the palatine bones. (b) The complex floor of the cranial cavity is formed by the frontal, ethmoid, sphenoid, temporal, and occipital bones. The lesser wing of the sphenoid bone separates the anterior and middle cranial fossae. The petrous ridge (petrous portion of temporal bone) separates the middle and posterior cranial fossae.",
+      "filename": "707_Superior-Inferior_View_of_Skull_Base-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/709_Sphenoid_Bone",
+      "caption": "Sphenoid Bone: Shown in isolation in (a) superior and (b) posterior views, the sphenoid bone is a single midline bone that forms the anterior walls and floor of the middle cranial fossa. It has a pair of lesser wings and a pair of greater wings. The sella turcica surrounds the hypophyseal fossa. Projecting downward are the medial and lateral pterygoid plates. The sphenoid has multiple openings for the passage of nerves and blood vessels, including the optic canal, superior orbital fissure, foramen rotundum, foramen ovale, and foramen spinosum.",
+      "filename": "709_Sphenoid_Bone.jpg"
+    },
+    {
+      "imageName": "TextbookImages/710_Ethmoid_Bone",
+      "caption": "Ethmoid Bone: The unpaired ethmoid bone is located at the midline within the central skull. It has an upward projection, the crista galli, and a downward projection, the perpendicular plate, which forms the upper nasal septum. The cribriform plates form both the roof of the nasal cavity and a portion of the anterior cranial fossa floor. The lateral sides of the ethmoid bone form the lateral walls of the upper nasal cavity, part of the medial orbit wall, and give rise to the superior and middle nasal conchae. The ethmoid bone also contains the ethmoid air cells.",
+      "filename": "710_Ethmoid_Bone.jpg"
+    },
+    {
+      "imageName": "TextbookImages/705_Lateral_View_of_Skull_01",
+      "caption": "Lateral View of Skull: The lateral skull shows the large rounded brain case, zygomatic arch, and the upper and lower jaws. The zygomatic arch is formed jointly by the zygomatic process of the temporal bone and the temporal process of the zygomatic bone. The shallow space above the zygomatic arch is the temporal fossa. The space inferior to the zygomatic arch and deep to the posterior mandible is the infratemporal fossa.",
+      "filename": "705_Lateral_View_of_Skull-01.jpg"
+    },
+    {
+      "imageName": "TextbookImages/724_Paranasal_Sinuses",
+      "caption": "Paranasal Sinuses: The paranasal sinuses are hollow, air-filled spaces named for the skull bone that each occupies. The most anterior is the frontal sinus, located in the frontal bone above the eyebrows. The largest are the maxillary sinuses, located in the right and left maxillary bones below the orbits. The most posterior is the sphenoid sinus, located in the body of the sphenoid bone, under the sella turcica. The ethmoid air cells are multiple small spaces located in the right and left sides of the ethmoid bone, between the medial wall of the orbit and lateral wall of the upper nasal cavity.",
+      "filename": "724_Paranasal_Sinuses.jpg"
+    }
+  ],
+  "ch07_s03": [
+    {
+      "imageName": "TextbookImages/729_Ligaments_of_Vertebral_Column",
+      "caption": "Ligaments of Vertebral Column: The anterior longitudinal ligament runs the length of the vertebral column, uniting the anterior sides of the vertebral bodies. The supraspinous ligament connects the spinous processes of the thoracic and lumbar vertebrae. In the posterior neck, the supraspinous ligament enlarges to form the nuchal ligament, which attaches to the cervical spinous processes and to the base of the skull.",
+      "filename": "729_Ligaments_of_Vertebral_Column.jpg"
+    },
+    {
+      "imageName": "TextbookImages/718_Vertebra",
+      "caption": "Parts of a Typical Vertebra: A typical vertebra consists of a body and a vertebral arch. The arch is formed by the paired pedicles and paired laminae. Arising from the vertebral arch are the transverse, spinous, superior articular, and inferior articular processes. The vertebral foramen provides for passage of the spinal cord. Each spinal nerve exits through an intervertebral foramen, located between adjacent vertebrae. Intervertebral discs unite the bodies of adjacent vertebrae.",
+      "filename": "718_Vertebra.jpg"
+    },
+    {
+      "imageName": "TextbookImages/716_Intervertebral_Disk",
+      "caption": "Intervertebral Disc: The bodies of adjacent vertebrae are separated and united by an intervertebral disc, which provides padding and allows for movements between adjacent vertebrae. The disc consists of a fibrous outer layer called the anulus fibrosus and a gel-like center called the nucleus pulposus. The intervertebral foramen is the opening formed between adjacent vertebrae for the exit of a spinal nerve. See the section on Intervertebral Discs and Ligaments of the Vertebral Column for more information.",
+      "filename": "716_Intervertebral_Disk.jpg"
+    },
+    {
+      "imageName": "TextbookImages/723_Cervical_Vertebrae",
+      "caption": "Cervical Vertebrae: A typical cervical vertebra has a small body, a bifid spinous process, transverse processes that have a transverse foramen and are curved for spinal nerve passage. The atlas (C1 vertebra) does not have a body or spinous process. It consists of an anterior and a posterior arch and elongated transverse processes. The axis (C2 vertebra) has the upward projecting dens, which articulates with the anterior arch of the atlas.",
+      "filename": "723_Cervical_Vertebrae.jpg"
+    },
+    {
+      "imageName": "TextbookImages/732_Thoracic_Vertebra_and_Rib",
+      "caption": "Rib Articulation in Thoracic Vertebrae: Thoracic vertebrae have superior and inferior articular facets on the vertebral body for articulation with the head of a rib, and a transverse process facet for articulation with the rib tubercle.",
+      "filename": "732_Thoracic_Vertebra_and_Rib.jpg"
+    }
+  ],
+  "ch07_s04": [
+    {
+      "imageName": "TextbookImages/721_Rib_Cage",
+      "caption": "Thoracic Cage: The thoracic cage is formed by the (a) sternum and (b) 12 pairs of ribs with their costal cartilages. The ribs are anchored posteriorly to the 12 thoracic vertebrae. The sternum consists of the manubrium, body, and xiphoid process. The ribs are classified as true ribs (1\u20137) and false ribs (8\u201312). The last two pairs of false ribs are also known as floating ribs (11\u201312).",
+      "filename": "721_Rib_Cage.jpg"
+    }
+  ],
+  "ch07_s05": [
+    {
+      "imageName": "TextbookImages/702_Newborn_Skull_01",
+      "caption": "Newborn Skull: The bones of the newborn skull are not fully ossified and are separated by large areas called fontanelles, which are filled with fibrous connective tissue. The fontanelles allow for continued growth of the skull after birth. At the time of birth, the facial bones are small and underdeveloped, and the mastoid process has not yet formed.",
+      "filename": "702_Newborn_Skull-01.jpg"
+    }
+  ],
+  "ch08_s00": [
+    {
+      "imageName": "TextbookImages/800_Dancer",
+      "caption": "Dancer: The appendicular skeleton consists of the upper and lower limb bones, the bones of the hands and feet, and the bones that anchor the limbs to the axial skeleton. (credit: Melissa Dooley/flickr)",
+      "filename": "800_Dancer.jpg"
+    }
+  ],
+  "ch08_s01": [
+    {
+      "imageName": "TextbookImages/801_Appendicular_Skeleton",
+      "caption": "Axial and Appendicular Skeletons: The axial skeleton forms the central axis of the body and consists of the skull, vertebral column, and thoracic cage. The appendicular skeleton consists of the pectoral and pelvic girdles, the limb bones, and the bones of the hands and feet.",
+      "filename": "801_Appendicular_Skeleton.jpg"
+    },
+    {
+      "imageName": "TextbookImages/803_The_Scapula",
+      "caption": "Scapula: The isolated scapula is shown here from its anterior (deep) side and its posterior (superficial) side.",
+      "filename": "803_The_Scapula.jpg"
+    },
+    {
+      "imageName": "TextbookImages/802_Pectoral_Girdle",
+      "caption": "Pectoral Girdle: The pectoral girdle consists of the clavicle and the scapula, which serve to attach the upper limb to the sternum of the axial skeleton.",
+      "filename": "802_Pectoral_Girdle.jpg"
+    }
+  ],
+  "ch08_s02": [
+    {
+      "imageName": "TextbookImages/815_The_Carpal_Tunnel",
+      "caption": "Carpal Tunnel: The carpal tunnel is the passageway by which nine muscle tendons and a major nerve enter the hand from the anterior forearm. The walls and floor of the carpal tunnel are formed by the U-shaped grouping of the carpal bones, and the roof is formed by the flexor retinaculum, a strong ligament that anteriorly unites the bones.",
+      "filename": "815_The_Carpal_Tunnel.jpg"
+    },
+    {
+      "imageName": "TextbookImages/805_Ulna_and_Radius",
+      "caption": "Ulna and Radius: The ulna is located on the medial side of the forearm, and the radius is on the lateral side. These bones are attached to each other by an interosseous membrane.",
+      "filename": "805_Ulna_and_Radius.jpg"
+    },
+    {
+      "imageName": "TextbookImages/804_Humerus_and_Elbow",
+      "caption": "Humerus and Elbow Joint: The humerus is the single bone of the upper arm region. It articulates with the radius and ulna bones of the forearm to form the elbow joint.",
+      "filename": "804_Humerus_and_Elbow.jpg"
+    },
+    {
+      "imageName": "TextbookImages/816_Hand_Gripping",
+      "caption": "Hand During Gripping: During tight gripping\u2014compare (b) to (a)\u2014the fourth and, particularly, the fifth metacarpal bones are pulled anteriorly. This increases the contact between the object and the medial side of the hand, thus improving the firmness of the grip.",
+      "filename": "816_Hand_Gripping.jpg"
+    },
+    {
+      "imageName": "TextbookImages/806_Hand_and_Wrist",
+      "caption": "Bones of the Wrist and Hand: The eight carpal bones form the base of the hand. These are arranged into proximal and distal rows of four bones each. The metacarpal bones form the palm of the hand. The thumb and fingers consist of the phalanx bones.",
+      "filename": "806_Hand_and_Wrist.jpg"
+    }
+  ],
+  "ch08_s03": [
+    {
+      "imageName": "TextbookImages/808_Hip_Bone",
+      "caption": "The Hip Bone: The adult hip bone consists of three regions. The ilium forms the large, fan-shaped superior portion, the ischium forms the posteroinferior portion, and the pubis forms the anteromedial portion.",
+      "filename": "808_Hip_Bone.jpg"
+    },
+    {
+      "imageName": "TextbookImages/817_Ligaments_of_Pelvis",
+      "caption": "Ligaments of the Pelvis: The posterior sacroiliac ligament supports the sacroiliac joint. The sacrospinous ligament spans the sacrum to the ischial spine, and the sacrotuberous ligament spans the sacrum to the ischial tuberosity. The sacrospinous and sacrotuberous ligaments contribute to the formation of the greater and lesser sciatic foramina.",
+      "filename": "817_Ligaments_of_Pelvis.jpg"
+    },
+    {
+      "imageName": "TextbookImages/807_Pelvis",
+      "caption": "Pelvis: The pelvic girdle is formed by a single hip bone. The hip bone attaches the lower limb to the axial skeleton through its articulation with the sacrum. The right and left hip bones, plus the sacrum and the coccyx, together form the pelvis.",
+      "filename": "807_Pelvis.jpg"
+    },
+    {
+      "imageName": "TextbookImages/809_Male_Female_Pelvic_Girdle",
+      "caption": "Male and Female Pelvis: The female pelvis is adapted for childbirth and is broader, with a larger subpubic angle, a rounder pelvic brim, and a wider and more shallow lesser pelvic cavity than the male pelvis.",
+      "filename": "809_Male_Female_Pelvic_Girdle.jpg"
+    }
+  ],
+  "ch08_s04": [
+    {
+      "imageName": "TextbookImages/810_Femur_and_Patella",
+      "caption": "Femur and Patella: The femur is the single bone of the thigh region. It articulates superiorly with the hip bone at the hip joint, and inferiorly with the tibia at the knee joint. The patella only articulates with the distal end of the femur.",
+      "filename": "810_Femur_and_Patella.jpg"
+    },
+    {
+      "imageName": "TextbookImages/811_Tibia_and_fibula",
+      "caption": "Tibia and Fibula: The tibia is the larger, weight-bearing bone located on the medial side of the leg. The fibula is the slender bone of the lateral side of the leg and does not bear weight.",
+      "filename": "811_Tibia_and_fibula.jpg"
+    },
+    {
+      "imageName": "TextbookImages/818_Femur_Q_Angle",
+      "caption": "The Q-Angle: The Q-angle is a measure of the amount of lateral deviation of the femur from the vertical line of the tibia. Adult females have a larger Q-angle due to their wider pelvis than adult males.",
+      "filename": "818_Femur_Q_Angle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/812_Bones_of_the_Foot",
+      "caption": "Bones of the Foot: The bones of the foot are divided into three groups. The posterior foot is formed by the seven tarsal bones. The mid-foot has the five metatarsal bones. The toes contain the phalanges.",
+      "filename": "812_Bones_of_the_Foot.jpg"
+    }
+  ],
+  "ch08_s05": [
+    {
+      "imageName": "TextbookImages/819_Embryo_at_Seven_Weeks",
+      "caption": "Embryo at Seven Weeks: Limb buds are visible in an embryo at the end of the seventh week of development (embryo derived from an ectopic pregnancy). (credit: Ed Uthman/flickr)",
+      "filename": "819_Embryo_at_Seven_Weeks.jpg"
+    },
+    {
+      "imageName": "TextbookImages/813_Clubfoot",
+      "caption": "Clubfoot: Clubfoot is a common deformity of the ankle and foot that is present at birth. Most cases are corrected without surgery, and affected individuals will grow up to lead normal, active lives. (credit: James W. Hanson)",
+      "filename": "813_Clubfoot.jpg"
+    }
+  ],
+  "ch09_s00": [
+    {
+      "imageName": "TextbookImages/900_Girl_Kayaking",
+      "caption": "Kayaking: Without joints, body movements would be impossible. (credit: Graham Richardson/flickr.com)",
+      "filename": "900_Girl_Kayaking.jpg"
+    }
+  ],
+  "ch09_s01": [
+    {
+      "imageName": "TextbookImages/903_Multiaxial_Joint",
+      "caption": "Multiaxial Joint: A multiaxial joint, such as the hip joint, allows for three types of movement: anterior-posterior, medial-lateral, and rotational.",
+      "filename": "903_Multiaxial_Joint.jpg"
+    },
+    {
+      "imageName": "TextbookImages/902_Intervertebral_Disk_02",
+      "caption": "Intervertebral Disc: An intervertebral disc unites the bodies of adjacent vertebrae within the vertebral column. Each disc allows for limited movement between the vertebrae and thus functionally forms an amphiarthrosis type of joint. Intervertebral discs are made of fibrocartilage and thereby structurally form a symphysis type of cartilaginous joint.",
+      "filename": "902_Intervertebral_Disk-02.jpg"
+    },
+    {
+      "imageName": "TextbookImages/901_Skull_Sutures",
+      "caption": "Suture Joints of Skull: The suture joints of the skull are an example of a synarthrosis, an immobile or essentially immobile joint.",
+      "filename": "901_Skull_Sutures.jpg"
+    }
+  ],
+  "ch09_s02": [
+    {
+      "imageName": "TextbookImages/904_Fibrous_Joints",
+      "caption": "Fibrous Joints: Fibrous joints form strong connections between bones. (a) Sutures join most bones of the skull. (b) An interosseous membrane forms a syndesmosis between the radius and ulna bones of the forearm. (c) A gomphosis is a specialized fibrous joint that anchors a tooth to its socket in the jaw.",
+      "filename": "904_Fibrous_Joints.jpg"
+    },
+    {
+      "imageName": "TextbookImages/905_The_Newborn_Skull",
+      "caption": "The Newborn Skull: The fontanelles of a newborn\u2019s skull are broad areas of fibrous connective tissue that form fibrous joints between the bones of the skull.",
+      "filename": "905_The_Newborn_Skull.jpg"
+    }
+  ],
+  "ch09_s03": [
+    {
+      "imageName": "TextbookImages/906_Cartilaginous_Joints",
+      "caption": "Cartilaginous Joints: At cartilaginous joints, bones are united by hyaline cartilage to form a synchondrosis or by fibrocartilage to form a symphysis. (a) The hyaline cartilage of the epiphyseal plate (growth plate) forms a synchondrosis that unites the shaft (diaphysis) and end (epiphysis) of a long bone and allows the bone to grow in length. (b) The pubic portions of the right and left hip bones of the pelvis are joined together by fibrocartilage, forming the pubic symphysis.",
+      "filename": "906_Cartilaginous_Joints.jpg"
+    }
+  ],
+  "ch09_s04": [
+    {
+      "imageName": "TextbookImages/907_Synovial_Joints",
+      "caption": "Synovial Joints: Synovial joints allow for smooth movements between the adjacent bones. The joint is surrounded by an articular capsule that defines a joint cavity filled with synovial fluid. The articulating surfaces of the bones are covered by a thin layer of articular cartilage. Ligaments support the joint by holding the bones together and resisting excess or abnormal joint motions.",
+      "filename": "907_Synovial_Joints.jpg"
+    },
+    {
+      "imageName": "TextbookImages/908_Bursa",
+      "caption": "Bursae: Bursae are fluid-filled sacs that serve to prevent friction between skin, muscle, or tendon and an underlying bone. Three major bursae and a fat pad are part of the complex joint that unites the femur and tibia of the leg.",
+      "filename": "908_Bursa.jpg"
+    },
+    {
+      "imageName": "TextbookImages/909_Types_of_Synovial_Joints",
+      "caption": "Types of Synovial Joints: The six types of synovial joints allow the body to move in a variety of ways. (a) Pivot joints allow for rotation around an axis, such as between the first and second cervical vertebrae, which allows for side-to-side rotation of the head. (b) The hinge joint of the elbow works like a door hinge. (c) The articulation between the trapezium carpal bone and the first metacarpal bone at the base of the thumb is a saddle joint. (d) Plane joints, such as those between the tarsal bones of the foot, allow for limited gliding movements between bones. (e) The radiocarpal joint of the wrist is a condyloid joint. (f) The hip and shoulder joints are the only ball-and-socket joints of the body.",
+      "filename": "909_Types_of_Synovial_Joints.jpg"
+    },
+    {
+      "imageName": "TextbookImages/0910_Oateoarthritis_Hip",
+      "caption": "Osteoarthritis: Osteoarthritis of a synovial joint results from aging or prolonged joint wear and tear. These cause erosion and loss of the articular cartilage covering the surfaces of the bones, resulting in inflammation that causes joint stiffness and pain.",
+      "filename": "0910_Oateoarthritis_Hip.jpg"
+    }
+  ],
+  "ch09_s06": [
+    {
+      "imageName": "TextbookImages/917_Knee_Joint",
+      "caption": "Knee Joint: (a) The knee joint is the largest joint of the body. (b)\u2013(c) It is supported by the tibial and fibular collateral ligaments located on the sides of the knee outside of the articular capsule, and the anterior and posterior cruciate ligaments found inside the capsule. The medial and lateral menisci provide padding and support between the femoral condyles and tibial condyles.",
+      "filename": "917_Knee_Joint.jpg"
+    },
+    {
+      "imageName": "TextbookImages/919_Ankle_Feet_Joints",
+      "caption": "Ankle Joint: The talocrural (ankle) joint is a uniaxial hinge joint that only allows for dorsiflexion or plantar flexion of the foot. Movements at the subtalar joint, between the talus and calcaneus bones, combined with motions at other intertarsal joints, enables eversion/inversion movements of the foot. Ligaments that unite the medial or lateral malleolus with the talus and calcaneus bones serve to support the talocrural joint and to resist excess eversion or inversion of the foot.",
+      "filename": "919_Ankle_Feet_Joints.jpg"
+    },
+    {
+      "imageName": "TextbookImages/912_Atlantoaxial_Joint",
+      "caption": "Atlantoaxial Joint: The atlantoaxial joint is a pivot type of joint between the dens portion of the axis (C2 vertebra) and the anterior arch of the atlas (C1 vertebra), with the dens held in place by a ligament.",
+      "filename": "912_Atlantoaxial_Joint.jpg"
+    },
+    {
+      "imageName": "TextbookImages/918_Knee_Injury",
+      "caption": "Knee Injury: A strong blow to the lateral side of the extended knee will cause three injuries, in sequence: tearing of the tibial collateral ligament, damage to the medial meniscus, and rupture of the anterior cruciate ligament.",
+      "filename": "918_Knee_Injury.jpg"
+    },
+    {
+      "imageName": "TextbookImages/913_Tempomandibular_Joint",
+      "caption": "Temporomandibular Joint: The temporomandibular joint is the articulation between the temporal bone of the skull and the condyle of the mandible, with an articular disc located between these bones. During depression of the mandible (opening of the mouth), the mandibular condyle moves both forward and hinges downward as it travels from the mandibular fossa onto the articular tubercle.",
+      "filename": "913_Tempomandibular_Joint.jpg"
+    }
+  ],
+  "ch10_s00": [
+    {
+      "imageName": "TextbookImages/1000_Tennis_Player",
+      "caption": "Tennis Player: Athletes rely on toned skeletal muscles to supply the force required for movement. (credit: Emmanuel Huybrechts/flickr)",
+      "filename": "1000_Tennis_Player.jpg"
+    }
+  ],
+  "ch10_s01": [
+    {
+      "imageName": "TextbookImages/414_Skeletal_Smooth_Cardiac",
+      "caption": "The Three Types of Muscle Tissue: The body contains three types of muscle tissue: (a) skeletal muscle, (b) smooth muscle, and (c) cardiac muscle. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "414_Skeletal_Smooth_Cardiac.jpg"
+    }
+  ],
+  "ch10_s02": [
+    {
+      "imageName": "TextbookImages/1007_Muscle_Fibes_large_",
+      "caption": "The Three Connective Tissue Layers: Bundles of muscle fibers, called fascicles, are covered by the perimysium. Muscle fibers are covered by the endomysium.",
+      "filename": "1007_Muscle_Fibes_(large).jpg"
+    },
+    {
+      "imageName": "TextbookImages/1022_Muscle_Fibers_small_",
+      "caption": "Muscle Fiber: A skeletal muscle fiber is surrounded by a plasma membrane called the sarcolemma, which contains sarcoplasm, the cytoplasm of muscle cells. A muscle fiber is composed of many fibrils, which give the cell its striated appearance.",
+      "filename": "1022_Muscle_Fibers_(small).jpg"
+    },
+    {
+      "imageName": "TextbookImages/1009_Motor_End_Plate_and_Innervation",
+      "caption": "Motor End-Plate and Innervation: At the NMJ, the axon terminal releases ACh. The motor end-plate is the location of the ACh-receptors in the muscle fiber sarcolemma. When ACh molecules are released, they diffuse across a minute space called the synaptic cleft and bind to the receptors.",
+      "filename": "1009_Motor_End_Plate_and_Innervation.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1003_Thick_and_Thin_Filaments",
+      "caption": "The Sarcomere: The sarcomere, the region from one Z-line to the next Z-line, is the functional unit of a skeletal muscle fiber.",
+      "filename": "1003_Thick_and_Thin_Filaments.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1023_T_tubule",
+      "caption": "The T-tubule: Narrow T-tubules permit the conduction of electrical impulses. The SR functions to regulate intracellular levels of calcium. Two terminal cisternae (where enlarged SR connects to the T-tubule) and one T-tubule comprise a triad\u2014a \u201cthreesome\u201d of membranes, with those of SR on two sides and the T-tubule sandwiched between them.",
+      "filename": "1023_T-tubule.jpg"
+    }
+  ],
+  "ch10_s03": [
+    {
+      "imageName": "TextbookImages/1010a_Contraction_new",
+      "caption": "Contraction of a Muscle Fiber: A cross-bridge forms between actin and the myosin heads triggering contraction. As long as Ca++ ions remain in the sarcoplasm to bind to troponin, and as long as ATP is available, the muscle fiber will continue to shorten.",
+      "filename": "1010a_Contraction_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1008_Skeletal_Muscle_Contraction",
+      "caption": "Skeletal Muscle Contraction: (a) The active site on actin is exposed as calcium binds to troponin. (b) The myosin head is attracted to actin, and myosin binds actin at its actin-binding site, forming the cross-bridge. (c) During the power stroke, the phosphate generated in the previous contraction cycle is released. This results in the myosin head pivoting toward the center of the sarcomere, after which the attached ADP and phosphate group are released. (d) A new molecule of ATP attaches to the myosin head, causing the cross-bridge to detach. (e) The myosin head hydrolyzes ATP to ADP and phosphate, which returns the myosin to the cocked position.",
+      "filename": "1008_Skeletal_Muscle_Contraction.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1016_Muscle_Metabolism",
+      "caption": "Muscle Metabolism: (a) Some ATP is stored in a resting muscle. As contraction starts, it is used up in seconds. More ATP is generated from creatine phosphate for about 15 seconds. (b) Each glucose molecule produces two ATP and two molecules of pyruvic acid, which can be used in aerobic respiration or converted to lactic acid. If oxygen is not available, pyruvic acid is converted to lactic acid, which may contribute to muscle fatigue. This occurs during strenuous exercise when high amounts of energy are needed but oxygen cannot be sufficiently delivered to muscle. (c) Aerobic respiration is the breakdown of glucose in the presence of oxygen (O2) to produce carbon dioxide, water, and ATP. Approximately 95 percent of the ATP required for resting or moderately active muscles is provided by aerobic respiration, which takes place in mitochondria.",
+      "filename": "1016_Muscle_Metabolism.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1010b_Relaxation_new",
+      "caption": "Relaxation of a Muscle Fiber: Ca++ ions are pumped back into the SR, which causes the tropomyosin to reshield the binding sites on the actin strands. A muscle may also stop contracting when it runs out of ATP and becomes fatigued.",
+      "filename": "1010b_Relaxation_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1006_Sliding_Filament_Model_of_Muscle_Contraction",
+      "caption": "The Sliding Filament Model of Muscle Contraction: When a sarcomere contracts, the Z lines move closer together, and the I band becomes smaller. The A band stays the same width. At full contraction, the thin and thick filaments overlap completely.",
+      "filename": "1006_Sliding_Filament_Model_of_Muscle_Contraction.jpg"
+    }
+  ],
+  "ch10_s04": [
+    {
+      "imageName": "TextbookImages/1012_Muscle_Twitch_Myogram",
+      "caption": "A Myogram of a Muscle Twitch: A single muscle twitch has a latent period, a contraction phase when tension increases, and a relaxation phase when tension decreases. During the latent period, the action potential is being propagated along the sarcolemma. During the contraction phase, Ca++ ions in the sarcoplasm bind to troponin, tropomyosin moves from actin-binding sites, cross-bridges between actin and myosin form, and sarcomeres shorten. During the relaxation phase, tension decreases as Ca++ ions are pumped out of the sarcoplasm and cross-bridge cycling stops.",
+      "filename": "1012_Muscle_Twitch_Myogram.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1015_Types_of_Contraction_new",
+      "caption": "Types of Muscle Contractions: During isotonic contractions, muscle length changes to move a load. During isometric contractions, muscle length does not change because the load exceeds the tension the muscle can generate.",
+      "filename": "1015_Types_of_Contraction_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1011_Muscle_Length_and_Tension",
+      "caption": "The Ideal Length of a Sarcomere: Sarcomeres produce maximal tension when thick and thin filaments overlap between about 80 percent to 120 percent.",
+      "filename": "1011_Muscle_Length_and_Tension.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1024_Treppe",
+      "caption": "Treppe: When muscle tension increases in a graded manner that looks like a set of stairs, it is called treppe. The bottom of each wave represents the point of stimulus.",
+      "filename": "1024_Treppe.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1013_Summation_Tetanus",
+      "caption": "Wave Summation and Tetanus: (a) The excitation-contraction coupling effects of successive motor neuron signaling is added together which is referred to as wave summation. The bottom of each wave, the end of the relaxation phase, represents the point of stimulus. (b) When the stimulus frequency is so high that the relaxation phase disappears completely, the contractions become continuous; this is called tetanus.",
+      "filename": "1013_Summation_Tetanus.jpg"
+    }
+  ],
+  "ch10_s06": [
+    {
+      "imageName": "TextbookImages/1026_Marathoners",
+      "caption": "Marathoners: Long-distance runners have a large number of SO fibers and relatively few FO and FG fibers. (credit: \u201cTseo2\u201d/Wikimedia Commons)",
+      "filename": "1026_Marathoners.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1027_Hypertrophy",
+      "caption": "Hypertrophy: Body builders have a large number of FG fibers and relatively few FO and SO fibers. (credit: Lin Mei/flickr)",
+      "filename": "1027_Hypertrophy.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1025_Atrophy",
+      "caption": "Atrophy: Muscle mass is reduced as muscles atrophy with disuse.",
+      "filename": "1025_Atrophy.png"
+    }
+  ],
+  "ch10_s07": [
+    {
+      "imageName": "TextbookImages/414c_Cardiacmuscle",
+      "caption": "Cardiac Muscle Tissue: Cardiac muscle tissue is only found in the heart. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "414c_Cardiacmuscle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1020_Cardiac_Muscle",
+      "caption": "Cardiac Muscle: Intercalated discs are part of the cardiac muscle sarcolemma and they contain gap junctions and desmosomes.",
+      "filename": "1020_Cardiac_Muscle.jpg"
+    }
+  ],
+  "ch10_s08": [
+    {
+      "imageName": "TextbookImages/1021_Smooth_Muscle_new",
+      "caption": "Smooth Muscle Tissue: Smooth muscle tissue is found around organs in the digestive, respiratory, reproductive tracts and the iris of the eye. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)",
+      "filename": "1021_Smooth_Muscle_new.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1028_Smooth_Muscle_Contraction",
+      "caption": "Muscle Contraction: The dense bodies and intermediate filaments are networked through the sarcoplasm, which cause the muscle fiber to contract.",
+      "filename": "1028_Smooth_Muscle_Contraction.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1029_Smooth_Muscle_Motor_Units",
+      "caption": "Motor Units: A series of axon-like swelling, called varicosities or \u201cboutons,\u201d from autonomic neurons form motor units through the smooth muscle.",
+      "filename": "1029_Smooth_Muscle_Motor_Units.jpg"
+    }
+  ],
+  "ch11_s00": [
+    {
+      "imageName": "TextbookImages/1100_Body_in_Motion",
+      "caption": "A Body in Motion: The muscular system allows us to move, flex and contort our bodies. Practicing yoga, as pictured here, is a good example of the voluntary use of the muscular system. (credit: Dmitry Yanchylenko)",
+      "filename": "1100_Body_in_Motion.jpg"
+    }
+  ],
+  "ch11_s01": [
+    {
+      "imageName": "TextbookImages/1103_Biceps_Brachii_Muscle_Contraction",
+      "caption": "Biceps Brachii Muscle Contraction: The large mass at the center of a muscle is called the belly. Tendons emerge from both ends of the belly and connect the muscle to the bones, allowing the skeleton to move. The tendons of the bicep connect to the upper arm and the forearm. (credit: Victoria Garcia)",
+      "filename": "1103_Biceps_Brachii_Muscle_Contraction.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1102_Fascicle_Muscle_Shapes",
+      "caption": "Muscle Shapes and Fiber Alignment: The skeletal muscles of the body typically come in seven different general shapes.",
+      "filename": "1102_Fascicle_Muscle_Shapes.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1101_Biceps_Muscle",
+      "caption": "Prime Movers and Synergists: The biceps brachii flex the lower arm. The brachoradialis, in the forearm, and brachialis, located deep to the biceps in the upper arm, are both synergists that aid in this motion.",
+      "filename": "1101_Biceps_Muscle.jpg"
+    }
+  ],
+  "ch11_s02": [
+    {
+      "imageName": "TextbookImages/1105_Anterior_and_Posterior_Views_of_Muscles",
+      "caption": "Overview of the Muscular System: On the anterior and posterior views of the muscular system above, superficial muscles (those at the surface) are shown on the right side of the body while deep muscles (those underneath the superficial muscles) are shown on the left half of the body. For the legs, superficial muscles are shown in the anterior view while the posterior view shows both superficial and deep muscles.",
+      "filename": "1105_Anterior_and_Posterior_Views_of_Muscles.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1126_Understand_A_Muscle_from_the_Latin",
+      "caption": "Understanding a Muscle Name from the Latin",
+      "filename": "1126_Understand_A_Muscle_from_the_Latin.jpg"
+    }
+  ],
+  "ch11_s03": [
+    {
+      "imageName": "TextbookImages/1111_Posterior_and_Side_Views_of_the_Neck",
+      "caption": "Posterior and Lateral Views of the Neck: The superficial and deep muscles of the neck are responsible for moving the head, cervical vertebrae, and scapulas.",
+      "filename": "1111_Posterior_and_Side_Views_of_the_Neck.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1106_Front_and_Side_Views_of_the_Muscles_of_Facial_Expressio",
+      "caption": "Muscles of Facial Expression: Many of the muscles of facial expression insert into the skin surrounding the eyelids, nose and mouth, producing facial expressions by moving the skin rather than bones.",
+      "filename": "1106_Front_and_Side_Views_of_the_Muscles_of_Facial_Expressions.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1110_Muscle_of_the_Anterior_Neck",
+      "caption": "Muscles of the Anterior Neck: The anterior muscles of the neck facilitate swallowing and speech. The suprahyoid muscles originate from above the hyoid bone in the chin region. The infrahyoid muscles originate below the hyoid bone in the lower neck.",
+      "filename": "1110_Muscle_of_the_Anterior_Neck.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1108_Muscle_that_Move_the_Lower_Jaw",
+      "caption": "Muscles That Move the Lower Jaw: The muscles that move the lower jaw are typically located within the cheek and originate from processes in the skull. This provides the jaw muscles with the large amount of leverage needed for chewing.",
+      "filename": "1108_Muscle_that_Move_the_Lower_Jaw.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1107_The_Extrinsic_Eye_Muscles",
+      "caption": "Muscles of the Eyes: (a) The extrinsic eye muscles originate outside of the eye on the skull. (b) Each muscle inserts onto the eyeball.",
+      "filename": "1107_The_Extrinsic_Eye_Muscles.jpg"
+    }
+  ],
+  "ch11_s04": [
+    {
+      "imageName": "TextbookImages/1112_Muscles_of_the_Abdomen",
+      "caption": "Muscles of the Abdomen: (a) The anterior abdominal muscles include the medially located rectus abdominis, which is covered by a sheet of connective tissue called the rectus sheath. On the flanks of the body, medial to the rectus abdominis, the abdominal wall is composed of three layers. The external oblique muscles form the superficial layer, while the internal oblique muscles form the middle layer, and the transversus abdominis forms the deepest layer. (b) The muscles of the lower back move the lumbar spine but also assist in femur movements.",
+      "filename": "1112_Muscles_of_the_Abdomen.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1114_Thorax",
+      "caption": "Intercostal Muscles: The external intercostals are located laterally on the sides of the body. The internal intercostals are located medially near the sternum. The innermost intercostals are located deep to both the internal and external intercostals.",
+      "filename": "1114_Thorax.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1115_Muscles_of_the_Pelvic_Floor",
+      "caption": "Muscles of the Pelvic Floor: The pelvic floor muscles support the pelvic organs, resist intra-abdominal pressure, and work as sphincters for the urethra, rectum, and vagina.",
+      "filename": "1115_Muscles_of_the_Pelvic_Floor.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1113_The_Diaphragm",
+      "caption": "Muscles of the Diaphragm: The diaphragm separates the thoracic and abdominal cavities.",
+      "filename": "1113_The_Diaphragm.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1116_Muscle_of_the_Perineum",
+      "caption": "Muscles of the Perineum: The perineum muscles play roles in urination in both sexes, ejaculation in males, and vaginal contraction in females.",
+      "filename": "1116_Muscle_of_the_Perineum.jpg"
+    }
+  ],
+  "ch11_s05": [
+    {
+      "imageName": "TextbookImages/1119_Muscles_that_Move_the_Humerus",
+      "caption": "Muscles That Move the Humerus: (a, c) The muscles that move the humerus anteriorly are generally located on the anterior side of the body and originate from the sternum (e.g., pectoralis major) or the anterior side of the scapula (e.g., subscapularis). (b) The muscles that move the humerus superiorly generally originate from the superior surfaces of the scapula and/or the clavicle (e.g., deltoids). The muscles that move the humerus inferiorly generally originate from middle or lower back (e.g., latissiumus dorsi). (d) The muscles that move the humerus posteriorly are generally located on the posterior side of the body and insert into the scapula (e.g., infraspinatus).",
+      "filename": "1119_Muscles_that_Move_the_Humerus.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1118_Muscles_that_Position_the_Pectoral_Girdle",
+      "caption": "Muscles That Position the Pectoral Girdle: The muscles that stabilize the pectoral girdle make it a steady base on which other muscles can move the arm. Note that the pectoralis major and deltoid, which move the humerus, are cut here to show the deeper positioning muscles.",
+      "filename": "1118_Muscles_that_Position_the_Pectoral_Girdle.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1129_Muscles_that_Moves_the_Humerus",
+      "caption": "Muscles That Move the Humerus",
+      "filename": "1129_Muscles_that_Moves_the_Humerus.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1120_Muscles_that_Move_the_Forearm",
+      "caption": "Muscles That Move the Forearm: The muscles originating in the upper arm flex, extend, pronate, and supinate the forearm. The muscles originating in the forearm move the wrists, hands, and fingers.",
+      "filename": "1120_Muscles_that_Move_the_Forearm.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1130_Muscles_that_Move_the_Forearm",
+      "caption": "Muscles That Move the Forearm",
+      "filename": "1130_Muscles_that_Move_the_Forearm.jpg"
+    }
+  ],
+  "ch11_s06": [
+    {
+      "imageName": "TextbookImages/1124_Intrinsic_Muscles_of_the_Foot",
+      "caption": "Intrinsic Muscles of the Foot: The muscles along the dorsal side of the foot (a) generally extend the toes while the muscles of the plantar side of the foot (b, c, d) generally flex the toes. The plantar muscles exist in four layers, providing the foot the strength to counterbalance the weight of the body. In this diagram, three of the layers are shown from a plantar view beginning with the bottom-most layer just under the plantar skin of the foot (b) and ending with the top-most layer (d) located just inferior to the foot and toe bones.",
+      "filename": "1124_Intrinsic_Muscles_of_the_Foot.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1122_Gluteal_Muscles_that_Move_the_Femur",
+      "caption": "Hip and Thigh Muscles: The large and powerful muscles of the hip that move the femur generally originate on the pelvic girdle and insert into the femur. The muscles that move the lower leg typically originate on the femur and insert into the bones of the knee joint. The anterior muscles of the femur extend the lower leg but also aid in flexing the thigh. The posterior muscles of the femur flex the lower leg but also aid in extending the thigh. A combination of gluteal and thigh muscles also adduct, abduct, and rotate the thigh and lower leg.",
+      "filename": "1122_Gluteal_Muscles_that_Move_the_Femur.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1123_Muscles_of_the_Leg_that_Move_the_Foot_and_Toes",
+      "caption": "Muscles of the Lower Leg: The muscles of the anterior compartment of the lower leg are generally responsible for dorsiflexion, and the muscles of the posterior compartment of the lower leg are generally responsible for plantar flexion. The lateral and medial muscles in both compartments invert, evert, and rotate the foot.",
+      "filename": "1123_Muscles_of_the_Leg_that_Move_the_Foot_and_Toes.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1132_Gluteal_Region_Muscles_that_Move_the_Femur",
+      "caption": "Gluteal Region Muscles That Move the Femur",
+      "filename": "1132_Gluteal_Region_Muscles_that_Move_the_Femur.jpg"
+    },
+    {
+      "imageName": "TextbookImages/1133_Thigh_Muscles_that_Moves_the_Femur_Tibia_and_Fibula",
+      "caption": "Thigh Muscles That Move the Femur, Tibia, and Fibula",
+      "filename": "1133_Thigh_Muscles_that_Moves_the_Femur_Tibia_and_Fibula.jpg"
+    }
+  ]
+}

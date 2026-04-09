@@ -17,7 +17,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/900_Girl_Kayaking",
+          "caption": "Kayaking: Without joints, body movements would be impossible. (credit: Graham Richardson/flickr.com)"
+        }
+      ]
     },
     {
       "id": "ch09_s01",
@@ -165,6 +171,20 @@
           "correctAnswer": 3,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/903_Multiaxial_Joint",
+          "caption": "Multiaxial Joint: A multiaxial joint, such as the hip joint, allows for three types of movement: anterior-posterior, medial-lateral, and rotational."
+        },
+        {
+          "imageName": "TextbookImages/902_Intervertebral_Disk_02",
+          "caption": "Intervertebral Disc: An intervertebral disc unites the bodies of adjacent vertebrae within the vertebral column. Each disc allows for limited movement between the vertebrae and thus functionally forms an amphiarthrosis type of joint. Intervertebral discs are made of fibrocartilage and thereby structurally form a symphysis type of cartilaginous joint."
+        },
+        {
+          "imageName": "TextbookImages/901_Skull_Sutures",
+          "caption": "Suture Joints of Skull: The suture joints of the skull are an example of a synarthrosis, an immobile or essentially immobile joint."
+        }
       ]
     },
     {
@@ -287,6 +307,16 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/904_Fibrous_Joints",
+          "caption": "Fibrous Joints: Fibrous joints form strong connections between bones. (a) Sutures join most bones of the skull. (b) An interosseous membrane forms a syndesmosis between the radius and ulna bones of the forearm. (c) A gomphosis is a specialized fibrous joint that anchors a tooth to its socket in the jaw."
+        },
+        {
+          "imageName": "TextbookImages/905_The_Newborn_Skull",
+          "caption": "The Newborn Skull: The fontanelles of a newborn\u2019s skull are broad areas of fibrous connective tissue that form fibrous joints between the bones of the skull."
+        }
       ]
     },
     {
@@ -371,6 +401,12 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/906_Cartilaginous_Joints",
+          "caption": "Cartilaginous Joints: At cartilaginous joints, bones are united by hyaline cartilage to form a synchondrosis or by fibrocartilage to form a symphysis. (a) The hyaline cartilage of the epiphyseal plate (growth plate) forms a synchondrosis that unites the shaft (diaphysis) and end (epiphysis) of a long bone and allows the bone to grow in length. (b) The pubic portions of the right and left hip bones of the pelvis are joined together by fibrocartilage, forming the pubic symphysis."
         }
       ]
     },
@@ -638,6 +674,24 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/907_Synovial_Joints",
+          "caption": "Synovial Joints: Synovial joints allow for smooth movements between the adjacent bones. The joint is surrounded by an articular capsule that defines a joint cavity filled with synovial fluid. The articulating surfaces of the bones are covered by a thin layer of articular cartilage. Ligaments support the joint by holding the bones together and resisting excess or abnormal joint motions."
+        },
+        {
+          "imageName": "TextbookImages/908_Bursa",
+          "caption": "Bursae: Bursae are fluid-filled sacs that serve to prevent friction between skin, muscle, or tendon and an underlying bone. Three major bursae and a fat pad are part of the complex joint that unites the femur and tibia of the leg."
+        },
+        {
+          "imageName": "TextbookImages/909_Types_of_Synovial_Joints",
+          "caption": "Types of Synovial Joints: The six types of synovial joints allow the body to move in a variety of ways. (a) Pivot joints allow for rotation around an axis, such as between the first and second cervical vertebrae, which allows for side-to-side rotation of the head. (b) The hinge joint of the elbow works like a door hinge. (c) The articulation between the trapezium carpal bone and the first metacarpal bone at the base of the thumb is a saddle joint. (d) Plane joints, such as those between the tarsal bones of the foot, allow for limited gliding movements between bones. (e) The radiocarpal joint of the wrist is a condyloid joint. (f) The hip and shoulder joints are the only ball-and-socket joints of the body."
+        },
+        {
+          "imageName": "TextbookImages/0910_Oateoarthritis_Hip",
+          "caption": "Osteoarthritis: Osteoarthritis of a synovial joint results from aging or prolonged joint wear and tear. These cause erosion and loss of the articular cartilage covering the surfaces of the bones, resulting in inflammation that causes joint stiffness and pain."
         }
       ]
     },
@@ -909,7 +963,8 @@
           "correctAnswer": 2,
           "explanation": ""
         }
-      ]
+      ],
+      "images": []
     },
     {
       "id": "ch09_s06",
@@ -1251,6 +1306,28 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/917_Knee_Joint",
+          "caption": "Knee Joint: (a) The knee joint is the largest joint of the body. (b)\u2013(c) It is supported by the tibial and fibular collateral ligaments located on the sides of the knee outside of the articular capsule, and the anterior and posterior cruciate ligaments found inside the capsule. The medial and lateral menisci provide padding and support between the femoral condyles and tibial condyles."
+        },
+        {
+          "imageName": "TextbookImages/919_Ankle_Feet_Joints",
+          "caption": "Ankle Joint: The talocrural (ankle) joint is a uniaxial hinge joint that only allows for dorsiflexion or plantar flexion of the foot. Movements at the subtalar joint, between the talus and calcaneus bones, combined with motions at other intertarsal joints, enables eversion/inversion movements of the foot. Ligaments that unite the medial or lateral malleolus with the talus and calcaneus bones serve to support the talocrural joint and to resist excess eversion or inversion of the foot."
+        },
+        {
+          "imageName": "TextbookImages/912_Atlantoaxial_Joint",
+          "caption": "Atlantoaxial Joint: The atlantoaxial joint is a pivot type of joint between the dens portion of the axis (C2 vertebra) and the anterior arch of the atlas (C1 vertebra), with the dens held in place by a ligament."
+        },
+        {
+          "imageName": "TextbookImages/918_Knee_Injury",
+          "caption": "Knee Injury: A strong blow to the lateral side of the extended knee will cause three injuries, in sequence: tearing of the tibial collateral ligament, damage to the medial meniscus, and rupture of the anterior cruciate ligament."
+        },
+        {
+          "imageName": "TextbookImages/913_Tempomandibular_Joint",
+          "caption": "Temporomandibular Joint: The temporomandibular joint is the articulation between the temporal bone of the skull and the condyle of the mandible, with an articular disc located between these bones. During depression of the mandible (opening of the mouth), the mandibular condyle moves both forward and hinges downward as it travels from the mandibular fossa onto the articular tubercle."
+        }
       ]
     },
     {
@@ -1313,7 +1390,8 @@
           "correctAnswer": 0,
           "explanation": ""
         }
-      ]
+      ],
+      "images": []
     }
   ],
   "glossaryTerms": [

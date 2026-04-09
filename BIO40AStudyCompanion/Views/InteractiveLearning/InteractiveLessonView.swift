@@ -172,10 +172,24 @@ struct InteractiveLessonView: View {
             if index == currentBlockIndex && index + 1 < blocks.count {
                 let nextBlock = blocks[index + 1]
                 if case .paragraph = nextBlock {
-                    // Auto-advance for consecutive paragraphs
+                    continueButton(index: index)
+                } else if case .image = nextBlock {
                     continueButton(index: index)
                 } else {
-                    // Next is an interaction - show a prompt
+                    continueButton(index: index, label: "Check Your Understanding")
+                }
+            }
+
+        case .image(let name, let caption):
+            SectionImageView(image: SectionImage(imageName: name, caption: caption))
+
+            if index == currentBlockIndex && index + 1 < blocks.count {
+                let nextBlock = blocks[index + 1]
+                if case .paragraph = nextBlock {
+                    continueButton(index: index)
+                } else if case .image = nextBlock {
+                    continueButton(index: index)
+                } else {
                     continueButton(index: index, label: "Check Your Understanding")
                 }
             }
@@ -431,6 +445,19 @@ struct InteractiveLessonView: View {
         let paragraphs = section.content
         let terms = section.glossary
         let questions = section.reviewQuestions
+        let sectionImages = section.images ?? []
+
+        // Build image insertion schedule: space images evenly through paragraphs
+        var imageSchedule: [Int: Int] = [:]  // paragraph index -> image index
+        if !sectionImages.isEmpty && !paragraphs.isEmpty {
+            let spacing = max(2, paragraphs.count / (sectionImages.count + 1))
+            var imgIdx = 0
+            for paraIdx in stride(from: spacing - 1, to: paragraphs.count, by: spacing) {
+                if imgIdx >= sectionImages.count { break }
+                imageSchedule[paraIdx] = imgIdx
+                imgIdx += 1
+            }
+        }
 
         // Interleave content with interactions every 2-4 paragraphs
         var paragraphsSinceInteraction = 0
@@ -441,6 +468,12 @@ struct InteractiveLessonView: View {
         for (pi, paragraph) in paragraphs.enumerated() {
             result.append(.paragraph(paragraph))
             paragraphsSinceInteraction += 1
+
+            // Insert image if scheduled for this paragraph
+            if let imgIdx = imageSchedule[pi], imgIdx < sectionImages.count {
+                let img = sectionImages[imgIdx]
+                result.append(.image(name: img.imageName, caption: img.caption))
+            }
 
             // Insert interaction every 2-3 paragraphs (not after the last one)
             let threshold = Int.random(in: 2...3)
@@ -585,6 +618,7 @@ struct InteractiveLessonView: View {
 
 enum LessonBlock {
     case paragraph(String)
+    case image(name: String, caption: String)
     case termCheck(term: String, definition: String, options: [String])
     case quickQuiz(QuizQuestion)
     case fillBlank(term: String, sentence: String)

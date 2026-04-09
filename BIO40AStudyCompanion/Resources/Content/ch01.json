@@ -17,7 +17,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/100_Blood_Pressure",
+          "caption": "Blood Pressure: A proficiency in anatomy and physiology is fundamental to any career in the health professions. (credit: Bryan Mason/flickr)"
+        }
+      ]
     },
     {
       "id": "ch01_s01",
@@ -106,6 +112,12 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/01_01ab_Gross_and_Microscopic_Anatomy",
+          "caption": "Gross and Microscopic Anatomy: (a) Gross anatomy considers large structures such as the brain. (b) Microscopic anatomy can deal with the same structures, though at a different scale. This is a micrograph of nerve cells from the brain. LM \u00d7 1600. (credit a: University of Wisconsin and Michigan State Comparative Mammalian Brain Collections/BrainMuseum.org; credit b: Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
         }
       ]
     },
@@ -196,6 +208,20 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/101_Levels_of_Org_in_Body",
+          "caption": "Levels of Structural Organization of the Human Body: The organization of the body often is discussed in terms of six distinct levels of increasing complexity, from the smallest chemical building blocks to a unique human organism."
+        },
+        {
+          "imageName": "TextbookImages/102_Organ_Systems_of_Body_Page1_",
+          "caption": "Organ Systems of the Human Body: Organs that work together are grouped into organ systems."
+        },
+        {
+          "imageName": "TextbookImages/102_Organ_Systems_of_Body_Page2_",
+          "caption": "Organ Systems of the Human Body (continued): Organs that work together are grouped into organ systems."
         }
       ]
     },
@@ -318,6 +344,16 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/01_05_Marathon_Runners",
+          "caption": "Marathon Runners: Runners demonstrate two characteristics of living humans\u2014responsiveness and movement. Anatomic structures and physiological processes allow runners to coordinate the action of muscle groups and sweat in response to rising internal body temperature. (credit: Phil Roeder/flickr)"
+        },
+        {
+          "imageName": "TextbookImages/103_Metabolism",
+          "caption": "Metabolism: Anabolic reactions are building reactions, and they consume energy. Catabolic reactions break materials down and release energy. Metabolism includes both anabolic and catabolic reactions."
+        }
       ]
     },
     {
@@ -395,6 +431,16 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/01_07_Harsh_Conditions",
+          "caption": "Harsh Conditions: Climbers on Mount Everest must accommodate extreme cold, low oxygen levels, and low barometric pressure in an environment hostile to human life. (credit: Melanie Ko/flickr)"
+        },
+        {
+          "imageName": "TextbookImages/01_06_Extreme_Heat",
+          "caption": "Extreme Heat: Humans acclimate to some degree to repeated exposure to high temperatures. (credit: McKay Savage/flickr)"
         }
       ]
     },
@@ -499,6 +545,16 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/105_Negative_Feedback_Loops",
+          "caption": "Negative Feedback System: In a negative feedback system, a stimulus\u2014a deviation from a set point\u2014is resisted through a physiological process that returns the body to homeostasis. (a) A negative feedback system has five basic steps. (b) Body temperature is regulated by negative feedback."
+        },
+        {
+          "imageName": "TextbookImages/106_Pregnancy_Positive_Feedback",
+          "caption": "Positive Feedback Loop: Normal childbirth is driven by a positive feedback loop. A positive feedback loop results in a change in the body\u2019s status, rather than a return to homeostasis."
         }
       ]
     },
@@ -798,6 +854,28 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/107_Regions_of_Human_Body",
+          "caption": "Regions of the Human Body: The human body is shown in anatomical position in an (a) anterior view and a (b) posterior view. The regions of the body are labeled in boldface."
+        },
+        {
+          "imageName": "TextbookImages/109_Planes_of_Body",
+          "caption": "Planes of the Body: The three planes most commonly used in anatomical and medical imaging are the sagittal, frontal (or coronal), and transverse plane. Oblique planes provide unique perspectives for viewing anatomical structures and movements."
+        },
+        {
+          "imageName": "TextbookImages/112_Serous_Membrane_new",
+          "caption": "Serous Membrane: Serous membrane lines the pericardial cavity and reflects back to cover the heart\u2014much the same way that an underinflated balloon would form two layers surrounding a fist."
+        },
+        {
+          "imageName": "TextbookImages/111_Abdominal_Quadrant_Regions",
+          "caption": "Regions and Quadrants of the Peritoneal Cavity: There are (a) nine abdominal regions and (b) four abdominal quadrants in the peritoneal cavity."
+        },
+        {
+          "imageName": "TextbookImages/110_Dorsal_Ventral_Body_Cavities",
+          "caption": "Dorsal and Ventral Body Cavities: The ventral cavity includes the thoracic and abdominopelvic cavities and their subdivisions. The dorsal cavity includes the cranial and spinal cavities."
+        }
       ]
     },
     {
@@ -904,6 +982,16 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/113abcd_Medical_Imaging_Techniques",
+          "caption": "Medical Imaging Techniques: (a) The results of a CT scan of the head are shown as successive transverse sections. (b) An MRI machine generates a magnetic field around a patient. (c) PET scans use radiopharmaceuticals to create images of active blood flow and physiologic activity of the organ or organs being targeted. (d) Ultrasound technology is used to monitor pregnancies because it is the least invasive of imaging techniques and uses no electromagnetic radiation. (credit a: Akira Ohgaki/flickr; credit b: \u201cDigital Cate\u201d/flickr; credit c: \u201cRaziel\u201d/Wikimedia Commons; credit d: \u201cIsis\u201d/Wikimedia Commons)"
+        },
+        {
+          "imageName": "TextbookImages/01_16_X_ray_of_Hand",
+          "caption": "X-Ray of a Hand: High energy electromagnetic radiation allows the internal structures of the body, such as bones, to be seen in X-rays like these. (credit: Trace Meek/flickr)"
         }
       ]
     }

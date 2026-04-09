@@ -18,7 +18,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/200_DNA_Double_Helix_02",
+          "caption": "Human DNA: Human DNA is described as a double helix that resembles a molecular spiral staircase. In humans the DNA is organized into 46 chromosomes."
+        }
+      ]
     },
     {
       "id": "ch02_s01",
@@ -201,6 +207,28 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/202_Two_Models_of_Atomic_Structure",
+          "caption": "Two Models of Atomic Structure: (a) In the planetary model, the electrons of helium are shown in fixed orbits, depicted as rings, at a precise distance from the nucleus, somewhat like planets orbiting the sun. (b) In the electron cloud model, the electrons of helium are shown in the variety of locations they would have at different distances from the nucleus over time."
+        },
+        {
+          "imageName": "TextbookImages/206_Electron_Shells_01",
+          "caption": "Electron Shells: Electrons orbit the atomic nucleus at distinct levels of energy called electron shells. (a) With one electron, hydrogen only half-fills its electron shell. Helium also has a single shell, but its two electrons completely fill it. (b) The electrons of carbon completely fill its first electron shell, but only half-fills its second. (c) Neon, an element that does not occur in the body, has 10 electrons, filling both of its electron shells."
+        },
+        {
+          "imageName": "TextbookImages/205_Multi_image_Panel_of_PET_Scan_01",
+          "caption": "PET Scan: PET highlights areas in the body where there is relatively high glucose use, which is characteristic of cancerous tissue. This PET scan shows sites of the spread of a large primary tumor to other sites."
+        },
+        {
+          "imageName": "TextbookImages/201_Elements_of_the_Human_Body_01",
+          "caption": "Elements of the Human Body: The main elements that compose the human body are shown from most abundant to least abundant."
+        },
+        {
+          "imageName": "TextbookImages/203_Periodic_Table_02",
+          "caption": "The Periodic Table of the Elements: (credit: R.A. Dragoset, A. Musgrove, C.W. Clark, W.C. Martin)"
+        }
       ]
     },
     {
@@ -353,6 +381,24 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/210_Hydrogen_Bonds_Between_Water_Molecules_01",
+          "caption": "Hydrogen Bonds between Water Molecules: Notice that the bonds occur between the weakly positive charge on the hydrogen atoms and the weakly negative charge on the oxygen atoms. Hydrogen bonds are relatively weak, and therefore are indicated with a dotted (rather than a solid) line."
+        },
+        {
+          "imageName": "TextbookImages/209_Polar_Covalent_Bonds_in_a_Water_Molecule",
+          "caption": "Polar Covalent Bonds in a Water Molecule"
+        },
+        {
+          "imageName": "TextbookImages/207_Ionic_Bonding_01",
+          "caption": "Ionic Bonding: (a) Sodium readily donates the solitary electron in its valence shell to chlorine, which needs only one electron to have a full valence shell. (b) The opposite electrical charges of the resulting sodium cation and chloride anion result in the formation of a bond of attraction called an ionic bond. (c) The attraction of many sodium and chloride ions results in the formation of large groupings called crystals."
+        },
+        {
+          "imageName": "TextbookImages/208_Covalent_Bonding_01",
+          "caption": "Covalent Bonding"
         }
       ]
     },
@@ -541,6 +587,16 @@
           "correctAnswer": 3,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/211_Three_Fundamental_Chemical_Reactions_01",
+          "caption": "The Three Fundamental Chemical Reactions: The atoms and molecules involved in the three fundamental chemical reactions can be imagined as words."
+        },
+        {
+          "imageName": "TextbookImages/212_Enzymes_01",
+          "caption": "Enzymes: Enzymes decrease the activation energy required for a given chemical reaction to occur. (a) Without an enzyme, the energy input needed for a reaction to begin is high. (b) With the help of an enzyme, less energy is needed for a reaction to begin."
+        }
       ]
     },
     {
@@ -698,6 +754,24 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/213_Dehydration_Synthesis_and_Hydrolysis_01",
+          "caption": "Dehydration Synthesis and Hydrolysis: Monomers, the basic units for building larger molecules, form polymers (two or more chemically-bonded monomers). (a) In dehydration synthesis, two monomers are covalently bonded in a reaction in which one gives up a hydroxyl group and the other a hydrogen atom. A molecule of water is released as a byproduct during dehydration reactions. (b) In hydrolysis, the covalent bond between two monomers is split by the addition of a hydrogen atom to one and a hydroxyl group to the other, which requires the contribution of one molecule of water."
+        },
+        {
+          "imageName": "TextbookImages/214_Dissociation_of_Sodium_Chloride_in_Water_01",
+          "caption": "Dissociation of Sodium Chloride in Water: Notice that the crystals of sodium chloride dissociate not into molecules of NaCl, but into Na+ cations and Cl\u2013 anions, each completely surrounded by water molecules."
+        },
+        {
+          "imageName": "TextbookImages/215_Acids_and_Bases_01",
+          "caption": "Acids and Bases: (a) In aqueous solution, an acid dissociates into hydrogen ions (H+) and anions. Nearly every molecule of a strong acid dissociates, producing a high concentration of H+. (b) In aqueous solution, a base dissociates into hydroxyl ions (OH\u2013) and cations. Nearly every molecule of a strong base dissociates, producing a high concentration of OH\u2013."
+        },
+        {
+          "imageName": "TextbookImages/216_pH_Scale_01",
+          "caption": "The pH Scale"
         }
       ]
     },
@@ -1017,6 +1091,28 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/225_Peptide_Bond_01",
+          "caption": "The Shape of Proteins: (a) The primary structure is the sequence of amino acids that make up the polypeptide chain. (b) The secondary structure, which can take the form of an alpha-helix or a beta-pleated sheet, is maintained by hydrogen bonds between amino acids in different regions of the original polypeptide strand. (c) The tertiary structure occurs as a result of further folding and bonding of the secondary structure. (d) The quaternary structure occurs as a result of interactions between two or more tertiary subunits. The example shown here is hemoglobin, a protein in red blood cells which transports oxygen to body tissues."
+        },
+        {
+          "imageName": "TextbookImages/224_Peptide_Bond_01",
+          "caption": "Peptide Bond: Different amino acids join together to form peptides, polypeptides, or proteins via dehydration synthesis. The bonds between the amino acids are peptide bonds R1 and R2 may be the same or different side chains."
+        },
+        {
+          "imageName": "TextbookImages/219_Three_Important_Polysaccharides_01",
+          "caption": "Three Important Polysaccharides: Three important polysaccharides are starches, glycogen, and fiber."
+        },
+        {
+          "imageName": "TextbookImages/220_Triglycerides_01",
+          "caption": "Triglycerides: Triglycerides are composed of glycerol attached to three fatty acids via dehydration synthesis. Notice that glycerol gives up a hydrogen atom, and the carboxyl groups on the fatty acids each give up a hydroxyl group."
+        },
+        {
+          "imageName": "TextbookImages/221_Fatty_Acids_Shapes_01",
+          "caption": "Fatty Acid Shapes: The level of saturation of a fatty acid affects its shape. (a) Saturated fatty acid chains are straight. (b) Unsaturated fatty acid chains are kinked."
         }
       ]
     }

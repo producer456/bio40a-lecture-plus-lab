@@ -19,7 +19,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/0300_Flourescence_Stained_new",
+          "caption": "Fluorescence-stained Cell Undergoing Mitosis: A lung cell from a newt, commonly studied for its similarity to human lung cells, is stained with fluorescent dyes. The green stain reveals mitotic spindles, red is the cell membrane and part of the cytoplasm, and the structures that appear light blue are chromosomes. This cell is in anaphase of mitosis. (credit: \u201cMortadelo2005\u201d/Wikimedia Commons)"
+        }
+      ]
     },
     {
       "id": "ch03_s01",
@@ -306,6 +312,28 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0305_Simple_Diffusion_Across_Plasma_Membrane",
+          "caption": "Simple Diffusion across the Cell (Plasma) Membrane: The structure of the lipid bilayer allows small, uncharged substances such as oxygen and carbon dioxide, and hydrophobic molecules such as lipids, to pass through the cell membrane, down their concentration gradient, by simple diffusion."
+        },
+        {
+          "imageName": "TextbookImages/0306_Facilitated_Diffusion",
+          "caption": "Facilitated Diffusion: (a) Facilitated diffusion of substances crossing the cell (plasma) membrane takes place with the help of proteins such as channel proteins and carrier proteins. Channel proteins are less selective than carrier proteins, and usually mildly discriminate between their cargo based on size and charge. (b) Carrier proteins are more selective, often only allowing one particular type of molecule to cross."
+        },
+        {
+          "imageName": "TextbookImages/0303_Lipid_Bilayer_With_Various_Components",
+          "caption": "Cell Membrane: The cell membrane of the cell is a phospholipid bilayer containing many different molecular components, including proteins and cholesterol, some with carbohydrate groups attached."
+        },
+        {
+          "imageName": "TextbookImages/0302_Phospholipid_Bilayer",
+          "caption": "Phospholipid Bilayer: The phospholipid bilayer consists of two adjacent sheets of phospholipids, arranged tail to tail. The hydrophobic tails associate with one another, forming the interior of the membrane. The polar heads contact the fluid inside and outside of the cell."
+        },
+        {
+          "imageName": "TextbookImages/0301_Phospholipid_Structure",
+          "caption": "Phospholipid Structure: A phospholipid molecule consists of a polar phosphate \u201chead,\u201d which is hydrophilic and a non-polar lipid \u201ctail,\u201d which is hydrophobic. Unsaturated fatty acids result in kinks in the hydrophobic tails."
+        }
       ]
     },
     {
@@ -535,6 +563,28 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0313_Endoplasmic_Reticulum",
+          "caption": "Endoplasmic Reticulum (ER): (a) The ER is a winding network of thin membranous sacs found in close association with the cell nucleus. The smooth and rough endoplasmic reticula are very different in appearance and function (source: mouse tissue). (b) Rough ER is studded with numerous ribosomes, which are sites of protein synthesis (source: mouse tissue). EM \u00d7 110,000. (c) Smooth ER synthesizes phospholipids, steroid hormones, regulates the concentration of cellular Ca++, metabolizes some carbohydrates, and breaks down certain toxins (source: mouse tissue). EM \u00d7 110,510. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/0315_Mitochondrion_new",
+          "caption": "Mitochondrion: The mitochondria are the energy-conversion factories of the cell. (a) A mitochondrion is composed of two separate lipid bilayer membranes. Along the inner membrane are various molecules that work together to produce ATP, the cell\u2019s major energy currency. (b) An electron micrograph of mitochondria. EM \u00d7 236,000. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/0312_Animal_Cell_and_Components",
+          "caption": "Prototypical Human Cell: While this image is not indicative of any one particular human cell, it is a prototypical example of a cell containing the primary organelles and internal structures."
+        },
+        {
+          "imageName": "TextbookImages/0314_Golgi_Apparatus",
+          "caption": "Golgi Apparatus: (a) The Golgi apparatus manipulates products from the rough ER, and also produces new organelles called lysosomes. Proteins and other products of the ER are sent to the Golgi apparatus, which organizes, modifies, packages, and tags them. Some of these products are transported to other areas of the cell and some are exported from the cell through exocytosis. Enzymatic proteins are packaged as new lysosomes (or packaged and sent for fusion with existing lysosomes). (b) An electron micrograph of the Golgi apparatus."
+        },
+        {
+          "imageName": "TextbookImages/0317_Cytoskeletal_Components",
+          "caption": "The Three Components of the Cytoskeleton: The cytoskeleton consists of (a) microtubules, (b) microfilaments, and (c) intermediate filaments. The cytoskeleton plays an important role in maintaining cell shape and structure, promoting cellular movement, and aiding cell division."
+        }
       ]
     },
     {
@@ -692,6 +742,28 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0319_Multinucleate_Muscle_Tissue_Micrograph",
+          "caption": "Multinucleate Muscle Cell: Unlike cardiac muscle cells and smooth muscle cells, which have a single nucleus, a skeletal muscle cell contains many nuclei, and is referred to as \u201cmultinucleated.\u201d These muscle cells are long and fibrous (often referred to as muscle fibers). During development, many smaller cells fuse to form a mature muscle fiber. The nuclei of the fused cells are conserved in the mature cell, thus imparting a multinucleate characteristic to mature muscle cells. LM \u00d7 104.3. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/0321_DNA_Macrostructure",
+          "caption": "DNA Macrostructure: Strands of DNA are wrapped around supporting histones. These proteins are increasingly bundled and condensed into chromatin, which is packed tightly into chromosomes when the cell is ready to divide."
+        },
+        {
+          "imageName": "TextbookImages/0318_Nucleus",
+          "caption": "The Nucleus: The nucleus is the control center of the cell. The nucleus of living cells contains the genetic material that determines the entire structure and function of that cell."
+        },
+        {
+          "imageName": "TextbookImages/0320_RBC_Extruding_Nucleus_Micrograph",
+          "caption": "Red Blood Cell Extruding Its Nucleus: Mature red blood cells lack a nucleus. As they mature, erythroblasts extrude their nucleus, making room for more hemoglobin. The two panels here show an erythroblast before and after ejecting its nucleus, respectively. (credit: modification of micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/0322_DNA_Nucleotides",
+          "caption": "Molecular Structure of DNA: The DNA double helix is composed of two complementary strands. The strands are bonded together via their nitrogenous base pairs using hydrogen bonds."
         }
       ]
     },
@@ -887,6 +959,28 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0328_Transcription_translation_Summary",
+          "caption": "From DNA to Protein: Transcription through Translation: Transcription within the cell nucleus produces an mRNA molecule, which is modified and then sent into the cytoplasm for translation. The transcript is decoded into a protein with the help of a ribosome and tRNA molecules."
+        },
+        {
+          "imageName": "TextbookImages/0325_Transcription",
+          "caption": "Transcription: from DNA to mRNA: In the first of the two stages of making protein from DNA, a gene on the DNA molecule is transcribed into a complementary mRNA molecule."
+        },
+        {
+          "imageName": "TextbookImages/0327_Translation",
+          "caption": "Translation from RNA to Protein: During translation, the mRNA transcript is \u201cread\u201d by a functional complex consisting of the ribosome and tRNA molecules. tRNAs bring the appropriate amino acids in sequence to the growing polypeptide chain by matching their anti-codons with codons on the mRNA strand."
+        },
+        {
+          "imageName": "TextbookImages/0324_DNA_Translation_and_Codons",
+          "caption": "The Genetic Code: DNA holds all of the genetic information necessary to build a cell\u2019s proteins. The nucleotide sequence of a gene is ultimately translated into an amino acid sequence of the gene\u2019s corresponding protein."
+        },
+        {
+          "imageName": "TextbookImages/0326_Splicing",
+          "caption": "Splicing RNA: In the nucleus, a structure called a spliceosome cuts out introns (noncoding regions) within a pre-mRNA transcript and reconnects the exons."
         }
       ]
     },
@@ -1119,6 +1213,20 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0332_Cell_Cycle_With_Cyclins_and_Checkpoints",
+          "caption": "Control of the Cell Cycle: Cells proceed through the cell cycle under the control of a variety of molecules, such as cyclins and cyclin-dependent kinases. These control molecules determine whether or not the cell is prepared to move into the following stage."
+        },
+        {
+          "imageName": "TextbookImages/0329_Cell_Cycle",
+          "caption": "Cell Cycle: The two major phases of the cell cycle include mitosis (designated M), when the cell divides, and interphase, when the cell grows and performs all of its normal functions. Interphase is further subdivided into G1, S, and G2 phases."
+        },
+        {
+          "imageName": "TextbookImages/0330_Homologous_Pair_of_Chromosomes",
+          "caption": "A Homologous Pair of Chromosomes with their Attached Sister Chromatids: The red and blue colors correspond to a homologous pair of chromosomes. Each member of the pair was separately inherited from one parent. Each chromosome in the homologous pair is also bound to an identical sister chromatid, which is produced by DNA replication, and results in the familiar \u201cX\u201d shape."
+        }
       ]
     },
     {
@@ -1222,6 +1330,20 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/0337_Hematopoiesis_new",
+          "caption": "Hematopoiesis: The process of hematopoiesis involves the differentiation of multipotent cells into blood and immune cells. The multipotent hematopoietic stem cells give rise to many different cell types, including the cells of the immune system and red blood cells."
+        },
+        {
+          "imageName": "TextbookImages/0338_RNA_Polymerase_Binding",
+          "caption": "Transcription Factors Regulate Gene Expression: While each body cell contains the organism\u2019s entire genome, different cells regulate gene expression with the use of various transcription factors. Transcription factors are proteins that affect the binding of RNA polymerase to a particular gene on the DNA molecule."
+        },
+        {
+          "imageName": "TextbookImages/422_Feature_Stem_Cell_new",
+          "caption": "Stem Cells: The capacity of stem cells to differentiate into specialized cells make them potentially valuable in therapeutic applications designed to replace damaged cells of different body tissues."
         }
       ]
     }

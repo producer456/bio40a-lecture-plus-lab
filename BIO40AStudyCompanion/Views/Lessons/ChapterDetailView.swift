@@ -148,7 +148,10 @@ struct SectionContentView: View {
                             .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
                         }
 
-                        // Content
+                        // Content with inline images
+                        let sectionImages = section.images ?? []
+                        let imageInsertions = imageInsertionPoints(paragraphCount: section.content.count, imageCount: sectionImages.count)
+
                         ForEach(Array(section.content.enumerated()), id: \.offset) { index, paragraph in
                             Text(paragraph)
                                 .font(.body)
@@ -161,6 +164,13 @@ struct SectionContentView: View {
                                     in: RoundedRectangle(cornerRadius: 8)
                                 )
                                 .id(index)
+
+                            // Insert image after this paragraph if scheduled
+                            if let imgIdx = imageInsertions[index] {
+                                if imgIdx < sectionImages.count {
+                                    SectionImageView(image: sectionImages[imgIdx])
+                                }
+                            }
                         }
 
                         // Chapter Review
@@ -265,6 +275,26 @@ struct SectionContentView: View {
         }
     }
 
+    /// Maps paragraph index -> image index for distributing images evenly through content
+    private func imageInsertionPoints(paragraphCount: Int, imageCount: Int) -> [Int: Int] {
+        guard imageCount > 0, paragraphCount > 0 else { return [:] }
+        var result: [Int: Int] = [:]
+        // Space images evenly, inserting after every ~3 paragraphs
+        let spacing = max(2, paragraphCount / (imageCount + 1))
+        var imgIdx = 0
+        for paraIdx in stride(from: spacing - 1, to: paragraphCount, by: spacing) {
+            if imgIdx >= imageCount { break }
+            result[paraIdx] = imgIdx
+            imgIdx += 1
+        }
+        // If we still have images left, place them after the last paragraph
+        while imgIdx < imageCount {
+            result[paragraphCount - 1] = imgIdx
+            imgIdx += 1
+        }
+        return result
+    }
+
     private func trackProgress() {
         let existing = try? modelContext.fetch(FetchDescriptor<StudyProgress>(
             predicate: #Predicate { $0.chapterID == chapter.id && $0.sectionID == section.id }
@@ -353,6 +383,34 @@ struct QuickReviewView: View {
         .onDisappear {
             tts.stop()
         }
+    }
+}
+
+// MARK: - Section Image View
+
+struct SectionImageView: View {
+    let image: SectionImage
+
+    var body: some View {
+        VStack(spacing: 8) {
+            Image(image.imageName)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(maxWidth: .infinity)
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+
+            if !image.caption.isEmpty {
+                Text(image.caption)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 8)
+            }
+        }
+        .padding(.vertical, 12)
+        .padding(.horizontal, 4)
+        .background(Color(.secondarySystemBackground), in: RoundedRectangle(cornerRadius: 12))
+        .padding(.vertical, 4)
     }
 }
 

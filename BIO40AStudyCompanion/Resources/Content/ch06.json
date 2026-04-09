@@ -16,7 +16,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/600_Child_Looking_at_Bones",
+          "caption": "Child Looking at Bones: Bone is a living tissue. Unlike the bones of a fossil made inert by a process of mineralization, a child\u2019s bones will continue to grow and develop while contributing to the support and function of other body systems. (credit: James Emery)"
+        }
+      ]
     },
     {
       "id": "ch06_s01",
@@ -160,6 +166,24 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/617_Bone_Support_Movement",
+          "caption": "Bones Support Movement: Bones act as levers when muscles span a joint and contract. (credit: Benjamin J. DeLong)"
+        },
+        {
+          "imageName": "TextbookImages/620_Arms_Brace",
+          "caption": "Complex Brace: An orthopedist will sometimes prescribe the use of a brace that reinforces the underlying bone structure it is being used to support. (credit: Becky Stern/Flickr)"
+        },
+        {
+          "imageName": "TextbookImages/618_Bones_Protect_Brain",
+          "caption": "Bones Protect Brain: The cranium completely surrounds and protects the brain from non-traumatic injury."
+        },
+        {
+          "imageName": "TextbookImages/619_Red_and_Yellow_Bone_Marrow",
+          "caption": "Head of Femur Showing Red and Yellow Marrow: The head of the femur contains both yellow and red marrow. Yellow marrow stores fat. Red marrow is responsible for hematopoiesis. (credit: modification of work by \u201cstevenfruitsmaak\u201d/Wikimedia Commons)"
+        }
       ]
     },
     {
@@ -272,6 +296,12 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/601_Bone_Classification",
+          "caption": "Classifications of Bones: Bones are classified according to their shape."
         }
       ]
     },
@@ -553,6 +583,28 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/621_Anatomy_of_a_Flat_Bone",
+          "caption": "Anatomy of a Flat Bone: This cross-section of a flat bone shows the spongy bone (diplo\u00eb) lined on either side by a layer of compact bone."
+        },
+        {
+          "imageName": "TextbookImages/602_Bone_Markings",
+          "caption": "Bone Features: The surface features of bones depend on their function, location, attachment of ligaments and tendons, or the penetration of blood vessels and nerves."
+        },
+        {
+          "imageName": "TextbookImages/624_Diagram_of_Compact_Bone_new",
+          "caption": "Diagram of Compact Bone: (a) This cross-sectional view of compact bone shows the basic structural unit, the osteon. (b) In this micrograph of the osteon, you can clearly see the concentric lamellae and central canals. LM \u00d7 40. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/604_Bone_cells",
+          "caption": "Bone Cells: Four types of cells are found within bone tissue. Osteogenic cells are undifferentiated and develop into osteoblasts. When osteoblasts get trapped within the calcified matrix, their structure and function changes, and they become osteocytes. Osteoclasts develop from monocytes and macrophages and differ in appearance from other bone cells."
+        },
+        {
+          "imageName": "TextbookImages/609_Body_Supply_to_the_Bone",
+          "caption": "Diagram of Blood and Nerve Supply to Bone: Blood vessels and nerves enter the bone through the nutrient foramen."
+        }
       ]
     },
     {
@@ -766,6 +818,24 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/608_Endochrondal_Ossification",
+          "caption": "Endochondral Ossification: Endochondral ossification follows five steps. (a) Mesenchymal cells differentiate into chondrocytes. (b) The cartilage model of the future bony skeleton and the perichondrium form. (c) Capillaries penetrate cartilage. Perichondrium transforms into periosteum. Periosteal collar develops. Primary ossification center develops. (d) Cartilage and chondrocytes continue to grow at ends of the bone. (e) Secondary ossification centers develop. (f) Cartilage remains at epiphyseal (growth) plate and at joint surface as articular cartilage."
+        },
+        {
+          "imageName": "TextbookImages/611_Intramembraneous_Ossification",
+          "caption": "Intramembranous Ossification: Intramembranous ossification follows four steps. (a) Mesenchymal cells group into clusters, and ossification centers form. (b) Secreted osteoid traps osteoblasts, which then become osteocytes. (c) Trabecular matrix and periosteum form. (d) Compact bone develops superficial to the trabecular bone, and crowded blood vessels condense into red marrow."
+        },
+        {
+          "imageName": "TextbookImages/622_Longitudinal_Bone_Growth",
+          "caption": "Longitudinal Bone Growth: The epiphyseal plate is responsible for longitudinal bone growth."
+        },
+        {
+          "imageName": "TextbookImages/623_Epiphyseal_Plate_Line",
+          "caption": "Progression from Epiphyseal Plate to Epiphyseal Line: As a bone matures, the epiphyseal plate progresses to an epiphyseal line. (a) Epiphyseal plates are visible in a growing bone. (b) Epiphyseal lines are the remnants of epiphyseal plates in a mature bone."
+        }
       ]
     },
     {
@@ -886,6 +956,16 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/613_Stages_of_Fracture_Repair",
+          "caption": "Stages in Fracture Repair: The healing of a bone fracture follows a series of progressive steps: (a) A fracture hematoma forms. (b) Internal and external calli form. (c) Cartilage of the calli is replaced by trabecular bone. (d) Remodeling occurs."
+        },
+        {
+          "imageName": "TextbookImages/612_Types_of_Fractures",
+          "caption": "Types of Fractures: Compare healthy bone with different types of fractures: (a) closed fracture, (b) open fracture, (c) transverse fracture, (d) spiral fracture, (e) comminuted fracture, (f) impacted fracture, (g) greenstick fracture, and (h) oblique fracture."
+        }
       ]
     },
     {
@@ -987,6 +1067,16 @@
           "correctAnswer": 3,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/615_Age_and_Bone_Mass",
+          "caption": "Graph Showing Relationship Between Age and Bone Mass: Bone density peaks at about 30 years of age. Females lose bone mass more rapidly than males."
+        },
+        {
+          "imageName": "TextbookImages/614_Synthesis_of_Vitamin_D",
+          "caption": "Synthesis of Vitamin D: Sunlight is one source of vitamin D."
+        }
       ]
     },
     {
@@ -1059,6 +1149,12 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/625_Calcium_Homeostasis",
+          "caption": "Pathways in Calcium Homeostasis: The body regulates calcium homeostasis with two pathways; one is signaled to turn on when blood calcium levels drop below normal and one is the pathway that is signaled to turn on when blood calcium levels are elevated."
         }
       ]
     }

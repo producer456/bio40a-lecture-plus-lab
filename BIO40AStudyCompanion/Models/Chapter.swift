@@ -19,6 +19,13 @@ struct WeekMapping: Codable, Hashable {
     let labWeek: Int
 }
 
+// MARK: - SectionImage
+
+struct SectionImage: Codable, Hashable {
+    let imageName: String
+    let caption: String
+}
+
 // MARK: - ChapterSection
 
 struct ChapterSection: Codable, Identifiable, Hashable {
@@ -29,6 +36,7 @@ struct ChapterSection: Codable, Identifiable, Hashable {
     let chapterReview: [String]
     let reviewQuestions: [QuizQuestion]
     let glossary: [GlossaryTerm]
+    let images: [SectionImage]?
 
     var chapterReviewText: String {
         chapterReview.joined(separator: " ")

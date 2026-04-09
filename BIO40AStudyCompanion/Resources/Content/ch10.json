@@ -16,7 +16,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/1000_Tennis_Player",
+          "caption": "Tennis Player: Athletes rely on toned skeletal muscles to supply the force required for movement. (credit: Emmanuel Huybrechts/flickr)"
+        }
+      ]
     },
     {
       "id": "ch10_s01",
@@ -116,6 +122,12 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/414_Skeletal_Smooth_Cardiac",
+          "caption": "The Three Types of Muscle Tissue: The body contains three types of muscle tissue: (a) skeletal muscle, (b) smooth muscle, and (c) cardiac muscle. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
         }
       ]
     },
@@ -344,6 +356,28 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1007_Muscle_Fibes_large_",
+          "caption": "The Three Connective Tissue Layers: Bundles of muscle fibers, called fascicles, are covered by the perimysium. Muscle fibers are covered by the endomysium."
+        },
+        {
+          "imageName": "TextbookImages/1022_Muscle_Fibers_small_",
+          "caption": "Muscle Fiber: A skeletal muscle fiber is surrounded by a plasma membrane called the sarcolemma, which contains sarcoplasm, the cytoplasm of muscle cells. A muscle fiber is composed of many fibrils, which give the cell its striated appearance."
+        },
+        {
+          "imageName": "TextbookImages/1009_Motor_End_Plate_and_Innervation",
+          "caption": "Motor End-Plate and Innervation: At the NMJ, the axon terminal releases ACh. The motor end-plate is the location of the ACh-receptors in the muscle fiber sarcolemma. When ACh molecules are released, they diffuse across a minute space called the synaptic cleft and bind to the receptors."
+        },
+        {
+          "imageName": "TextbookImages/1003_Thick_and_Thin_Filaments",
+          "caption": "The Sarcomere: The sarcomere, the region from one Z-line to the next Z-line, is the functional unit of a skeletal muscle fiber."
+        },
+        {
+          "imageName": "TextbookImages/1023_T_tubule",
+          "caption": "The T-tubule: Narrow T-tubules permit the conduction of electrical impulses. The SR functions to regulate intracellular levels of calcium. Two terminal cisternae (where enlarged SR connects to the T-tubule) and one T-tubule comprise a triad\u2014a \u201cthreesome\u201d of membranes, with those of SR on two sides and the T-tubule sandwiched between them."
+        }
       ]
     },
     {
@@ -503,6 +537,28 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1010a_Contraction_new",
+          "caption": "Contraction of a Muscle Fiber: A cross-bridge forms between actin and the myosin heads triggering contraction. As long as Ca++ ions remain in the sarcoplasm to bind to troponin, and as long as ATP is available, the muscle fiber will continue to shorten."
+        },
+        {
+          "imageName": "TextbookImages/1008_Skeletal_Muscle_Contraction",
+          "caption": "Skeletal Muscle Contraction: (a) The active site on actin is exposed as calcium binds to troponin. (b) The myosin head is attracted to actin, and myosin binds actin at its actin-binding site, forming the cross-bridge. (c) During the power stroke, the phosphate generated in the previous contraction cycle is released. This results in the myosin head pivoting toward the center of the sarcomere, after which the attached ADP and phosphate group are released. (d) A new molecule of ATP attaches to the myosin head, causing the cross-bridge to detach. (e) The myosin head hydrolyzes ATP to ADP and phosphate, which returns the myosin to the cocked position."
+        },
+        {
+          "imageName": "TextbookImages/1016_Muscle_Metabolism",
+          "caption": "Muscle Metabolism: (a) Some ATP is stored in a resting muscle. As contraction starts, it is used up in seconds. More ATP is generated from creatine phosphate for about 15 seconds. (b) Each glucose molecule produces two ATP and two molecules of pyruvic acid, which can be used in aerobic respiration or converted to lactic acid. If oxygen is not available, pyruvic acid is converted to lactic acid, which may contribute to muscle fatigue. This occurs during strenuous exercise when high amounts of energy are needed but oxygen cannot be sufficiently delivered to muscle. (c) Aerobic respiration is the breakdown of glucose in the presence of oxygen (O2) to produce carbon dioxide, water, and ATP. Approximately 95 percent of the ATP required for resting or moderately active muscles is provided by aerobic respiration, which takes place in mitochondria."
+        },
+        {
+          "imageName": "TextbookImages/1010b_Relaxation_new",
+          "caption": "Relaxation of a Muscle Fiber: Ca++ ions are pumped back into the SR, which causes the tropomyosin to reshield the binding sites on the actin strands. A muscle may also stop contracting when it runs out of ATP and becomes fatigued."
+        },
+        {
+          "imageName": "TextbookImages/1006_Sliding_Filament_Model_of_Muscle_Contraction",
+          "caption": "The Sliding Filament Model of Muscle Contraction: When a sarcomere contracts, the Z lines move closer together, and the I band becomes smaller. The A band stays the same width. At full contraction, the thin and thick filaments overlap completely."
         }
       ]
     },
@@ -670,6 +726,28 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1012_Muscle_Twitch_Myogram",
+          "caption": "A Myogram of a Muscle Twitch: A single muscle twitch has a latent period, a contraction phase when tension increases, and a relaxation phase when tension decreases. During the latent period, the action potential is being propagated along the sarcolemma. During the contraction phase, Ca++ ions in the sarcoplasm bind to troponin, tropomyosin moves from actin-binding sites, cross-bridges between actin and myosin form, and sarcomeres shorten. During the relaxation phase, tension decreases as Ca++ ions are pumped out of the sarcoplasm and cross-bridge cycling stops."
+        },
+        {
+          "imageName": "TextbookImages/1015_Types_of_Contraction_new",
+          "caption": "Types of Muscle Contractions: During isotonic contractions, muscle length changes to move a load. During isometric contractions, muscle length does not change because the load exceeds the tension the muscle can generate."
+        },
+        {
+          "imageName": "TextbookImages/1011_Muscle_Length_and_Tension",
+          "caption": "The Ideal Length of a Sarcomere: Sarcomeres produce maximal tension when thick and thin filaments overlap between about 80 percent to 120 percent."
+        },
+        {
+          "imageName": "TextbookImages/1024_Treppe",
+          "caption": "Treppe: When muscle tension increases in a graded manner that looks like a set of stairs, it is called treppe. The bottom of each wave represents the point of stimulus."
+        },
+        {
+          "imageName": "TextbookImages/1013_Summation_Tetanus",
+          "caption": "Wave Summation and Tetanus: (a) The excitation-contraction coupling effects of successive motor neuron signaling is added together which is referred to as wave summation. The bottom of each wave, the end of the relaxation phase, represents the point of stimulus. (b) When the stimulus frequency is so high that the relaxation phase disappears completely, the contractions become continuous; this is called tetanus."
+        }
       ]
     },
     {
@@ -759,7 +837,8 @@
           "correctAnswer": 3,
           "explanation": ""
         }
-      ]
+      ],
+      "images": []
     },
     {
       "id": "ch10_s06",
@@ -861,6 +940,20 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1026_Marathoners",
+          "caption": "Marathoners: Long-distance runners have a large number of SO fibers and relatively few FO and FG fibers. (credit: \u201cTseo2\u201d/Wikimedia Commons)"
+        },
+        {
+          "imageName": "TextbookImages/1027_Hypertrophy",
+          "caption": "Hypertrophy: Body builders have a large number of FG fibers and relatively few FO and SO fibers. (credit: Lin Mei/flickr)"
+        },
+        {
+          "imageName": "TextbookImages/1025_Atrophy",
+          "caption": "Atrophy: Muscle mass is reduced as muscles atrophy with disuse."
+        }
       ]
     },
     {
@@ -924,6 +1017,16 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/414c_Cardiacmuscle",
+          "caption": "Cardiac Muscle Tissue: Cardiac muscle tissue is only found in the heart. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/1020_Cardiac_Muscle",
+          "caption": "Cardiac Muscle: Intercalated discs are part of the cardiac muscle sarcolemma and they contain gap junctions and desmosomes."
         }
       ]
     },
@@ -1027,6 +1130,20 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1021_Smooth_Muscle_new",
+          "caption": "Smooth Muscle Tissue: Smooth muscle tissue is found around organs in the digestive, respiratory, reproductive tracts and the iris of the eye. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/1028_Smooth_Muscle_Contraction",
+          "caption": "Muscle Contraction: The dense bodies and intermediate filaments are networked through the sarcoplasm, which cause the muscle fiber to contract."
+        },
+        {
+          "imageName": "TextbookImages/1029_Smooth_Muscle_Motor_Units",
+          "caption": "Motor Units: A series of axon-like swelling, called varicosities or \u201cboutons,\u201d from autonomic neurons form motor units through the smooth muscle."
+        }
       ]
     },
     {
@@ -1109,7 +1226,8 @@
           "correctAnswer": 3,
           "explanation": ""
         }
-      ]
+      ],
+      "images": []
     }
   ],
   "glossaryTerms": [

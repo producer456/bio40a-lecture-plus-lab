@@ -16,7 +16,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/1100_Body_in_Motion",
+          "caption": "A Body in Motion: The muscular system allows us to move, flex and contort our bodies. Practicing yoga, as pictured here, is a good example of the voluntary use of the muscular system. (credit: Dmitry Yanchylenko)"
+        }
+      ]
     },
     {
       "id": "ch11_s01",
@@ -249,6 +255,20 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1103_Biceps_Brachii_Muscle_Contraction",
+          "caption": "Biceps Brachii Muscle Contraction: The large mass at the center of a muscle is called the belly. Tendons emerge from both ends of the belly and connect the muscle to the bones, allowing the skeleton to move. The tendons of the bicep connect to the upper arm and the forearm. (credit: Victoria Garcia)"
+        },
+        {
+          "imageName": "TextbookImages/1102_Fascicle_Muscle_Shapes",
+          "caption": "Muscle Shapes and Fiber Alignment: The skeletal muscles of the body typically come in seven different general shapes."
+        },
+        {
+          "imageName": "TextbookImages/1101_Biceps_Muscle",
+          "caption": "Prime Movers and Synergists: The biceps brachii flex the lower arm. The brachoradialis, in the forearm, and brachialis, located deep to the biceps in the upper arm, are both synergists that aid in this motion."
+        }
       ]
     },
     {
@@ -408,6 +428,16 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1105_Anterior_and_Posterior_Views_of_Muscles",
+          "caption": "Overview of the Muscular System: On the anterior and posterior views of the muscular system above, superficial muscles (those at the surface) are shown on the right side of the body while deep muscles (those underneath the superficial muscles) are shown on the left half of the body. For the legs, superficial muscles are shown in the anterior view while the posterior view shows both superficial and deep muscles."
+        },
+        {
+          "imageName": "TextbookImages/1126_Understand_A_Muscle_from_the_Latin",
+          "caption": "Understanding a Muscle Name from the Latin"
         }
       ]
     },
@@ -855,6 +885,28 @@
           "correctAnswer": 2,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1111_Posterior_and_Side_Views_of_the_Neck",
+          "caption": "Posterior and Lateral Views of the Neck: The superficial and deep muscles of the neck are responsible for moving the head, cervical vertebrae, and scapulas."
+        },
+        {
+          "imageName": "TextbookImages/1106_Front_and_Side_Views_of_the_Muscles_of_Facial_Expressio",
+          "caption": "Muscles of Facial Expression: Many of the muscles of facial expression insert into the skin surrounding the eyelids, nose and mouth, producing facial expressions by moving the skin rather than bones."
+        },
+        {
+          "imageName": "TextbookImages/1110_Muscle_of_the_Anterior_Neck",
+          "caption": "Muscles of the Anterior Neck: The anterior muscles of the neck facilitate swallowing and speech. The suprahyoid muscles originate from above the hyoid bone in the chin region. The infrahyoid muscles originate below the hyoid bone in the lower neck."
+        },
+        {
+          "imageName": "TextbookImages/1108_Muscle_that_Move_the_Lower_Jaw",
+          "caption": "Muscles That Move the Lower Jaw: The muscles that move the lower jaw are typically located within the cheek and originate from processes in the skull. This provides the jaw muscles with the large amount of leverage needed for chewing."
+        },
+        {
+          "imageName": "TextbookImages/1107_The_Extrinsic_Eye_Muscles",
+          "caption": "Muscles of the Eyes: (a) The extrinsic eye muscles originate outside of the eye on the skull. (b) Each muscle inserts onto the eyeball."
+        }
       ]
     },
     {
@@ -1074,6 +1126,28 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1112_Muscles_of_the_Abdomen",
+          "caption": "Muscles of the Abdomen: (a) The anterior abdominal muscles include the medially located rectus abdominis, which is covered by a sheet of connective tissue called the rectus sheath. On the flanks of the body, medial to the rectus abdominis, the abdominal wall is composed of three layers. The external oblique muscles form the superficial layer, while the internal oblique muscles form the middle layer, and the transversus abdominis forms the deepest layer. (b) The muscles of the lower back move the lumbar spine but also assist in femur movements."
+        },
+        {
+          "imageName": "TextbookImages/1114_Thorax",
+          "caption": "Intercostal Muscles: The external intercostals are located laterally on the sides of the body. The internal intercostals are located medially near the sternum. The innermost intercostals are located deep to both the internal and external intercostals."
+        },
+        {
+          "imageName": "TextbookImages/1115_Muscles_of_the_Pelvic_Floor",
+          "caption": "Muscles of the Pelvic Floor: The pelvic floor muscles support the pelvic organs, resist intra-abdominal pressure, and work as sphincters for the urethra, rectum, and vagina."
+        },
+        {
+          "imageName": "TextbookImages/1113_The_Diaphragm",
+          "caption": "Muscles of the Diaphragm: The diaphragm separates the thoracic and abdominal cavities."
+        },
+        {
+          "imageName": "TextbookImages/1116_Muscle_of_the_Perineum",
+          "caption": "Muscles of the Perineum: The perineum muscles play roles in urination in both sexes, ejaculation in males, and vaginal contraction in females."
         }
       ]
     },
@@ -1554,6 +1628,28 @@
           "correctAnswer": 0,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1119_Muscles_that_Move_the_Humerus",
+          "caption": "Muscles That Move the Humerus: (a, c) The muscles that move the humerus anteriorly are generally located on the anterior side of the body and originate from the sternum (e.g., pectoralis major) or the anterior side of the scapula (e.g., subscapularis). (b) The muscles that move the humerus superiorly generally originate from the superior surfaces of the scapula and/or the clavicle (e.g., deltoids). The muscles that move the humerus inferiorly generally originate from middle or lower back (e.g., latissiumus dorsi). (d) The muscles that move the humerus posteriorly are generally located on the posterior side of the body and insert into the scapula (e.g., infraspinatus)."
+        },
+        {
+          "imageName": "TextbookImages/1118_Muscles_that_Position_the_Pectoral_Girdle",
+          "caption": "Muscles That Position the Pectoral Girdle: The muscles that stabilize the pectoral girdle make it a steady base on which other muscles can move the arm. Note that the pectoralis major and deltoid, which move the humerus, are cut here to show the deeper positioning muscles."
+        },
+        {
+          "imageName": "TextbookImages/1129_Muscles_that_Moves_the_Humerus",
+          "caption": "Muscles That Move the Humerus"
+        },
+        {
+          "imageName": "TextbookImages/1120_Muscles_that_Move_the_Forearm",
+          "caption": "Muscles That Move the Forearm: The muscles originating in the upper arm flex, extend, pronate, and supinate the forearm. The muscles originating in the forearm move the wrists, hands, and fingers."
+        },
+        {
+          "imageName": "TextbookImages/1130_Muscles_that_Move_the_Forearm",
+          "caption": "Muscles That Move the Forearm"
+        }
       ]
     },
     {
@@ -1998,6 +2094,28 @@
           ],
           "correctAnswer": 1,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/1124_Intrinsic_Muscles_of_the_Foot",
+          "caption": "Intrinsic Muscles of the Foot: The muscles along the dorsal side of the foot (a) generally extend the toes while the muscles of the plantar side of the foot (b, c, d) generally flex the toes. The plantar muscles exist in four layers, providing the foot the strength to counterbalance the weight of the body. In this diagram, three of the layers are shown from a plantar view beginning with the bottom-most layer just under the plantar skin of the foot (b) and ending with the top-most layer (d) located just inferior to the foot and toe bones."
+        },
+        {
+          "imageName": "TextbookImages/1122_Gluteal_Muscles_that_Move_the_Femur",
+          "caption": "Hip and Thigh Muscles: The large and powerful muscles of the hip that move the femur generally originate on the pelvic girdle and insert into the femur. The muscles that move the lower leg typically originate on the femur and insert into the bones of the knee joint. The anterior muscles of the femur extend the lower leg but also aid in flexing the thigh. The posterior muscles of the femur flex the lower leg but also aid in extending the thigh. A combination of gluteal and thigh muscles also adduct, abduct, and rotate the thigh and lower leg."
+        },
+        {
+          "imageName": "TextbookImages/1123_Muscles_of_the_Leg_that_Move_the_Foot_and_Toes",
+          "caption": "Muscles of the Lower Leg: The muscles of the anterior compartment of the lower leg are generally responsible for dorsiflexion, and the muscles of the posterior compartment of the lower leg are generally responsible for plantar flexion. The lateral and medial muscles in both compartments invert, evert, and rotate the foot."
+        },
+        {
+          "imageName": "TextbookImages/1132_Gluteal_Region_Muscles_that_Move_the_Femur",
+          "caption": "Gluteal Region Muscles That Move the Femur"
+        },
+        {
+          "imageName": "TextbookImages/1133_Thigh_Muscles_that_Moves_the_Femur_Tibia_and_Fibula",
+          "caption": "Thigh Muscles That Move the Femur, Tibia, and Fibula"
         }
       ]
     }

@@ -17,7 +17,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/400_Micrograph_of_Cervical_Tissue_updated",
+          "caption": "Micrograph of Cervical Tissue: This figure is a view of the regular architecture of normal tissue contrasted with the irregular arrangement of cancerous cells. (credit: \u201cHaymanj\u201d/Wikimedia Commons)"
+        }
+      ]
     },
     {
       "id": "ch04_s01",
@@ -205,6 +211,20 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/413_Types_of_Membranes",
+          "caption": "Tissue Membranes: The two broad categories of tissue membranes in the body are (1) connective tissue membranes, which include synovial membranes, and (2) epithelial membranes, which include mucous membranes, serous membranes, and the cutaneous membrane, in other words, the skin."
+        },
+        {
+          "imageName": "TextbookImages/401_Types_of_Tissue",
+          "caption": "Four Types of Tissue: Body: The four types of tissues are exemplified in nervous tissue, stratified squamous epithelial tissue, cardiac muscle tissue, and connective tissue. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/419_420_421_Table_04_01_updated",
+          "caption": "Embryonic Origin of Tissues and Major Organs"
         }
       ]
     },
@@ -457,6 +477,28 @@
           ],
           "correctAnswer": 0,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/403_Epithelial_Tissue",
+          "caption": "Cells of Epithelial Tissue: Simple epithelial tissue is organized as a single layer of cells and stratified epithelial tissue is formed by several layers of cells."
+        },
+        {
+          "imageName": "TextbookImages/423_Table_04_02_Summary_of_Epithelial_Tissue_CellsN",
+          "caption": "Summary of Epithelial Tissue Cells"
+        },
+        {
+          "imageName": "TextbookImages/407_Sebaceous_Glands",
+          "caption": "Sebaceous Glands: These glands secrete oils that lubricate and protect the skin. They are holocrine glands and they are destroyed after releasing their contents. New glandular cells form to replace the cells that are lost. LM \u00d7 400. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/402_Types_of_Cell_Junctions_new",
+          "caption": "Types of Cell Junctions: The three basic types of cell-to-cell junctions are tight junctions, gap junctions, and anchoring junctions."
+        },
+        {
+          "imageName": "TextbookImages/404_Goblet_Cell_new",
+          "caption": "Goblet Cell: (a) In the lining of the small intestine, columnar epithelium cells are interspersed with goblet cells. (b) The arrows in this micrograph point to the mucous-secreting goblet cells. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
         }
       ]
     },
@@ -726,6 +768,28 @@
           "correctAnswer": 3,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/410_Reticular_Tissue",
+          "caption": "Reticular Tissue: This is a loose connective tissue made up of a network of reticular fibers that provides a supportive framework for soft organs. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/412_Types_of_Cartilage_new",
+          "caption": "Types of Cartilage: Cartilage is a connective tissue consisting of collagenous fibers embedded in a firm matrix of chondroitin sulfates. (a) Hyaline cartilage provides support with some flexibility. The example is from dog tissue. (b) Fibrocartilage provides some compressibility and can absorb pressure. (c) Elastic cartilage provides firm but elastic support. From top, LM \u00d7 300, LM \u00d7 1200, LM \u00d7 1016. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/424_Blood_A_Fluid_Connective_Tissue_new",
+          "caption": "Blood: A Fluid Connective Tissue: Blood is a fluid connective tissue containing erythrocytes and various types of leukocytes that circulate in a liquid extracellular matrix. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/408_Connective_Tissue",
+          "caption": "Connective Tissue Proper: Fibroblasts produce this fibrous tissue. Connective tissue proper includes the fixed cells fibrocytes, adipocytes, and mesenchymal cells. LM \u00d7 400. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/409_Adipose_Tissue",
+          "caption": "Adipose Tissue: This is a loose connective tissue that consists of fat cells with little extracellular matrix. It stores fat for energy and provides insulation. LM \u00d7 800. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        }
       ]
     },
     {
@@ -813,6 +877,12 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/414_Skeletal_Smooth_Cardiac",
+          "caption": "Muscle Tissue: (a) Skeletal muscle cells have prominent striation and nuclei on their periphery. (b) Smooth muscle cells have a single nucleus and no visible striations. (c) Cardiac muscle cells appear striated and have a single nucleus. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
         }
       ]
     },
@@ -908,6 +978,16 @@
           ],
           "correctAnswer": 3,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/415_Neuron",
+          "caption": "The Neuron: The cell body of a neuron, also called the soma, contains the nucleus and mitochondria. The dendrites transfer the nerve impulse to the soma. The axon carries the action potential away to another excitable cell. LM \u00d7 1600. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/416_Nervous_Tissue_new",
+          "caption": "Nervous Tissue: Nervous tissue is made up of neurons and neuroglia. The cells of nervous tissue are specialized to transmit and receive impulses. LM \u00d7 872. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
         }
       ]
     },
@@ -1048,6 +1128,16 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/418_Development_of_Cancer",
+          "caption": "Development of Cancer: Note the change in cell size, nucleus size, and organization in the tissue."
+        },
+        {
+          "imageName": "TextbookImages/417_Tissue_Repair",
+          "caption": "Tissue Healing: During wound repair, collagen fibers are laid down randomly by fibroblasts that move into repair the area."
         }
       ]
     }

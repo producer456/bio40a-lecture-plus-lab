@@ -16,7 +16,13 @@
       ],
       "chapterReview": [],
       "glossary": [],
-      "reviewQuestions": []
+      "reviewQuestions": [],
+      "images": [
+        {
+          "imageName": "TextbookImages/500_Splash_Image",
+          "caption": "Your skin is a vital part of your life and appearance (a\u2013b). Some people choose to embellish it with tattoos (a) or makeup (b). (credit a: Steve Teo; credit b: \u201cspaceodissey\u201d/flickr)"
+        }
+      ]
     },
     {
       "id": "ch05_s01",
@@ -271,6 +277,28 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/501_Structure_of_the_skin",
+          "caption": "Layers of Skin: The skin is composed of two main layers: the epidermis, made of closely packed epithelial cells, and the dermis, made of dense, irregular connective tissue that houses blood vessels, hair follicles, sweat glands, and other structures. Beneath the dermis lies the hypodermis, which is composed mainly of loose connective and fatty tissues."
+        },
+        {
+          "imageName": "TextbookImages/502ab_Thin_Skin_versus_Thick_Skin",
+          "caption": "Thin Skin versus Thick Skin: These slides show cross-sections of the epidermis and dermis of (a) thin and (b) thick skin. Note the significant difference in the thickness of the epithelial layer of the thick skin. From top, LM \u00d7 40, LM \u00d7 40. (Micrographs provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/503_Epidermis",
+          "caption": "Epidermis: The epidermis is epithelium composed of multiple layers of cells. The basal layer consists of cuboidal cells, whereas the outer layers are squamous, keratinized cells, so the whole epithelium is often described as being keratinized stratified squamous epithelium. LM \u00d7 40. (Micrograph provided by the Regents of University of Michigan Medical School \u00a9 2012)"
+        },
+        {
+          "imageName": "TextbookImages/506_Layers_of_the_Dermis",
+          "caption": "Layers of the Dermis: This stained slide shows the two components of the dermis\u2014the papillary layer and the reticular layer. Both are made of connective tissue with fibers of collagen extending from one to the other, making the border between the two somewhat indistinct. The dermal papillae extending into the epidermis belong to the papillary layer, whereas the dense collagen fiber bundles below belong to the reticular layer. LM \u00d7 10. (credit: modification of work by \u201ckilbad\u201d/Wikimedia Commons)"
+        },
+        {
+          "imageName": "TextbookImages/502_Layers_of_epidermis",
+          "caption": "Layers of the Epidermis: The epidermis of thick skin has five layers: stratum basale, stratum spinosum, stratum granulosum, stratum lucidum, and stratum corneum."
         }
       ]
     },
@@ -542,6 +570,24 @@
           "correctAnswer": 1,
           "explanation": ""
         }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/511_Hair_Follicle",
+          "caption": "Hair Follicle: The slide shows a cross-section of a hair follicle. Basal cells of the hair matrix in the center differentiate into cells of the inner root sheath. Basal cells at the base of the hair root form the outer root sheath. LM \u00d7 4. (credit: modification of work by \u201ckilbad\u201d/Wikimedia Commons)"
+        },
+        {
+          "imageName": "TextbookImages/506_Hair",
+          "caption": "Hair: Hair follicles originate in the epidermis and have many different parts."
+        },
+        {
+          "imageName": "TextbookImages/507_Nails",
+          "caption": "Nails: The nail is an accessory structure of the integumentary system."
+        },
+        {
+          "imageName": "TextbookImages/508_Eccrine_gland",
+          "caption": "Eccrine Gland: Eccrine glands are coiled glands in the dermis that release sweat that is mostly water."
+        }
       ]
     },
     {
@@ -652,6 +698,20 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/514_Light_Micrograph_of_a_Meissner_Corpuscle",
+          "caption": "Light Micrograph of a Meissner Corpuscle: In this micrograph of a skin cross-section, you can see a Meissner corpuscle (arrow), a type of touch receptor located in a dermal papilla adjacent to the basement membrane and stratum basale of the overlying epidermis. LM \u00d7 100. (credit: \u201cWbensmith\u201d/Wikimedia Commons)"
+        },
+        {
+          "imageName": "TextbookImages/515_Thermoregulation",
+          "caption": "Thermoregulation: During strenuous physical activities, such as skiing (a) or running (c), the dermal blood vessels dilate and sweat secretion increases (b). These mechanisms prevent the body from overheating. In contrast, the dermal blood vessels constrict to minimize heat loss in response to low temperatures (b). (credit a: \u201cTrysil\u201d/flickr; credit c: Ralph Daily)"
+        },
+        {
+          "imageName": "TextbookImages/516_Aging",
+          "caption": "Aging: Generally, skin, especially on the face and hands, starts to display the first noticeable signs of aging, as it loses its elasticity over time. (credit: Janet Ramsden)"
         }
       ]
     },
@@ -852,6 +912,28 @@
           ],
           "correctAnswer": 2,
           "explanation": ""
+        }
+      ],
+      "images": [
+        {
+          "imageName": "TextbookImages/517_Basal_Cell_Carcinoma",
+          "caption": "Basal Cell Carcinoma: Basal cell carcinoma can take several different forms. Similar to other forms of skin cancer, it is readily cured if caught early and treated. (credit: John Hendrix, MD)"
+        },
+        {
+          "imageName": "TextbookImages/518_Squamous_Cell_Carcinoma",
+          "caption": "Squamous Cell Carcinoma: Squamous cell carcinoma presents here as a lesion on an individual\u2019s nose. (credit: the National Cancer Institute)"
+        },
+        {
+          "imageName": "TextbookImages/520_Eczema",
+          "caption": "Eczema: Eczema is a common skin disorder that presents as a red, flaky rash. (credit: \u201cJambula\u201d Wikimedia Commons / NIAID, Flickr)"
+        },
+        {
+          "imageName": "TextbookImages/515_Acne_formation",
+          "caption": "Acne: Acne is a result of over-productive sebaceous glands, which leads to formation of blackheads and inflammation of the skin."
+        },
+        {
+          "imageName": "TextbookImages/519_Melanoma",
+          "caption": "Melanoma: Melanomas typically present as large brown or black patches with uneven borders and a raised surface. (credit: the National Cancer Institute / Centers for Disease Control)"
         }
       ]
     }
