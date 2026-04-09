@@ -37,7 +37,6 @@
 		A9E3A2BAE061349DC860DB4A /* Content in Resources */ = {isa = PBXBuildFile; fileRef = D663568277E7826BA3097869 /* Content */; };
 		AFEF422A8D1CDC1F91254E2A /* SpacedRepetitionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0D8B2353B58CF049C07F /* SpacedRepetitionEngine.swift */; };
 		B1DB2A601BE0AD5E476B2B7F /* InteractiveLessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */; };
-		BD2FCB3FF46BDFB6CACD937F /* BodyExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DC6297EE29984F0C3DBDFB /* BodyExplorerView.swift */; };
 		C221B9461BD18F8114F7F730 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E253ADDB011C133536649645 /* TabNavigationView.swift */; };
 		C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA493E55C779371FF00C5AB /* NotificationService.swift */; };
 		C7AC6905BACDE629F9509CBF /* AssignmentReflectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD92B5CA7B297D71FCF36C0 /* AssignmentReflectionViews.swift */; };
@@ -46,8 +45,6 @@
 		D37CF4EB0C436550781F76AC /* UserBookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E962E6BD63C0F4C7BE80AE15 /* UserBookmark.swift */; };
 		E30B79E42F4C4FCC110B549D /* SyllabusSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28412E3750836D7ABC210471 /* SyllabusSchedule.swift */; };
 		E49A89972B9D20B2467EFE91 /* PerformanceRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008BF725C5D1AC26D7FFCAB /* PerformanceRecord.swift */; };
-		E59470579EA058797E4DB30F /* BodyPartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A236A4F1E7D34001281A53 /* BodyPartData.swift */; };
-		EA375F2C0AD43D693DF96CC8 /* BodySceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706729D0342A38F96B1FF21D /* BodySceneView.swift */; };
 		F0A49A4EB457E17CD3AEBFD2 /* WeakSpotAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885BAFE5AAF6F787460CC8D /* WeakSpotAnalyzer.swift */; };
 		F2AF3CB91969132C192620FA /* AssignmentReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C93540B1698A374845E0AF1 /* AssignmentReflection.swift */; };
 		FEA5BD1A9ED49EF6B6971A60 /* QuizViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE59F89AA7AF66B9892A01 /* QuizViews.swift */; };
@@ -58,7 +55,6 @@
 		055B9AC687B77CADA0A1D5FF /* GlossaryTerm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryTerm.swift; sourceTree = "<group>"; };
 		0C93540B1698A374845E0AF1 /* AssignmentReflection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentReflection.swift; sourceTree = "<group>"; };
 		125B84D0F77D0103FC0A9EC8 /* HowWeLearnViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowWeLearnViews.swift; sourceTree = "<group>"; };
-		13A236A4F1E7D34001281A53 /* BodyPartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPartData.swift; sourceTree = "<group>"; };
 		13E75C33C5AEBA177FB66A3F /* PracticeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeMenuView.swift; sourceTree = "<group>"; };
 		16DE59F89AA7AF66B9892A01 /* QuizViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViews.swift; sourceTree = "<group>"; };
 		18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMaterialViews.swift; sourceTree = "<group>"; };
@@ -76,7 +72,6 @@
 		612548A79521F41E51BEC831 /* FlashcardProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardProgress.swift; sourceTree = "<group>"; };
 		6A03E6A76ECA98C6DA2BFEB8 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
 		6EA493E55C779371FF00C5AB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
-		706729D0342A38F96B1FF21D /* BodySceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodySceneView.swift; sourceTree = "<group>"; };
 		7B8A3752E18E04A1BF36D5C6 /* .gitkeep */ = {isa = PBXFileReference; path = .gitkeep; sourceTree = "<group>"; };
 		7CEFCCE32016EB1787500840 /* StudyMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyMaterial.swift; sourceTree = "<group>"; };
 		7FB734037EBEE8BBBB268332 /* InteractiveLessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveLessonView.swift; sourceTree = "<group>"; };
@@ -86,7 +81,6 @@
 		98B9A8C505944C019BB34B21 /* StudyPlannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyPlannerService.swift; sourceTree = "<group>"; };
 		A22A0C11D7DC8091A4EC4D8B /* QuizGeneratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizGeneratorService.swift; sourceTree = "<group>"; };
 		A5970A5B55D102CE9EDA414B /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
-		A6DC6297EE29984F0C3DBDFB /* BodyExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyExplorerView.swift; sourceTree = "<group>"; };
 		AA258F5283800592D4F89844 /* StudyProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyProgress.swift; sourceTree = "<group>"; };
 		AAD92B5CA7B297D71FCF36C0 /* AssignmentReflectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentReflectionViews.swift; sourceTree = "<group>"; };
 		B0D07A82FE34CF8765100C3D /* BIO40AStudyCompanion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BIO40AStudyCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -239,7 +233,6 @@
 			isa = PBXGroup;
 			children = (
 				4CD993675F64B6D3363300BD /* Assignments */,
-				D90B5EEA20FFEE59F46F8983 /* Games3D */,
 				B7BA69657C92E35A96173BF5 /* Home */,
 				4F240FB6EE481B8BA1AC1B85 /* HowWeLearn */,
 				8D427BDB162DD149CAA9543E /* InteractiveLearning */,
@@ -272,16 +265,6 @@
 				F885BAFE5AAF6F787460CC8D /* WeakSpotAnalyzer.swift */,
 			);
 			path = Services;
-			sourceTree = "<group>";
-		};
-		D90B5EEA20FFEE59F46F8983 /* Games3D */ = {
-			isa = PBXGroup;
-			children = (
-				A6DC6297EE29984F0C3DBDFB /* BodyExplorerView.swift */,
-				13A236A4F1E7D34001281A53 /* BodyPartData.swift */,
-				706729D0342A38F96B1FF21D /* BodySceneView.swift */,
-			);
-			path = Games3D;
 			sourceTree = "<group>";
 		};
 		EB6C5D7A3B8163E2E04CF2EB /* Shared */ = {
@@ -366,9 +349,6 @@
 				F2AF3CB91969132C192620FA /* AssignmentReflection.swift in Sources */,
 				C7AC6905BACDE629F9509CBF /* AssignmentReflectionViews.swift in Sources */,
 				1BCE9F4F0BA08A4CDCAD061E /* BIO40AStudyCompanionApp.swift in Sources */,
-				BD2FCB3FF46BDFB6CACD937F /* BodyExplorerView.swift in Sources */,
-				E59470579EA058797E4DB30F /* BodyPartData.swift in Sources */,
-				EA375F2C0AD43D693DF96CC8 /* BodySceneView.swift in Sources */,
 				10EE88045B141017273A60BB /* Chapter.swift in Sources */,
 				3BAA4783F144C8465FAA2659 /* ChapterDetailView.swift in Sources */,
 				362DC20F014EE903E1BF0B1E /* ContentService.swift in Sources */,
