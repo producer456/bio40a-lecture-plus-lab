@@ -27,6 +27,7 @@ final class ContentService {
     private(set) var glossaryTerms: [GlossaryTerm] = []
     private(set) var allQuestions: [QuizQuestion] = []
     private(set) var flashcardDecks: [FlashcardDeck] = []
+    private(set) var labPrepData: LabPrepData?
 
     init() {
         loadAll()
@@ -46,6 +47,7 @@ final class ContentService {
         glossaryTerms = loadJSON(filename: "glossary") ?? []
         allQuestions = loadJSON(filename: "questions") ?? []
         flashcardDecks = loadJSON(filename: "flashcards") ?? []
+        labPrepData = loadJSON(filename: "labprep")
     }
 
     private func loadJSON<T: Decodable>(filename: String) -> T? {
@@ -73,6 +75,10 @@ final class ContentService {
 
     func questionsForChapter(_ chapterID: String) -> [QuizQuestion] {
         allQuestions.filter { $0.chapterID == chapterID }
+    }
+
+    func labWeek(_ week: Int) -> LabWeek? {
+        labPrepData?.weeks.first { $0.week == week }
     }
 
     func glossaryForChapter(_ chapterID: String) -> [GlossaryTerm] {

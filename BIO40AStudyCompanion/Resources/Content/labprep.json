@@ -1,0 +1,529 @@
+{
+  "instructor": "Katelyn McKown",
+  "weeks": [
+    {
+      "week": 1,
+      "topic": "Lab Intro / Intro to Anatomy Language",
+      "chapters": ["ch01"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch the assigned intro video on anatomical terminology",
+        "Explore the Visible Body module on anatomical position and planes",
+        "Complete the pre-lab quiz on Canvas before lab",
+        "Review Ch. 1 sections on anatomical position, body regions, and directional terms",
+        "Bring notebook and pen/pencil to lab"
+      ],
+      "keyConcepts": [
+        "Anatomical position and why it matters",
+        "Body planes: sagittal, frontal (coronal), transverse",
+        "Directional terms: superior/inferior, anterior/posterior, medial/lateral, proximal/distal, superficial/deep",
+        "Body cavities: dorsal (cranial + vertebral) and ventral (thoracic + abdominopelvic)",
+        "Abdominopelvic regions and quadrants",
+        "Serous membranes: parietal vs. visceral layers"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What is anatomical position?",
+          "answer": "Standing upright, facing forward, arms at sides with palms facing forward, feet together pointing forward."
+        },
+        {
+          "question": "The knee is _____ to the ankle.",
+          "answer": "Superior (or proximal). The knee is closer to the trunk/higher on the body than the ankle."
+        },
+        {
+          "question": "What plane divides the body into anterior and posterior parts?",
+          "answer": "The frontal (coronal) plane."
+        }
+      ],
+      "labTips": [
+        "This is an intro lab — the instructor will go over the syllabus and lab expectations",
+        "Arrive early to find a seat and get oriented to the lab space",
+        "Bring the lab syllabus printed or on a device for reference",
+        "Start learning directional terms in pairs (e.g., superior/inferior) — it helps with memorization",
+        "Lab groups may be assigned today, so be ready to introduce yourself"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 2,
+      "topic": "Cells and Homeostasis",
+      "chapters": ["ch03"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch the pre-lab video on cell structure and membrane transport",
+        "Use Visible Body to explore 3D cell organelle models",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 3 on cell organelles and membrane transport mechanisms",
+        "Familiarize yourself with microscope parts if there is a microscope activity"
+      ],
+      "keyConcepts": [
+        "Cell membrane structure: phospholipid bilayer, proteins, cholesterol",
+        "Passive transport: diffusion, osmosis, facilitated diffusion",
+        "Active transport: pumps, vesicular transport (endocytosis, exocytosis)",
+        "Tonicity: hypertonic, hypotonic, isotonic solutions and their effects on cells",
+        "Key organelles and their functions: nucleus, mitochondria, ribosomes, ER, Golgi",
+        "Homeostasis: negative feedback loops, positive feedback loops",
+        "Set point, receptor, control center, effector in feedback mechanisms"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What happens to a red blood cell placed in a hypertonic solution?",
+          "answer": "It crenates (shrinks/shrivels) because water moves out of the cell by osmosis toward the higher solute concentration outside."
+        },
+        {
+          "question": "What is the difference between passive and active transport?",
+          "answer": "Passive transport moves substances down their concentration gradient without ATP energy. Active transport moves substances against their concentration gradient and requires ATP."
+        },
+        {
+          "question": "Give an example of a negative feedback loop in the body.",
+          "answer": "Thermoregulation: when body temperature rises above the set point, sensors detect the change, the hypothalamus triggers sweating and vasodilation to cool the body back down."
+        }
+      ],
+      "labTips": [
+        "There may be a microscope lab — remember to start on the lowest objective and work up",
+        "For osmosis demos, pay close attention to which direction water moves relative to solute concentration",
+        "Practice drawing and labeling feedback loops — this will come up on assessments",
+        "If working with slides, handle them by the edges only",
+        "Group lab reports may be collected — make sure everyone contributes notes"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 3,
+      "topic": "Homeostasis and Tissues",
+      "chapters": ["ch04"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch pre-lab video on the four tissue types",
+        "Use Visible Body to examine histology slides of tissue types",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 4 on epithelial, connective, muscle, and nervous tissue",
+        "Practice identifying tissues from microscope images online"
+      ],
+      "keyConcepts": [
+        "Four primary tissue types: epithelial, connective, muscle, nervous",
+        "Epithelial tissue classification: by layers (simple, stratified) and cell shape (squamous, cuboidal, columnar)",
+        "Connective tissue types: loose (areolar, adipose, reticular), dense (regular, irregular, elastic), cartilage, bone, blood",
+        "Key locations and functions of each tissue type",
+        "Muscle tissue types: skeletal (voluntary, striated), cardiac (involuntary, striated, intercalated discs), smooth (involuntary, non-striated)",
+        "Tissue repair: inflammation, proliferation, remodeling phases",
+        "Basement membrane and its importance"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What are the four primary tissue types in the human body?",
+          "answer": "Epithelial, connective, muscle, and nervous tissue."
+        },
+        {
+          "question": "Where would you find simple squamous epithelium?",
+          "answer": "Lining the air sacs (alveoli) of the lungs and forming the walls of capillaries — places where thin tissue allows diffusion/filtration."
+        },
+        {
+          "question": "How do you distinguish cardiac muscle tissue from skeletal muscle tissue under a microscope?",
+          "answer": "Both are striated, but cardiac muscle has intercalated discs (dark-staining junctions between cells) and the cells are branched, whereas skeletal muscle fibers are long, cylindrical, and multinucleated."
+        }
+      ],
+      "labTips": [
+        "Tissue identification is a major lab skill — practice with online histology atlases",
+        "When looking at slides, first identify the tissue type (epithelial, connective, muscle, nervous), then get specific",
+        "Make a comparison chart of all epithelial types with location, function, and appearance",
+        "Take photos of lab slides if allowed — great for studying later",
+        "Connective tissue can be tricky: look at the matrix (fibers, ground substance) to identify type"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 4,
+      "topic": "Integumentary System",
+      "chapters": ["ch05"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch the pre-lab video on skin structure and accessory organs",
+        "Explore the integumentary system in Visible Body",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 5 on layers of the skin, accessory structures, and functions",
+        "Study the layers of the epidermis in order (mnemonic: Come Let's Get Sun Burned)"
+      ],
+      "keyConcepts": [
+        "Layers of the skin: epidermis and dermis (papillary and reticular layers), hypodermis",
+        "Layers of the epidermis: stratum basale, spinosum, granulosum, lucidum (thick skin only), corneum",
+        "Cell types in the epidermis: keratinocytes, melanocytes, Merkel cells, Langerhans cells",
+        "Functions of the integumentary system: protection, thermoregulation, sensation, vitamin D synthesis, excretion",
+        "Accessory structures: hair, nails, sebaceous glands, sudoriferous glands (eccrine and apocrine)",
+        "Burns classification: first, second, third degree; rule of nines",
+        "Skin cancer types: basal cell carcinoma, squamous cell carcinoma, melanoma (ABCDE rule)"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What are the two main layers of the skin?",
+          "answer": "Epidermis (superficial, avascular epithelial layer) and dermis (deeper connective tissue layer with blood vessels, nerves, and accessory structures)."
+        },
+        {
+          "question": "Which epidermal layer is responsible for continuous cell division?",
+          "answer": "The stratum basale — it is the deepest epidermal layer where stem cells divide by mitosis to produce new keratinocytes."
+        },
+        {
+          "question": "What is the rule of nines used for?",
+          "answer": "To estimate the percentage of body surface area affected by burns. The body is divided into regions each representing 9% (or multiples of 9%) of total body surface area."
+        }
+      ],
+      "labTips": [
+        "This is the last content lab before the Week 5 assessment — review all material from weeks 1-4",
+        "Know the layers of the skin cold — draw and label a cross-section from memory",
+        "Be prepared for a skin model identification activity",
+        "Mnemonic for epidermis layers (deep to superficial): Come (basale), Let's (spinosum), Get (granulosum), Sun (lucidum), Burned (corneum)",
+        "Start your review for the Week 5 assessment now — don't wait until the night before"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 5,
+      "topic": "In-class Assessment Activity (Weeks 1-4)",
+      "chapters": null,
+      "isAssessment": true,
+      "isOff": false,
+      "preLabChecklist": [
+        "Review all pre-lab materials and notes from weeks 1-4",
+        "Practice tissue identification from histology images",
+        "Review directional terms, body planes, and body cavities",
+        "Go over all previous check-in quiz questions",
+        "Get a good night's sleep before the assessment"
+      ],
+      "keyConcepts": [
+        "Anatomical terminology and body organization (Week 1)",
+        "Cell structure, membrane transport, and homeostasis (Week 2)",
+        "Four tissue types and histology identification (Week 3)",
+        "Integumentary system structure and function (Week 4)"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "The elbow is _____ to the wrist and _____ to the shoulder.",
+          "answer": "Proximal to the wrist, distal to the shoulder."
+        },
+        {
+          "question": "Name three functions of the integumentary system.",
+          "answer": "Protection (barrier against pathogens), thermoregulation (sweat, vasodilation/constriction), sensation (touch/pain/temperature receptors), vitamin D synthesis, and excretion."
+        },
+        {
+          "question": "What type of tissue lines the trachea?",
+          "answer": "Pseudostratified ciliated columnar epithelium — it looks stratified but all cells touch the basement membrane. The cilia help move mucus and trapped particles."
+        }
+      ],
+      "labTips": [
+        "This assessment is worth 15% of your lab grade — take it seriously",
+        "Arrive on time — you need the full period",
+        "The assessment covers ALL material from lab weeks 1-4",
+        "Expect a mix of identification, short answer, and possibly labeling",
+        "Review your lab reports and any feedback from previous weeks"
+      ],
+      "assessmentInfo": {
+        "coveredWeeks": "Weeks 1-4",
+        "topics": [
+          "Anatomical position, directional terms, body planes, body cavities (Ch. 1)",
+          "Cell structure, membrane transport, osmosis/diffusion, homeostasis and feedback loops (Ch. 3)",
+          "Four tissue types, epithelial tissue classification, connective tissue types, histology identification (Ch. 4)",
+          "Skin layers (epidermis and dermis), epidermal strata, accessory structures, burns, skin cancer (Ch. 5)"
+        ],
+        "studyTips": [
+          "Make a master study sheet covering key concepts from each week",
+          "Practice identifying tissues from unlabeled images",
+          "Draw and label diagrams from memory: skin cross-section, cell, feedback loop",
+          "Quiz yourself on directional terms using body region scenarios",
+          "Review all pre-lab and check-in quiz questions from weeks 1-4",
+          "Study with your lab group — explain concepts to each other",
+          "Focus on understanding concepts, not just memorizing terms"
+        ]
+      }
+    },
+    {
+      "week": 6,
+      "topic": "Skeletal System Part 1: Bone Tissue",
+      "chapters": ["ch06"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch the pre-lab video on bone tissue and bone structure",
+        "Use Visible Body to explore bone anatomy (long bone, compact and spongy bone)",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 6 on bone classification, structure, development, and remodeling",
+        "Familiarize yourself with the parts of a long bone diagram"
+      ],
+      "keyConcepts": [
+        "Bone classification by shape: long, short, flat, irregular, sesamoid",
+        "Parts of a long bone: diaphysis, epiphysis, metaphysis, medullary cavity, periosteum, endosteum",
+        "Compact bone: osteon (Haversian system) structure — central canal, lamellae, lacunae, osteocytes, canaliculi",
+        "Spongy bone: trabeculae, red marrow",
+        "Bone cells: osteoblasts (build), osteocytes (maintain), osteoclasts (break down/resorb)",
+        "Bone development: intramembranous ossification vs. endochondral ossification",
+        "Bone remodeling and the role of calcium homeostasis (PTH and calcitonin)",
+        "Epiphyseal plate (growth plate) and longitudinal growth"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What are the three types of bone cells and their functions?",
+          "answer": "Osteoblasts build new bone (bone formation), osteocytes maintain bone tissue (mature bone cells in lacunae), and osteoclasts break down/resorb bone (large multinucleated cells)."
+        },
+        {
+          "question": "What is an osteon (Haversian system)?",
+          "answer": "The structural unit of compact bone — concentric rings of bone matrix (lamellae) surrounding a central (Haversian) canal that contains blood vessels and nerves."
+        },
+        {
+          "question": "Where is red bone marrow found and what does it do?",
+          "answer": "Red bone marrow is found in spongy bone (epiphyses of long bones, flat bones like the sternum and pelvis). It produces blood cells (hematopoiesis)."
+        }
+      ],
+      "labTips": [
+        "You may work with bone models or cross-section slides — learn to identify compact vs. spongy bone",
+        "The osteon diagram is a favorite on lab assessments — know every structure",
+        "A mnemonic for bone cells: Blasts Build, Clasts Chew, Cytes siT (maintain)",
+        "Pay attention to the difference between intramembranous and endochondral ossification",
+        "If there are bone specimens, take time to feel the difference between compact and spongy regions"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 7,
+      "topic": "Skeletal System Part 2: Skeletal Injuries",
+      "chapters": ["ch07", "ch08"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch pre-lab videos on the axial and appendicular skeleton",
+        "Use Visible Body to explore the full skeleton — practice naming major bones",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 7 (axial skeleton) and Ch. 8 (appendicular skeleton)",
+        "Practice bone identification using online anatomy resources"
+      ],
+      "keyConcepts": [
+        "Axial skeleton: skull (cranial and facial bones), vertebral column (cervical, thoracic, lumbar, sacrum, coccyx), thoracic cage (ribs and sternum)",
+        "Appendicular skeleton: pectoral girdle, upper limbs, pelvic girdle, lower limbs",
+        "Bone markings: processes (trochanter, tubercle, spine), depressions (fossa, foramen, fissure), projections",
+        "Types of fractures: transverse, oblique, spiral, comminuted, greenstick, compression, compound",
+        "Fracture repair process: hematoma, soft callus, hard callus, remodeling",
+        "Common skeletal injuries and clinical relevance",
+        "Male vs. female pelvis differences"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "How many vertebrae are in the cervical region?",
+          "answer": "Seven (C1-C7). A useful reminder: most mammals, including giraffes, have 7 cervical vertebrae."
+        },
+        {
+          "question": "What is the difference between a greenstick fracture and a comminuted fracture?",
+          "answer": "A greenstick fracture is an incomplete break (bone bends and partially breaks, common in children). A comminuted fracture shatters the bone into three or more fragments."
+        },
+        {
+          "question": "Name the four steps of bone fracture repair in order.",
+          "answer": "1) Fracture hematoma formation, 2) Fibrocartilaginous (soft) callus formation, 3) Bony (hard) callus formation, 4) Bone remodeling."
+        }
+      ],
+      "labTips": [
+        "Bone identification can be overwhelming — focus on the major bones first, then learn markings",
+        "Use mnemonics: cranial bones = 'Old People From Texas Eat Spiders' (Occipital, Parietal, Frontal, Temporal, Ethmoid, Sphenoid)",
+        "For fracture types, associate each with a visual image or real-world scenario",
+        "Practice pointing to bones on your own body — physical association helps memory",
+        "This is a content-heavy week with two chapters — start your review early"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 8,
+      "topic": "Holiday / Open Office Hours",
+      "chapters": null,
+      "isAssessment": false,
+      "isOff": true,
+      "preLabChecklist": [
+        "No formal lab this week — use the time to review and catch up",
+        "Visit office hours if you have questions about previous material",
+        "Review any lab reports that were returned with feedback"
+      ],
+      "keyConcepts": [
+        "Use this week to solidify understanding of skeletal system material",
+        "Review bone identification — you will be tested on this in the Week 11 assessment",
+        "Catch up on any Visible Body modules you may have missed"
+      ],
+      "checkInQuestions": [],
+      "labTips": [
+        "Even though there is no lab, do not lose momentum",
+        "This is a great time to form study groups for the second assessment",
+        "Visit Katelyn McKown's office hours if you need extra help with bone identification",
+        "Review and organize your lab notes from weeks 6-7"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 9,
+      "topic": "Muscular Tissue and Health",
+      "chapters": ["ch10", "ch11"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch pre-lab videos on muscle tissue and the muscular system",
+        "Use Visible Body to explore major muscles and muscle tissue structure",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 10 (muscle tissue) and Ch. 11 (the muscular system)",
+        "Learn the organizational levels: muscle → fascicle → muscle fiber → myofibril → sarcomere"
+      ],
+      "keyConcepts": [
+        "Three types of muscle tissue: skeletal, cardiac, smooth — structure and function",
+        "Skeletal muscle organization: epimysium, perimysium, endomysium",
+        "Sarcomere structure: Z-discs, A-band, I-band, H-zone, M-line, thick (myosin) and thin (actin) filaments",
+        "Sliding filament theory of muscle contraction",
+        "Neuromuscular junction: motor neuron, acetylcholine, motor end plate",
+        "Muscle contraction cycle: cross-bridge formation, power stroke, detachment, re-cocking",
+        "Types of muscle contractions: isotonic (concentric and eccentric) vs. isometric",
+        "Major muscles of the body: identification and actions"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What is the functional unit of skeletal muscle contraction?",
+          "answer": "The sarcomere — the region between two Z-discs containing overlapping thick (myosin) and thin (actin) filaments."
+        },
+        {
+          "question": "Briefly explain the sliding filament theory.",
+          "answer": "Myosin heads bind to actin filaments and pull them toward the center of the sarcomere (power stroke), causing the sarcomere to shorten. This requires ATP and calcium ions. The Z-discs move closer together but the filaments themselves don't shorten."
+        },
+        {
+          "question": "What role does calcium play in muscle contraction?",
+          "answer": "Calcium is released from the sarcoplasmic reticulum into the sarcoplasm. It binds to troponin, which shifts tropomyosin off the active binding sites on actin, allowing myosin heads to attach and begin the cross-bridge cycle."
+        }
+      ],
+      "labTips": [
+        "Two chapters this week — budget extra study time",
+        "The sarcomere diagram is essential — draw it from memory with all bands labeled",
+        "For muscle identification, learn muscles in functional groups (flexors, extensors, etc.)",
+        "Focus on the sliding filament theory steps — this is a common exam question",
+        "Use your own body to practice muscle actions: flex your arm to see the biceps contract"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 10,
+      "topic": "Joints and Exercise",
+      "chapters": ["ch09"],
+      "isAssessment": false,
+      "isOff": false,
+      "preLabChecklist": [
+        "Watch pre-lab video on joint classification and types of movement",
+        "Explore joints in Visible Body — especially the knee and shoulder",
+        "Complete the pre-lab quiz on Canvas",
+        "Review Ch. 9 on joint classification, synovial joint structure, and types of movements",
+        "Practice demonstrating all types of joint movements on your own body"
+      ],
+      "keyConcepts": [
+        "Joint classification by structure: fibrous, cartilaginous, synovial",
+        "Joint classification by function: synarthrosis (immovable), amphiarthrosis (slightly movable), diarthrosis (freely movable)",
+        "Synovial joint structure: articular cartilage, synovial membrane, synovial fluid, joint capsule, ligaments",
+        "Types of synovial joints: pivot, hinge, saddle, plane, condyloid, ball-and-socket",
+        "Types of body movements: flexion/extension, abduction/adduction, rotation, circumduction, dorsiflexion/plantar flexion, inversion/eversion, pronation/supination",
+        "Common joint injuries: sprains, dislocations, bursitis, arthritis (osteoarthritis vs. rheumatoid)",
+        "Effects of exercise on joints and musculoskeletal health"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What are the three structural classifications of joints? Give an example of each.",
+          "answer": "Fibrous (sutures of the skull), cartilaginous (intervertebral discs, pubic symphysis), synovial (knee, shoulder, hip)."
+        },
+        {
+          "question": "What type of synovial joint is the knee?",
+          "answer": "The knee is primarily a hinge joint (allows flexion and extension), though it also allows slight rotation when flexed."
+        },
+        {
+          "question": "What is the difference between a ligament and a tendon?",
+          "answer": "A ligament connects bone to bone and stabilizes joints. A tendon connects muscle to bone and transmits the force of muscle contraction to move the skeleton."
+        }
+      ],
+      "labTips": [
+        "This is the last content lab before the Week 11 assessment",
+        "Practice all joint movements on yourself — physically doing them helps you remember the terms",
+        "Know which joints allow which types of movement",
+        "Start reviewing all material from weeks 6-10 for the upcoming assessment",
+        "Make a comparison table of the six synovial joint types with examples and movements allowed"
+      ],
+      "assessmentInfo": null
+    },
+    {
+      "week": 11,
+      "topic": "In-class Assessment Activity (Weeks 6-10)",
+      "chapters": null,
+      "isAssessment": true,
+      "isOff": false,
+      "preLabChecklist": [
+        "Review all pre-lab materials and notes from weeks 6-10",
+        "Practice bone and muscle identification",
+        "Review joint types, classifications, and movements",
+        "Go over all previous check-in quiz questions from weeks 6-10",
+        "Get a good night's sleep before the assessment"
+      ],
+      "keyConcepts": [
+        "Bone tissue, bone cells, and bone structure (Week 6)",
+        "Axial and appendicular skeleton, fracture types and repair (Week 7)",
+        "Muscle tissue types, sarcomere structure, sliding filament theory (Week 9)",
+        "Joint classification, synovial joints, body movements (Week 10)"
+      ],
+      "checkInQuestions": [
+        {
+          "question": "What are the components of an osteon?",
+          "answer": "Central (Haversian) canal, concentric lamellae, lacunae with osteocytes, canaliculi connecting lacunae, and perforating (Volkmann's) canals connecting adjacent osteons."
+        },
+        {
+          "question": "Name three types of synovial joints and an example of each.",
+          "answer": "Ball-and-socket (hip, shoulder), hinge (elbow, knee), pivot (atlantoaxial joint between C1-C2)."
+        },
+        {
+          "question": "What happens during the power stroke of muscle contraction?",
+          "answer": "The myosin head, which is bound to actin, pivots and pulls the thin filament toward the M-line (center of the sarcomere), shortening the sarcomere. ADP and inorganic phosphate are released during this step."
+        }
+      ],
+      "labTips": [
+        "This assessment is worth 15% of your lab grade",
+        "Arrive on time — you need the full period",
+        "The assessment covers ALL material from lab weeks 6-10",
+        "Expect identification questions on bones, muscles, and joint types",
+        "Review your lab reports and any feedback from previous weeks"
+      ],
+      "assessmentInfo": {
+        "coveredWeeks": "Weeks 6-10",
+        "topics": [
+          "Bone tissue types, bone cells, compact and spongy bone structure, osteon anatomy (Ch. 6)",
+          "Axial skeleton bones, appendicular skeleton bones, bone markings, fracture types and repair (Ch. 7, 8)",
+          "Muscle tissue types, skeletal muscle organization, sarcomere structure, sliding filament theory, neuromuscular junction, major muscle identification (Ch. 10, 11)",
+          "Joint classification (structural and functional), synovial joint structure, types of synovial joints, body movements, joint injuries (Ch. 9)"
+        ],
+        "studyTips": [
+          "Create a master review sheet covering key concepts from each week",
+          "Practice bone and muscle identification from unlabeled diagrams",
+          "Draw and label from memory: osteon, sarcomere, synovial joint",
+          "Practice demonstrating all body movements and naming the joint type involved",
+          "Review all pre-lab and check-in quiz questions from weeks 6-10",
+          "Study with your lab group — quiz each other on identification",
+          "Use Visible Body for last-minute review of 3D structures",
+          "Focus on understanding processes (fracture repair, muscle contraction) not just terminology"
+        ]
+      }
+    },
+    {
+      "week": 12,
+      "topic": "No Lab",
+      "chapters": null,
+      "isAssessment": false,
+      "isOff": true,
+      "preLabChecklist": [
+        "No lab this week",
+        "Use the extra time to review for any remaining lecture exams"
+      ],
+      "keyConcepts": [],
+      "checkInQuestions": [],
+      "labTips": [
+        "The lab portion of the course is complete",
+        "Review any lab material that may appear on the lecture final exam",
+        "Organize all your lab notes and materials for future reference"
+      ],
+      "assessmentInfo": null
+    }
+  ]
+}

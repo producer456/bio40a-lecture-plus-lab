@@ -98,9 +98,67 @@ struct LabPrepListView: View {
 
     var body: some View {
         List {
-            if let syllabus = content.syllabus {
+            if let labPrep = content.labPrepData {
+                Section {
+                    HStack(spacing: 12) {
+                        Image(systemName: "person.fill")
+                            .foregroundStyle(.blue)
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Lab Instructor")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            Text(labPrep.instructor)
+                                .font(.subheadline)
+                                .fontWeight(.medium)
+                        }
+                    }
+                    .padding(.vertical, 4)
+                }
+
+                Section("Lab Weeks") {
+                    ForEach(labPrep.weeks) { labWeek in
+                        NavigationLink(destination: LabPrepDetailView(labWeek: labWeek)) {
+                            HStack {
+                                VStack(alignment: .leading, spacing: 4) {
+                                    HStack(spacing: 6) {
+                                        Text("Week \(labWeek.week)")
+                                            .font(.caption)
+                                            .foregroundStyle(.secondary)
+                                        if labWeek.isAssessment {
+                                            Text("ASSESSMENT")
+                                                .font(.caption2)
+                                                .fontWeight(.bold)
+                                                .foregroundStyle(.white)
+                                                .padding(.horizontal, 6)
+                                                .padding(.vertical, 2)
+                                                .background(.red, in: Capsule())
+                                        } else if labWeek.isOff {
+                                            Text("NO LAB")
+                                                .font(.caption2)
+                                                .fontWeight(.bold)
+                                                .foregroundStyle(.white)
+                                                .padding(.horizontal, 6)
+                                                .padding(.vertical, 2)
+                                                .background(.gray, in: Capsule())
+                                        }
+                                    }
+                                    Text(labWeek.topic)
+                                        .font(.subheadline)
+                                        .fontWeight(.medium)
+                                }
+                                Spacer()
+                                if let chapters = labWeek.chapters, !chapters.isEmpty {
+                                    Text("\(chapters.count) ch.")
+                                        .font(.caption2)
+                                        .foregroundStyle(.secondary)
+                                }
+                            }
+                        }
+                    }
+                }
+            } else if let syllabus = content.syllabus {
                 ForEach(syllabus.labSchedule, id: \.week) { week in
-                    NavigationLink(destination: LabPrepDetailView(week: week)) {
+                    NavigationLink(destination: LabPrepFallbackView(week: week)) {
                         HStack {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text("Week \(week.week)")
@@ -122,6 +180,27 @@ struct LabPrepListView: View {
             }
         }
         .navigationTitle("Lab Prep")
+    }
+}
+
+// Fallback for when labprep.json is not available
+struct LabPrepFallbackView: View {
+    let week: WeekEntry
+    @Environment(ContentService.self) private var content
+
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading, spacing: 20) {
+                Label("Lab Week \(week.week)", systemImage: "flask.fill")
+                    .font(.headline)
+                Text(week.topic)
+                    .font(.title3)
+                    .fontWeight(.bold)
+            }
+            .padding()
+        }
+        .navigationTitle("Lab Week \(week.week)")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

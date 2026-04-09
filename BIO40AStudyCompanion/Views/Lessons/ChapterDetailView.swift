@@ -1,5 +1,6 @@
 import SwiftUI
 import SwiftData
+import AVFoundation
 
 struct ChapterDetailView: View {
     let chapter: Chapter
@@ -112,64 +113,124 @@ struct SectionContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var bookmarks: [UserBookmark]
     @State private var showObjectives = false
+    @State private var tts = TextToSpeechService()
+
+    private var allParagraphs: [String] {
+        var result = section.content
+        if !section.chapterReviewText.isEmpty {
+            result.append(section.chapterReviewText)
+        }
+        return result
+    }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                // Objectives
-                if !section.objectives.isEmpty {
-                    DisclosureGroup("Learning Objectives", isExpanded: $showObjectives) {
-                        VStack(alignment: .leading, spacing: 8) {
-                            ForEach(section.objectives, id: \.self) { objective in
-                                HStack(alignment: .top) {
-                                    Image(systemName: "checkmark.circle")
-                                        .foregroundStyle(.green)
-                                        .font(.caption)
-                                    Text(objective)
-                                        .font(.caption)
+        ZStack(alignment: .bottom) {
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 16) {
+                        // Objectives
+                        if !section.objectives.isEmpty {
+                            DisclosureGroup("Learning Objectives", isExpanded: $showObjectives) {
+                                VStack(alignment: .leading, spacing: 8) {
+                                    ForEach(section.objectives, id: \.self) { objective in
+                                        HStack(alignment: .top) {
+                                            Image(systemName: "checkmark.circle")
+                                                .foregroundStyle(.green)
+                                                .font(.caption)
+                                            Text(objective)
+                                                .font(.caption)
+                                        }
+                                    }
                                 }
+                                .padding(.top, 8)
+                            }
+                            .padding()
+                            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                        }
+
+                        // Content
+                        ForEach(Array(section.content.enumerated()), id: \.offset) { index, paragraph in
+                            Text(paragraph)
+                                .font(.body)
+                                .lineSpacing(4)
+                                .padding(tts.isPlaying && tts.currentParagraphIndex == index ? 8 : 0)
+                                .background(
+                                    tts.isPlaying && tts.currentParagraphIndex == index
+                                    ? Color.blue.opacity(0.12)
+                                    : Color.clear,
+                                    in: RoundedRectangle(cornerRadius: 8)
+                                )
+                                .id(index)
+                        }
+
+                        // Chapter Review
+                        if !section.chapterReviewText.isEmpty {
+                            let reviewIndex = section.content.count
+                            Divider()
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text("Chapter Review")
+                                    .font(.headline)
+                                Text(section.chapterReviewText)
+                                    .font(.body)
+                                    .foregroundStyle(.secondary)
+                            }
+                            .padding()
+                            .background(
+                                tts.isPlaying && tts.currentParagraphIndex == reviewIndex
+                                ? Color.blue.opacity(0.15)
+                                : Color.blue.opacity(0.05),
+                                in: RoundedRectangle(cornerRadius: 12)
+                            )
+                            .id(reviewIndex)
+                        }
+
+                        // Review Questions
+                        if !section.reviewQuestions.isEmpty {
+                            Divider()
+                            NavigationLink(destination: QuizView(questions: section.reviewQuestions, chapterTitle: "\(chapter.title) - \(section.title)")) {
+                                Label("Practice \(section.reviewQuestions.count) Review Questions", systemImage: "checkmark.circle.fill")
+                                    .font(.headline)
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(.green.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
                             }
                         }
-                        .padding(.top, 8)
+
+                        // Bottom spacer so content is not hidden behind mini player
+                        if tts.isPlaying {
+                            Spacer().frame(height: 80)
+                        }
                     }
                     .padding()
-                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
                 }
-
-                // Content
-                ForEach(Array(section.content.enumerated()), id: \.offset) { _, paragraph in
-                    Text(paragraph)
-                        .font(.body)
-                        .lineSpacing(4)
-                }
-
-                // Chapter Review
-                if !section.chapterReviewText.isEmpty {
-                    Divider()
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Chapter Review")
-                            .font(.headline)
-                        Text(section.chapterReviewText)
-                            .font(.body)
-                            .foregroundStyle(.secondary)
-                    }
-                    .padding()
-                    .background(.blue.opacity(0.05), in: RoundedRectangle(cornerRadius: 12))
-                }
-
-                // Review Questions
-                if !section.reviewQuestions.isEmpty {
-                    Divider()
-                    NavigationLink(destination: QuizView(questions: section.reviewQuestions, chapterTitle: "\(chapter.title) - \(section.title)")) {
-                        Label("Practice \(section.reviewQuestions.count) Review Questions", systemImage: "checkmark.circle.fill")
-                            .font(.headline)
-                            .padding()
-                            .frame(maxWidth: .infinity)
-                            .background(.green.opacity(0.1), in: RoundedRectangle(cornerRadius: 12))
+                .onChange(of: tts.currentParagraphIndex) { _, newIndex in
+                    withAnimation {
+                        proxy.scrollTo(newIndex, anchor: .center)
                     }
                 }
             }
-            .padding()
+
+            // Mini player bar
+            if tts.isPlaying {
+                TTSMiniPlayerBar(tts: tts)
+            }
+
+            // Floating play button (hidden when player bar is showing)
+            if !tts.isPlaying {
+                Button {
+                    tts.speak(paragraphs: allParagraphs)
+                } label: {
+                    Image(systemName: "headphones")
+                        .font(.title2)
+                        .foregroundStyle(.white)
+                        .frame(width: 56, height: 56)
+                        .background(.blue, in: Circle())
+                        .shadow(radius: 4)
+                }
+                .padding(.bottom, 24)
+                .padding(.trailing, 24)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+            }
         }
         .navigationTitle(section.title)
         .navigationBarTitleDisplayMode(.inline)
@@ -185,6 +246,9 @@ struct SectionContentView: View {
         }
         .onAppear {
             trackProgress()
+        }
+        .onDisappear {
+            tts.stop()
         }
     }
 
@@ -219,27 +283,126 @@ struct SectionContentView: View {
 
 struct QuickReviewView: View {
     let chapter: Chapter
+    @State private var tts = TextToSpeechService()
+
+    private var reviewParagraphs: [String] {
+        chapter.sections.compactMap { section in
+            section.chapterReviewText.isEmpty ? nil : "\(section.title). \(section.chapterReviewText)"
+        }
+    }
 
     var body: some View {
-        ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                ForEach(chapter.sections) { section in
-                    if !section.chapterReviewText.isEmpty {
-                        VStack(alignment: .leading, spacing: 8) {
-                            Text(section.title)
-                                .font(.headline)
-                            Text(section.chapterReviewText)
-                                .font(.body)
-                                .lineSpacing(4)
+        ZStack(alignment: .bottom) {
+            ScrollViewReader { proxy in
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 20) {
+                        let reviewSections = chapter.sections.filter { !$0.chapterReviewText.isEmpty }
+                        ForEach(Array(reviewSections.enumerated()), id: \.element.id) { index, section in
+                            VStack(alignment: .leading, spacing: 8) {
+                                Text(section.title)
+                                    .font(.headline)
+                                Text(section.chapterReviewText)
+                                    .font(.body)
+                                    .lineSpacing(4)
+                            }
+                            .padding()
+                            .background(
+                                tts.isPlaying && tts.currentParagraphIndex == index
+                                ? Color.blue.opacity(0.15)
+                                : Color(.secondarySystemBackground),
+                                in: RoundedRectangle(cornerRadius: 12)
+                            )
+                            .id(index)
                         }
-                        .padding()
-                        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+
+                        if tts.isPlaying {
+                            Spacer().frame(height: 80)
+                        }
+                    }
+                    .padding()
+                }
+                .onChange(of: tts.currentParagraphIndex) { _, newIndex in
+                    withAnimation {
+                        proxy.scrollTo(newIndex, anchor: .center)
                     }
                 }
             }
-            .padding()
+
+            if tts.isPlaying {
+                TTSMiniPlayerBar(tts: tts)
+            }
+
+            if !tts.isPlaying {
+                Button {
+                    tts.speak(paragraphs: reviewParagraphs)
+                } label: {
+                    Image(systemName: "headphones")
+                        .font(.title2)
+                        .foregroundStyle(.white)
+                        .frame(width: 56, height: 56)
+                        .background(.blue, in: Circle())
+                        .shadow(radius: 4)
+                }
+                .padding(.bottom, 24)
+                .padding(.trailing, 24)
+                .frame(maxWidth: .infinity, alignment: .trailing)
+            }
         }
         .navigationTitle("Quick Review: Ch. \(chapter.number)")
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear {
+            tts.stop()
+        }
+    }
+}
+
+// MARK: - TTS Mini Player Bar
+
+struct TTSMiniPlayerBar: View {
+    @Bindable var tts: TextToSpeechService
+
+    var body: some View {
+        VStack(spacing: 6) {
+            ProgressView(value: tts.progress)
+                .tint(.blue)
+
+            HStack(spacing: 20) {
+                Button {
+                    tts.stop()
+                } label: {
+                    Image(systemName: "stop.fill")
+                        .font(.body)
+                        .foregroundStyle(.red)
+                }
+
+                Button {
+                    if tts.isPaused {
+                        tts.resume()
+                    } else {
+                        tts.pause()
+                    }
+                } label: {
+                    Image(systemName: tts.isPaused ? "play.fill" : "pause.fill")
+                        .font(.title3)
+                        .foregroundStyle(.blue)
+                }
+
+                Text("\(tts.currentParagraphIndex + 1) / \(tts.totalParagraphs)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .monospacedDigit()
+
+                Spacer()
+
+                Image(systemName: "waveform")
+                    .foregroundStyle(.blue)
+                    .symbolEffect(.variableColor.iterative, isActive: !tts.isPaused)
+            }
+        }
+        .padding(.horizontal, 16)
+        .padding(.vertical, 10)
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+        .padding(.horizontal, 12)
+        .padding(.bottom, 8)
     }
 }
