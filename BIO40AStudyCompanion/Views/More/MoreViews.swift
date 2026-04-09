@@ -205,78 +205,354 @@ struct LabPrepFallbackView: View {
 }
 
 struct LabPrepDetailView: View {
-    let week: WeekEntry
+    let labWeek: LabWeek
     @Environment(ContentService.self) private var content
+    @State private var checkedItems: Set<String> = []
+    @State private var revealedAnswers: Set<String> = []
 
     var body: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 20) {
-                // Lab Info
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("Lab Week \(week.week)", systemImage: "flask.fill")
-                        .font(.headline)
-                    Text(week.topic)
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    Text("Starting \(week.startDate)")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 24) {
+                // Header
+                labHeaderSection
+
+                // Assessment Info (for weeks 5 and 11)
+                if let assessmentInfo = labWeek.assessmentInfo {
+                    assessmentSection(assessmentInfo)
+                }
+
+                // Pre-Lab Checklist
+                if !labWeek.preLabChecklist.isEmpty {
+                    preLabChecklistSection
+                }
+
+                // Key Concepts
+                if !labWeek.keyConcepts.isEmpty {
+                    keyConceptsSection
+                }
+
+                // Practice Check-In Questions
+                if !labWeek.checkInQuestions.isEmpty {
+                    checkInQuestionsSection
                 }
 
                 // Related Chapters
-                if let chapters = week.chapters, !chapters.isEmpty {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("Prep Reading")
-                            .font(.headline)
+                if let chapters = labWeek.chapters, !chapters.isEmpty {
+                    relatedChaptersSection(chapters)
+                }
 
-                        ForEach(chapters, id: \.self) { chapterID in
-                            if let chapter = content.chapter(id: chapterID) {
-                                NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
-                                    HStack {
-                                        Image(systemName: "book.fill")
-                                            .foregroundStyle(.blue)
-                                        VStack(alignment: .leading) {
-                                            Text("Ch. \(chapter.number): \(chapter.title)")
-                                                .font(.subheadline)
-                                                .fontWeight(.medium)
-                                            Text("\(chapter.sections.count) sections")
-                                                .font(.caption)
-                                                .foregroundStyle(.secondary)
-                                        }
-                                    }
-                                    .padding()
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
-                                }
-                            }
-                        }
-                    }
+                // Lab Tips
+                if !labWeek.labTips.isEmpty {
+                    labTipsSection
+                }
 
-                    // Key Terms for Lab
+                // Key Terms from chapters
+                if let chapters = labWeek.chapters, !chapters.isEmpty {
                     let labTerms = chapters.flatMap { content.glossaryForChapter($0) }
                     if !labTerms.isEmpty {
-                        VStack(alignment: .leading, spacing: 12) {
-                            Text("Key Terms to Know (\(labTerms.count))")
-                                .font(.headline)
-                            ForEach(labTerms, id: \.term) { term in
-                                VStack(alignment: .leading, spacing: 2) {
-                                    Text(term.term)
-                                        .font(.subheadline)
-                                        .fontWeight(.semibold)
-                                    Text(term.definition)
-                                        .font(.caption)
-                                        .foregroundStyle(.secondary)
-                                }
-                                .padding(.vertical, 2)
-                            }
-                        }
+                        glossarySection(labTerms)
                     }
                 }
             }
             .padding()
         }
-        .navigationTitle("Lab Week \(week.week)")
+        .navigationTitle("Lab Week \(labWeek.week)")
         .navigationBarTitleDisplayMode(.inline)
+    }
+
+    // MARK: - Header
+
+    private var labHeaderSection: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            HStack {
+                Label("Lab Week \(labWeek.week)", systemImage: "flask.fill")
+                    .font(.headline)
+                    .foregroundStyle(.blue)
+                Spacer()
+                if labWeek.isAssessment {
+                    Label("Assessment", systemImage: "exclamationmark.triangle.fill")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 4)
+                        .background(.red, in: Capsule())
+                } else if labWeek.isOff {
+                    Text("No Lab")
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 10)
+                        .padding(.vertical, 4)
+                        .background(.gray, in: Capsule())
+                }
+            }
+            Text(labWeek.topic)
+                .font(.title3)
+                .fontWeight(.bold)
+        }
+        .padding()
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+    }
+
+    // MARK: - Assessment Info
+
+    private func assessmentSection(_ info: LabAssessmentInfo) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Assessment Details", systemImage: "doc.text.fill")
+                .font(.headline)
+                .foregroundStyle(.red)
+
+            VStack(alignment: .leading, spacing: 8) {
+                HStack {
+                    Image(systemName: "calendar")
+                        .foregroundStyle(.secondary)
+                    Text("Covers: \(info.coveredWeeks)")
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                }
+
+                Text("Topics Covered:")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+
+                ForEach(info.topics, id: \.self) { topic in
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: "circle.fill")
+                            .font(.system(size: 5))
+                            .foregroundStyle(.red)
+                            .padding(.top, 6)
+                        Text(topic)
+                            .font(.caption)
+                    }
+                }
+
+                Divider()
+
+                Text("Study Tips:")
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+
+                ForEach(info.studyTips, id: \.self) { tip in
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: "star.fill")
+                            .font(.system(size: 10))
+                            .foregroundStyle(.orange)
+                            .padding(.top, 3)
+                        Text(tip)
+                            .font(.caption)
+                    }
+                }
+            }
+            .padding()
+            .background(Color.red.opacity(0.05), in: RoundedRectangle(cornerRadius: 12))
+        }
+    }
+
+    // MARK: - Pre-Lab Checklist
+
+    private var preLabChecklistSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Pre-Lab Checklist", systemImage: "checklist")
+                .font(.headline)
+                .foregroundStyle(.green)
+
+            VStack(alignment: .leading, spacing: 8) {
+                ForEach(labWeek.preLabChecklist, id: \.self) { item in
+                    Button {
+                        if checkedItems.contains(item) {
+                            checkedItems.remove(item)
+                        } else {
+                            checkedItems.insert(item)
+                        }
+                    } label: {
+                        HStack(alignment: .top, spacing: 10) {
+                            Image(systemName: checkedItems.contains(item) ? "checkmark.square.fill" : "square")
+                                .foregroundStyle(checkedItems.contains(item) ? .green : .secondary)
+                                .font(.body)
+                            Text(item)
+                                .font(.subheadline)
+                                .foregroundStyle(checkedItems.contains(item) ? .secondary : .primary)
+                                .strikethrough(checkedItems.contains(item))
+                                .multilineTextAlignment(.leading)
+                        }
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
+            .padding()
+            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+
+            let completed = labWeek.preLabChecklist.filter { checkedItems.contains($0) }.count
+            let total = labWeek.preLabChecklist.count
+            if total > 0 {
+                ProgressView(value: Double(completed), total: Double(total))
+                    .tint(completed == total ? .green : .blue)
+                Text("\(completed)/\(total) completed")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+        }
+    }
+
+    // MARK: - Key Concepts
+
+    private var keyConceptsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Key Concepts", systemImage: "brain.head.profile.fill")
+                .font(.headline)
+                .foregroundStyle(.purple)
+
+            VStack(alignment: .leading, spacing: 8) {
+                ForEach(labWeek.keyConcepts, id: \.self) { concept in
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: "diamond.fill")
+                            .font(.system(size: 8))
+                            .foregroundStyle(.purple)
+                            .padding(.top, 5)
+                        Text(concept)
+                            .font(.subheadline)
+                    }
+                }
+            }
+            .padding()
+            .background(Color.purple.opacity(0.05), in: RoundedRectangle(cornerRadius: 12))
+        }
+    }
+
+    // MARK: - Check-In Questions
+
+    private var checkInQuestionsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Practice Check-In Questions", systemImage: "questionmark.circle.fill")
+                .font(.headline)
+                .foregroundStyle(.orange)
+
+            Text("Lab starts with 1-3 check-in questions from pre-lab material. Practice here:")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+
+            ForEach(labWeek.checkInQuestions) { q in
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(q.question)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+
+                    if revealedAnswers.contains(q.question) {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text("Answer:")
+                                .font(.caption)
+                                .fontWeight(.bold)
+                                .foregroundStyle(.green)
+                            Text(q.answer)
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding(10)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(Color.green.opacity(0.08), in: RoundedRectangle(cornerRadius: 8))
+                    }
+
+                    Button {
+                        if revealedAnswers.contains(q.question) {
+                            revealedAnswers.remove(q.question)
+                        } else {
+                            revealedAnswers.insert(q.question)
+                        }
+                    } label: {
+                        Label(
+                            revealedAnswers.contains(q.question) ? "Hide Answer" : "Show Answer",
+                            systemImage: revealedAnswers.contains(q.question) ? "eye.slash" : "eye"
+                        )
+                        .font(.caption)
+                        .fontWeight(.medium)
+                    }
+                    .buttonStyle(.bordered)
+                    .tint(.orange)
+                }
+                .padding()
+                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+            }
+        }
+    }
+
+    // MARK: - Related Chapters
+
+    private func relatedChaptersSection(_ chapters: [String]) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Prep Reading", systemImage: "book.fill")
+                .font(.headline)
+                .foregroundStyle(.blue)
+
+            ForEach(chapters, id: \.self) { chapterID in
+                if let chapter = content.chapter(id: chapterID) {
+                    NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
+                        HStack {
+                            Image(systemName: "book.fill")
+                                .foregroundStyle(.blue)
+                            VStack(alignment: .leading) {
+                                Text("Ch. \(chapter.number): \(chapter.title)")
+                                    .font(.subheadline)
+                                    .fontWeight(.medium)
+                                Text("\(chapter.sections.count) sections")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                        }
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+                    }
+                }
+            }
+        }
+    }
+
+    // MARK: - Lab Tips
+
+    private var labTipsSection: some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Lab Tips", systemImage: "lightbulb.fill")
+                .font(.headline)
+                .foregroundStyle(.yellow)
+
+            VStack(alignment: .leading, spacing: 8) {
+                ForEach(labWeek.labTips, id: \.self) { tip in
+                    HStack(alignment: .top, spacing: 8) {
+                        Image(systemName: "lightbulb.fill")
+                            .font(.system(size: 10))
+                            .foregroundStyle(.yellow)
+                            .padding(.top, 4)
+                        Text(tip)
+                            .font(.subheadline)
+                    }
+                }
+            }
+            .padding()
+            .background(Color.yellow.opacity(0.08), in: RoundedRectangle(cornerRadius: 12))
+        }
+    }
+
+    // MARK: - Glossary
+
+    private func glossarySection(_ terms: [GlossaryTerm]) -> some View {
+        VStack(alignment: .leading, spacing: 12) {
+            Label("Key Terms (\(terms.count))", systemImage: "character.book.closed.fill")
+                .font(.headline)
+
+            ForEach(terms, id: \.term) { term in
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(term.term)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                    Text(term.definition)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                .padding(.vertical, 2)
+            }
+        }
     }
 }
 
