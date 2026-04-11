@@ -66,6 +66,7 @@ struct InteractiveLessonView: View {
     @State private var correctCount = 0
     @State private var totalInteractions = 0
     @State private var lessonComplete = false
+    @State private var missedQuestionIDs: [String] = []
 
     var body: some View {
         if lessonComplete {
@@ -268,7 +269,15 @@ struct InteractiveLessonView: View {
             options: options,
             answered: answered,
             onAnswer: { isCorrect in
-                markInteraction(index: index, correct: isCorrect)
+                markInteraction(index: index, correct: isCorrect, questionID: "term_\(term)")
+                let record = PerformanceRecord(
+                    questionID: "term_\(term)",
+                    chapterID: chapter.id,
+                    sectionID: section.id,
+                    wasCorrect: isCorrect,
+                    quizType: "interactiveLearning"
+                )
+                modelContext.insert(record)
             },
             onContinue: { advanceFrom(index) }
         )
@@ -282,17 +291,15 @@ struct InteractiveLessonView: View {
             question: question,
             answered: answeredInteractions.contains(index),
             onAnswer: { isCorrect in
-                markInteraction(index: index, correct: isCorrect)
-                if let chID = question.chapterID, let sID = question.sectionID {
-                    let record = PerformanceRecord(
-                        questionID: question.id,
-                        chapterID: chID,
-                        sectionID: sID,
-                        wasCorrect: isCorrect,
-                        quizType: "interactiveLearning"
-                    )
-                    modelContext.insert(record)
-                }
+                markInteraction(index: index, correct: isCorrect, questionID: question.id)
+                let record = PerformanceRecord(
+                    questionID: question.id,
+                    chapterID: question.chapterID ?? chapter.id,
+                    sectionID: question.sectionID ?? section.id,
+                    wasCorrect: isCorrect,
+                    quizType: "interactiveLearning"
+                )
+                modelContext.insert(record)
             },
             onContinue: { advanceFrom(index) }
         )
@@ -307,7 +314,15 @@ struct InteractiveLessonView: View {
             sentence: sentence,
             answered: answeredInteractions.contains(index),
             onAnswer: { isCorrect in
-                markInteraction(index: index, correct: isCorrect)
+                markInteraction(index: index, correct: isCorrect, questionID: "fill_\(term)")
+                let record = PerformanceRecord(
+                    questionID: "fill_\(term)",
+                    chapterID: chapter.id,
+                    sectionID: section.id,
+                    wasCorrect: isCorrect,
+                    quizType: "interactiveLearning"
+                )
+                modelContext.insert(record)
             },
             onContinue: { advanceFrom(index) }
         )
@@ -323,7 +338,16 @@ struct InteractiveLessonView: View {
             explanation: explanation,
             answered: answeredInteractions.contains(index),
             onAnswer: { isCorrect in
-                markInteraction(index: index, correct: isCorrect)
+                let qID = "tf_\(statement.prefix(50))"
+                markInteraction(index: index, correct: isCorrect, questionID: qID)
+                let record = PerformanceRecord(
+                    questionID: qID,
+                    chapterID: chapter.id,
+                    sectionID: section.id,
+                    wasCorrect: isCorrect,
+                    quizType: "interactiveLearning"
+                )
+                modelContext.insert(record)
             },
             onContinue: { advanceFrom(index) }
         )
@@ -354,6 +378,7 @@ struct InteractiveLessonView: View {
             // Track progress
             let progress = StudyProgress(chapterID: chapter.id, sectionID: section.id, readPercentage: 1.0)
             modelContext.insert(progress)
+            if totalInteractions > 0 { saveQuizAttempt() }
         } label: {
             HStack {
                 Image(systemName: "checkmark.circle.fill")
@@ -421,6 +446,7 @@ struct InteractiveLessonView: View {
                     answeredInteractions = []
                     correctCount = 0
                     totalInteractions = 0
+                    missedQuestionIDs = []
                     lessonComplete = false
                 }
                 .font(.subheadline)
@@ -603,14 +629,30 @@ struct InteractiveLessonView: View {
                 lessonComplete = true
                 let progress = StudyProgress(chapterID: chapter.id, sectionID: section.id, readPercentage: 1.0)
                 modelContext.insert(progress)
+                if totalInteractions > 0 { saveQuizAttempt() }
             }
         }
     }
 
-    private func markInteraction(index: Int, correct: Bool) {
+    private func markInteraction(index: Int, correct: Bool, questionID: String) {
         answeredInteractions.insert(index)
         totalInteractions += 1
-        if correct { correctCount += 1 }
+        if correct {
+            correctCount += 1
+        } else {
+            missedQuestionIDs.append(questionID)
+        }
+    }
+
+    private func saveQuizAttempt() {
+        let attempt = QuizAttempt(
+            chapterIDs: [chapter.id],
+            score: correctCount,
+            totalQuestions: totalInteractions,
+            missedQuestionIDs: missedQuestionIDs,
+            quizType: "interactiveLearning"
+        )
+        modelContext.insert(attempt)
     }
 }
 
