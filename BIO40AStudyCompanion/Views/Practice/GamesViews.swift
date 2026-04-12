@@ -15,6 +15,9 @@ struct GamesMenuView: View {
                 NavigationLink(destination: FillInBlankView()) {
                     gameRow(icon: "text.cursor", title: "Fill in the Blank", subtitle: "Complete sentences with key terms", color: .purple)
                 }
+                NavigationLink(destination: VennGamesMenuView()) {
+                    gameRow(icon: "circle.grid.cross.fill", title: "Venn Diagram Games", subtitle: "3 games to master compare & contrast", color: .indigo)
+                }
             }
         }
         .navigationTitle("Games")
