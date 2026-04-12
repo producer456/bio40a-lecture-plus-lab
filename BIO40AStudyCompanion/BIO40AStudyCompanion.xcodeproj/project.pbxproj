@@ -48,6 +48,8 @@
 		F0A49A4EB457E17CD3AEBFD2 /* WeakSpotAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885BAFE5AAF6F787460CC8D /* WeakSpotAnalyzer.swift */; };
 		F2AF3CB91969132C192620FA /* AssignmentReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C93540B1698A374845E0AF1 /* AssignmentReflection.swift */; };
 		FEA5BD1A9ED49EF6B6971A60 /* QuizViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DE59F89AA7AF66B9892A01 /* QuizViews.swift */; };
+		CC01A1B2C3D4E5F607890AB1 /* ComparisonTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03A1B2C3D4E5F607890AB1 /* ComparisonTable.swift */; };
+		CC02A1B2C3D4E5F607890AB2 /* ComparisonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04A1B2C3D4E5F607890AB2 /* ComparisonViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		E99B2DE7E82358BD2B4F08F0 /* ContentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentService.swift; sourceTree = "<group>"; };
 		F858CE26702E3219B766B9E4 /* ChapterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterDetailView.swift; sourceTree = "<group>"; };
 		F885BAFE5AAF6F787460CC8D /* WeakSpotAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSpotAnalyzer.swift; sourceTree = "<group>"; };
+		CC03A1B2C3D4E5F607890AB1 /* ComparisonTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonTable.swift; sourceTree = "<group>"; };
+		CC04A1B2C3D4E5F607890AB2 /* ComparisonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -132,6 +136,7 @@
 			children = (
 				0C93540B1698A374845E0AF1 /* AssignmentReflection.swift */,
 				A5970A5B55D102CE9EDA414B /* Chapter.swift */,
+				CC03A1B2C3D4E5F607890AB1 /* ComparisonTable.swift */,
 				6A03E6A76ECA98C6DA2BFEB8 /* Flashcard.swift */,
 				612548A79521F41E51BEC831 /* FlashcardProgress.swift */,
 				055B9AC687B77CADA0A1D5FF /* GlossaryTerm.swift */,
@@ -193,6 +198,7 @@
 		894856232290759E86663BF7 /* Practice */ = {
 			isa = PBXGroup;
 			children = (
+				CC04A1B2C3D4E5F607890AB2 /* ComparisonViews.swift */,
 				237E0E88300906C21F9BDD0E /* FlashcardViews.swift */,
 				D07EE60524905C4BFE8239E1 /* GamesViews.swift */,
 				13E75C33C5AEBA177FB66A3F /* PracticeMenuView.swift */,
@@ -349,6 +355,8 @@
 				F2AF3CB91969132C192620FA /* AssignmentReflection.swift in Sources */,
 				C7AC6905BACDE629F9509CBF /* AssignmentReflectionViews.swift in Sources */,
 				1BCE9F4F0BA08A4CDCAD061E /* BIO40AStudyCompanionApp.swift in Sources */,
+				CC01A1B2C3D4E5F607890AB1 /* ComparisonTable.swift in Sources */,
+				CC02A1B2C3D4E5F607890AB2 /* ComparisonViews.swift in Sources */,
 				10EE88045B141017273A60BB /* Chapter.swift in Sources */,
 				3BAA4783F144C8465FAA2659 /* ChapterDetailView.swift in Sources */,
 				362DC20F014EE903E1BF0B1E /* ContentService.swift in Sources */,
@@ -397,7 +405,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 9TUXM4MBAV;
 				INFOPLIST_KEY_CFBundleDisplayName = "BIO 40A Study";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of handouts, worksheets, and returned exams to add to your study materials";
@@ -420,7 +428,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = 9TUXM4MBAV;
 				INFOPLIST_KEY_CFBundleDisplayName = "BIO 40A Study";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of handouts, worksheets, and returned exams to add to your study materials";

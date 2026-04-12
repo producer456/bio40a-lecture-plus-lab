@@ -12,6 +12,7 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
     case labPrep = "Lab Prep"
     case assignmentLog = "Assignment Log"
     case studyMaterials = "Study Materials"
+    case comparisons = "Comparisons"
     case glossary = "Glossary"
     case weakSpots = "Weak Spots"
     case progress = "Progress"
@@ -33,6 +34,7 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
         case .labPrep: return "flask.fill"
         case .assignmentLog: return "doc.text.magnifyingglass"
         case .studyMaterials: return "folder.fill"
+        case .comparisons: return "circle.grid.cross.fill"
         case .glossary: return "character.book.closed.fill"
         case .weakSpots: return "exclamationmark.triangle.fill"
         case .progress: return "chart.bar.fill"
@@ -86,6 +88,8 @@ struct SidebarNavigationView: View {
             NavigationStack { AssignmentLogListView() }
         case .studyMaterials:
             NavigationStack { StudyMaterialLibraryView() }
+        case .comparisons:
+            NavigationStack { ComparisonListView() }
         case .glossary:
             NavigationStack { GlossaryView() }
         case .weakSpots:

@@ -28,6 +28,7 @@ final class ContentService {
     private(set) var allQuestions: [QuizQuestion] = []
     private(set) var flashcardDecks: [FlashcardDeck] = []
     private(set) var labPrepData: LabPrepData?
+    private(set) var comparisons: [ComparisonSection] = []
 
     init() {
         loadAll()
@@ -48,6 +49,7 @@ final class ContentService {
         allQuestions = loadJSON(filename: "questions") ?? []
         flashcardDecks = loadJSON(filename: "flashcards") ?? []
         labPrepData = loadJSON(filename: "labprep")
+        comparisons = loadJSON(filename: "comparisons") ?? []
     }
 
     private func loadJSON<T: Decodable>(filename: String) -> T? {

@@ -12,6 +12,9 @@ struct PracticeMenuView: View {
                 NavigationLink(destination: QuizSetupView()) {
                     practiceRow(icon: "checkmark.circle.fill", title: "Practice Quizzes", subtitle: "\(content.allQuestions.count) questions available", color: .green)
                 }
+                NavigationLink(destination: ComparisonListView()) {
+                    practiceRow(icon: "circle.grid.cross.fill", title: "Comparisons", subtitle: "Compare & contrast key concepts", color: .indigo)
+                }
             }
 
             Section("Games") {
