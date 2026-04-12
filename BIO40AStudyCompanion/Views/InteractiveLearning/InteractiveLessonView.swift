@@ -405,9 +405,7 @@ struct InteractiveLessonView: View {
     private var finishButton: some View {
         Button {
             lessonComplete = true
-            // Track progress
-            let progress = StudyProgress(chapterID: chapter.id, sectionID: section.id, readPercentage: 1.0)
-            modelContext.insert(progress)
+            saveStudyProgress()
             if totalInteractions > 0 { saveQuizAttempt() }
         } label: {
             HStack {
@@ -657,8 +655,7 @@ struct InteractiveLessonView: View {
                 currentBlockIndex += 1
             } else {
                 lessonComplete = true
-                let progress = StudyProgress(chapterID: chapter.id, sectionID: section.id, readPercentage: 1.0)
-                modelContext.insert(progress)
+                saveStudyProgress()
                 if totalInteractions > 0 { saveQuizAttempt() }
             }
         }
@@ -683,6 +680,17 @@ struct InteractiveLessonView: View {
             quizType: "interactiveLearning"
         )
         modelContext.insert(attempt)
+    }
+
+    private func saveStudyProgress() {
+        let key = "\(chapter.id)_\(section.id)"
+        let descriptor = FetchDescriptor<StudyProgress>(predicate: #Predicate { $0.compositeKey == key })
+        if let existing = try? modelContext.fetch(descriptor).first {
+            existing.readPercentage = 1.0
+            existing.lastReadDate = .now
+        } else {
+            modelContext.insert(StudyProgress(chapterID: chapter.id, sectionID: section.id, readPercentage: 1.0))
+        }
     }
 }
 
