@@ -6,6 +6,7 @@ import SwiftData
 struct InteractiveLearningListView: View {
     @Environment(ContentService.self) private var content
     @Query private var studyProgress: [StudyProgress]
+    @Query private var quizAttempts: [QuizAttempt]
 
     var body: some View {
         List {
@@ -33,13 +34,19 @@ struct InteractiveLearningListView: View {
                                         Text(section.title)
                                             .font(.subheadline)
                                             .fontWeight(.medium)
-                                        Text("\(section.content.count) paragraphs \u{2022} \(section.glossary.count) terms \u{2022} \(section.reviewQuestions.count) questions")
-                                            .font(.caption2)
-                                            .foregroundStyle(.tertiary)
+
+                                        if let attempt = lastAttempt(chapterID: chapter.id, sectionID: section.id) {
+                                            Text("\(attempt.score)/\(attempt.totalQuestions) correct \u{2022} \(attempt.date.formatted(.relative(presentation: .named)))")
+                                                .font(.caption2)
+                                                .foregroundStyle(attempt.scorePercentage >= 80 ? .green : .orange)
+                                        } else {
+                                            Text("\(section.content.count) paragraphs \u{2022} \(section.glossary.count) terms \u{2022} \(section.reviewQuestions.count) questions")
+                                                .font(.caption2)
+                                                .foregroundStyle(.tertiary)
+                                        }
                                     }
                                     Spacer()
-                                    Image(systemName: "hand.tap.fill")
-                                        .foregroundStyle(.blue.opacity(0.5))
+                                    sectionStatusIcon(chapterID: chapter.id, sectionID: section.id)
                                 }
                             }
                         }
@@ -48,6 +55,29 @@ struct InteractiveLearningListView: View {
             }
         }
         .navigationTitle("Interactive Learning")
+    }
+
+    @ViewBuilder
+    private func sectionStatusIcon(chapterID: String, sectionID: String) -> some View {
+        let progress = sectionProgress(chapterID: chapterID, sectionID: sectionID)
+        if progress >= 1.0 {
+            Image(systemName: "checkmark.circle.fill")
+                .foregroundStyle(.green)
+        } else {
+            CircularProgressView(progress: progress)
+                .frame(width: 34, height: 34)
+        }
+    }
+
+    private func sectionProgress(chapterID: String, sectionID: String) -> Double {
+        studyProgress.first(where: { $0.chapterID == chapterID && $0.sectionID == sectionID })?.readPercentage ?? 0
+    }
+
+    private func lastAttempt(chapterID: String, sectionID: String) -> QuizAttempt? {
+        quizAttempts
+            .filter { $0.quizType == "interactiveLearning" && $0.chapterIDs.contains(chapterID) }
+            .sorted { $0.date > $1.date }
+            .first
     }
 }
 
