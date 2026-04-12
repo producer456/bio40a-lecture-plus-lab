@@ -2,906 +2,392 @@
   {
     "sectionID": "ch01_s03",
     "sectionTitle": "Section 1.3: Functions of Human Life",
+    "chapterGroup": "Ch. 1.3–1.5",
     "tables": [
       {
         "id": "metabolism_types",
-        "terms": ["Metabolism", "Anabolism", "Catabolism"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The sum of all anabolic and catabolic chemical reactions that take place in the body.",
-              "The process whereby smaller, simpler molecules are combined into larger, more complex substances.",
-              "The process by which larger, more complex substances are broken down into smaller, simpler molecules."
-            ]
-          },
-          {
-            "feature": "Energy Requirement",
-            "values": [
-              "Encompasses both energy-consuming and energy-releasing processes.",
-              "Requires an investment of energy to form new chemical bonds.",
-              "Releases energy as chemical bonds are broken down."
-            ]
-          }
-        ]
+        "terms": ["Anabolism", "Catabolism"],
+        "unique": [
+          ["Builds complex molecules", "Requires energy input", "Forms new chemical bonds", "Constructive process"],
+          ["Breaks down molecules", "Releases energy", "Breaks chemical bonds", "Destructive process"]
+        ],
+        "shared": ["Part of metabolism", "Chemical reactions", "Occur in all cells", "Essential for life"]
       },
       {
         "id": "responsiveness_movement",
         "terms": ["Responsiveness", "Movement"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The ability of an organism or system to adjust to changes in its internal and external environments.",
-              "The physical motion of individual organs, cells, or actions at the joints of the body."
-            ]
-          },
-          {
-            "feature": "Function in Life",
-            "values": [
-              "Detects stimuli (like increased body temperature or a threat) and triggers a corresponding reaction.",
-              "Executes the physical action required for life, such as muscles contracting, blood circulating, or physically moving away from danger."
-            ]
-          }
-        ]
+        "unique": [
+          ["Detects stimuli", "Senses env. changes", "Triggers a reaction", "Nervous system driven"],
+          ["Physical motion", "Muscle contraction", "Blood circulation", "Organ or joint action"]
+        ],
+        "shared": ["Life characteristic", "Vital for survival", "Linked processes", "Requires signaling"]
       },
       {
-        "id": "development_differentiation_growth_reproduction",
-        "terms": ["Development", "Differentiation", "Growth", "Reproduction"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "All of the changes the body goes through in life.",
-              "The process in which unspecialized cells become specialized in structure and function.",
-              "The process of increasing in physical size.",
-              "The formation of a new organism from parent organisms."
-            ]
-          },
-          {
-            "feature": "Relationship",
-            "values": [
-              "The overarching category that inherently includes differentiation, growth, and tissue repair.",
-              "A specific mechanism within development that dictates cell tasks.",
-              "Achieved by increasing the number of cells, non-cellular material, or cell size.",
-              "Unlike the other three, which happen within an individual, reproduction aims to ensure the continuation of the species by creating a new individual."
-            ]
-          }
-        ]
+        "id": "growth_differentiation",
+        "terms": ["Growth", "Differentiation"],
+        "unique": [
+          ["Increases physical size", "Adds cells or material", "Quantitative change", "Measurable"],
+          ["Specializes cell function", "Creates cell types", "Qualitative change", "Irreversible"]
+        ],
+        "shared": ["Part of development", "Occurs throughout life", "Cell-based process", "Genetically controlled"]
+      },
+      {
+        "id": "development_reproduction",
+        "terms": ["Development", "Reproduction"],
+        "unique": [
+          ["Changes within one organism", "Includes growth and differentiation", "Lifelong process", "Individual-focused"],
+          ["Creates new organisms", "Ensures species survival", "Requires parent organisms", "Population-focused"]
+        ],
+        "shared": ["Fundamental life function", "Involves cell division", "Genetically driven", "Essential for species"]
       }
     ]
   },
   {
     "sectionID": "ch01_s04",
     "sectionTitle": "Section 1.4: Requirements for Human Life",
+    "chapterGroup": "Ch. 1.3–1.5",
     "tables": [
       {
-        "id": "oxygen_nutrient_water_carbohydrate_lipid_protein",
-        "terms": ["Oxygen", "Nutrient", "Water", "Carbohydrate & Lipid", "Protein"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A gas that makes up about 20 percent of atmospheric air.",
-              "A chemical substance obtained from foods and beverages critical to survival.",
-              "The most critical nutrient and largest component of cells, blood, and interstitial fluid.",
-              "Energy-yielding macronutrients.",
-              "A macronutrient that primarily supplies amino acids."
-            ]
-          },
-          {
-            "feature": "Primary Role",
-            "values": [
-              "A key reactant in the chemical reactions that keep the body alive, specifically ATP production.",
-              "Provides the fundamental building blocks and energy for the body.",
-              "Dissolves and transports functional chemicals, regulates temperature, and lubricates joints.",
-              "Broken down by the digestive system and used in metabolic processes that convert them to ATP for energy.",
-              "Serves as the building blocks of the body itself."
-            ]
-          }
-        ]
+        "id": "oxygen_nutrients",
+        "terms": ["Oxygen", "Nutrients"],
+        "unique": [
+          ["Atmospheric gas", "Used in ATP production", "Inhaled via lungs", "~20% of air"],
+          ["From food and drink", "Building blocks and fuel", "Digested and absorbed", "Many types"]
+        ],
+        "shared": ["Required for survival", "Used in chemical reactions", "Support metabolism", "Carried by blood"]
       },
       {
         "id": "temperature_pressure",
         "terms": ["Temperature", "Pressure"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The measure of internal body heat, normally kept within a narrow range around 37°C (98.6°F).",
-              "The force exerted by a substance in contact with another substance."
-            ]
-          },
-          {
-            "feature": "Role in Survival",
-            "values": [
-              "Maintains the precise environment required for proteins (enzymes) to facilitate chemical reactions; extreme deviations halt metabolism.",
-              "Atmospheric pressure keeps blood gases dissolved and enables the ability to breathe, while blood pressure ensures blood reaches all body tissues."
-            ]
-          }
-        ]
+        "unique": [
+          ["Internal body heat", "~37°C set point", "Affects enzyme function", "Regulated by hypothalamus"],
+          ["Force between substances", "Atmospheric and blood types", "Affects gas exchange", "Measured in mmHg"]
+        ],
+        "shared": ["Must stay in range", "Critical for survival", "Regulated by homeostasis", "Deviation can be fatal"]
       }
     ]
   },
   {
     "sectionID": "ch01_s05",
     "sectionTitle": "Section 1.5: Homeostasis",
+    "chapterGroup": "Ch. 1.3–1.5",
     "tables": [
       {
         "id": "set_point_normal_range",
         "terms": ["Set Point", "Normal Range"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The ideal, specific physiological value around which a parameter fluctuates.",
-              "The restricted set of values that is optimally healthful and stable."
-            ]
-          },
-          {
-            "feature": "Application",
-            "values": [
-              "e.g., The exact target body temperature is approximately 37°C (98.6°F).",
-              "e.g., Body temperature is allowed to safely fluctuate a few degrees above or below the set point."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "stimulus_receptor_control_center_effector",
-        "terms": ["Stimulus", "Receptor (Sensor)", "Control Center", "Effector"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A change that drives a physiological parameter beyond its normal range.",
-              "A component that monitors a physiological value.",
-              "A component that compares the reported value to the normal range.",
-              "A component that causes a change to reverse the situation."
-            ]
-          },
-          {
-            "feature": "Action",
-            "values": [
-              "Initiates the feedback loop.",
-              "Reports the value to the control center.",
-              "Activates the effector if the value deviates too much from the set point.",
-              "Returns the physiological value back to the normal range."
-            ]
-          }
-        ]
+        "unique": [
+          ["One ideal target value", "Precise reference", "E.g. 37°C exactly", "What body aims for"],
+          ["Band of safe values", "Allows fluctuation", "Few degrees around 37°C", "Acceptable variation"]
+        ],
+        "shared": ["Homeostasis concepts", "Relate to body parameters", "Used in feedback loops", "Define healthy state"]
       },
       {
         "id": "negative_feedback_positive_feedback",
-        "terms": ["Negative Feedback Loop", "Positive Feedback Loop"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A homeostatic mechanism that reverses a deviation from the set point.",
-              "A mechanism that intensifies a change in the body's physiological condition."
-            ]
-          },
-          {
-            "feature": "Function",
-            "values": [
-              "Works continuously to maintain body parameters within their normal range (e.g., regulating blood glucose or temperature).",
-              "Moves the system farther away from the normal range until a definite end point is reached (e.g., childbirth or blood clotting)."
-            ]
-          }
-        ]
+        "terms": ["Negative Feedback", "Positive Feedback"],
+        "unique": [
+          ["Reverses deviation", "Maintains stability", "Continuous process", "E.g. thermoregulation"],
+          ["Intensifies change", "Moves away from set point", "Has definite endpoint", "E.g. childbirth"]
+        ],
+        "shared": ["Feedback mechanisms", "Use receptors and effectors", "Involve control centers", "Physiological responses"]
+      },
+      {
+        "id": "stimulus_effector",
+        "terms": ["Stimulus", "Effector"],
+        "unique": [
+          ["Initiates the loop", "A change or deviation", "Detected by receptors", "The trigger"],
+          ["Ends the loop", "Causes corrective change", "Activated by control center", "The responder"]
+        ],
+        "shared": ["Feedback loop components", "Work with control center", "Maintain homeostasis", "Linked in sequence"]
       }
     ]
   },
   {
     "sectionID": "ch02_s01",
     "sectionTitle": "Section 2.1: Elements and Atoms",
+    "chapterGroup": "Ch. 2.1–2.2",
     "tables": [
       {
-        "id": "mass_matter_element",
-        "terms": ["Mass", "Matter", "Element"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A measure of the amount of matter in an object.",
-              "Any physical substance that occupies space and has mass.",
-              "A pure substance that cannot be created or broken down by ordinary chemical means."
-            ]
-          },
-          {
-            "feature": "Relationship",
-            "values": [
-              "A property possessed by all matter.",
-              "The physical \"stuff\" of the universe, composed entirely of elements.",
-              "The 92 fundamental building blocks that combine to form all matter."
-            ]
-          }
-        ]
+        "id": "mass_matter",
+        "terms": ["Mass", "Matter"],
+        "unique": [
+          ["Measure of amount", "A property", "Expressed in grams/kg", "Quantitative"],
+          ["Occupies physical space", "Composed of elements", "Has three states", "The substance itself"]
+        ],
+        "shared": ["Fundamental concepts", "Related to atoms", "Universal properties", "Basis of chemistry"]
       },
       {
         "id": "solids_liquids_gases",
         "terms": ["Solids", "Liquids", "Gases"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Matter that maintains its shape and density.",
-              "Matter that flows freely but maintains a constant volume.",
-              "Compressible matter that expands to fill its container."
-            ]
-          },
-          {
-            "feature": "Examples in Body",
-            "values": [
-              "Bones, teeth, and mineral crystals.",
-              "Blood plasma, water, interstitial fluid, and cytosol.",
-              "Oxygen, carbon dioxide, and nitrogen dissolved in fluids or in the respiratory tract."
-            ]
-          }
-        ]
+        "unique": [
+          ["Fixed shape", "Tightly packed", "E.g. bones and teeth"],
+          ["Takes container shape", "Flows freely", "E.g. blood plasma"],
+          ["Fills container", "Widely spaced", "E.g. oxygen and CO₂"]
+        ],
+        "shared": ["States of matter", "Composed of atoms", "Found in body", "Can change state"]
       },
       {
-        "id": "most_abundant_other_trace_elements",
-        "terms": ["Most Abundant Elements", "Other Elements", "Trace Elements"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Oxygen, carbon, hydrogen, and nitrogen.",
-              "Elements like calcium, phosphorus, potassium, and sodium.",
-              "Elements like boron, cobalt, copper, and zinc."
-            ]
-          },
-          {
-            "feature": "Abundance",
-            "values": [
-              "Make up the vast majority (over 95%) of the human body.",
-              "Make up a small fraction of the body, but are essential for nerve, muscle, and bone function.",
-              "Each account for less than 1.0% of the body's composition, but are still required for physiological processes."
-            ]
-          }
-        ]
+        "id": "proton_neutron_electron",
+        "terms": ["Proton", "Neutron", "Electron"],
+        "unique": [
+          ["Positive charge", "Heavy particle", "In nucleus", "Determines element"],
+          ["No charge", "Heavy particle", "In nucleus", "Determines isotope"],
+          ["Negative charge", "Nearly massless", "In shells", "Determines bonding"]
+        ],
+        "shared": ["Subatomic particles", "Make up atoms", "Affect atomic properties", "Fundamental to chemistry"]
       },
       {
-        "id": "atom_nucleus_proton_neutron_electron_shell",
-        "terms": ["Atom", "Nucleus", "Proton", "Neutron", "Electron", "Electron Shell"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The smallest unit of an element.",
-              "The center of the atom.",
-              "A subatomic particle.",
-              "A subatomic particle.",
-              "A subatomic particle.",
-              "An area of space a given distance from the nucleus."
-            ]
-          },
-          {
-            "feature": "Charge & Mass",
-            "values": [
-              "Electrically neutral if protons equal electrons.",
-              "Contains nearly all of the atom's mass.",
-              "Heavy, with a positive electrical charge.",
-              "Heavy, with no electrical charge.",
-              "Nearly no mass, with a negative electrical charge.",
-              "Contains the grouping of electrons."
-            ]
-          }
-        ]
+        "id": "atomic_number_mass_number",
+        "terms": ["Atomic Number", "Mass Number"],
+        "unique": [
+          ["Count of protons only", "Identifies element", "Never changes", "Unique per element"],
+          ["Protons plus neutrons", "Identifies isotope", "Varies between isotopes", "Determines atomic mass"]
+        ],
+        "shared": ["Describe atomic structure", "Whole numbers", "Found on periodic table", "Identify atoms"]
       },
       {
-        "id": "chemical_symbol_atomic_number_mass_number",
-        "terms": ["Chemical Symbol", "Atomic Number", "Mass Number"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A one- or two-letter abbreviation used to identify an element (e.g., \"O\" for oxygen).",
-              "The exact number of protons in the nucleus of an atom.",
-              "The sum of the number of protons and neutrons in the nucleus of an atom."
-            ]
-          },
-          {
-            "feature": "Significance",
-            "values": [
-              "Acts as a shorthand placeholder in chemical equations and text.",
-              "Uniquely identifies the element.",
-              "Determines the overall mass of the atom and identifies isotopes."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "radioactive_isotope_ion_neutral_atom",
-        "terms": ["Radioactive Isotope", "Ion", "Neutral Atom"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "An unstable, heavy variation of an element that differs in its number of neutrons.",
-              "An atom with an overall positive or negative charge.",
-              "An atom possessing the same number of positively charged protons and negatively charged electrons."
-            ]
-          },
-          {
-            "feature": "Behavior",
-            "values": [
-              "Gives off subatomic particles or electromagnetic energy as it decays.",
-              "Formed when an atom donates or accepts one or more electrons to fill its valence shell.",
-              "Is electrically balanced and neutral."
-            ]
-          }
-        ]
+        "id": "ion_neutral_atom",
+        "terms": ["Ion", "Neutral Atom"],
+        "unique": [
+          ["Has net charge", "Gained or lost electrons", "Chemically reactive", "Forms ionic bonds"],
+          ["No net charge", "Equal protons and electrons", "Ground state", "Stable configuration"]
+        ],
+        "shared": ["Made of subatomic particles", "Have protons and neutrons", "Same element possible", "Atomic structures"]
       }
     ]
   },
   {
     "sectionID": "ch02_s02",
     "sectionTitle": "Section 2.2: Chemical Bonds",
+    "chapterGroup": "Ch. 2.1–2.2",
     "tables": [
       {
         "id": "molecule_compound",
         "terms": ["Molecule", "Compound"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Two or more atoms covalently bonded together.",
-              "A substance composed of two or more different elements joined by chemical bonds."
-            ]
-          },
-          {
-            "feature": "Comparison",
-            "values": [
-              "A molecule can consist of atoms of the same element (e.g., H₂ or O₂) or different elements.",
-              "All compounds are molecules, but not all molecules are compounds, because compounds must contain different elements (e.g., glucose)."
-            ]
-          }
-        ]
+        "unique": [
+          ["Can be same element", "Covalently bonded", "E.g. O₂ or H₂", "Broader category"],
+          ["Must be different elements", "Any bond type", "E.g. glucose or NaCl", "Subset of molecules"]
+        ],
+        "shared": ["Contain multiple atoms", "Formed by chemical bonds", "Have specific formulas", "Basic chemistry units"]
       },
       {
         "id": "anion_cation",
         "terms": ["Anion", "Cation"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "An atom with a negative charge.",
-              "An atom with a positive charge."
-            ]
-          },
-          {
-            "feature": "Formation",
-            "values": [
-              "Created when an atom accepts an electron to fill its valence shell.",
-              "Created when an atom donates an electron to empty its valence shell."
-            ]
-          }
-        ]
+        "unique": [
+          ["Negative charge", "Gained electrons", "Larger than parent atom", "E.g. Cl⁻"],
+          ["Positive charge", "Lost electrons", "Smaller than parent atom", "E.g. Na⁺"]
+        ],
+        "shared": ["Types of ions", "Form ionic bonds", "Electrolytes in solution", "Essential in body"]
       },
       {
-        "id": "ionic_covalent_polar_hydrogen_bonds",
-        "terms": ["Ionic Bond", "Nonpolar Covalent Bond", "Polar Covalent Bond", "Hydrogen Bond"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The electrical attraction between an anion and a cation.",
-              "A chemical bond in which two atoms share electrons equally, rendering the molecule electrically balanced.",
-              "A covalent bond in which electrons are shared unequally, creating regions of opposite charge within the molecule.",
-              "A weak dipole-dipole bond between a covalently bonded hydrogen atom and a second electronegative atom."
-            ]
-          },
-          {
-            "feature": "Behavior in Water",
-            "values": [
-              "Dissociates into separate ions (electrolytes).",
-              "Does not readily dissolve in water (hydrophobic).",
-              "Dissolves readily in water (hydrophilic).",
-              "Links separate water molecules together to give water its unique properties."
-            ]
-          }
-        ]
+        "id": "ionic_covalent_bond",
+        "terms": ["Ionic Bond", "Covalent Bond"],
+        "unique": [
+          ["Electron transfer", "Between ions", "Dissociates in water", "E.g. NaCl"],
+          ["Electron sharing", "Between atoms", "Stays intact in water", "E.g. H₂O"]
+        ],
+        "shared": ["Chemical bonds", "Hold atoms together", "Involve electrons", "Store energy"]
       },
       {
-        "id": "charge_electronegativity",
-        "terms": ["Charge", "Electronegativity"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "An electrical property (positive or negative) resulting from the gain or loss of electrons in an atom.",
-              "An atom's inherent tendency to attract shared electrons towards itself within a chemical bond."
-            ]
-          },
-          {
-            "feature": "Result",
-            "values": [
-              "Creates fully formed anions and cations.",
-              "Creates partial negative and positive charges (dipoles) within polar covalent molecules like water."
-            ]
-          }
-        ]
+        "id": "polar_nonpolar_covalent",
+        "terms": ["Polar Covalent", "Nonpolar Covalent"],
+        "unique": [
+          ["Unequal sharing", "Partial charges", "Hydrophilic", "E.g. water"],
+          ["Equal sharing", "No partial charges", "Hydrophobic", "E.g. O₂"]
+        ],
+        "shared": ["Covalent bonds", "Share electrons", "Between atoms", "Intramolecular forces"]
       }
     ]
   },
   {
     "sectionID": "ch02_s03",
     "sectionTitle": "Section 2.3: Chemical Reactions",
+    "chapterGroup": "Ch. 2.3–2.4",
     "tables": [
       {
-        "id": "work_potential_kinetic_chemical_energy",
-        "terms": ["Work", "Potential Energy", "Kinetic Energy", "Chemical Energy"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The physical or chemical action powered by the expenditure of energy.",
-              "The energy matter possesses because of the positioning or structure of its components.",
-              "The form of energy powering any type of matter in physical motion.",
-              "The form of potential energy in which energy is stored within chemical bonds."
-            ]
-          },
-          {
-            "feature": "Relationship",
-            "values": [
-              "Driven by the conversion of potential energy into kinetic energy.",
-              "Stores energy for future use, like a brick wall holding energy after being built.",
-              "Releases energy to create movement, like the energy used to lift a brick.",
-              "Invests and releases energy during chemical reactions in the body when bonds are built or broken."
-            ]
-          }
-        ]
+        "id": "potential_kinetic_energy",
+        "terms": ["Potential Energy", "Kinetic Energy"],
+        "unique": [
+          ["Stored energy", "Due to position/structure", "E.g. chemical bonds", "Not in motion"],
+          ["Energy of motion", "Actively doing work", "E.g. muscle movement", "Requires movement"]
+        ],
+        "shared": ["Forms of energy", "Interconvertible", "Measured in joules", "Power cellular work"]
       },
       {
-        "id": "reactant_product_catalyst_enzyme",
-        "terms": ["Reactant", "Product", "Catalyst", "Enzyme"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The one or more starting substances that enter into a chemical reaction.",
-              "The one or more new substances produced by a chemical reaction.",
-              "A substance that increases the rate of a chemical reaction without undergoing any permanent change itself.",
-              "A specific type of biological catalyst composed of protein or RNA."
-            ]
-          },
-          {
-            "feature": "Role in Reaction",
-            "values": [
-              "The raw materials that will be changed.",
-              "The final result of the rearranged reactants.",
-              "Speeds up the reaction between reactants by lowering the required activation energy.",
-              "Facilitates nearly all chemical reactions in the human body with high specificity."
-            ]
-          }
-        ]
+        "id": "synthesis_decomposition",
+        "terms": ["Synthesis", "Decomposition"],
+        "unique": [
+          ["Combines molecules", "Anabolic", "Requires energy input", "Builds larger products"],
+          ["Breaks molecules apart", "Catabolic", "Releases energy", "Yields smaller products"]
+        ],
+        "shared": ["Chemical reactions", "Involve reactants and products", "Require enzymes", "Occur in body"]
       },
       {
-        "id": "synthesis_decomposition_exchange_reactions",
-        "terms": ["Synthesis Reaction", "Decomposition Reaction", "Exchange Reaction"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "An anabolic chemical reaction that joins formerly separate components together.",
-              "A catabolic chemical reaction that breaks down a larger substance into its constituent parts.",
-              "A chemical reaction in which bonds are both formed and broken."
-            ]
-          },
-          {
-            "feature": "Energy Relationship",
-            "values": [
-              "Requires an investment of energy to form the new bonds.",
-              "Releases the potential energy that was stored in the broken bonds.",
-              "Energy is absorbed, stored, and released as components are rearranged."
-            ]
-          }
-        ]
+        "id": "exergonic_endergonic",
+        "terms": ["Exergonic", "Endergonic"],
+        "unique": [
+          ["Releases net energy", "Products lower energy", "Spontaneous", "E.g. catabolism"],
+          ["Absorbs net energy", "Products higher energy", "Non-spontaneous", "E.g. anabolism"]
+        ],
+        "shared": ["Energy classifications", "Involve chemical reactions", "Coupled in cells", "Measured in calories"]
       },
       {
-        "id": "temperature_concentration_volume_reaction_rate",
-        "terms": ["Temperature", "Concentration", "Volume"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The measure of thermal energy.",
-              "The number of particles present within a given space.",
-              "The total amount of physical space containing the particles."
-            ]
-          },
-          {
-            "feature": "Effect on Reaction Rate",
-            "values": [
-              "Higher temperatures increase the kinetic energy of particles, making them move faster and react more readily.",
-              "Higher concentration means more particles are present, increasing the likelihood of collisions and reactions.",
-              "Decreasing the volume increases the pressure and concentration of the particles, speeding up the reaction."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "exergonic_endergonic_activation_energy",
-        "terms": ["Exergonic", "Endergonic", "Activation Energy"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Chemical reactions that release more energy than they absorb.",
-              "Chemical reactions that absorb more energy than they release.",
-              "The \"threshold\" level of energy needed to break the bonds in the reactants to start a reaction."
-            ]
-          },
-          {
-            "feature": "Example",
-            "values": [
-              "Catabolism of food for fuel, which releases heat and energy.",
-              "Synthesis of new molecules, which requires an energy input often provided by exergonic reactions.",
-              "Lowered significantly by enzymes to allow endergonic and exergonic reactions to occur at body temperature."
-            ]
-          }
-        ]
+        "id": "catalyst_enzyme",
+        "terms": ["Catalyst", "Enzyme"],
+        "unique": [
+          ["General term", "Any substance", "Inorganic possible", "Broad category"],
+          ["Biological catalyst", "Made of protein/RNA", "Highly specific", "Living systems only"]
+        ],
+        "shared": ["Speed up reactions", "Lower activation energy", "Not consumed", "Reusable"]
       }
     ]
   },
   {
     "sectionID": "ch02_s04",
     "sectionTitle": "Section 2.4: Inorganic Compounds Essential to Human Functioning",
+    "chapterGroup": "Ch. 2.3–2.4",
     "tables": [
       {
-        "id": "organic_inorganic_nutrients",
-        "terms": ["Organic Compound", "Inorganic Compound", "Nutrients"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A substance that contains both carbon and hydrogen.",
-              "A substance that does not contain both carbon and hydrogen.",
-              "Essential chemical substances obtained from foods and beverages."
-            ]
-          },
-          {
-            "feature": "Significance",
-            "values": [
-              "Synthesized via covalent bonds within living organisms to build body structures.",
-              "Includes vital molecules like water, salts, acids, and bases.",
-              "Includes both inorganic (water, minerals) and organic (carbohydrates, lipids, proteins, vitamins) compounds critical for survival."
-            ]
-          }
-        ]
+        "id": "organic_inorganic_compounds",
+        "terms": ["Organic Compounds", "Inorganic Compounds"],
+        "unique": [
+          ["Contains C and H", "Covalent bonds", "Large molecules", "Made by organisms"],
+          ["Lacks C-H bonds", "Often ionic", "Usually smaller", "Includes water and salts"]
+        ],
+        "shared": ["Chemical compounds", "Found in body", "Essential for life", "Involved in reactions"]
       },
       {
-        "id": "solution_colloid_suspension_water",
-        "terms": ["Solution & Solvents/Solutes", "Colloid", "Suspension", "Water"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A homogeneous liquid mixture where a solute (substance being dissolved) is evenly distributed throughout a solvent (the liquid doing the dissolving).",
-              "A liquid mixture where solute particles are large enough to make the mixture opaque, but do not settle.",
-              "A liquid mixture in which a heavier substance is temporarily suspended but will eventually settle out.",
-              "The universal solvent in the body, making up about 70% of an adult's body weight."
-            ]
-          },
-          {
-            "feature": "Biological Example",
-            "values": [
-              "Sugar or salts dissolved evenly in blood plasma.",
-              "Thyroid hormone stored as a thick protein mixture, or milk.",
-              "Red blood cells suspended in blood plasma, which will settle to the bottom if left in a tube.",
-              "Dissolves ionic and polar compounds to facilitate nearly all chemical reactions."
-            ]
-          }
-        ]
+        "id": "acid_base",
+        "terms": ["Acid", "Base"],
+        "unique": [
+          ["Releases H⁺ ions", "pH below 7", "Sour taste", "E.g. HCl"],
+          ["Releases OH⁻ ions", "pH above 7", "Bitter taste", "E.g. NaOH"]
+        ],
+        "shared": ["Affect pH", "Dissociate in water", "React with each other", "Important in body"]
       },
       {
-        "id": "hydrolysis_dehydration_synthesis_phosphorylation",
-        "terms": ["Hydrolysis", "Dehydration Synthesis", "Phosphorylation"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A reaction where a molecule of water disrupts a compound, breaking its bonds.",
-              "A reaction where two reactants bond together, giving up a hydrogen atom and a hydroxyl group to release a water molecule.",
-              "The addition of a phosphate group to an organic compound."
-            ]
-          },
-          {
-            "feature": "Action",
-            "values": [
-              "Consumes water to break polymers down into monomers.",
-              "Creates water as a byproduct when building polymers from monomers.",
-              "Often requires an energy investment, such as converting ADP into high-energy ATP."
-            ]
-          }
-        ]
+        "id": "hydrolysis_dehydration_synthesis",
+        "terms": ["Hydrolysis", "Dehydration Synthesis"],
+        "unique": [
+          ["Uses water", "Breaks bonds", "Yields monomers", "Catabolic"],
+          ["Releases water", "Forms bonds", "Builds polymers", "Anabolic"]
+        ],
+        "shared": ["Involve water", "Polymer reactions", "Opposite processes", "Enzyme-catalyzed"]
       },
       {
-        "id": "acid_base_ph_salt_buffer",
-        "terms": ["Acid & Base", "pH", "Salt", "Buffer"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Acids release hydrogen ions (H+) in solution, while bases release hydroxyl ions (OH-) or accept H+.",
-              "The negative, base-10 logarithm of the hydrogen ion (H+) concentration of a solution.",
-              "A substance that dissociates in water into ions other than H+ or OH-.",
-              "A solution of a weak acid and its conjugate base."
-            ]
-          },
-          {
-            "feature": "Physiological Role",
-            "values": [
-              "Acids (like HCl) aid digestion, while bases (like bicarbonate) neutralize strong acids to prevent tissue damage.",
-              "Measures relative acidity or alkalinity; normal human blood tightly regulates between 7.35 and 7.45.",
-              "Provides vital electrolytes (like Na+ and Cl-) that conduct electrical currents for nerve impulses and muscle contraction.",
-              "Prevents radical fluctuations in pH by neutralizing small amounts of excess acids or bases in body fluids."
-            ]
-          }
-        ]
+        "id": "solution_suspension",
+        "terms": ["Solution", "Suspension"],
+        "unique": [
+          ["Homogeneous mix", "Solute fully dissolved", "Transparent", "E.g. saline"],
+          ["Heterogeneous mix", "Particles settle out", "Opaque", "E.g. blood cells"]
+        ],
+        "shared": ["Liquid mixtures", "Contain solutes", "Found in body", "Involve water"]
       }
     ]
   },
   {
     "sectionID": "ch02_s05",
     "sectionTitle": "Section 2.5: Organic Compounds Essential to Human Functioning",
+    "chapterGroup": "Ch. 2.5",
     "tables": [
       {
-        "id": "carbohydrates_mono_di_polysaccharides",
-        "terms": ["Carbohydrates", "Monosaccharides", "Disaccharides", "Polysaccharides"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Organic molecules composed of carbon, hydrogen, and oxygen (hydrated carbon).",
-              "The basic single-sugar monomers of carbohydrates.",
-              "A pair of monosaccharides linked by a glycosidic bond.",
-              "Large polymers consisting of hundreds to thousands of monosaccharides."
-            ]
-          },
-          {
-            "feature": "Function/Examples",
-            "values": [
-              "The body's preferred and most common source of fuel for ATP production.",
-              "Glucose, fructose, and galactose (hexoses); ribose and deoxyribose (pentoses).",
-              "Sucrose (table sugar), lactose (milk sugar), and maltose.",
-              "Used for energy storage (starch, glycogen) or structural components (cellulose)."
-            ]
-          }
-        ]
+        "id": "monosaccharide_polysaccharide",
+        "terms": ["Monosaccharide", "Polysaccharide"],
+        "unique": [
+          ["Single sugar unit", "Immediate energy", "Small molecule", "E.g. glucose"],
+          ["Hundreds of sugars", "Energy storage", "Large molecule", "E.g. glycogen"]
+        ],
+        "shared": ["Carbohydrates", "Contain C-H-O", "Energy source", "Built via dehydration synthesis"]
       },
       {
-        "id": "sugars_glycogen_starch_cellulose",
-        "terms": ["Sugars", "Glycogen", "Starch", "Cellulose"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Simple carbohydrates (monosaccharides and disaccharides).",
-              "A polymer of glucose stored in animal tissues.",
-              "Polymers of glucose occurring in long or branched chains.",
-              "A structural polysaccharide that is the primary component of green plant cell walls."
-            ]
-          },
-          {
-            "feature": "Dietary Role",
-            "values": [
-              "Provide readily absorbed, immediate energy fuel.",
-              "The human body's way to store excess glucose, mostly in the liver and muscles.",
-              "A common, easy-to-digest plant-based food source.",
-              "Indigestible to humans, but serves as essential dietary fiber for digestive health."
-            ]
-          }
-        ]
+        "id": "glycogen_starch_cellulose",
+        "terms": ["Glycogen", "Starch", "Cellulose"],
+        "unique": [
+          ["Animal storage", "Highly branched", "In liver and muscle"],
+          ["Plant storage", "Long/branched chains", "Digestible"],
+          ["Plant structure", "Rigid cell walls", "Indigestible fiber"]
+        ],
+        "shared": ["Polysaccharides", "Glucose polymers", "Biological roles", "Large molecules"]
       },
       {
-        "id": "lipids_glycerol_fatty_acids_saturated_unsaturated",
-        "terms": ["Lipids", "Glycerol Backbone & Fatty Acids", "Saturated", "Unsaturated"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "A diverse group of hydrophobic, mostly hydrocarbon organic compounds.",
-              "The physical components of a fat: A 3-carbon glycerol backbone attached to long hydrocarbon fatty acid chains.",
-              "Fatty acid chains containing the maximum number of hydrogen atoms and no double carbon bonds.",
-              "Fatty acid chains containing one or more double carbon bonds."
-            ]
-          },
-          {
-            "feature": "Characteristics",
-            "values": [
-              "Do not form true solutions in water, serving as excellent long-term energy storage.",
-              "Form the structure of triglycerides via dehydration synthesis.",
-              "Straight, rigid chains that pack tightly and are solid at room temperature (e.g., butter).",
-              "Kinked chains that cannot pack tightly and are liquid at room temperature (e.g., olive oil)."
-            ]
-          }
-        ]
+        "id": "saturated_unsaturated_fat",
+        "terms": ["Saturated Fat", "Unsaturated Fat"],
+        "unique": [
+          ["No double bonds", "Straight chains", "Solid at room temp", "E.g. butter"],
+          ["Has double bonds", "Kinked chains", "Liquid at room temp", "E.g. olive oil"]
+        ],
+        "shared": ["Fatty acids", "Contain hydrocarbon chains", "Energy storage", "Part of lipids"]
       },
       {
-        "id": "triglycerides_phospholipid_steroid_prostaglandin",
-        "terms": ["Triglycerides", "Phospholipids", "Steroids", "Prostaglandins"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Dietary fats consisting of a glycerol backbone and three fatty acids.",
-              "A diglyceride attached to a charged phosphate group.",
-              "Ring-shaped lipids built on a foundation of four interlocking hydrocarbon rings.",
-              "Signaling lipids derived from unsaturated fatty acids."
-            ]
-          },
-          {
-            "feature": "Function in Body",
-            "values": [
-              "The most abundant lipid in body tissues, serving as a major fuel source and thermal insulation.",
-              "Forms the cell membrane bilayer due to having a hydrophilic head and hydrophobic tails.",
-              "Cholesterol is a crucial cell membrane component and the building block for steroid hormones and bile salts.",
-              "Important for regulating several physiological processes, including inflammation and pain."
-            ]
-          }
-        ]
+        "id": "triglyceride_phospholipid",
+        "terms": ["Triglyceride", "Phospholipid"],
+        "unique": [
+          ["Three fatty acids", "Energy storage", "Fully hydrophobic", "In adipose tissue"],
+          ["Two fatty acids + phosphate", "Cell membrane", "Amphipathic", "Forms bilayer"]
+        ],
+        "shared": ["Contain glycerol", "Include fatty acids", "Lipid category", "Built by dehydration synthesis"]
       },
       {
-        "id": "hydrophobic_hydrophilic_water_soluble_fat_soluble",
-        "terms": ["Hydrophobic", "Hydrophilic", "Water Soluble", "Fat Soluble"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "\"Water-fearing\" molecules that do not readily dissolve in water.",
-              "\"Water-loving\" molecules that easily dissolve in water.",
-              "Substances that dissolve easily in water-based bodily fluids.",
-              "Substances that dissolve in lipids and require dietary fat for absorption."
-            ]
-          },
-          {
-            "feature": "Example",
-            "values": [
-              "Nonpolar molecules like triglyceride fats and oils.",
-              "Polar covalent compounds and ionic compounds (like salt and sugar).",
-              "Most B vitamins and Vitamin C (excess is excreted in urine).",
-              "Vitamins A, D, E, and K (can accumulate in the body's lipid stores)."
-            ]
-          }
-        ]
+        "id": "hydrophobic_hydrophilic",
+        "terms": ["Hydrophobic", "Hydrophilic"],
+        "unique": [
+          ["Repels water", "Nonpolar", "Insoluble", "E.g. fats and oils"],
+          ["Attracts water", "Polar or ionic", "Soluble", "E.g. sugar and salt"]
+        ],
+        "shared": ["Describe water interaction", "Chemical property", "Affect molecular behavior", "Relevant to biology"]
       },
       {
-        "id": "amino_acids_amino_group_r_group_carboxyl_group_peptide_bond",
-        "terms": ["Amino Acids", "Amino Group & Carboxyl Group", "R Group (Side Chain)", "Peptide Bond"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The nitrogen-containing monomers that make up proteins.",
-              "The two universal functional groups found on all amino acids: an alkaline amino group and an acidic carboxyl group.",
-              "A variable functional group attached to the central carbon of an amino acid.",
-              "A covalent bond formed by dehydration synthesis that links two amino acids."
-            ]
-          },
-          {
-            "feature": "Significance",
-            "values": [
-              "Just 20 different amino acids combine to build thousands of different human proteins.",
-              "Allows every amino acid to act as an excellent buffer for acid-base balance.",
-              "Gives each of the 20 amino acids its unique chemical properties (size, polarity).",
-              "Strings together short peptides or long polypeptides to build functional proteins."
-            ]
-          }
-        ]
+        "id": "dna_rna",
+        "terms": ["DNA", "RNA"],
+        "unique": [
+          ["Double-stranded", "Deoxyribose sugar", "Contains thymine", "Permanent genetic storage"],
+          ["Single-stranded", "Ribose sugar", "Contains uracil", "Temporary protein blueprint"]
+        ],
+        "shared": ["Nucleic acids", "Contain nucleotides", "Encode genetic info", "Sugar-phosphate backbone"]
       },
       {
-        "id": "protein_structure_levels_denature",
-        "terms": ["Primary & Secondary Structure", "Tertiary & Quaternary Structure", "Denature"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Primary: the sequence of amino acids in the chain. Secondary: local folding patterns like alpha-helices or beta-pleated sheets.",
-              "Tertiary: the overall 3D shape of a single polypeptide. Quaternary: multiple polypeptide chains assembling together.",
-              "A change in the functional structure of a molecule through physical or chemical means."
-            ]
-          },
-          {
-            "feature": "Significance",
-            "values": [
-              "Stabilized by peptide bonds and local hydrogen bonds.",
-              "Creates the highly specific functional shapes required for enzymes and structural proteins like hemoglobin.",
-              "Extreme heat or pH can cause proteins to unfold and lose their ability to perform their jobs."
-            ]
-          }
-        ]
+        "id": "purine_pyrimidine",
+        "terms": ["Purine", "Pyrimidine"],
+        "unique": [
+          ["Double-ring structure", "Larger molecule", "Adenine and guanine", "Pairs with pyrimidine"],
+          ["Single-ring structure", "Smaller molecule", "Cytosine thymine uracil", "Pairs with purine"]
+        ],
+        "shared": ["Nitrogenous bases", "In DNA and RNA", "Form base pairs", "Part of nucleotides"]
       },
       {
-        "id": "protein_enzyme_active_site_substrate_catalyst",
-        "terms": ["Protein & Enzyme", "Active Site & Substrate & Product", "Catalyst & Activation Energy"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Proteins are large polymers of amino acids. Enzymes are a highly reactive globular type of protein.",
-              "Substrates are the specific reactants that fit like puzzle pieces into an enzyme's active site to be converted into a product.",
-              "A catalyst is a chemical change agent that lowers the activation energy (threshold energy) needed for a reaction to occur."
-            ]
-          },
-          {
-            "feature": "Relationship",
-            "values": [
-              "While proteins serve many structural roles (like collagen), enzymes function strictly as biological catalysts.",
-              "The specific jigsaw-like match between the substrate and active site ensures enzymes only trigger specific reactions to yield precise products.",
-              "By lowering activation energy, the enzyme (catalyst) allows vital chemical reactions to happen fast enough to sustain human life."
-            ]
-          }
-        ]
+        "id": "amino_group_carboxyl_group",
+        "terms": ["Amino Group", "Carboxyl Group"],
+        "unique": [
+          ["Alkaline/basic", "Contains nitrogen", "-NH₂ formula", "Accepts H⁺"],
+          ["Acidic", "Contains carbon-oxygen", "-COOH formula", "Donates H⁺"]
+        ],
+        "shared": ["Functional groups", "On every amino acid", "Affect pH", "Ionizable"]
       },
       {
-        "id": "nucleic_acid_nucleotide_atp_dna_rna",
-        "terms": ["Nucleic Acid & Nucleotides", "DNA", "RNA", "ATP"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Nucleic acids are macromolecules built from monomer subunits called nucleotides.",
-              "Deoxyribonucleic acid, a double-stranded nucleic acid.",
-              "Ribonucleic acid, a single-stranded nucleic acid.",
-              "Adenosine triphosphate, a high-energy nucleotide containing three phosphate groups."
-            ]
-          },
-          {
-            "feature": "Function",
-            "values": [
-              "Carry and express genetic information, and transfer energy.",
-              "Permanently stores the genetic code containing the instructions to build the body.",
-              "Translates the DNA code to manufacture proteins.",
-              "Acts as the universal energy currency to fuel cellular work."
-            ]
-          }
-        ]
+        "id": "primary_tertiary_protein",
+        "terms": ["Primary Structure", "Tertiary Structure"],
+        "unique": [
+          ["Amino acid sequence", "Linear chain", "Peptide bonds only", "Determines all other levels"],
+          ["3D folded shape", "Single polypeptide", "Multiple bond types", "Creates functional form"]
+        ],
+        "shared": ["Protein structure levels", "Made of amino acids", "Essential for function", "Can be denatured"]
       },
       {
-        "id": "nitrogenous_base_pentose_sugar_phosphate_groups",
-        "terms": ["Nitrogenous Base", "Pentose Sugar (Deoxyribose & Ribose)", "Phosphate Groups"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "The nitrogen-containing component of a nucleotide (Adenine, Cytosine, Guanine, Thymine, or Uracil).",
-              "A 5-carbon sugar that acts as the backbone of a nucleotide. Deoxyribose has one less oxygen atom than Ribose.",
-              "A functional group consisting of phosphorus and oxygen."
-            ]
-          },
-          {
-            "feature": "Structural Role",
-            "values": [
-              "Protrudes from the backbone to form hydrogen bonds that encode genetic information.",
-              "DNA contains deoxyribose, while RNA and ATP contain ribose.",
-              "Bonds with pentose sugars to form the \"backbone\" of DNA and RNA, or stores massive potential energy in ATP."
-            ]
-          }
-        ]
+        "id": "protein_enzyme",
+        "terms": ["Protein", "Enzyme"],
+        "unique": [
+          ["Many functions", "Structural or functional", "Diverse shapes", "E.g. collagen"],
+          ["Catalytic function only", "Globular shape", "Has active site", "Highly specific"]
+        ],
+        "shared": ["Made of amino acids", "Polypeptide chains", "3D structure matters", "Can denature"]
       },
       {
-        "id": "purines_pyrimidines",
-        "terms": ["Purines (Adenine & Guanine)", "Pyrimidines (Cytosine, Thymine, Uracil)"],
-        "rows": [
-          {
-            "feature": "Description",
-            "values": [
-              "Nitrogen-containing bases with a double-ring structure.",
-              "Nitrogen-containing bases with a single-ring structure."
-            ]
-          },
-          {
-            "feature": "Occurrence",
-            "values": [
-              "Adenine and Guanine are utilized in both DNA and RNA.",
-              "Cytosine is used in both. Thymine is used exclusively in DNA, while Uracil is used exclusively in RNA."
-            ]
-          }
-        ]
+        "id": "nitrogenous_base_phosphate_group",
+        "terms": ["Nitrogenous Base", "Phosphate Group"],
+        "unique": [
+          ["Encodes information", "Ring structure", "Five types", "Pairs via H-bonds"],
+          ["Stores energy", "Negative charge", "Backbone component", "Released in ATP→ADP"]
+        ],
+        "shared": ["Nucleotide components", "Contain oxygen", "Bonded to sugar", "Essential for function"]
       }
     ]
   }

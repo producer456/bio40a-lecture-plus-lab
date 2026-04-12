@@ -5,6 +5,7 @@ import Foundation
 struct ComparisonSection: Codable, Identifiable, Hashable {
     let sectionID: String
     let sectionTitle: String
+    let chapterGroup: String
     let tables: [ComparisonTable]
 
     var id: String { sectionID }
@@ -13,10 +14,11 @@ struct ComparisonSection: Codable, Identifiable, Hashable {
 struct ComparisonTable: Codable, Identifiable, Hashable {
     let id: String
     let terms: [String]
-    let rows: [ComparisonRow]
-}
+    let unique: [[String]]
+    let shared: [String]
 
-struct ComparisonRow: Codable, Hashable {
-    let feature: String
-    let values: [String]
+    /// Short label for pill display, e.g. "Anabolism vs Catabolism"
+    var pillLabel: String {
+        terms.joined(separator: " vs ")
+    }
 }

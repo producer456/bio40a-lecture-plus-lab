@@ -1,228 +1,330 @@
 import SwiftUI
 
-// MARK: - Comparison List View
+// MARK: - Comparison View (Single Page)
 
 struct ComparisonListView: View {
     @Environment(ContentService.self) private var content
 
-    var body: some View {
-        List {
-            Section {
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("Compare & Contrast", systemImage: "circle.grid.cross.fill")
-                        .font(.headline)
-                    Text("Visual comparison tables to help you distinguish similar concepts. Tap any table to see the full breakdown.")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.vertical, 8)
-            }
+    @State private var selectedGroup: String?
+    @State private var selectedTable: ComparisonTable?
 
-            if content.comparisons.isEmpty {
-                Section {
-                    VStack(spacing: 12) {
-                        Image(systemName: "tray")
-                            .font(.largeTitle)
-                            .foregroundStyle(.secondary)
-                        Text("No comparison tables available yet.")
-                            .font(.subheadline)
-                            .foregroundStyle(.secondary)
-                    }
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 24)
-                }
-            } else {
-                ForEach(content.comparisons) { section in
-                    Section(section.sectionTitle) {
-                        ForEach(section.tables) { table in
-                            NavigationLink(destination: ComparisonDetailView(table: table, sectionTitle: section.sectionTitle)) {
-                                VStack(alignment: .leading, spacing: 6) {
-                                    FlowLayout(spacing: 6) {
-                                        ForEach(Array(table.terms.enumerated()), id: \.offset) { index, term in
-                                            Text(term)
-                                                .font(.caption2)
-                                                .fontWeight(.medium)
-                                                .padding(.horizontal, 8)
-                                                .padding(.vertical, 4)
-                                                .background(stableTermColor(index).opacity(0.15), in: Capsule())
-                                                .foregroundStyle(stableTermColor(index))
-                                        }
-                                    }
-                                    Text("\(table.rows.count) comparison \(table.rows.count == 1 ? "feature" : "features")")
-                                        .font(.caption2)
-                                        .foregroundStyle(.tertiary)
-                                }
-                                .padding(.vertical, 4)
-                            }
-                        }
-                    }
-                }
-            }
+    private var chapterGroups: [String] {
+        var seen: Set<String> = []
+        return content.comparisons.compactMap { section in
+            let group = section.chapterGroup
+            if seen.contains(group) { return nil }
+            seen.insert(group)
+            return group
         }
-        .navigationTitle("Comparisons")
     }
-}
 
-// MARK: - Comparison Detail View
-
-struct ComparisonDetailView: View {
-    let table: ComparisonTable
-    let sectionTitle: String
-    @Environment(\.colorScheme) private var colorScheme
+    private var tablesForGroup: [ComparisonTable] {
+        content.comparisons
+            .filter { selectedGroup == nil || $0.chapterGroup == selectedGroup }
+            .flatMap(\.tables)
+    }
 
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                vennHeader
+                // Chapter group pills
+                chapterGroupPills
 
-                ForEach(Array(table.rows.enumerated()), id: \.offset) { _, row in
-                    comparisonCard(row: row)
+                // Topic pills
+                topicPills
+
+                // Venn diagram
+                if let table = selectedTable ?? tablesForGroup.first {
+                    if table.terms.count == 2 {
+                        TwoTermVennView(table: table)
+                    } else {
+                        ThreeTermVennView(table: table)
+                    }
+                }
+
+                // Footer
+                Text("\(tablesForGroup.count) diagrams across all \(chapterGroups.count) sections. Use the section buttons at the top to jump between chapters, then the smaller pills to pick the specific comparison.")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal)
+            }
+            .padding(.vertical)
+        }
+        .navigationTitle("Comparisons")
+        .onAppear {
+            if selectedGroup == nil, let first = chapterGroups.first {
+                selectedGroup = first
+            }
+            if selectedTable == nil {
+                selectedTable = tablesForGroup.first
+            }
+        }
+    }
+
+    // MARK: - Chapter Group Pills
+
+    private var chapterGroupPills: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 10) {
+                ForEach(chapterGroups, id: \.self) { group in
+                    Button {
+                        selectedGroup = group
+                        selectedTable = content.comparisons
+                            .filter { $0.chapterGroup == group }
+                            .flatMap(\.tables)
+                            .first
+                    } label: {
+                        Text(group)
+                            .font(.subheadline)
+                            .fontWeight(.medium)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 10)
+                            .background(
+                                selectedGroup == group
+                                    ? Color.blue
+                                    : Color(.tertiarySystemFill),
+                                in: RoundedRectangle(cornerRadius: 10)
+                            )
+                            .foregroundStyle(selectedGroup == group ? .white : .primary)
+                    }
                 }
             }
-            .padding()
-        }
-        .navigationTitle("Compare")
-        .navigationBarTitleDisplayMode(.inline)
-    }
-
-    // MARK: - Venn Header
-
-    private var vennHeader: some View {
-        VStack(spacing: 12) {
-            Text(sectionTitle)
-                .font(.caption)
-                .foregroundStyle(.secondary)
-
-            if table.terms.count <= 4 {
-                vennCircles
-            } else {
-                termPills
-            }
-        }
-        .padding()
-        .frame(maxWidth: .infinity)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
-    }
-
-    private var vennCircles: some View {
-        ZStack {
-            ForEach(Array(table.terms.enumerated()), id: \.offset) { index, term in
-                let offset = vennOffset(index: index, count: table.terms.count)
-                Circle()
-                    .fill(stableTermColor(index).opacity(0.15))
-                    .stroke(stableTermColor(index).opacity(0.4), lineWidth: 2)
-                    .frame(width: 110, height: 110)
-                    .overlay {
-                        Text(term)
-                            .font(.caption2)
-                            .fontWeight(.semibold)
-                            .foregroundStyle(stableTermColor(index))
-                            .multilineTextAlignment(.center)
-                            .minimumScaleFactor(0.6)
-                            .lineLimit(3)
-                            .padding(12)
-                    }
-                    .offset(x: offset.x, y: offset.y)
-            }
-        }
-        .frame(height: vennHeight)
-    }
-
-    private var vennHeight: CGFloat {
-        switch table.terms.count {
-        case 1: return 130
-        case 2: return 130
-        case 3: return 160
-        case 4: return 180
-        default: return 130
+            .padding(.horizontal)
         }
     }
 
-    private func vennOffset(index: Int, count: Int) -> (x: CGFloat, y: CGFloat) {
-        switch count {
-        case 1: return (0, 0)
-        case 2: return index == 0 ? (-35, 0) : (35, 0)
-        case 3:
-            switch index {
-            case 0: return (-35, 15)
-            case 1: return (35, 15)
-            default: return (0, -20)
-            }
-        case 4:
-            switch index {
-            case 0: return (-35, -20)
-            case 1: return (35, -20)
-            case 2: return (-35, 25)
-            default: return (35, 25)
-            }
-        default: return (0, 0)
-        }
-    }
+    // MARK: - Topic Pills
 
-    private var termPills: some View {
+    private var topicPills: some View {
         FlowLayout(spacing: 8) {
-            ForEach(Array(table.terms.enumerated()), id: \.offset) { index, term in
-                Text(term)
-                    .font(.caption)
-                    .fontWeight(.semibold)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
-                    .background(stableTermColor(index).opacity(0.15), in: Capsule())
-                    .foregroundStyle(stableTermColor(index))
-            }
-        }
-    }
-
-    // MARK: - Comparison Card
-
-    private func comparisonCard(row: ComparisonRow) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Image(systemName: "arrow.left.and.right")
-                    .font(.caption)
-                    .foregroundStyle(.blue)
-                Text(row.feature)
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-            }
-
-            ForEach(Array(zip(table.terms, row.values).enumerated()), id: \.offset) { index, pair in
-                let (term, value) = pair
-                HStack(alignment: .top, spacing: 10) {
-                    Circle()
-                        .fill(stableTermColor(index))
-                        .frame(width: 8, height: 8)
-                        .padding(.top, 5)
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(term)
-                            .font(.caption)
-                            .fontWeight(.semibold)
-                            .foregroundStyle(stableTermColor(index))
-                        Text(value)
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                            .fixedSize(horizontal: false, vertical: true)
-                    }
+            ForEach(tablesForGroup) { table in
+                Button {
+                    selectedTable = table
+                } label: {
+                    Text(table.pillLabel)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 8)
+                        .background(
+                            selectedTable?.id == table.id
+                                ? Color.blue.opacity(0.2)
+                                : Color(.tertiarySystemFill),
+                            in: RoundedRectangle(cornerRadius: 8)
+                        )
+                        .foregroundStyle(selectedTable?.id == table.id ? .blue : .primary)
                 }
             }
         }
-        .padding()
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 14))
-        .shadow(color: cardShadowColor, radius: 4, y: 2)
-    }
-
-    private var cardShadowColor: Color {
-        colorScheme == .dark ? .white.opacity(0.04) : .black.opacity(0.08)
+        .padding(.horizontal)
     }
 }
 
-// MARK: - Stable Term Colors
+// MARK: - Two-Term Venn Diagram
 
-/// Deterministic color based on index position, consistent across launches and views.
-private func stableTermColor(_ index: Int) -> Color {
-    let colors: [Color] = [.blue, .purple, .orange, .green, .pink, .teal]
-    return colors[index % colors.count]
+struct TwoTermVennView: View {
+    let table: ComparisonTable
+
+    private let leftColor = Color.blue
+    private let rightColor = Color.orange
+
+    var body: some View {
+        VStack(spacing: 0) {
+            // Term labels
+            HStack {
+                Text(table.terms[0])
+                    .font(.headline)
+                    .foregroundStyle(leftColor)
+                Spacer()
+                Text("— shared —")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                Text(table.terms[1])
+                    .font(.headline)
+                    .foregroundStyle(rightColor)
+            }
+            .padding(.horizontal, 24)
+            .padding(.bottom, 8)
+
+            // Venn circles
+            GeometryReader { geo in
+                let diameter = min(geo.size.width * 0.55, 280.0)
+                let overlap = diameter * 0.35
+                let totalWidth = diameter * 2 - overlap
+                let startX = (geo.size.width - totalWidth) / 2
+
+                ZStack(alignment: .topLeading) {
+                    // Left circle
+                    Circle()
+                        .fill(leftColor.opacity(0.12))
+                        .stroke(leftColor.opacity(0.3), lineWidth: 1.5)
+                        .frame(width: diameter, height: diameter)
+                        .position(x: startX + diameter / 2, y: diameter / 2)
+
+                    // Right circle
+                    Circle()
+                        .fill(rightColor.opacity(0.12))
+                        .stroke(rightColor.opacity(0.3), lineWidth: 1.5)
+                        .frame(width: diameter, height: diameter)
+                        .position(x: startX + totalWidth - diameter / 2, y: diameter / 2)
+
+                    // Left unique text
+                    VStack(spacing: 4) {
+                        ForEach(table.unique[0], id: \.self) { trait in
+                            Text(trait)
+                                .font(.caption2)
+                                .fontWeight(.medium)
+                                .foregroundStyle(leftColor)
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter - overlap - 16)
+                    .position(x: startX + (diameter - overlap) / 2, y: diameter / 2)
+
+                    // Shared text (center overlap)
+                    VStack(spacing: 4) {
+                        ForEach(table.shared, id: \.self) { trait in
+                            Text(trait)
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: overlap - 8)
+                    .position(x: startX + diameter - overlap / 2, y: diameter / 2)
+
+                    // Right unique text
+                    VStack(spacing: 4) {
+                        ForEach(table.unique[1], id: \.self) { trait in
+                            Text(trait)
+                                .font(.caption2)
+                                .fontWeight(.medium)
+                                .foregroundStyle(rightColor)
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter - overlap - 16)
+                    .position(x: startX + totalWidth - (diameter - overlap) / 2, y: diameter / 2)
+                }
+            }
+            .frame(height: min(UIScreen.main.bounds.width * 0.55, 280))
+        }
+        .padding()
+    }
+}
+
+// MARK: - Three-Term Venn Diagram
+
+struct ThreeTermVennView: View {
+    let table: ComparisonTable
+
+    private let colors: [Color] = [.blue, .purple, .orange]
+
+    var body: some View {
+        VStack(spacing: 12) {
+            // Term labels
+            HStack {
+                ForEach(Array(table.terms.enumerated()), id: \.offset) { index, term in
+                    if index > 0 { Spacer() }
+                    Text(term)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(colors[index])
+                    if index < table.terms.count - 1 { Spacer() }
+                }
+            }
+            .padding(.horizontal, 24)
+
+            // Venn circles
+            GeometryReader { geo in
+                let diameter = min(geo.size.width * 0.48, 200.0)
+                let centerX = geo.size.width / 2
+                let offsetX: CGFloat = diameter * 0.28
+                let offsetY: CGFloat = diameter * 0.2
+
+                ZStack {
+                    // Top circle
+                    Circle()
+                        .fill(colors[0].opacity(0.12))
+                        .stroke(colors[0].opacity(0.3), lineWidth: 1.5)
+                        .frame(width: diameter, height: diameter)
+                        .position(x: centerX - offsetX, y: diameter / 2)
+
+                    // Bottom-left unique text
+                    VStack(spacing: 3) {
+                        ForEach(table.unique[0], id: \.self) { trait in
+                            Text(trait)
+                                .font(.system(size: 9))
+                                .fontWeight(.medium)
+                                .foregroundStyle(colors[0])
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter * 0.4)
+                    .position(x: centerX - offsetX - diameter * 0.18, y: diameter * 0.35)
+
+                    // Right circle
+                    Circle()
+                        .fill(colors[1].opacity(0.12))
+                        .stroke(colors[1].opacity(0.3), lineWidth: 1.5)
+                        .frame(width: diameter, height: diameter)
+                        .position(x: centerX + offsetX, y: diameter / 2)
+
+                    // Right unique text
+                    VStack(spacing: 3) {
+                        ForEach(table.unique[1], id: \.self) { trait in
+                            Text(trait)
+                                .font(.system(size: 9))
+                                .fontWeight(.medium)
+                                .foregroundStyle(colors[1])
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter * 0.4)
+                    .position(x: centerX + offsetX + diameter * 0.18, y: diameter * 0.35)
+
+                    // Bottom circle
+                    Circle()
+                        .fill(colors[2].opacity(0.12))
+                        .stroke(colors[2].opacity(0.3), lineWidth: 1.5)
+                        .frame(width: diameter, height: diameter)
+                        .position(x: centerX, y: diameter / 2 + offsetY * 1.5)
+
+                    // Bottom unique text
+                    VStack(spacing: 3) {
+                        ForEach(table.unique[2], id: \.self) { trait in
+                            Text(trait)
+                                .font(.system(size: 9))
+                                .fontWeight(.medium)
+                                .foregroundStyle(colors[2])
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter * 0.4)
+                    .position(x: centerX, y: diameter / 2 + offsetY * 1.5 + diameter * 0.22)
+
+                    // Shared text (center)
+                    VStack(spacing: 2) {
+                        Text("shared")
+                            .font(.system(size: 8))
+                            .foregroundStyle(.secondary)
+                        ForEach(table.shared, id: \.self) { trait in
+                            Text(trait)
+                                .font(.system(size: 9))
+                                .foregroundStyle(.secondary)
+                                .multilineTextAlignment(.center)
+                        }
+                    }
+                    .frame(width: diameter * 0.35)
+                    .position(x: centerX, y: diameter / 2 + offsetY * 0.4)
+                }
+            }
+            .frame(height: min(UIScreen.main.bounds.width * 0.65, 300))
+        }
+        .padding()
+    }
 }
 
 // MARK: - Flow Layout
