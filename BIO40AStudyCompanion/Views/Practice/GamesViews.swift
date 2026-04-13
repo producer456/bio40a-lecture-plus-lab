@@ -8,6 +8,17 @@ struct GamesMenuView: View {
 
     var body: some View {
         List {
+            Section {
+                BioHeroBanner(
+                    system: .integumentary,
+                    title: "Games",
+                    subtitle: "Learn anatomy through play",
+                    height: 110
+                )
+                .listRowInsets(EdgeInsets())
+                .listRowBackground(Color.clear)
+            }
+
             Section("Choose a Game") {
                 NavigationLink(destination: MatchingGameView()) {
                     gameRow(icon: "rectangle.grid.2x2.fill", title: "Term Matching", subtitle: "Match terms to their definitions", color: .blue)

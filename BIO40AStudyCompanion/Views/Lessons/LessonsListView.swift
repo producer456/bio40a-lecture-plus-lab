@@ -22,13 +22,25 @@ struct LessonsListView: View {
             .padding()
 
             List {
+                // Hero banner
+                Section {
+                    BioHeroBanner(
+                        system: .skeletal,
+                        title: "Lessons",
+                        subtitle: "\(content.chapters.count) chapters of anatomy & physiology",
+                        height: 120
+                    )
+                    .listRowInsets(EdgeInsets())
+                    .listRowBackground(Color.clear)
+                }
+
                 // Interactive Learning prominent link
                 Section {
                     NavigationLink(destination: InteractiveLearningListView()) {
                         HStack(spacing: 14) {
                             Image(systemName: "hand.tap.fill")
                                 .font(.title2)
-                                .foregroundStyle(.blue)
+                                .foregroundStyle(BodySystem.muscular.primaryColor)
                                 .frame(width: 36)
                             VStack(alignment: .leading, spacing: 2) {
                                 Text("Learning Through Interaction")
@@ -97,10 +109,13 @@ struct LessonsListView: View {
     private func chapterRow(_ chapter: Chapter) -> some View {
         NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
             HStack {
+                RoundedRectangle(cornerRadius: 3)
+                    .fill(BodySystem.skeletal.primaryColor)
+                    .frame(width: 4, height: 36)
                 VStack(alignment: .leading, spacing: 4) {
                     Text("Chapter \(chapter.number)")
                         .font(.caption)
-                        .foregroundStyle(.secondary)
+                        .foregroundStyle(BodySystem.skeletal.primaryColor)
                     Text(chapter.title)
                         .font(.subheadline)
                         .fontWeight(.medium)

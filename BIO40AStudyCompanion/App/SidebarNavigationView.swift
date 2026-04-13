@@ -23,12 +23,12 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
 
     var icon: String {
         switch self {
-        case .home: return "house.fill"
-        case .lessons: return "book.fill"
+        case .home: return "brain.head.profile"
+        case .lessons: return "figure.stand"
         case .interactiveLearning: return "hand.tap.fill"
         case .howWeLearn: return "brain.head.profile.fill"
         case .flashcards: return "rectangle.on.rectangle.angled"
-        case .quizzes: return "checkmark.circle.fill"
+        case .quizzes: return "heart.fill"
         case .games: return "gamecontroller.fill"
         case .schedule: return "calendar"
         case .labPrep: return "flask.fill"
@@ -42,6 +42,28 @@ enum SidebarDestination: String, CaseIterable, Identifiable {
         case .settings: return "gearshape.fill"
         }
     }
+
+    var tintColor: Color {
+        switch self {
+        case .home: return BodySystem.nervous.primaryColor
+        case .lessons: return BodySystem.skeletal.primaryColor
+        case .interactiveLearning: return BodySystem.muscular.primaryColor
+        case .howWeLearn: return .purple
+        case .flashcards: return BodySystem.endocrine.primaryColor
+        case .quizzes: return BodySystem.cardiovascular.primaryColor
+        case .games: return BodySystem.integumentary.primaryColor
+        case .schedule: return BodySystem.endocrine.primaryColor
+        case .labPrep: return .purple
+        case .assignmentLog: return BodySystem.nervous.primaryColor
+        case .studyMaterials: return BodySystem.skeletal.primaryColor
+        case .comparisons: return BodySystem.organ.primaryColor
+        case .glossary: return BodySystem.nervous.accentColor
+        case .weakSpots: return BodySystem.muscular.primaryColor
+        case .progress: return BodySystem.organ.primaryColor
+        case .search: return BodySystem.nervous.primaryColor
+        case .settings: return .gray
+        }
+    }
 }
 
 struct SidebarNavigationView: View {
@@ -50,8 +72,13 @@ struct SidebarNavigationView: View {
     var body: some View {
         NavigationSplitView {
             List(SidebarDestination.allCases, selection: $selection) { dest in
-                Label(dest.rawValue, systemImage: dest.icon)
-                    .tag(dest)
+                Label {
+                    Text(dest.rawValue)
+                } icon: {
+                    Image(systemName: dest.icon)
+                        .foregroundStyle(dest.tintColor)
+                }
+                .tag(dest)
             }
             .navigationTitle("BIO 40A")
         } detail: {

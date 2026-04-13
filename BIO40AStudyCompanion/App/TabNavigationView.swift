@@ -9,7 +9,7 @@ struct TabNavigationView: View {
                 HomeView()
             }
             .tabItem {
-                Label("Home", systemImage: "house.fill")
+                Label("Home", systemImage: BodySystem.nervous.tabIcon)
             }
             .tag(0)
 
@@ -17,7 +17,7 @@ struct TabNavigationView: View {
                 LessonsListView()
             }
             .tabItem {
-                Label("Learn", systemImage: "book.fill")
+                Label("Learn", systemImage: BodySystem.skeletal.tabIcon)
             }
             .tag(1)
 
@@ -33,7 +33,7 @@ struct TabNavigationView: View {
                 PracticeMenuView()
             }
             .tabItem {
-                Label("Practice", systemImage: "gamecontroller.fill")
+                Label("Practice", systemImage: BodySystem.cardiovascular.tabIcon)
             }
             .tag(3)
 
@@ -41,10 +41,22 @@ struct TabNavigationView: View {
                 MoreView()
             }
             .tabItem {
-                Label("More", systemImage: "ellipsis.circle")
+                Label("More", systemImage: BodySystem.organ.tabIcon)
             }
             .tag(4)
         }
-        .tint(.blue)
+        .tint(tabTint)
+        .animation(.easeInOut(duration: 0.25), value: selectedTab)
+    }
+
+    private var tabTint: Color {
+        switch selectedTab {
+        case 0: return BodySystem.nervous.primaryColor
+        case 1: return BodySystem.skeletal.primaryColor
+        case 2: return .purple
+        case 3: return BodySystem.cardiovascular.primaryColor
+        case 4: return BodySystem.organ.primaryColor
+        default: return .blue
+        }
     }
 }

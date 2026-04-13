@@ -12,7 +12,15 @@ struct HomeView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                headerSection
+                // Hero banner with neuron image
+                BioHeroBanner(
+                    system: .nervous,
+                    title: greetingText,
+                    subtitle: currentWeek != nil ? "Week \(currentWeek!) \u{2022} \(currentWeekTopic)" : nil,
+                    height: 180
+                )
+                .breathing(intensity: 0.008)
+
                 upcomingDueDatesSection
                 continueStudyingSection
                 weeklyOverviewSection
@@ -22,23 +30,6 @@ struct HomeView: View {
             .padding()
         }
         .navigationTitle("BIO 40A")
-    }
-
-    // MARK: - Header
-
-    private var headerSection: some View {
-        VStack(alignment: .leading, spacing: 8) {
-            Text(greetingText)
-                .font(.title2)
-                .fontWeight(.bold)
-
-            if let week = currentWeek {
-                Text("Week \(week) \u{2022} \(currentWeekTopic)")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
 
     private var greetingText: String {
@@ -105,7 +96,11 @@ struct HomeView: View {
             }
         }
         .padding()
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Color(.secondarySystemGroupedBackground))
+                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.endocrine.primaryColor.opacity(0.12), lineWidth: 1))
+        )
     }
 
     private var upcomingAssignments: [Assignment] {
@@ -161,7 +156,7 @@ struct HomeView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text("Ch. \(chapter.number)")
                     .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(BodySystem.skeletal.primaryColor)
                 Text(title)
                     .font(.subheadline)
                     .fontWeight(.medium)
@@ -175,7 +170,11 @@ struct HomeView: View {
                 .frame(width: 44, height: 44)
         }
         .padding()
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color(.secondarySystemGroupedBackground))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(BodySystem.skeletal.primaryColor.opacity(0.12), lineWidth: 1))
+        )
     }
 
     // MARK: - Weekly Overview
@@ -215,6 +214,7 @@ struct HomeView: View {
             Image(systemName: icon)
                 .font(.title3)
                 .foregroundStyle(color)
+                .heartbeatPulse()
             Text(value)
                 .font(.title3)
                 .fontWeight(.bold)
@@ -225,7 +225,11 @@ struct HomeView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 12)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color(.secondarySystemGroupedBackground))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.15), lineWidth: 1))
+        )
     }
 
     // MARK: - Weak Spots Preview
@@ -269,7 +273,11 @@ struct HomeView: View {
             }
         }
         .padding()
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+        .background(
+            RoundedRectangle(cornerRadius: 16)
+                .fill(Color(.secondarySystemGroupedBackground))
+                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.muscular.primaryColor.opacity(0.12), lineWidth: 1))
+        )
     }
 
     private func getWeakChapters() -> [(chapterID: String, chapterTitle: String, accuracy: Double)] {
@@ -319,7 +327,11 @@ struct HomeView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 16)
-        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+        .background(
+            RoundedRectangle(cornerRadius: 12)
+                .fill(Color(.secondarySystemGroupedBackground))
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.12), lineWidth: 1))
+        )
     }
 
     // MARK: - Helpers

@@ -51,6 +51,7 @@
 		CC01A1B2C3D4E5F607890AB1 /* ComparisonTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC03A1B2C3D4E5F607890AB1 /* ComparisonTable.swift */; };
 		CC02A1B2C3D4E5F607890AB2 /* ComparisonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04A1B2C3D4E5F607890AB2 /* ComparisonViews.swift */; };
 		CC05A1B2C3D4E5F607890AB3 /* VennGamesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC06A1B2C3D4E5F607890AB3 /* VennGamesViews.swift */; };
+		CC07B1B2C3D4E5F607890AB4 /* BioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08B1B2C3D4E5F607890AB4 /* BioTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -100,6 +101,7 @@
 		CC03A1B2C3D4E5F607890AB1 /* ComparisonTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonTable.swift; sourceTree = "<group>"; };
 		CC04A1B2C3D4E5F607890AB2 /* ComparisonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonViews.swift; sourceTree = "<group>"; };
 		CC06A1B2C3D4E5F607890AB3 /* VennGamesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VennGamesViews.swift; sourceTree = "<group>"; };
+		CC08B1B2C3D4E5F607890AB4 /* BioTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -279,6 +281,7 @@
 		EB6C5D7A3B8163E2E04CF2EB /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				CC08B1B2C3D4E5F607890AB4 /* BioTheme.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				CC01A1B2C3D4E5F607890AB1 /* ComparisonTable.swift in Sources */,
 				CC02A1B2C3D4E5F607890AB2 /* ComparisonViews.swift in Sources */,
 				CC05A1B2C3D4E5F607890AB3 /* VennGamesViews.swift in Sources */,
+				CC07B1B2C3D4E5F607890AB4 /* BioTheme.swift in Sources */,
 				10EE88045B141017273A60BB /* Chapter.swift in Sources */,
 				3BAA4783F144C8465FAA2659 /* ChapterDetailView.swift in Sources */,
 				362DC20F014EE903E1BF0B1E /* ContentService.swift in Sources */,
@@ -409,7 +413,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 9TUXM4MBAV;
 				INFOPLIST_KEY_CFBundleDisplayName = "BIO 40A Study";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of handouts, worksheets, and returned exams to add to your study materials";
@@ -432,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 14;
 				DEVELOPMENT_TEAM = 9TUXM4MBAV;
 				INFOPLIST_KEY_CFBundleDisplayName = "BIO 40A Study";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Take photos of handouts, worksheets, and returned exams to add to your study materials";

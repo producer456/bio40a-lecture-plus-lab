@@ -11,14 +11,14 @@ struct InteractiveLearningListView: View {
     var body: some View {
         List {
             Section {
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("Learning Through Interaction", systemImage: "hand.tap.fill")
-                        .font(.headline)
-                    Text("Read through lessons with interactive checkpoints that test your understanding as you go. Questions, term checks, and mini-challenges appear after every few paragraphs.")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.vertical, 8)
+                BioHeroBanner(
+                    system: .muscular,
+                    title: "Interactive Learning",
+                    subtitle: "Inline quizzes & challenges as you read",
+                    height: 120
+                )
+                .listRowInsets(EdgeInsets())
+                .listRowBackground(Color.clear)
             }
 
             Section("Choose a Chapter") {
