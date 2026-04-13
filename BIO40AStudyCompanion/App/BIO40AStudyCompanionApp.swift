@@ -26,7 +26,13 @@ struct ContentRootView: View {
     @State private var showNamePrompt = false
 
     var body: some View {
-        TabNavigationView()
+        Group {
+            if sizeClass == .regular {
+                SidebarNavigationView()
+            } else {
+                TabNavigationView()
+            }
+        }
         .environment(contentService)
         .onAppear {
             if userName.isEmpty {
