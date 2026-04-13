@@ -397,20 +397,51 @@ struct SortTheTraitsView: View {
         let zoneColor = zone.color(termCount: table.terms.count)
         let placedHere = traits.filter { placed[$0.id] == zone }
         return VStack(spacing: 6) {
-            Text(zone.label(for: table))
-                .font(.caption)
-                .fontWeight(.bold)
-                .foregroundStyle(zoneColor)
+            // Zone header doubles as the place button
+            Button {
+                if let id = selectedTrait {
+                    placed[id] = zone
+                    selectedTrait = nil
+                }
+            } label: {
+                HStack {
+                    Text(zone.label(for: table))
+                        .font(.caption)
+                        .fontWeight(.bold)
+                        .foregroundStyle(zoneColor)
+                    Spacer()
+                    if selectedTrait != nil {
+                        Image(systemName: "plus.circle.fill")
+                            .font(.caption)
+                            .foregroundStyle(zoneColor)
+                    }
+                }
+                .padding(.horizontal, 4)
+                .padding(.vertical, 6)
+                .background(selectedTrait != nil ? zoneColor.opacity(0.12) : .clear, in: RoundedRectangle(cornerRadius: 8))
+            }
+            .disabled(selectedTrait == nil)
 
+            // Placed items — tap to remove (long press to avoid conflict)
             VStack(spacing: 4) {
                 ForEach(placedHere) { trait in
-                    Text(trait.text)
-                        .font(.system(size: 10))
-                        .padding(.horizontal, 6)
-                        .padding(.vertical, 4)
-                        .frame(maxWidth: .infinity)
-                        .background(zoneColor.opacity(0.1), in: RoundedRectangle(cornerRadius: 6))
-                        .onTapGesture { placed.removeValue(forKey: trait.id) }
+                    HStack(spacing: 4) {
+                        Text(trait.text)
+                            .font(.system(size: 10))
+                        Spacer()
+                        Button {
+                            placed.removeValue(forKey: trait.id)
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 10))
+                                .foregroundStyle(zoneColor.opacity(0.5))
+                        }
+                        .buttonStyle(.plain)
+                    }
+                    .padding(.horizontal, 6)
+                    .padding(.vertical, 4)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(zoneColor.opacity(0.1), in: RoundedRectangle(cornerRadius: 6))
                 }
             }
 
@@ -420,13 +451,6 @@ struct SortTheTraitsView: View {
         .padding(8)
         .background(zoneColor.opacity(0.05), in: RoundedRectangle(cornerRadius: 12))
         .overlay(RoundedRectangle(cornerRadius: 12).stroke(zoneColor.opacity(0.2), style: StrokeStyle(lineWidth: 1, dash: [5])))
-        .contentShape(Rectangle())
-        .onTapGesture {
-            if let id = selectedTrait {
-                placed[id] = zone
-                selectedTrait = nil
-            }
-        }
     }
 
     // Review screen showing correct/incorrect before completion

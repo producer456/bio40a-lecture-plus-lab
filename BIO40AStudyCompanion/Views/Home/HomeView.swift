@@ -212,9 +212,8 @@ struct HomeView: View {
     private func statCard(title: String, value: String, icon: String, color: Color) -> some View {
         VStack(spacing: 8) {
             Image(systemName: icon)
-                .font(.title3)
+                .font(.title2)
                 .foregroundStyle(color)
-                .heartbeatPulse()
             Text(value)
                 .font(.title3)
                 .fontWeight(.bold)
@@ -230,6 +229,7 @@ struct HomeView: View {
                 .fill(Color(.secondarySystemGroupedBackground))
                 .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.15), lineWidth: 1))
         )
+        .heartbeatPulse(color: color, intensity: 0.7)
     }
 
     // MARK: - Weak Spots Preview

@@ -186,34 +186,58 @@ struct BioCard<Content: View>: View {
 // MARK: - Animation: Heartbeat Pulse
 
 struct HeartbeatPulse: ViewModifier {
-    @State private var scale: CGFloat = 1.0
-    @State private var isActive = false
+    var color: Color = .red
+    var intensity: CGFloat = 1.0
+
+    // Heartbeat cycle: 1.3 seconds total
+    // 0.00-0.12: first bump up
+    // 0.12-0.24: back down
+    // 0.28-0.40: second bump up
+    // 0.40-0.55: back down
+    // 0.55-1.30: rest
 
     func body(content: Content) -> some View {
-        content
-            .scaleEffect(scale)
-            .onAppear { isActive = true; startHeartbeat() }
-            .onDisappear { isActive = false }
+        TimelineView(.animation(minimumInterval: 1.0 / 30.0)) { timeline in
+            let t = timeline.date.timeIntervalSinceReferenceDate
+            let phase = t.truncatingRemainder(dividingBy: 1.3)
+            let (scale, glow) = heartbeatValues(phase: phase)
+
+            content
+                .scaleEffect(scale)
+                .shadow(color: color.opacity(glow * 0.8), radius: 12 * intensity)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(color.opacity(glow * 0.15))
+                        .allowsHitTesting(false)
+                )
+        }
     }
 
-    private func startHeartbeat() {
-        guard isActive else { return }
-        withAnimation(.easeInOut(duration: 0.12)) { scale = 1.08 }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.12) {
-            guard isActive else { return }
-            withAnimation(.easeInOut(duration: 0.1)) { scale = 1.0 }
+    private func heartbeatValues(phase: Double) -> (CGFloat, CGFloat) {
+        let bump1: CGFloat = 0.12 * intensity
+        let bump2: CGFloat = 0.08 * intensity
+
+        switch phase {
+        case 0..<0.12:
+            let p = phase / 0.12
+            return (1.0 + bump1 * ease(p), ease(p))
+        case 0.12..<0.24:
+            let p = (phase - 0.12) / 0.12
+            return (1.0 + bump1 * (1.0 - ease(p)), 1.0 - ease(p) * 0.8)
+        case 0.28..<0.40:
+            let p = (phase - 0.28) / 0.12
+            return (1.0 + bump2 * ease(p), ease(p) * 0.7)
+        case 0.40..<0.55:
+            let p = (phase - 0.40) / 0.15
+            return (1.0 + bump2 * (1.0 - ease(p)), 0.7 * (1.0 - ease(p)))
+        default:
+            return (1.0, 0)
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.28) {
-            guard isActive else { return }
-            withAnimation(.easeInOut(duration: 0.12)) { scale = 1.06 }
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.40) {
-            guard isActive else { return }
-            withAnimation(.easeInOut(duration: 0.1)) { scale = 1.0 }
-        }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) {
-            startHeartbeat()
-        }
+    }
+
+    private func ease(_ t: Double) -> CGFloat {
+        // Smooth ease in-out
+        CGFloat(t < 0.5 ? 2 * t * t : 1 - pow(-2 * t + 2, 2) / 2)
     }
 }
 
@@ -338,8 +362,8 @@ struct BloodFlowProgress: View {
 // MARK: - View Extensions
 
 extension View {
-    func heartbeatPulse() -> some View {
-        modifier(HeartbeatPulse())
+    func heartbeatPulse(color: Color = .red, intensity: CGFloat = 1.0) -> some View {
+        modifier(HeartbeatPulse(color: color, intensity: intensity))
     }
 
     func breathing(intensity: CGFloat = 0.015) -> some View {
