@@ -14,20 +14,28 @@ struct TabNavigationView: View {
             .tag(0)
 
             NavigationStack {
-                LessonsListView()
+                LabPrepListView()
             }
             .tabItem {
-                Label("Learn", systemImage: BodySystem.skeletal.tabIcon)
+                Label("Lab Prep", systemImage: "flask.fill")
             }
             .tag(1)
 
             NavigationStack {
-                HowWeLearnView()
+                InteractiveLearningListView()
             }
             .tabItem {
-                Label("How We Learn", systemImage: "brain.head.profile.fill")
+                Label("Interactive", systemImage: BodySystem.muscular.tabIcon)
             }
             .tag(2)
+
+            NavigationStack {
+                LessonsListView()
+            }
+            .tabItem {
+                Label("Lessons", systemImage: BodySystem.skeletal.tabIcon)
+            }
+            .tag(3)
 
             NavigationStack {
                 PracticeMenuView()
@@ -35,7 +43,7 @@ struct TabNavigationView: View {
             .tabItem {
                 Label("Practice", systemImage: BodySystem.cardiovascular.tabIcon)
             }
-            .tag(3)
+            .tag(4)
 
             NavigationStack {
                 MoreView()
@@ -43,7 +51,7 @@ struct TabNavigationView: View {
             .tabItem {
                 Label("More", systemImage: BodySystem.organ.tabIcon)
             }
-            .tag(4)
+            .tag(5)
         }
         .tint(tabTint)
         .animation(.easeInOut(duration: 0.25), value: selectedTab)
@@ -52,10 +60,11 @@ struct TabNavigationView: View {
     private var tabTint: Color {
         switch selectedTab {
         case 0: return BodySystem.nervous.primaryColor
-        case 1: return BodySystem.skeletal.primaryColor
-        case 2: return .purple
-        case 3: return BodySystem.cardiovascular.primaryColor
-        case 4: return BodySystem.organ.primaryColor
+        case 1: return .purple
+        case 2: return BodySystem.muscular.primaryColor
+        case 3: return BodySystem.skeletal.primaryColor
+        case 4: return BodySystem.cardiovascular.primaryColor
+        case 5: return BodySystem.organ.primaryColor
         default: return .blue
         }
     }

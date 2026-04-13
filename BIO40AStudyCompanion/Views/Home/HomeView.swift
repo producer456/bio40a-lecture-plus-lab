@@ -98,8 +98,8 @@ struct HomeView: View {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 16)
-                .fill(Color(.secondarySystemGroupedBackground))
-                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.endocrine.primaryColor.opacity(0.12), lineWidth: 1))
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.endocrine.primaryColor.opacity(0.15), lineWidth: 1))
         )
     }
 
@@ -172,8 +172,8 @@ struct HomeView: View {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color(.secondarySystemGroupedBackground))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(BodySystem.skeletal.primaryColor.opacity(0.12), lineWidth: 1))
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(BodySystem.skeletal.primaryColor.opacity(0.15), lineWidth: 1))
         )
     }
 
@@ -226,10 +226,9 @@ struct HomeView: View {
         .padding(.vertical, 12)
         .background(
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color(.secondarySystemGroupedBackground))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.15), lineWidth: 1))
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.2), lineWidth: 1))
         )
-        .heartbeatPulse(color: color, intensity: 0.7)
     }
 
     // MARK: - Weak Spots Preview
@@ -275,8 +274,8 @@ struct HomeView: View {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 16)
-                .fill(Color(.secondarySystemGroupedBackground))
-                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.muscular.primaryColor.opacity(0.12), lineWidth: 1))
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 16).stroke(BodySystem.muscular.primaryColor.opacity(0.15), lineWidth: 1))
         )
     }
 
@@ -329,8 +328,8 @@ struct HomeView: View {
         .padding(.vertical, 16)
         .background(
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color(.secondarySystemGroupedBackground))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.12), lineWidth: 1))
+                .fill(.ultraThinMaterial)
+                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.15), lineWidth: 1))
         )
     }
 

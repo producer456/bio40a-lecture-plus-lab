@@ -79,7 +79,23 @@ struct SidebarNavigationView: View {
                         .foregroundStyle(dest.tintColor)
                 }
                 .tag(dest)
+                .listRowBackground(
+                    Group {
+                        if selection == dest {
+                            RoundedRectangle(cornerRadius: 8)
+                                .fill(dest.tintColor.opacity(0.25))
+                                .overlay(
+                                    RoundedRectangle(cornerRadius: 8)
+                                        .stroke(dest.tintColor.opacity(0.4), lineWidth: 1.5)
+                                )
+                                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 8))
+                        }
+                    }
+                )
             }
+            .scrollContentBackground(.hidden)
+            .background(.ultraThinMaterial)
+            .tint(.clear)
             .navigationTitle("BIO 40A")
         } detail: {
             if let selection {
