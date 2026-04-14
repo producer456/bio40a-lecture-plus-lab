@@ -17,6 +17,12 @@ struct PracticeMenuView: View {
                 .listRowBackground(Color.clear)
             }
 
+            Section("Lecture Quizzes") {
+                NavigationLink(destination: LectureQuiz1View()) {
+                    practiceRow(icon: "doc.text.fill", title: "Lecture Quiz 1 Practice", subtitle: "100 questions — anatomy, chemistry, body systems", color: BodySystem.skeletal.primaryColor)
+                }
+            }
+
             Section("Study Tools") {
                 NavigationLink(destination: FlashcardDeckView()) {
                     practiceRow(icon: "rectangle.on.rectangle.angled", title: "Flashcards", subtitle: "Review key terms with spaced repetition", color: BodySystem.endocrine.primaryColor)

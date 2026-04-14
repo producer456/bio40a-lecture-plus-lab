@@ -108,7 +108,7 @@ struct SidebarNavigationView: View {
         case .flashcards:
             NavigationStack { FlashcardDeckView() }
         case .quizzes:
-            NavigationStack { QuizSetupView() }
+            NavigationStack { QuizHubView() }
         case .games:
             NavigationStack { GamesMenuView() }
         case .schedule:

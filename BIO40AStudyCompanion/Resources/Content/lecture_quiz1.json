@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "lq1_q01",
+    "question": "What is the standard anatomical position?",
+    "choices": [
+      "Lying face up with arms crossed over the chest",
+      "Standing upright, feet parallel, arms at sides with palms facing forward",
+      "Standing upright with arms raised above the head",
+      "Sitting with legs crossed and hands on knees"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Standard anatomical position is standing upright with feet parallel and flat on the floor, arms at the sides, and palms facing forward (anteriorly).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q02",
+    "question": "What is the term for lying face down?",
+    "choices": [
+      "Supine",
+      "Prone",
+      "Lateral recumbent",
+      "Dorsal recumbent"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Prone means lying face down. Supine is lying face up.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q03",
+    "question": "Which directional term means toward the front of the body?",
+    "choices": [
+      "Posterior",
+      "Superior",
+      "Anterior (Ventral)",
+      "Lateral"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Anterior (or ventral) refers to the front of the body.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q04",
+    "question": "What does the term posterior mean?",
+    "choices": [
+      "Toward the back of the body",
+      "Toward the front of the body",
+      "Toward the head",
+      "Toward the feet"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Posterior (or dorsal) means toward the back of the body.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q05",
+    "question": "Which directional term means above or higher?",
+    "choices": [
+      "Inferior",
+      "Anterior",
+      "Distal",
+      "Superior (Cranial)"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Superior (or cranial) means above or toward the head.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q06",
+    "question": "Which directional term means toward the midline of the body?",
+    "choices": [
+      "Lateral",
+      "Medial",
+      "Proximal",
+      "Distal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Medial means toward the midline of the body.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q07",
+    "question": "Which directional term means nearer to the trunk or point of origin?",
+    "choices": [
+      "Distal",
+      "Proximal",
+      "Superficial",
+      "Deep"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Proximal means nearer to the trunk or point of attachment of a limb.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q08",
+    "question": "Which plane divides the body into right and left sides?",
+    "choices": [
+      "Frontal plane",
+      "Transverse plane",
+      "Sagittal plane",
+      "Oblique plane"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The sagittal plane divides the body into right and left portions.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q09",
+    "question": "Which plane divides the body into anterior and posterior portions?",
+    "choices": [
+      "Sagittal plane",
+      "Transverse plane",
+      "Frontal (Coronal) plane",
+      "Oblique plane"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The frontal (coronal) plane divides the body into anterior (front) and posterior (back) portions.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q10",
+    "question": "Which plane produces a cross-section of the body?",
+    "choices": [
+      "Transverse plane",
+      "Sagittal plane",
+      "Frontal plane",
+      "Oblique plane"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The transverse (horizontal) plane divides the body into superior and inferior portions, producing a cross-section.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q11",
+    "question": "What does the dorsal cavity contain?",
+    "choices": [
+      "Heart and lungs",
+      "Cranial and spinal cavities",
+      "Abdominal and pelvic cavities",
+      "Thoracic and abdominopelvic cavities"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The dorsal cavity is subdivided into the cranial cavity (housing the brain) and the spinal/vertebral cavity (housing the spinal cord).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q12",
+    "question": "What forms the floor of the thoracic cavity?",
+    "choices": [
+      "Sternum",
+      "Ribs",
+      "Diaphragm",
+      "Vertebral column"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The diaphragm is the dome-shaped muscle that forms the floor of the thoracic cavity, separating it from the abdominopelvic cavity.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q13",
+    "question": "Which serous membrane layer lines the cavity walls?",
+    "choices": [
+      "Visceral layer",
+      "Parietal layer",
+      "Mucous layer",
+      "Cutaneous layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The parietal layer of a serous membrane lines the walls of the body cavity.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q14",
+    "question": "Which serous membrane layer covers the organs?",
+    "choices": [
+      "Parietal layer",
+      "Cutaneous layer",
+      "Visceral layer",
+      "Mucous layer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The visceral layer of a serous membrane directly covers the organs.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q15",
+    "question": "What is the primary function of serous fluid in body cavities?",
+    "choices": [
+      "Provide nutrients to organs",
+      "Reduce friction between organs and cavity walls",
+      "Produce immune cells",
+      "Transport waste products"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Serous fluid between the parietal and visceral layers reduces friction, allowing organs to move smoothly against cavity walls.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q16",
+    "question": "What is the serous membrane that lines the pleural cavity called?",
+    "choices": [
+      "Pericardium",
+      "Peritoneum",
+      "Pleura",
+      "Mesentery"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The pleura is the serous membrane associated with the lungs and pleural cavity.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q17",
+    "question": "What is the serous membrane that surrounds the heart?",
+    "choices": [
+      "Pleura",
+      "Pericardium",
+      "Peritoneum",
+      "Endocardium"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pericardium is the serous membrane that surrounds the heart.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q18",
+    "question": "What is the serous membrane of the abdominopelvic cavity?",
+    "choices": [
+      "Peritoneum",
+      "Pleura",
+      "Pericardium",
+      "Meninges"
+    ],
+    "correctAnswer": 0,
+    "explanation": "The peritoneum is the serous membrane lining the abdominopelvic cavity and covering its organs.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q19",
+    "question": "Which four elements make up approximately 95% of the body's mass?",
+    "choices": [
+      "Ca, P, K, S",
+      "Na, Cl, Mg, Fe",
+      "C, H, N, Ca",
+      "O, C, H, N"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Oxygen, carbon, hydrogen, and nitrogen together make up roughly 95% of body mass.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q20",
+    "question": "What is the smallest unit of an element that retains its properties?",
+    "choices": [
+      "Molecule",
+      "Electron",
+      "Atom",
+      "Compound"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An atom is the smallest unit of an element that retains the chemical properties of that element.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q21",
+    "question": "What does the atomic number represent?",
+    "choices": [
+      "Number of neutrons",
+      "Number of protons",
+      "Number of electrons and neutrons",
+      "Total mass of the atom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The atomic number equals the number of protons in the nucleus of an atom.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q22",
+    "question": "What is an atom that has gained or lost electrons and carries a charge called?",
+    "choices": [
+      "Isotope",
+      "Molecule",
+      "Ion",
+      "Compound"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An ion is an atom that has gained or lost one or more electrons, giving it a net electrical charge.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q23",
+    "question": "What is an atom that donates an electron and becomes positively charged called?",
+    "choices": [
+      "Anion",
+      "Cation",
+      "Isotope",
+      "Free radical"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A cation is a positively charged ion formed when an atom loses (donates) one or more electrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q24",
+    "question": "What is an atom that accepts an electron and becomes negatively charged called?",
+    "choices": [
+      "Cation",
+      "Anion",
+      "Isotope",
+      "Neutral atom"
+    ],
+    "correctAnswer": 1,
+    "explanation": "An anion is a negatively charged ion formed when an atom gains (accepts) one or more electrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q25",
+    "question": "What are ions that dissociate in water and are capable of conducting electrical current called?",
+    "choices": [
+      "Catalysts",
+      "Buffers",
+      "Electrolytes",
+      "Free radicals"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrolytes are substances that dissociate into ions in solution and can conduct electricity.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q26",
+    "question": "Why are electrolytes critical for body function?",
+    "choices": [
+      "They provide energy for metabolism",
+      "They act as enzymes",
+      "They maintain membrane potentials and nerve/muscle function",
+      "They form structural proteins"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrolytes are essential for maintaining membrane potentials, which are critical for nerve impulse transmission and muscle contraction.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q27",
+    "question": "In the case of patient Luis M., which ions were critically imbalanced?",
+    "choices": [
+      "Calcium and Magnesium",
+      "Sodium and Potassium",
+      "Iron and Zinc",
+      "Chloride and Bicarbonate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Luis M.'s case involved critical imbalances in sodium and potassium, which are key electrolytes for cardiac and neural function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q28",
+    "question": "Isotopes of an element differ in the number of what subatomic particle?",
+    "choices": [
+      "Protons",
+      "Electrons",
+      "Neutrons",
+      "Positrons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Isotopes have the same number of protons but differ in the number of neutrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q29",
+    "question": "How do you calculate the number of neutrons in an atom?",
+    "choices": [
+      "Add atomic number to mass number",
+      "Subtract atomic number from mass number",
+      "Subtract mass number from atomic number",
+      "Divide mass number by atomic number"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Neutrons = Mass number - Atomic number (mass number = protons + neutrons, atomic number = protons).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q30",
+    "question": "Why are some isotopes radioactive?",
+    "choices": [
+      "They have an unstable nucleus with excess neutrons and emit radiation to become stable",
+      "They have too many electrons",
+      "They have too many protons",
+      "They lack a nucleus"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radioactive isotopes have unstable nuclei (often due to excess neutrons) and emit radiation as they decay toward stability.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q31",
+    "question": "Which medical imaging technique uses radioactive isotopes to visualize metabolic activity?",
+    "choices": [
+      "X-ray",
+      "MRI",
+      "Ultrasound",
+      "PET scan"
+    ],
+    "correctAnswer": 3,
+    "explanation": "PET (Positron Emission Tomography) scans use radioactive tracers to visualize metabolic processes in the body.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q32",
+    "question": "What type of bond is formed when atoms share electrons?",
+    "choices": [
+      "Ionic bond",
+      "Covalent bond",
+      "Hydrogen bond",
+      "Van der Waals bond"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A covalent bond forms when two atoms share one or more pairs of electrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q33",
+    "question": "When electrons are shared equally between atoms, what type of bond is formed?",
+    "choices": [
+      "Polar covalent",
+      "Nonpolar covalent",
+      "Ionic",
+      "Hydrogen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A nonpolar covalent bond forms when electrons are shared equally between atoms with similar electronegativities.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q34",
+    "question": "When electrons are shared unequally between atoms, what type of bond is formed?",
+    "choices": [
+      "Polar covalent bond",
+      "Nonpolar covalent bond",
+      "Ionic bond",
+      "Metallic bond"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A polar covalent bond results when electrons are shared unequally due to differences in electronegativity.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q35",
+    "question": "What type of bond holds the atoms together within a water molecule?",
+    "choices": [
+      "Ionic bond",
+      "Polar covalent bond",
+      "Nonpolar covalent bond",
+      "Hydrogen bond"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water molecules are held together by polar covalent bonds because oxygen is more electronegative than hydrogen.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q36",
+    "question": "What partial charge does oxygen carry in a water molecule?",
+    "choices": [
+      "Partial positive",
+      "Partial negative",
+      "No charge",
+      "Full negative"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Oxygen is more electronegative and pulls shared electrons closer, giving it a partial negative charge in water.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q37",
+    "question": "Which statement about hydrogen bonds is NOT true?",
+    "choices": [
+      "They form between water molecules",
+      "They involve the sharing of electrons between hydrogen and oxygen",
+      "They are weak electrical attractions between polar molecules",
+      "They contribute to water's high heat capacity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hydrogen bonds are weak attractions between the partial positive charge on hydrogen and partial negative charges on other atoms. They do NOT involve sharing or transferring electrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q38",
+    "question": "Approximately what percentage of the human body is water?",
+    "choices": [
+      "50 percent",
+      "60 percent",
+      "70 percent",
+      "80 percent"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The human body is approximately 70% water by mass.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q39",
+    "question": "Which is a key property of water in the body?",
+    "choices": [
+      "Acts as a lubricant and provides cushioning",
+      "Acts as a strong acid",
+      "Conducts heat poorly",
+      "Dissolves only nonpolar substances"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Water serves as a lubricant (e.g., in joints) and provides cushioning (e.g., cerebrospinal fluid around the brain).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q40",
+    "question": "Patient Luis M. presented with a blood pH of 7.19. What condition does this indicate?",
+    "choices": [
+      "Respiratory alkalosis",
+      "Metabolic acidosis",
+      "Metabolic alkalosis",
+      "Normal blood pH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A blood pH of 7.19 is below the normal range (7.35-7.45), indicating metabolic acidosis.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q41",
+    "question": "What was Luis M.'s blood pH?",
+    "choices": [
+      "7.35",
+      "7.45",
+      "7.19",
+      "7.50"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Luis M.'s blood pH was 7.19, which is below the normal range of 7.35-7.45.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q42",
+    "question": "What buffer was administered to help correct Luis M.'s acidosis?",
+    "choices": [
+      "Phosphate ions",
+      "Bicarbonate ions",
+      "Carbonic acid",
+      "Sodium chloride"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bicarbonate ions (HCO3-) were administered as a buffer to neutralize excess H+ and raise blood pH.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q43",
+    "question": "Which of the following is considered a micronutrient needed in small quantities?",
+    "choices": [
+      "Carbon",
+      "Hydrogen",
+      "Oxygen",
+      "Calcium"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Calcium is a micronutrient required in small amounts, unlike O, C, H, and N which are macronutrients making up most of body mass.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q44",
+    "question": "What are the basic building blocks of all matter?",
+    "choices": [
+      "Molecules",
+      "Cells",
+      "Atoms",
+      "Compounds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Atoms are the fundamental building blocks of all matter.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q45",
+    "question": "What is a collection of similar cells that work together to perform a specific function?",
+    "choices": [
+      "Organ",
+      "Organism",
+      "Tissue",
+      "Organ system"
+    ],
+    "correctAnswer": 2,
+    "explanation": "A tissue is a group of similar cells that work together to perform a particular function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q46",
+    "question": "Which body cavity houses the brain?",
+    "choices": [
+      "Spinal cavity",
+      "Cranial cavity",
+      "Thoracic cavity",
+      "Pelvic cavity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The cranial cavity, part of the dorsal cavity, houses and protects the brain.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q47",
+    "question": "Which term describes a structure that is closer to the surface of the body?",
+    "choices": [
+      "Deep",
+      "Superficial",
+      "Proximal",
+      "Inferior"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Superficial means closer to or on the surface of the body.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q48",
+    "question": "The study of larger body structures visible to the naked eye is called?",
+    "choices": [
+      "Histology",
+      "Gross anatomy",
+      "Cytology",
+      "Physiology"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Gross (macroscopic) anatomy is the study of body structures large enough to be seen with the naked eye.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q49",
+    "question": "When are molecules formed?",
+    "choices": [
+      "When two or more atoms combine chemically",
+      "When atoms lose all their electrons",
+      "When protons and neutrons separate",
+      "When ions dissolve in water"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A molecule is formed when two or more atoms bond together chemically.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q50",
+    "question": "What term refers to all chemical reactions in the body?",
+    "choices": [
+      "Catabolism",
+      "Metabolism",
+      "Anabolism",
+      "Homeostasis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Metabolism encompasses all chemical reactions occurring in the body, including both catabolism and anabolism.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_basic"
+  },
+  {
+    "id": "lq1_q51",
+    "question": "If a bullet passed through the chest wall into the lung, which membrane would it penetrate first?",
+    "choices": [
+      "Visceral pleura",
+      "Parietal pleura",
+      "Pericardium",
+      "Peritoneum"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The parietal pleura lines the chest wall, so a bullet entering from outside would penetrate the parietal pleura first before reaching the visceral pleura on the lung surface.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q52",
+    "question": "What characterizes an oblique plane of section?",
+    "choices": [
+      "It divides the body into equal halves",
+      "It runs parallel to the long axis",
+      "It is always horizontal",
+      "It passes through the body at an angle between the standard planes"
+    ],
+    "correctAnswer": 3,
+    "explanation": "An oblique plane cuts through the body at an angle that is not parallel to any of the three standard planes (sagittal, frontal, transverse).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q53",
+    "question": "Why is hypothermia sometimes induced during surgery?",
+    "choices": [
+      "To increase blood flow",
+      "To decrease the body's metabolic needs and protect tissues",
+      "To speed up enzyme activity",
+      "To stimulate the immune system"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Induced hypothermia decreases metabolic rate, reducing tissue oxygen demand and protecting organs (especially the brain) during surgery.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q54",
+    "question": "When body energy is depleted during cold exposure, what happens to red blood cells?",
+    "choices": [
+      "They produce more ATP",
+      "They cannot give up oxygen to tissues efficiently",
+      "They increase in number",
+      "They become more flexible"
+    ],
+    "correctAnswer": 1,
+    "explanation": "When energy is depleted in extreme cold, red blood cells cannot release oxygen properly to tissues, contributing to tissue damage.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q55",
+    "question": "During childbirth, what acts as the sensor in the positive feedback loop?",
+    "choices": [
+      "The pituitary gland",
+      "The uterine muscles",
+      "Stretch-sensitive nerve cells in the uterine wall",
+      "Oxytocin receptors"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Stretch-sensitive nerve cells in the uterine wall detect increased pressure from the baby and signal the brain to release more oxytocin.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q56",
+    "question": "What causes decompression sickness in divers?",
+    "choices": [
+      "Oxygen toxicity",
+      "Nitrogen gas forming bubbles in the blood and tissues during rapid ascent",
+      "Carbon dioxide accumulation",
+      "Loss of red blood cells"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Rapid ascent causes dissolved nitrogen to form bubbles in the blood and tissues as pressure decreases, causing decompression sickness (the bends).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q57",
+    "question": "Why was Luis M.'s blood pH of 7.19 dangerous?",
+    "choices": [
+      "It was too alkaline for enzyme function",
+      "It indicated metabolic acidosis, falling below the normal range of 7.35-7.45",
+      "It was within normal range",
+      "It indicated respiratory alkalosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A pH of 7.19 is significantly below the normal range of 7.35-7.45, indicating metabolic acidosis which can impair enzyme function and be life-threatening.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q58",
+    "question": "How does bicarbonate function as a buffer in the blood?",
+    "choices": [
+      "It acts as a strong acid",
+      "It acts as a weak base that neutralizes excess H+ ions",
+      "It increases H+ concentration",
+      "It converts oxygen to CO2"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bicarbonate (HCO3-) is a weak base that buffers blood pH by binding excess H+ ions, converting to carbonic acid.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q59",
+    "question": "Why does the body increase breathing rate during metabolic acidosis?",
+    "choices": [
+      "To exhale more CO2, which reduces carbonic acid and helps raise blood pH",
+      "To inhale more oxygen for cells",
+      "To lower blood pressure",
+      "To increase CO2 levels"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Rapid breathing (hyperventilation) expels CO2, shifting the equilibrium to reduce carbonic acid and H+ concentration, thereby raising blood pH.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q60",
+    "question": "In the case of Luis M., which electrolyte ions were found to be critically abnormal?",
+    "choices": [
+      "Calcium and Chloride",
+      "Iron and Zinc",
+      "Sodium and Potassium",
+      "Magnesium and Phosphate"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Luis M. had critical abnormalities in sodium and potassium levels, affecting cardiac and neural function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q61",
+    "question": "In the acronym CHONPS, what does the P stand for?",
+    "choices": [
+      "Potassium",
+      "Platinum",
+      "Phosphorus",
+      "Palladium"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CHONPS stands for Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus, and Sulfur — the six most abundant elements in living organisms.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q62",
+    "question": "Which element is considered a micronutrient in the human body?",
+    "choices": [
+      "Carbon",
+      "Nitrogen",
+      "Calcium",
+      "Oxygen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Calcium is a micronutrient, needed in smaller quantities compared to the bulk elements (O, C, H, N).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q63",
+    "question": "How does Carbon-14 differ from Carbon-12?",
+    "choices": [
+      "Two extra protons",
+      "Two extra electrons",
+      "Two extra neutrons",
+      "Two fewer protons"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Carbon-14 has 6 protons and 8 neutrons, while Carbon-12 has 6 protons and 6 neutrons — a difference of 2 neutrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q64",
+    "question": "How many neutrons does tritium (Hydrogen-3) have?",
+    "choices": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Tritium has a mass number of 3 and an atomic number of 1, so it has 3 - 1 = 2 neutrons.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q65",
+    "question": "Why can radioactive isotopes be used in PET scans?",
+    "choices": [
+      "They decay and emit radiation that can be detected by scanners",
+      "They are chemically inert",
+      "They absorb X-rays",
+      "They produce magnetic fields"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Radioactive isotopes emit positrons as they decay, which produce gamma rays detectable by PET scanners.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q66",
+    "question": "Potassium (K) has one valence electron. What is it most likely to do in a chemical reaction?",
+    "choices": [
+      "Accept seven electrons",
+      "Donate one electron and become a cation",
+      "Share electrons equally",
+      "Form a nonpolar covalent bond"
+    ],
+    "correctAnswer": 1,
+    "explanation": "With only one valence electron, potassium readily donates it to achieve a stable electron configuration, becoming a K+ cation.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q67",
+    "question": "Fluorine has seven valence electrons. How will it most likely react?",
+    "choices": [
+      "Donate seven electrons",
+      "Accept one electron and become an anion",
+      "Share all electrons equally",
+      "Lose its nucleus"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fluorine needs one more electron to complete its outer shell, so it readily accepts one electron to become a fluoride anion (F-).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q68",
+    "question": "Why is water a polar molecule?",
+    "choices": [
+      "It has an equal distribution of charge",
+      "Hydrogen is more electronegative than oxygen",
+      "Oxygen pulls the shared electrons closer, creating partial charges",
+      "It contains ionic bonds"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Oxygen is more electronegative than hydrogen, pulling shared electrons closer and creating a partial negative charge on oxygen and partial positive charges on hydrogen atoms.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q69",
+    "question": "Which statement about hydrogen bonds is NOT true?",
+    "choices": [
+      "They form between water molecules",
+      "They are weak attractions that do not involve sharing or transferring electrons",
+      "They are stronger than covalent bonds",
+      "They contribute to water's properties"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hydrogen bonds ARE weak attractions without sharing or transferring electrons — this statement IS true. The false statement would be that they are stronger than covalent bonds.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q70",
+    "question": "Blood cells remain suspended in plasma. What type of mixture is blood?",
+    "choices": [
+      "Solution",
+      "Colloid",
+      "Suspension",
+      "Emulsion"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Blood is a suspension because the blood cells are large enough to settle out (as seen in blood sedimentation rate tests).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q71",
+    "question": "In a reaction where AB + CD → AD + CB, what type of reaction is this?",
+    "choices": [
+      "Synthesis reaction",
+      "Decomposition reaction",
+      "Exchange reaction",
+      "Reversible reaction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "An exchange (displacement) reaction involves bonds being both broken and formed as parts of the reactants are exchanged.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q72",
+    "question": "How do enzymes increase the rate of chemical reactions?",
+    "choices": [
+      "By increasing body temperature",
+      "By lowering the activation energy of the reaction",
+      "By adding more reactants",
+      "By increasing the pH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzymes are biological catalysts that speed up reactions by lowering the activation energy required for the reaction to proceed.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q73",
+    "question": "The breakdown of sucrose into glucose and fructose using water is an example of what reaction?",
+    "choices": [
+      "Dehydration synthesis",
+      "Oxidation",
+      "Hydrolysis",
+      "Exchange reaction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Hydrolysis uses water to break bonds, splitting larger molecules into smaller subunits (e.g., sucrose into glucose and fructose).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q74",
+    "question": "A patient has a blood pH of 7.48. What condition does this indicate?",
+    "choices": [
+      "Acidosis",
+      "Alkalosis",
+      "Normal pH",
+      "Neutral pH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A blood pH of 7.48 is above the normal range (7.35-7.45), indicating alkalosis.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q75",
+    "question": "Which of the following is an inorganic compound?",
+    "choices": [
+      "Glucose",
+      "Cholesterol",
+      "Carbon dioxide (CO2)",
+      "Amino acids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "CO2 is considered inorganic despite containing carbon because it lacks hydrogen-carbon bonds characteristic of organic molecules.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q76",
+    "question": "Where is glycogen primarily stored in the body?",
+    "choices": [
+      "Brain and kidneys",
+      "Liver and skeletal muscles",
+      "Heart and lungs",
+      "Adipose tissue and skin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Glycogen, the storage form of glucose, is primarily stored in the liver and skeletal muscles.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q77",
+    "question": "What characterizes saturated fatty acids?",
+    "choices": [
+      "They have multiple double bonds and are liquid at room temperature",
+      "They have one double bond",
+      "They have the maximum number of hydrogen atoms, no double bonds, and are solid at room temperature",
+      "They are always found in plants"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Saturated fatty acids have no double bonds between carbons, carry the maximum number of hydrogen atoms, and tend to be solid at room temperature (e.g., animal fats).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q78",
+    "question": "Which type of lipid has a four-ring carbon structure?",
+    "choices": [
+      "Triglycerides",
+      "Phospholipids",
+      "Steroids (such as Cholesterol)",
+      "Fatty acids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Steroids, including cholesterol, are characterized by a backbone of four linked carbon rings.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q79",
+    "question": "What two functional groups are found on every amino acid?",
+    "choices": [
+      "Amino group and carboxyl group",
+      "Hydroxyl group and phosphate group",
+      "Methyl group and sulfhydryl group",
+      "Carbonyl group and amino group"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Every amino acid has an amino group (-NH2) and a carboxyl group (-COOH), along with a variable R group.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q80",
+    "question": "An alpha-helix or beta-pleated sheet represents which level of protein structure?",
+    "choices": [
+      "Primary structure",
+      "Secondary structure",
+      "Tertiary structure",
+      "Quaternary structure"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Secondary structure refers to local folding patterns like alpha-helices and beta-pleated sheets, stabilized by hydrogen bonds.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q81",
+    "question": "What is it called when a protein loses its three-dimensional shape?",
+    "choices": [
+      "Hydrolysis",
+      "Condensation",
+      "Denaturation",
+      "Replication"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Denaturation is the loss of a protein's 3D shape due to disruption of bonds by heat, pH changes, or other factors, causing loss of function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q82",
+    "question": "What determines enzyme specificity for its substrate?",
+    "choices": [
+      "The enzyme's size",
+      "The shape of the active site matches the substrate",
+      "The enzyme's color",
+      "The number of amino acids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzyme specificity is determined by the shape of the active site, which is complementary to the shape of its substrate (lock-and-key/induced fit model).",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q83",
+    "question": "How does the sugar in DNA differ from the sugar in RNA?",
+    "choices": [
+      "DNA has ribose; RNA has deoxyribose",
+      "DNA has deoxyribose; RNA has ribose",
+      "Both have the same sugar",
+      "DNA has glucose; RNA has fructose"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DNA contains deoxyribose sugar (missing one oxygen), while RNA contains ribose sugar.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q84",
+    "question": "Where is the energy in ATP released from?",
+    "choices": [
+      "The bond between the second and third phosphate groups",
+      "The bond between the sugar and base",
+      "The bond between the first and second phosphate groups",
+      "The adenine base"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Energy is released when the high-energy bond between the second and third phosphate groups of ATP is hydrolyzed, producing ADP and inorganic phosphate.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q85",
+    "question": "What model describes the enzyme changing shape slightly to better fit the substrate?",
+    "choices": [
+      "Lock-and-key model",
+      "Induced fit model",
+      "Fluid mosaic model",
+      "Central dogma model"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The induced fit model describes how an enzyme's active site changes shape slightly upon substrate binding to achieve optimal fit.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q86",
+    "question": "In water, why does the hydrogen of one molecule orient toward the oxygen of another?",
+    "choices": [
+      "Covalent bonding between molecules",
+      "The partial positive charge on hydrogen is attracted to the partial negative charge on oxygen",
+      "Ionic bonding between water molecules",
+      "Van der Waals forces only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The partial positive charge on hydrogen (δ+) is electrostatically attracted to the partial negative charge on oxygen (δ-), forming hydrogen bonds.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q87",
+    "question": "Which tissue type is avascular (lacks blood vessels)?",
+    "choices": [
+      "Epithelial tissue",
+      "Connective tissue",
+      "Muscle tissue",
+      "Nervous tissue"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Epithelial tissue is avascular and receives nutrients by diffusion from underlying connective tissue.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q88",
+    "question": "The synthesis of ATP from ADP and phosphate is what type of reaction?",
+    "choices": [
+      "Exergonic",
+      "Endergonic",
+      "Hydrolysis",
+      "Decomposition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ATP synthesis is endergonic because it requires energy input to form the high-energy phosphate bond.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q89",
+    "question": "Why is atmospheric pressure important for the body?",
+    "choices": [
+      "It prevents blood from boiling",
+      "It maintains body temperature",
+      "It keeps gases like oxygen and nitrogen dissolved in body fluids",
+      "It has no physiological significance"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Atmospheric pressure keeps gases dissolved in body fluids at appropriate concentrations, essential for respiration and cellular function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q90",
+    "question": "What cancer treatment delivers radioactive isotopes directly to tumor blood vessels?",
+    "choices": [
+      "Chemotherapy",
+      "Radioembolization",
+      "External beam radiation",
+      "Immunotherapy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Radioembolization delivers tiny radioactive beads directly into the blood vessels feeding a tumor, providing targeted radiation.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q91",
+    "question": "Which medical imaging technique is considered the safest with no known side effects?",
+    "choices": [
+      "CT scan",
+      "X-ray",
+      "PET scan",
+      "Ultrasonography"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Ultrasonography uses sound waves rather than radiation and has no known harmful side effects, making it the safest imaging modality.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q92",
+    "question": "What device is used to treat decompression sickness by restoring normal atmospheric pressure?",
+    "choices": [
+      "Hyperbaric chamber",
+      "Ventilator",
+      "Dialysis machine",
+      "Defibrillator"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A hyperbaric chamber exposes the patient to elevated atmospheric pressure, forcing nitrogen bubbles back into solution.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q93",
+    "question": "A molecule with no partial charges that does not dissolve in water has what type of bond?",
+    "choices": [
+      "Polar covalent (Hydrophilic)",
+      "Nonpolar covalent (Hydrophobic)",
+      "Ionic",
+      "Hydrogen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Nonpolar covalent molecules have no partial charges, making them hydrophobic (water-fearing) and insoluble in water.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q94",
+    "question": "What is the difference between growth and differentiation?",
+    "choices": [
+      "They are the same process",
+      "Growth is an increase in size; differentiation is the specialization of cells for specific functions",
+      "Growth is specialization; differentiation is increase in size",
+      "Neither occurs in adults"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Growth refers to an increase in body size, while differentiation is the process by which unspecialized cells become specialized for particular functions.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q95",
+    "question": "How are electrons distributed in carbon's electron shells?",
+    "choices": [
+      "4 inner, 2 outer",
+      "2 inner, 4 outer",
+      "3 inner, 3 outer",
+      "6 in one shell"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Carbon has 6 electrons: 2 in the first (inner) shell and 4 in the second (outer) shell.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q96",
+    "question": "Why is carbon so important in organic chemistry and biological molecules?",
+    "choices": [
+      "It can only form ionic bonds",
+      "It is the most abundant element",
+      "It can form four covalent bonds, allowing complex molecular structures",
+      "It is always radioactive"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Carbon has 4 valence electrons, allowing it to form 4 covalent bonds with various atoms, enabling the formation of the complex molecules essential to life.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q97",
+    "question": "A solution with a high concentration of hydrogen ions (H+) is classified as what?",
+    "choices": [
+      "A base",
+      "Neutral",
+      "An acid",
+      "A buffer"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Acids are defined by their high concentration of H+ ions, resulting in a pH below 7.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q98",
+    "question": "Which intracellular ion is critical for cell function but was missing from Luis M.'s blood work?",
+    "choices": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Chloride"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Potassium is the major intracellular cation, essential for membrane potential and cell function.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q99",
+    "question": "What is the major extracellular cation?",
+    "choices": [
+      "Sodium",
+      "Potassium",
+      "Calcium",
+      "Magnesium"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sodium (Na+) is the major cation found in extracellular fluid and plays a key role in fluid balance and nerve impulse transmission.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  },
+  {
+    "id": "lq1_q100",
+    "question": "Which serous membrane layer directly covers an organ's surface?",
+    "choices": [
+      "Parietal layer",
+      "Visceral layer",
+      "Cutaneous layer",
+      "Synovial layer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The visceral layer of a serous membrane is the layer that directly covers the surface of an organ.",
+    "chapterID": "lq1",
+    "sectionID": "lq1_advanced"
+  }
+]
