@@ -31,6 +31,7 @@
 		7A2CF13026331B70674DEAF6 /* InteractionComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80768608B973F64CB46ED240 /* InteractionComponents.swift */; };
 		7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343AECDADE46AC2C5212AD0 /* LearningTechnique.swift */; };
 		8004636D0DEB2141B6299AA7 /* LectureQuiz1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */; };
+		A11B2C3D4E5F6071B8293042 /* LectureQuiz2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */; };
 		8B63A09ED372F095F27F33D1 /* StudyMaterialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */; };
 		8DC35EC8C26945359EA98DEB /* QuizHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470FCB9586345C801CF87801 /* QuizHubView.swift */; };
 		90ED4AB622B73C8ABC58290B /* BioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F172BA2827C45A7D9235C2 /* BioTheme.swift */; };
@@ -95,6 +96,7 @@
 		AAD92B5CA7B297D71FCF36C0 /* AssignmentReflectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentReflectionViews.swift; sourceTree = "<group>"; };
 		B0D07A82FE34CF8765100C3D /* BIO40AStudyCompanion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BIO40AStudyCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureQuiz1View.swift; sourceTree = "<group>"; };
+		B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureQuiz2View.swift; sourceTree = "<group>"; };
 		C8E0C42FDAAC3E128E5D4305 /* BIO40AStudyCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIO40AStudyCompanionApp.swift; sourceTree = "<group>"; };
 		D07EE60524905C4BFE8239E1 /* GamesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViews.swift; sourceTree = "<group>"; };
 		D30C1B65DDF86358E3FDB223 /* MoreViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViews.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				237E0E88300906C21F9BDD0E /* FlashcardViews.swift */,
 				D07EE60524905C4BFE8239E1 /* GamesViews.swift */,
 				C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */,
+				B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */,
 				13E75C33C5AEBA177FB66A3F /* PracticeMenuView.swift */,
 				470FCB9586345C801CF87801 /* QuizHubView.swift */,
 				16DE59F89AA7AF66B9892A01 /* QuizViews.swift */,
@@ -385,6 +388,7 @@
 				CE4D87BC8CC2C25B5D090C1A /* LabPrepContent.swift in Sources */,
 				7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */,
 				8004636D0DEB2141B6299AA7 /* LectureQuiz1View.swift in Sources */,
+				A11B2C3D4E5F6071B8293042 /* LectureQuiz2View.swift in Sources */,
 				0E63F3D0980F11DDA8BB0228 /* LessonsListView.swift in Sources */,
 				9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */,
 				C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */,
@@ -491,6 +495,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 19;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -513,6 +518,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.5.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -559,6 +565,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 19;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -575,6 +582,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
