@@ -1,0 +1,308 @@
+[
+  {
+    "id": "lq3_q01",
+    "question": "The atomic number is equal to the number of ________________.",
+    "choices": ["electrons", "neutrons", "protons", "isotopes"],
+    "correctAnswer": 2,
+    "explanation": "The atomic number equals the number of protons in the nucleus and defines the element.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q02",
+    "question": "____________ energy is the energy of motion.",
+    "choices": ["Potential", "Kinetic", "Chemical", "Work"],
+    "correctAnswer": 1,
+    "explanation": "Kinetic energy is the energy of matter in motion. Potential energy is stored energy.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q03",
+    "question": "Substances made of two or more of the same atoms held together by chemical bonds is called a(an) ______________.",
+    "choices": ["molecules", "elements", "chemicals", "compounds"],
+    "correctAnswer": 0,
+    "explanation": "Molecules are two or more atoms (of the same or different elements) held together by chemical bonds. Compounds specifically require different elements.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q04",
+    "question": "Atoms that share electrons are said to possess ____________ bonds.",
+    "choices": ["ionic", "covalent", "hydrogen", "chemical"],
+    "correctAnswer": 1,
+    "explanation": "Covalent bonds involve the sharing of electron pairs between atoms. Ionic bonds involve the transfer of electrons.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q05",
+    "question": "Elements with the same number of protons and electrons but different number of neutrons is called a(an) ____________________.",
+    "choices": ["isotope", "ion", "atom", "molecule"],
+    "correctAnswer": 0,
+    "explanation": "Isotopes are atoms of the same element (same protons) with different numbers of neutrons, giving them different mass numbers.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q06",
+    "question": "Anything that has mass and occupies space is called __________________.",
+    "choices": ["an atom", "energy", "work", "matter"],
+    "correctAnswer": 3,
+    "explanation": "Matter is defined as anything that has mass and occupies space. Energy does not occupy space.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q07",
+    "question": "According to the periodic chart, the atomic mass for sulfur is _________.",
+    "choices": ["about 8", "about 16", "about 32", "about 79"],
+    "correctAnswer": 2,
+    "explanation": "Sulfur (S) has an atomic mass of approximately 32.07 u. It has 16 protons and typically 16 neutrons.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q08",
+    "question": "Positively charged atoms are called _____________.",
+    "choices": ["Protons", "Cations", "Ions", "Positrons"],
+    "correctAnswer": 1,
+    "explanation": "Cations are positively charged ions that have lost one or more electrons. Anions are negatively charged ions.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q09",
+    "question": "The subatomic particle that possesses a negative charge is the _________________.",
+    "choices": ["proton", "neutron", "electron", "anion"],
+    "correctAnswer": 2,
+    "explanation": "Electrons carry a negative charge and orbit the nucleus. Protons are positive, neutrons are neutral.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q10",
+    "question": "An uneven distribution of charge across a compound such as water causes the molecule to be _________________.",
+    "choices": ["an ion", "polar", "nonpolar", "an electron"],
+    "correctAnswer": 1,
+    "explanation": "A polar molecule has an uneven distribution of electrical charge, creating partial positive and negative ends. Water is the classic example.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q11",
+    "question": "Any complex compound that possesses carbon, and has C-H, and C-O bonds, is said to be _______________ and is typically associated only with living things.",
+    "choices": ["organic", "natural", "inorganic", "ionic"],
+    "correctAnswer": 0,
+    "explanation": "Organic compounds contain carbon bonded to hydrogen and often oxygen. They are the chemistry of life.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q12",
+    "question": "Water molecules that stick to each other are said to demonstrate _____________.",
+    "choices": ["magnetism", "polarity", "adhesion", "cohesion"],
+    "correctAnswer": 3,
+    "explanation": "Cohesion is the attraction between molecules of the same substance. Adhesion is attraction between different substances.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q13",
+    "question": "Weak acids and weak bases help the body to resist shifts in pH and are therefore called ____________.",
+    "choices": ["a solution", "a colloid", "a buffer", "a compound"],
+    "correctAnswer": 2,
+    "explanation": "Buffers resist changes in pH by absorbing excess H+ or OH- ions, maintaining homeostasis in body fluids.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q14",
+    "question": "Starch is the stored carbohydrate in plants while ____________ is the stored carbohydrate form in most animal cells.",
+    "choices": ["amylose", "cellulose", "glycogen", "glucose"],
+    "correctAnswer": 2,
+    "explanation": "Glycogen is the animal storage form of glucose, stored primarily in the liver and skeletal muscles.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q15",
+    "question": "A common example of a monosaccharide is _________________.",
+    "choices": ["sucrose", "glucose", "amylose", "cellulose"],
+    "correctAnswer": 1,
+    "explanation": "Glucose is a monosaccharide (simple sugar) and the body's primary fuel for ATP production. Sucrose is a disaccharide.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q16",
+    "question": "The monomer units of a triglyceride are: three ______________ and one ____________.",
+    "choices": ["nucleotides; glyceride", "glycerol; fatty acid", "glucose; glycerol", "fatty acids; glycerol"],
+    "correctAnswer": 3,
+    "explanation": "A triglyceride consists of three fatty acid chains bonded to one glycerol molecule via dehydration synthesis.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q17",
+    "question": "The ____________ level of protein structure is a compact three-dimensional shape.",
+    "choices": ["primary", "secondary", "tertiary", "quaternary"],
+    "correctAnswer": 2,
+    "explanation": "Tertiary structure is the overall 3D shape of a single polypeptide chain, determined by interactions between R-groups.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q18",
+    "question": "_________________ fatty acids possess one or more carbon-carbon double bonds in their chain.",
+    "choices": ["Triglyceride", "Unsaturated", "Steroid", "Saturated"],
+    "correctAnswer": 1,
+    "explanation": "Unsaturated fatty acids have one or more double bonds, creating kinks that prevent tight packing (liquid at room temperature).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q19",
+    "question": "In a DNA molecule, guanine will always hydrogen bond to _____________.",
+    "choices": ["Adenine", "Thymine", "Cytosine", "Uracil"],
+    "correctAnswer": 2,
+    "explanation": "In DNA base pairing: Guanine pairs with Cytosine (G-C, 3 hydrogen bonds) and Adenine pairs with Thymine (A-T, 2 hydrogen bonds).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q20",
+    "question": "The monomer unit of a protein is a(an) __________________.",
+    "choices": ["monopeptide", "monoglyceride", "fatty acid", "amino acid"],
+    "correctAnswer": 3,
+    "explanation": "Amino acids are the monomers of proteins, linked together by peptide bonds to form polypeptide chains.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q21",
+    "question": "A nucleotide is made of three things: ____________, _____________, & ____________.",
+    "choices": ["a nitrogenous base; a pentose sugar; one or more phosphate groups", "a nitrogenous base; a hexose sugar; a phosphate group", "adenine; ribose; three phosphate groups", "a base; a monoglyceride; phosphate"],
+    "correctAnswer": 0,
+    "explanation": "A nucleotide consists of a nitrogenous base (A, T, G, C, or U), a pentose sugar (deoxyribose in DNA, ribose in RNA), and one or more phosphate groups.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q22",
+    "question": "How many different amino acids are there?",
+    "choices": ["4", "10", "20", "100"],
+    "correctAnswer": 2,
+    "explanation": "There are 20 different amino acids used to build proteins in the human body, each with a unique R-group (side chain).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q23",
+    "question": "______________ is a disaccharide made of one glucose molecule and one galactose molecule bound together by chemical bonds.",
+    "choices": ["Sucrose", "Lactose", "Maltose", "Fructose"],
+    "correctAnswer": 1,
+    "explanation": "Lactose (milk sugar) = glucose + galactose. Sucrose = glucose + fructose. Maltose = glucose + glucose.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q24",
+    "question": "___________________ make up the cell membrane of all cells. They have only two fatty acid chains, one glycerol and a phosphate group.",
+    "choices": ["Triglycerides", "Nucleotides", "Steroids", "Phospholipids"],
+    "correctAnswer": 3,
+    "explanation": "Phospholipids have a hydrophilic phosphate head and two hydrophobic fatty acid tails, forming the cell membrane bilayer.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q25",
+    "question": "Which of the atoms below is the smallest in size?",
+    "choices": ["Hydrogen", "Oxygen", "Nitrogen", "Carbon"],
+    "correctAnswer": 0,
+    "explanation": "Hydrogen is the smallest atom with only 1 proton and 1 electron. It has atomic number 1.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q26",
+    "question": "Which type of bond is formed when atoms share electrons?",
+    "choices": ["Covalent Bond", "Ionic Bond", "Hydrogen Bond", "Weak Bond"],
+    "correctAnswer": 0,
+    "explanation": "Covalent bonds form when atoms share electron pairs. Ionic bonds involve electron transfer.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q27",
+    "question": "Which type of bond involves relatively weak attractions between slightly negative and slightly positive atoms or molecules?",
+    "choices": ["Hydrogen Bond", "Covalent Bond", "Ionic Bond", "Metallic Bond"],
+    "correctAnswer": 0,
+    "explanation": "Hydrogen bonds are weak intermolecular attractions between a partially positive hydrogen and a partially negative atom (usually O, N, or F).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q28",
+    "question": "What type of bond is typically shown using a dotted/dashed line in molecular diagrams?",
+    "choices": ["Hydrogen Bond", "Covalent Bond", "Ionic Bond", "Metallic Bond"],
+    "correctAnswer": 0,
+    "explanation": "Dotted or dashed lines in molecular diagrams conventionally represent hydrogen bonds, which are weaker than covalent bonds (shown as solid lines).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_chem"
+  },
+  {
+    "id": "lq3_q29",
+    "question": "Which types of chemical bonds are found in a protein molecule?",
+    "choices": ["Covalent Bonds & Hydrogen Bonds", "Ionic Bonds & Hydrogen Bonds", "Covalent Bonds & Ionic Bonds", "Covalent Bonds Only"],
+    "correctAnswer": 0,
+    "explanation": "Proteins have covalent peptide bonds in the backbone and hydrogen bonds stabilizing secondary/tertiary structures (alpha-helices and beta-sheets).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q30",
+    "question": "Beta amyloid proteins are made up of strings of which type of molecule?",
+    "choices": ["Amino Acids", "Fatty Acids", "Nucleotides", "Monoglycerides"],
+    "correctAnswer": 0,
+    "explanation": "All proteins, including beta amyloid, are polymers of amino acids linked by peptide bonds.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q31",
+    "question": "Interactions between two separate beta amyloid molecules most prominently feature what type of protein structure?",
+    "choices": ["Quaternary Structure", "Tertiary Structure", "Secondary Structure", "Primary Structure"],
+    "correctAnswer": 0,
+    "explanation": "Quaternary structure involves interactions between two or more separate polypeptide chains (subunits).",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q32",
+    "question": "Clumped beta amyloid proteins are held together by bonds represented as dashed lines. Which type of chemical bond holds them together?",
+    "choices": ["Hydrogen Bonds", "Covalent Bonds", "Ionic Bonds", "Metallic Bonds"],
+    "correctAnswer": 0,
+    "explanation": "Dashed lines represent hydrogen bonds. These weak bonds between beta amyloid proteins cause the pathological clumping seen in Alzheimer's disease.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q33",
+    "question": "Which of the following is one of the main functions of proteins in the body?",
+    "choices": ["Perform chemical reactions", "Serve as the main energy source for cells", "Provide cushioning and insulation against the hot/cold", "Store genetic information"],
+    "correctAnswer": 0,
+    "explanation": "Enzymes (proteins) catalyze chemical reactions. Carbohydrates are the main energy source; fats provide insulation; DNA stores genetic information.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  },
+  {
+    "id": "lq3_q34",
+    "question": "The chemical formula for beta amyloid protein is C203H311N55O60S1. How many nitrogen atoms are there in this molecule?",
+    "choices": ["55", "311", "60", "1"],
+    "correctAnswer": 0,
+    "explanation": "The subscript after N indicates 55 nitrogen atoms. C=203 carbon, H=311 hydrogen, N=55 nitrogen, O=60 oxygen, S=1 sulfur.",
+    "chapterID": "lq3",
+    "sectionID": "lq3_biochem"
+  }
+]

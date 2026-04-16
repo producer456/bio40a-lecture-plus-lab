@@ -24,6 +24,9 @@ struct PracticeMenuView: View {
                 NavigationLink(destination: LectureQuiz2View()) {
                     practiceRow(icon: "doc.text.fill", title: "Lecture Quiz 2 Practice", subtitle: "100 questions — syllabus, macromolecules, enzymes, clinical", color: BodySystem.nervous.primaryColor)
                 }
+                NavigationLink(destination: LectureQuiz3View()) {
+                    practiceRow(icon: "doc.text.fill", title: "Lecture Quiz 3 Practice", subtitle: "34 questions — chemistry, bonds, proteins, beta amyloid", color: BodySystem.endocrine.primaryColor)
+                }
             }
 
             Section("Study Tools") {

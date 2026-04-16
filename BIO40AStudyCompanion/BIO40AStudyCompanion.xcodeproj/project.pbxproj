@@ -32,6 +32,7 @@
 		7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9343AECDADE46AC2C5212AD0 /* LearningTechnique.swift */; };
 		8004636D0DEB2141B6299AA7 /* LectureQuiz1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */; };
 		A11B2C3D4E5F6071B8293042 /* LectureQuiz2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */; };
+		C44E5F6071829304A5B6C7D8 /* LectureQuiz3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55F60718293A4B5C6D7E8F9 /* LectureQuiz3View.swift */; };
 		8B63A09ED372F095F27F33D1 /* StudyMaterialViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B835B18AB7D5C8B3761A72 /* StudyMaterialViews.swift */; };
 		8DC35EC8C26945359EA98DEB /* QuizHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470FCB9586345C801CF87801 /* QuizHubView.swift */; };
 		90ED4AB622B73C8ABC58290B /* BioTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F172BA2827C45A7D9235C2 /* BioTheme.swift */; };
@@ -97,6 +98,7 @@
 		B0D07A82FE34CF8765100C3D /* BIO40AStudyCompanion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = BIO40AStudyCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureQuiz1View.swift; sourceTree = "<group>"; };
 		B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureQuiz2View.swift; sourceTree = "<group>"; };
+		D55F60718293A4B5C6D7E8F9 /* LectureQuiz3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureQuiz3View.swift; sourceTree = "<group>"; };
 		C8E0C42FDAAC3E128E5D4305 /* BIO40AStudyCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIO40AStudyCompanionApp.swift; sourceTree = "<group>"; };
 		D07EE60524905C4BFE8239E1 /* GamesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViews.swift; sourceTree = "<group>"; };
 		D30C1B65DDF86358E3FDB223 /* MoreViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViews.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				D07EE60524905C4BFE8239E1 /* GamesViews.swift */,
 				C22956EC0F92C0E9106E3B5E /* LectureQuiz1View.swift */,
 				B33D4E5F60718293A4B5C6D7 /* LectureQuiz2View.swift */,
+				D55F60718293A4B5C6D7E8F9 /* LectureQuiz3View.swift */,
 				13E75C33C5AEBA177FB66A3F /* PracticeMenuView.swift */,
 				470FCB9586345C801CF87801 /* QuizHubView.swift */,
 				16DE59F89AA7AF66B9892A01 /* QuizViews.swift */,
@@ -389,6 +392,7 @@
 				7CF5A174362B3BF29DB67FB0 /* LearningTechnique.swift in Sources */,
 				8004636D0DEB2141B6299AA7 /* LectureQuiz1View.swift in Sources */,
 				A11B2C3D4E5F6071B8293042 /* LectureQuiz2View.swift in Sources */,
+				C44E5F6071829304A5B6C7D8 /* LectureQuiz3View.swift in Sources */,
 				0E63F3D0980F11DDA8BB0228 /* LessonsListView.swift in Sources */,
 				9145540A8BBB0A91A8457B85 /* MoreViews.swift in Sources */,
 				C3D0668BB0E19E6D9004B025 /* NotificationService.swift in Sources */,
@@ -495,7 +499,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -565,7 +569,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
