@@ -1,0 +1,902 @@
+[
+  {
+    "id": "lq4_q01",
+    "question": "According to the updated lecture notes, when is Quiz 1 scheduled?",
+    "choices": ["Monday at 12:00 PM", "Wednesday at the end of class", "Sunday at 11:59 PM", "Friday at noon"],
+    "correctAnswer": 1,
+    "explanation": "Quiz 1 is scheduled for Wednesday at the end of class.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q02",
+    "question": "What is the penalty for submitting a Homework (HW) assignment late?",
+    "choices": ["10% deduction of max points per day late", "25% deduction per day late", "50% deduction immediately", "Late homework is not accepted"],
+    "correctAnswer": 0,
+    "explanation": "Late homework receives a 10% deduction of max points per day late.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q03",
+    "question": "How many of your lowest Lecture Activity (LA) scores will be dropped at the end of the quarter?",
+    "choices": ["1", "2", "3", "4"],
+    "correctAnswer": 3,
+    "explanation": "The lowest 4 LA scores are dropped.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q04",
+    "question": "Under the class AI policy, which of the following is considered an 'inappropriate use' of AI?",
+    "choices": ["Checking grammar and spelling", "Generating practice quizzes", "Using it for quick answers to bypass learning", "Creating memorization techniques"],
+    "correctAnswer": 2,
+    "explanation": "Using AI for quick answers to bypass learning is inappropriate.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q05",
+    "question": "Which anatomical plane divides the body vertically into equal right and left halves?",
+    "choices": ["Transverse plane", "Midsagittal plane", "Frontal (coronal) plane", "Oblique plane"],
+    "correctAnswer": 1,
+    "explanation": "The midsagittal plane divides the body into equal right and left halves.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q06",
+    "question": "Which directional term describes a structure located toward the back of the body?",
+    "choices": ["Anterior", "Ventral", "Posterior", "Superficial"],
+    "correctAnswer": 2,
+    "explanation": "Posterior (dorsal) means toward the back.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q07",
+    "question": "In standard anatomical position, the wrist is described as being ________ to the elbow.",
+    "choices": ["Proximal", "Distal", "Medial", "Superior"],
+    "correctAnswer": 1,
+    "explanation": "The wrist is distal (farther from trunk) to the elbow.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q08",
+    "question": "According to your lecture notes, which cavity surrounds the pericardial cavity and holds the heart and aortic arch?",
+    "choices": ["Cranial cavity", "Pleural cavity", "Mediastinum", "Dorsal cavity"],
+    "correctAnswer": 2,
+    "explanation": "The mediastinum contains the heart, aortic arch, esophagus, trachea, and thymus.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q09",
+    "question": "In a serous membrane, which layer directly covers the internal organs?",
+    "choices": ["Parietal layer", "Visceral layer", "Cutaneous layer", "Mucous layer"],
+    "correctAnswer": 1,
+    "explanation": "The visceral layer directly covers organs.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q10",
+    "question": "What medical root word is used to refer to the heart?",
+    "choices": ["Derma-", "Arthro-", "Cardi-", "Nephr-"],
+    "correctAnswer": 2,
+    "explanation": "Cardi- refers to the heart.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q11",
+    "question": "Which six elements make up the acronym 'CHONPS'?",
+    "choices": ["Calcium, Hydrogen, Oxygen, Nitrogen, Potassium, Sodium", "Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus, Sulfur", "Chlorine, Helium, Oxygen, Nitrogen, Potassium, Sodium", "Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus, Silicon"],
+    "correctAnswer": 1,
+    "explanation": "CHONPS = Carbon, Hydrogen, Oxygen, Nitrogen, Phosphorus, Sulfur.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q12",
+    "question": "An atom that has gained or lost an electron and carries an electrical charge is a(n):",
+    "choices": ["Isotope", "Molecule", "Ion", "Neutron"],
+    "correctAnswer": 2,
+    "explanation": "An ion is a charged atom.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q13",
+    "question": "In human physiology, what is another term for ions dissolved in body fluids?",
+    "choices": ["Electrolytes", "Isotopes", "Nonpolar molecules", "Solvents"],
+    "correctAnswer": 0,
+    "explanation": "Electrolytes are ions dissolved in body fluids.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q14",
+    "question": "What type of chemical bond involves the equal sharing of electrons?",
+    "choices": ["Ionic bond", "Polar covalent bond", "Nonpolar covalent bond", "Hydrogen bond"],
+    "correctAnswer": 2,
+    "explanation": "Nonpolar covalent bonds involve equal electron sharing.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q15",
+    "question": "Water is a polar molecule because oxygen has a partial ________ charge and hydrogen has partial ________ charges.",
+    "choices": ["Positive; Negative", "Negative; Positive", "Neutral; Positive", "Negative; Neutral"],
+    "correctAnswer": 1,
+    "explanation": "Oxygen is partially negative, hydrogens are partially positive.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q16",
+    "question": "The weak attraction between partial positive hydrogen and partial negative oxygen of water molecules is called:",
+    "choices": ["Ionic bond", "Covalent bond", "Hydrogen bond", "Peptide bond"],
+    "correctAnswer": 2,
+    "explanation": "Hydrogen bonds are weak intermolecular attractions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q17",
+    "question": "In biology, 'kinetic energy' is best defined as:",
+    "choices": ["Energy stored within chemical bonds", "The energy of matter in physical motion", "Energy derived from sunlight", "Energy required to stop a moving object"],
+    "correctAnswer": 1,
+    "explanation": "Kinetic energy is the energy of matter in motion.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q18",
+    "question": "In the human body, 'potential energy' is most commonly stored:",
+    "choices": ["In physical movement of muscles", "In position of components and within chemical bonds", "In friction between joints", "In electrical signals of the brain"],
+    "correctAnswer": 1,
+    "explanation": "Potential energy is stored in position and chemical bonds.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q19",
+    "question": "A chemical reaction that builds larger molecules from smaller ones and requires energy is called:",
+    "choices": ["Catabolism", "Anabolism (Synthesis)", "Decomposition", "Hydrolysis"],
+    "correctAnswer": 1,
+    "explanation": "Anabolism builds larger molecules and requires energy.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q20",
+    "question": "A chemical reaction that breaks down large molecules and releases energy is called:",
+    "choices": ["Anabolism", "Catabolism (Decomposition)", "Dehydration synthesis", "Endergonic"],
+    "correctAnswer": 1,
+    "explanation": "Catabolism breaks down molecules and releases energy.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q21",
+    "question": "Catabolic reactions release energy, meaning they are classified as:",
+    "choices": ["Endergonic", "Exergonic", "Potential", "Synthetic"],
+    "correctAnswer": 1,
+    "explanation": "Energy-releasing reactions are exergonic.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q22",
+    "question": "Which process uses water to break chemical bonds during digestion?",
+    "choices": ["Dehydration synthesis", "Phosphorylation", "Hydrolysis", "Isotope decay"],
+    "correctAnswer": 2,
+    "explanation": "Hydrolysis uses water to break bonds.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q23",
+    "question": "Which process removes water to form new bonds and build larger molecules?",
+    "choices": ["Hydrolysis", "Dehydration synthesis", "Decomposition", "Lysis"],
+    "correctAnswer": 1,
+    "explanation": "Dehydration synthesis removes water to join monomers.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q24",
+    "question": "A substance without both carbon and hydrogen is classified as:",
+    "choices": ["Organic compound", "Inorganic compound", "Carbohydrate", "Lipid"],
+    "correctAnswer": 1,
+    "explanation": "Inorganic compounds lack the carbon-hydrogen backbone.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q25",
+    "question": "Which monosaccharide is the primary fuel for ATP production?",
+    "choices": ["Fructose", "Galactose", "Glucose", "Sucrose"],
+    "correctAnswer": 2,
+    "explanation": "Glucose is the primary fuel for cellular respiration.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q26",
+    "question": "The body's primary storage form of excess glucose is:",
+    "choices": ["Starch", "Cellulose", "Glycogen", "Ribose"],
+    "correctAnswer": 2,
+    "explanation": "Glycogen is stored in the liver and skeletal muscles.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q27",
+    "question": "Lipids are primarily characterized by being:",
+    "choices": ["Highly soluble in water", "Hydrophobic", "Formed from nitrogen", "The main component of bone"],
+    "correctAnswer": 1,
+    "explanation": "Lipids are hydrophobic (water-fearing).",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q28",
+    "question": "A triglyceride is composed of:",
+    "choices": ["A phosphate group and two fatty acids", "A glycerol backbone and three fatty acids", "Four interlocking carbon rings", "A chain of amino acids"],
+    "correctAnswer": 1,
+    "explanation": "Triglyceride = 1 glycerol + 3 fatty acids.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q29",
+    "question": "Which lipid type is amphipathic and makes up the cell membrane bilayer?",
+    "choices": ["Triglycerides", "Phospholipids", "Steroids", "Prostaglandins"],
+    "correctAnswer": 1,
+    "explanation": "Phospholipids have hydrophilic heads and hydrophobic tails.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q30",
+    "question": "Which lipid consists of four fused carbon rings and includes cholesterol?",
+    "choices": ["Triglycerides", "Phospholipids", "Steroids", "Amino acids"],
+    "correctAnswer": 2,
+    "explanation": "Steroids have a four-ring structure.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q31",
+    "question": "Proteins are built from which monomer subunits?",
+    "choices": ["Monosaccharides", "Fatty acids", "Nucleotides", "Amino acids"],
+    "correctAnswer": 3,
+    "explanation": "Amino acids are protein monomers.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q32",
+    "question": "How many different amino acids build human proteins?",
+    "choices": ["4", "10", "20", "92"],
+    "correctAnswer": 2,
+    "explanation": "20 different amino acids.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q33",
+    "question": "The bond linking amino acids together is called a:",
+    "choices": ["Glycosidic bond", "Peptide bond", "Hydrogen bond", "Ionic bond"],
+    "correctAnswer": 1,
+    "explanation": "Peptide bonds link amino acids.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q34",
+    "question": "The primary function of an enzyme is:",
+    "choices": ["To act as a biological catalyst", "To store genetic information", "To provide energy storage", "To transport oxygen"],
+    "correctAnswer": 0,
+    "explanation": "Enzymes are biological catalysts that speed up reactions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q35",
+    "question": "Will nucleic acids (DNA/RNA) be tested on Quiz 1?",
+    "choices": ["Yes, majority of quiz", "No, covered next week", "Yes, but only ATP", "Yes, but only RNA"],
+    "correctAnswer": 1,
+    "explanation": "Nucleic acids are not on Quiz 1.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q36",
+    "question": "A substance that resists pH changes is a:",
+    "choices": ["Salt", "Buffer", "Colloid", "Catalyst"],
+    "correctAnswer": 1,
+    "explanation": "Buffers resist changes in pH.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q37",
+    "question": "Acids release which type of ion when dissolved in water?",
+    "choices": ["Hydroxyl ions (OH-)", "Hydrogen ions (H+)", "Sodium ions (Na+)", "Calcium ions (Ca2+)"],
+    "correctAnswer": 1,
+    "explanation": "Acids are proton donors releasing H+.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q38",
+    "question": "The ability to maintain a stable internal baseline is called:",
+    "choices": ["Metabolism", "Homeostasis", "Differentiation", "Reproduction"],
+    "correctAnswer": 1,
+    "explanation": "Homeostasis is maintaining stable internal conditions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q39",
+    "question": "The root 'nephr-' refers to the:",
+    "choices": ["Liver", "Skin", "Heart", "Kidney"],
+    "correctAnswer": 3,
+    "explanation": "Nephr- = kidney.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q40",
+    "question": "Which imaging uses sound waves and no radiation?",
+    "choices": ["X-ray", "MRI", "CT scan", "Ultrasonography"],
+    "correctAnswer": 3,
+    "explanation": "Ultrasonography uses sound waves.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q41",
+    "question": "Extreme heat or pH causes a protein to:",
+    "choices": ["Replicate DNA", "Become radioactive", "Denature, losing its 3D shape", "Convert to ATP"],
+    "correctAnswer": 2,
+    "explanation": "Denaturation destroys the protein's functional shape.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q42",
+    "question": "Which serous membrane layer lines the cavity walls?",
+    "choices": ["Visceral layer", "Parietal layer", "Cutaneous layer", "Synovial layer"],
+    "correctAnswer": 1,
+    "explanation": "Parietal lines the walls, visceral covers organs.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q43",
+    "question": "Which subatomic particles are in the nucleus?",
+    "choices": ["Protons and Electrons", "Neutrons and Electrons", "Protons and Neutrons", "Only Protons"],
+    "correctAnswer": 2,
+    "explanation": "The nucleus contains protons and neutrons.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q44",
+    "question": "The atomic number is determined by the number of:",
+    "choices": ["Protons", "Neutrons", "Electrons", "Chemical bonds"],
+    "correctAnswer": 0,
+    "explanation": "Atomic number = number of protons.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q45",
+    "question": "A bond from attraction between a cation and anion is:",
+    "choices": ["Polar covalent", "Nonpolar covalent", "Ionic bond", "Peptide bond"],
+    "correctAnswer": 2,
+    "explanation": "Ionic bonds form from electrostatic attraction between ions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q46",
+    "question": "Water is approximately what percentage of body weight?",
+    "choices": ["30%", "50%", "70%", "90%"],
+    "correctAnswer": 2,
+    "explanation": "Water is approximately 70% of body weight.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q47",
+    "question": "A solution that releases OH- or accepts H+ is a(n):",
+    "choices": ["Acid", "Base", "Salt", "Isotope"],
+    "correctAnswer": 1,
+    "explanation": "Bases release OH- or accept H+ ions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q48",
+    "question": "Saturated fats have:",
+    "choices": ["One or more double bonds", "No double bonds, maximum hydrogen", "Are liquid at room temperature", "Dissolve in water"],
+    "correctAnswer": 1,
+    "explanation": "Saturated fats have no double bonds.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q49",
+    "question": "A protein's function is determined by its:",
+    "choices": ["Weight", "3D physical structure", "Water content", "Number of double bonds"],
+    "correctAnswer": 1,
+    "explanation": "Protein function depends on 3D shape.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q50",
+    "question": "Which file format does NOT work for Canvas submissions?",
+    "choices": [".JPG", ".PNG", ".PDF", ".HEIC"],
+    "correctAnswer": 3,
+    "explanation": ".HEIC format is not accepted by Canvas.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_normal"
+  },
+  {
+    "id": "lq4_q51",
+    "question": "Waitlist positions 1-3 must do what to secure a spot?",
+    "choices": ["Email instructor", "Pay fee online", "Attend first day of class/lab", "Submit homework early"],
+    "correctAnswer": 2,
+    "explanation": "Must attend first day and check in with instructor.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q52",
+    "question": "When is the Final Exam strictly mandatory?",
+    "choices": ["To drop lowest quiz", "If you got a 0 on any midterm", "If below 80% on first midterm", "Always mandatory"],
+    "correctAnswer": 1,
+    "explanation": "Final is mandatory if you received a 0 on any midterm.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q53",
+    "question": "In Luis M.'s case (pH 7.19), why did rapid breathing occur?",
+    "choices": ["Lower body temperature", "Exhale excess CO2 to raise pH", "Stimulate red blood cell production", "Potassium paralyzed diaphragm"],
+    "correctAnswer": 1,
+    "explanation": "Rapid breathing blows off CO2, removing acid from blood.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q54",
+    "question": "How does IV bicarbonate (HCO3-) treat metabolic acidosis?",
+    "choices": ["Acts as strong acid", "Acts as weak base that neutralizes excess H+", "Destroys radioactive isotopes", "Converts neutrons to electrolytes"],
+    "correctAnswer": 1,
+    "explanation": "Bicarbonate is a buffer that binds excess hydrogen ions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q55",
+    "question": "What clinical test records electrical impulses to monitor heart activity?",
+    "choices": ["MRI", "EKG", "PET scan", "Ultrasound"],
+    "correctAnswer": 1,
+    "explanation": "EKG (Electrocardiogram) records heart's electrical activity.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q56",
+    "question": "Which structure is NOT found in the mediastinum?",
+    "choices": ["Heart", "Aortic arch", "Lungs", "Thymus"],
+    "correctAnswer": 2,
+    "explanation": "Lungs are in the pleural cavities, not the mediastinum.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q57",
+    "question": "If Carbon has 6 protons and mass number 12, how many neutrons in Carbon-14?",
+    "choices": ["6", "8", "12", "14"],
+    "correctAnswer": 1,
+    "explanation": "Neutrons = 14 - 6 = 8.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q58",
+    "question": "Why are radiopharmaceuticals used in PET scans?",
+    "choices": ["Freeze cell membranes", "Emit sound waves", "Unstable nuclei decay emitting detectable radiation", "Contain magnetic fields"],
+    "correctAnswer": 2,
+    "explanation": "Radioactive decay emits positrons detected by the PET scanner.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q59",
+    "question": "An energy-absorbing reaction is classified as:",
+    "choices": ["Exergonic and Catabolic", "Endergonic and Anabolic", "Hydrolytic and Spontaneous", "Decomposition and Kinetic"],
+    "correctAnswer": 1,
+    "explanation": "Endergonic reactions absorb energy; anabolic reactions build molecules.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q60",
+    "question": "The fundamental difference between dehydration synthesis and hydrolysis:",
+    "choices": ["Dehydration uses water to break; hydrolysis removes water", "Dehydration removes water to form bonds; hydrolysis uses water to break bonds", "Both require water; hydrolysis only in lipids", "Dehydration only in inorganic compounds"],
+    "correctAnswer": 1,
+    "explanation": "They are opposite reactions.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q61",
+    "question": "Breaking glycogen into glucose is an example of:",
+    "choices": ["Catabolism", "Anabolism", "Exchange reaction", "Dehydration synthesis"],
+    "correctAnswer": 0,
+    "explanation": "Catabolism breaks down molecules.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q62",
+    "question": "How do enzymes function as catalysts?",
+    "choices": ["Consumed during reaction", "Increase activation energy", "Highly specific, reusable, lower activation energy", "Only work during anabolism"],
+    "correctAnswer": 2,
+    "explanation": "Enzymes are reusable, specific, and lower activation energy.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q63",
+    "question": "Why is water classified as a polar covalent molecule?",
+    "choices": ["Equal electron sharing", "Hydrogen transfers electron to oxygen", "Oxygen pulls electrons closer, creating charge separation", "It is hydrophobic"],
+    "correctAnswer": 2,
+    "explanation": "Oxygen's electronegativity creates uneven charge distribution.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q64",
+    "question": "Why isn't a hydrogen bond a 'true' bond?",
+    "choices": ["Only between same elements", "No electron sharing/transfer, just weak attraction", "Impossible to break", "Only in nonpolar substances"],
+    "correctAnswer": 1,
+    "explanation": "Hydrogen bonds are weak intermolecular attractions, not true bonds.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q65",
+    "question": "When NaCl dissolves in water, what happens molecularly?",
+    "choices": ["Water forms nonpolar bonds with salt", "Water's charges attract Na+ and Cl- ions, dissociating salt", "Salt undergoes dehydration synthesis", "Water undergoes catabolism"],
+    "correctAnswer": 1,
+    "explanation": "Water's polarity separates the ionic compound.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q66",
+    "question": "The primary function of a buffer is:",
+    "choices": ["Rapidly drop pH", "Bond with oxygen", "Neutralize excess acid/base, preventing pH fluctuations", "Denature proteins"],
+    "correctAnswer": 2,
+    "explanation": "Buffers maintain stable pH.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q67",
+    "question": "A lipid with double bonds, liquid at room temperature, is:",
+    "choices": ["Saturated fat", "Unsaturated fat", "Steroid", "Phospholipid"],
+    "correctAnswer": 1,
+    "explanation": "Double bonds create kinks, preventing packing, making it liquid.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q68",
+    "question": "Where do hydrogen bonds form on a phospholipid?",
+    "choices": ["Nonpolar tails", "Polar phosphate head", "Double carbon bonds", "Nowhere"],
+    "correctAnswer": 1,
+    "explanation": "The polar head is hydrophilic and forms hydrogen bonds.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q69",
+    "question": "What gives each amino acid its unique properties?",
+    "choices": ["Peptide bond", "Pentose sugar", "Variable side chain (R-group)", "Nitrogenous base"],
+    "correctAnswer": 2,
+    "explanation": "The R-group determines each amino acid's chemical properties.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q70",
+    "question": "Which is NOT a function of proteins?",
+    "choices": ["Catalyze reactions", "Ion channels", "Cytoskeleton", "Steroid hormones like estrogen"],
+    "correctAnswer": 3,
+    "explanation": "Estrogen is a lipid/steroid, not a protein.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q71",
+    "question": "Synthesizing ATP from ADP + Pi is classified as:",
+    "choices": ["Exergonic", "Endergonic", "Decomposition", "Spontaneous"],
+    "correctAnswer": 1,
+    "explanation": "Building ATP requires energy input.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q72",
+    "question": "An oblique plane is defined as:",
+    "choices": ["Divides body into equal halves", "Divides into anterior/posterior", "Cross-section parallel to ground", "Cut at an angle between standard planes"],
+    "correctAnswer": 3,
+    "explanation": "Oblique planes cut at non-standard angles.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q73",
+    "question": "Heart rate increases when standing due to:",
+    "choices": ["Positive feedback decreasing BP", "Sympathetic response to maintain homeostasis", "Parasympathetic slowing", "Bicarbonate release"],
+    "correctAnswer": 1,
+    "explanation": "Sympathetic response counteracts gravity-induced BP drop.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q74",
+    "question": "Which imaging distinguishes white matter from gray matter by fat/water contrast?",
+    "choices": ["CT", "X-ray", "MRI", "PET"],
+    "correctAnswer": 2,
+    "explanation": "MRI excels at soft tissue contrast.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q75",
+    "question": "Incomplete posterior neural tube closure causes:",
+    "choices": ["Osteomalacia", "Spina bifida", "Hemiplegia", "Decompression sickness"],
+    "correctAnswer": 1,
+    "explanation": "Spina bifida results from incomplete neural tube closure.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q76",
+    "question": "In the childbirth positive feedback loop, the sensor is:",
+    "choices": ["Pituitary releasing oxytocin", "Uterus contracting", "Stretch receptors in cervix", "Baby moving down"],
+    "correctAnswer": 2,
+    "explanation": "Cervical stretch receptors detect stretching.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q77",
+    "question": "To reach the lungs through anterior thorax, which serous layer is cut first?",
+    "choices": ["Visceral pleura", "Parietal peritoneum", "Parietal pleura", "Visceral pericardium"],
+    "correctAnswer": 2,
+    "explanation": "Parietal pleura lines the thoracic cavity wall.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q78",
+    "question": "'Nephrectomy' means:",
+    "choices": ["Liver inflammation", "Joint viewing", "Kidney removal", "Low blood sugar"],
+    "correctAnswer": 2,
+    "explanation": "Nephr- = kidney, -ectomy = removal.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q79",
+    "question": "'Hypernatremia' indicates:",
+    "choices": ["Low potassium", "High calcium", "High sodium", "Low chloride"],
+    "correctAnswer": 2,
+    "explanation": "Hyper- = high, natr- = sodium, -emia = blood.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q80",
+    "question": "Red blood cells settling in a tube indicates blood is a:",
+    "choices": ["Colloid", "Pure solvent", "Suspension", "Homogeneous solution"],
+    "correctAnswer": 2,
+    "explanation": "Blood is a suspension — cells settle out.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q81",
+    "question": "pH 4 vs pH 6: how much more acidic is pH 4?",
+    "choices": ["2 times", "20 times", "100 times", "100 times more alkaline"],
+    "correctAnswer": 2,
+    "explanation": "Each pH unit = 10x difference. Two units = 100x.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q82",
+    "question": "Why is atmospheric pressure vital for dissolved blood gases?",
+    "choices": ["Prevents skull collapse", "Maintains body temperature", "Keeps gases dissolved; without it N2 forms bubbles", "Provides kinetic energy for transport"],
+    "correctAnswer": 2,
+    "explanation": "Atmospheric pressure keeps nitrogen dissolved in blood.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q83",
+    "question": "NOTEBOOK + WORM → NOTE + BOOKWORM is a:",
+    "choices": ["Synthesis reaction", "Decomposition reaction", "Exchange reaction", "Hydrolysis"],
+    "correctAnswer": 2,
+    "explanation": "Parts are swapped between reactants — exchange reaction.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q84",
+    "question": "Which is a micronutrient/trace element, not a CHONPS element?",
+    "choices": ["Carbon", "Calcium", "Oxygen", "Nitrogen"],
+    "correctAnswer": 1,
+    "explanation": "Calcium is a trace element, not one of the six major CHONPS elements.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q85",
+    "question": "Potassium (atomic # 19, 1 valence electron) will likely:",
+    "choices": ["Share in nonpolar bond", "Donate electron, becoming K+", "Accept 7 electrons", "Stay neutral like noble gas"],
+    "correctAnswer": 1,
+    "explanation": "K donates 1 electron to become the K+ cation.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q86",
+    "question": "Fluorine (atomic # 9, 7 valence electrons) will likely:",
+    "choices": ["Donate 7 electrons", "Accept 1 electron, becoming F-", "Shed 2 protons", "Form double bond with hydrogen"],
+    "correctAnswer": 1,
+    "explanation": "F accepts 1 electron to complete its octet.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q87",
+    "question": "Why do water's hydrogens orient toward an -OH group's oxygen?",
+    "choices": ["Both are positive and repel", "Partial positive H attracted to partial negative O via hydrogen bonding", "Covalent bond forces them", "Water is hydrophobic"],
+    "correctAnswer": 1,
+    "explanation": "Opposite partial charges attract through hydrogen bonding.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q88",
+    "question": "Which nucleotide component differs between DNA and RNA?",
+    "choices": ["Phosphate group", "Pentose sugar (deoxyribose vs ribose)", "Peptide bond", "Glycerol backbone"],
+    "correctAnswer": 1,
+    "explanation": "DNA has deoxyribose; RNA has ribose.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q89",
+    "question": "ATP releases energy when:",
+    "choices": ["Bond between 2nd and 3rd phosphate is broken via hydrolysis", "Adenine converts to uracil", "Ribose undergoes dehydration synthesis", "Hydrogen bond forms between ATPs"],
+    "correctAnswer": 0,
+    "explanation": "Breaking the terminal phosphate bond releases energy.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q90",
+    "question": "The least invasive, safest imaging for fetal monitoring is:",
+    "choices": ["PET", "CT", "X-ray", "Ultrasonography"],
+    "correctAnswer": 3,
+    "explanation": "Ultrasound uses only sound waves — no radiation.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q91",
+    "question": "Treatment for decompression sickness uses:",
+    "choices": ["Hyperbaric chamber", "Radiopharmaceutical tube", "Isotope scanner", "Cryogenic freezer"],
+    "correctAnswer": 0,
+    "explanation": "Hyperbaric chamber re-pressurizes dissolved gases.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q92",
+    "question": "Irregular muscle contractions from electrolyte imbalance — which intracellular cation?",
+    "choices": ["Sodium", "Potassium", "Chloride", "Bicarbonate"],
+    "correctAnswer": 1,
+    "explanation": "Potassium (K+) is the major intracellular cation.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q93",
+    "question": "Major extracellular cation maintaining osmotic pressure:",
+    "choices": ["Sodium", "Potassium", "Magnesium", "Calcium"],
+    "correctAnswer": 0,
+    "explanation": "Sodium (Na+) is the major extracellular cation.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q94",
+    "question": "Spine regions superior to inferior:",
+    "choices": ["Cervical, Thoracic, Lumbar, Sacral, Coccygeal", "Thoracic, Cervical, Lumbar, Coccygeal, Sacral", "Lumbar, Thoracic, Cervical, Sacral, Coccygeal", "Cervical, Lumbar, Thoracic, Sacral, Coccygeal"],
+    "correctAnswer": 0,
+    "explanation": "C-T-L-S-C from top to bottom.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q95",
+    "question": "What syllabus policy protects against first-week technical difficulties?",
+    "choices": ["Instructor emails assignment", "Drop lowest 3-4 scores", "Substitute written exam", "No policy, stays zero"],
+    "correctAnswer": 1,
+    "explanation": "Lowest scores are dropped.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q96",
+    "question": "Which imaging is contraindicated for a patient with magnetic iron sutures?",
+    "choices": ["CT", "PET", "MRI", "Ultrasonography"],
+    "correctAnswer": 2,
+    "explanation": "MRI's strong magnetic field would move the iron sutures.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q97",
+    "question": "If a pentose has 5 carbons, how many H and O atoms (formula CH2O)?",
+    "choices": ["5 H, 5 O", "10 H, 5 O", "10 H, 10 O", "5 H, 10 O"],
+    "correctAnswer": 1,
+    "explanation": "(CH2O)5 = C5H10O5. So 10 hydrogen and 5 oxygen.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q98",
+    "question": "A vital reversible reaction in physiology is:",
+    "choices": ["O2 binding/releasing from hemoglobin", "Permanent protein denaturation", "Carbon-14 destruction", "Cellulose breakdown in humans"],
+    "correctAnswer": 0,
+    "explanation": "Hemoglobin reversibly binds oxygen for transport.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q99",
+    "question": "A compound that doesn't dissolve in water due to equal electron sharing is:",
+    "choices": ["Polar covalent (hydrophilic)", "Nonpolar covalent (hydrophobic)", "Electrolyte", "Heavy isotope"],
+    "correctAnswer": 1,
+    "explanation": "Nonpolar molecules are hydrophobic.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  },
+  {
+    "id": "lq4_q100",
+    "question": "The difference between Carbon-12 and Carbon-14 is:",
+    "choices": ["C-14 has 2 extra protons", "C-14 has 2 extra electrons", "C-14 has 2 extra neutrons (isotope)", "C-12 is cation, C-14 is anion"],
+    "correctAnswer": 2,
+    "explanation": "Isotopes differ in neutron count. 14-6=8 neutrons vs 12-6=6.",
+    "chapterID": "lq4",
+    "sectionID": "lq4_hard"
+  }
+]
