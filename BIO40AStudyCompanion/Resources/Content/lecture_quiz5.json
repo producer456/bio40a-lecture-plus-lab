@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "lq5_q01",
+    "question": "The mediastinum is best described as:",
+    "choices": [
+      "A cavity that surrounds and protects only the heart",
+      "The central compartment of the thoracic cavity, which contains the pericardial cavity",
+      "A membrane that coats the lungs",
+      "The space between the diaphragm and the pelvic cavity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pericardial cavity (which holds the heart) sits inside the mediastinum, along with the aortic arch, esophagus, trachea, thymus, and great vessels. The pleural cavities sit on either side. | Gym Tie-In: Think of the mediastinum as the central hallway of your chest — the heart has its own room (pericardial cavity) inside it.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q02",
+    "question": "Which of the following is NOT located within the mediastinum?",
+    "choices": [
+      "Aortic arch",
+      "Trachea",
+      "Lungs",
+      "Esophagus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The lungs sit in the pleural cavities, which flank the mediastinum on either side. The mediastinum itself is the central compartment.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q03",
+    "question": "The pericardial cavity is located within the:",
+    "choices": [
+      "Pleural cavity",
+      "Abdominal cavity",
+      "Mediastinum",
+      "Cranial cavity"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The pericardial cavity is a sub-compartment of the middle mediastinum.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q04",
+    "question": "The thoracic cavity is separated from the abdominopelvic cavity by the:",
+    "choices": [
+      "Pericardium",
+      "Mediastinum",
+      "Diaphragm",
+      "Peritoneum"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The diaphragm is the dome-shaped muscle that divides the thoracic cavity from the abdominopelvic cavity.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q05",
+    "question": "Which of the following structures passes through the mediastinum?",
+    "choices": [
+      "Femoral artery",
+      "Esophagus",
+      "Hepatic portal vein",
+      "Renal artery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The esophagus passes through the mediastinum on its way from the pharynx to the stomach.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q06",
+    "question": "The ventral body cavity is subdivided into:",
+    "choices": [
+      "Cranial and spinal cavities",
+      "Thoracic and abdominopelvic cavities",
+      "Pleural and pericardial cavities only",
+      "Abdominal and pelvic cavities only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The ventral cavity splits into the thoracic (above the diaphragm) and abdominopelvic (below) cavities. The dorsal cavity holds the cranial and spinal cavities.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q07",
+    "question": "The thoracic cavity contains all of the following EXCEPT:",
+    "choices": [
+      "Heart",
+      "Lungs",
+      "Stomach",
+      "Thymus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The stomach is in the abdominal cavity, below the diaphragm.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q08",
+    "question": "Which body cavity contains the heart directly?",
+    "choices": [
+      "Pleural cavity",
+      "Pericardial cavity",
+      "Peritoneal cavity",
+      "Cranial cavity"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The pericardial cavity directly surrounds the heart. It sits within the mediastinum.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q09",
+    "question": "Dehydration synthesis involves:",
+    "choices": [
+      "Adding water to break a bond",
+      "Removing water to form a bond",
+      "Adding oxygen to form a bond",
+      "Removing a carbon atom to form a bond"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dehydration synthesis removes a water molecule (H from one monomer, OH from the other) to form a covalent bond between them. | Gym Tie-In: Every time your body links an amino acid onto a growing muscle protein after a lift, it kicks out one water molecule. Building = losing water.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q10",
+    "question": "Hydrolysis involves:",
+    "choices": [
+      "Removing water to form a bond",
+      "Adding water to break a bond",
+      "Adding a carbon atom",
+      "Oxidizing a molecule without water"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hydro- (water) + -lysis (to cut). A water molecule is inserted at a bond, splitting the molecule into two pieces. | Gym Tie-In: That protein shake you chug post-workout gets broken apart by hydrolysis in your gut — water snaps each peptide bond to release individual amino acids you can absorb.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q11",
+    "question": "The suffix '-lysis' means:",
+    "choices": [
+      "To join",
+      "To cut / to split",
+      "To heat",
+      "To oxidize"
+    ],
+    "correctAnswer": 1,
+    "explanation": "From Greek 'lysis' = loosening or splitting. Hemolysis = red blood cells splitting; hydrolysis = splitting with water.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q12",
+    "question": "Which process is the chemical basis of digestion?",
+    "choices": [
+      "Dehydration synthesis",
+      "Hydrolysis",
+      "Oxidation only",
+      "Passive diffusion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Digestion breaks large food polymers into absorbable monomers by adding water to covalent bonds — hydrolysis.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q13",
+    "question": "When your body builds glycogen from glucose after a carb-heavy meal, the process used is:",
+    "choices": [
+      "Hydrolysis",
+      "Dehydration synthesis",
+      "Simple diffusion",
+      "Oxidation"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Linking glucose monomers into glycogen is a polymerization reaction — each new bond releases one water molecule. | Gym Tie-In: This is refilling your 'carb bank account' after a workout. Storing = dehydration synthesis.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q14",
+    "question": "Which process RELEASES a water molecule?",
+    "choices": [
+      "Hydrolysis",
+      "Dehydration synthesis",
+      "Ionization of a salt",
+      "Electrolyte dissolution"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dehydration synthesis releases water as a byproduct of forming a covalent bond between monomers.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q15",
+    "question": "During a hard set of squats, your body breaks down stored glycogen into glucose. This process is:",
+    "choices": [
+      "Dehydration synthesis",
+      "Hydrolysis",
+      "Anabolism",
+      "Endergonic synthesis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Breaking glycogen back into glucose requires adding water at each bond — hydrolysis. | Gym Tie-In: Your muscles are burning through their glycogen bank — hydrolyzing the stored branched chain so each glucose can be shuttled into ATP production.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q16",
+    "question": "All of the following are true of water in the body EXCEPT:",
+    "choices": [
+      "It is the medium for most biochemical reactions",
+      "It participates in both hydrolysis and dehydration synthesis",
+      "It is an organic molecule",
+      "It helps regulate body temperature"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Water is inorganic. It contains no carbon. Organic molecules are defined by having covalent C–H bonds.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q17",
+    "question": "A monomer is:",
+    "choices": [
+      "Two identical molecules joined together",
+      "A single small molecular unit that can be linked into a larger chain",
+      "A long chain of polymers",
+      "A water molecule split into H and OH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "A monomer is ONE small unit. Many monomers joined = a polymer. (Your notes originally said 'two of the same' — that's actually a dimer.)",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q18",
+    "question": "Polymerization is:",
+    "choices": [
+      "Breaking a polymer into monomers",
+      "Joining multiple monomers into a larger molecule",
+      "A reaction that only occurs in carbohydrates",
+      "The same thing as hydrolysis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polymerization = building a polymer from monomers. In biology this is typically done by dehydration synthesis.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q19",
+    "question": "Anabolism is characterized by:",
+    "choices": [
+      "Breaking down molecules and releasing energy",
+      "Building molecules and requiring energy input",
+      "Only occurring in the liver",
+      "Being exergonic by definition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Anabolism BUILDS. It requires energy (endergonic) because you're creating order from disorder. | Gym Tie-In: Muscle growth after a workout is anabolic. 'Anabolic steroids' got their name because they promote muscle-building reactions. Anna builds.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q20",
+    "question": "Catabolism is characterized by:",
+    "choices": [
+      "Building molecules and requiring energy",
+      "Breaking molecules and releasing energy",
+      "Only occurring during sleep",
+      "Being endergonic by definition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Catabolism BREAKS DOWN. It releases energy (exergonic) because you're going from higher-energy complex molecules to lower-energy simple ones. | Gym Tie-In: When you sprint or do a heavy set, you're in intensive catabolism — tearing glycogen apart to fuel ATP production. Cats go crazy and release energy.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q21",
+    "question": "Endergonic reactions:",
+    "choices": [
+      "Release energy",
+      "Require energy input",
+      "Only occur in non-living systems",
+      "Don't involve enzymes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Endo = in. Endergonic reactions absorb energy from their surroundings. Anabolism is typically endergonic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q22",
+    "question": "Exergonic reactions:",
+    "choices": [
+      "Require energy input",
+      "Release energy",
+      "Are always reversible",
+      "Only break carbon bonds"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Exo = out. Exergonic reactions release energy. Catabolism is typically exergonic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q23",
+    "question": "Which pair correctly matches?",
+    "choices": [
+      "Anabolism — exergonic",
+      "Catabolism — endergonic",
+      "Anabolism — endergonic",
+      "Catabolism — reversible only"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Building requires energy → anabolism is endergonic. Breaking down releases energy → catabolism is exergonic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q24",
+    "question": "Cellular respiration — the breakdown of glucose to produce ATP — is an example of:",
+    "choices": [
+      "Anabolism",
+      "Catabolism",
+      "Dehydration synthesis",
+      "Endergonic synthesis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "You're breaking a complex molecule (glucose) into simpler ones (CO2 and water) and capturing released energy as ATP.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q25",
+    "question": "Building a protein from amino acids is:",
+    "choices": [
+      "Catabolism / exergonic",
+      "Anabolism / endergonic",
+      "Reversible / exergonic",
+      "Hydrolysis / endergonic"
+    ],
+    "correctAnswer": 1,
+    "explanation": "You're building a larger molecule (polymer) from smaller ones (monomers). That requires energy. | Gym Tie-In: This is what happens to your muscles in the hours after you train — anabolic protein synthesis. It costs energy, which is why you need to eat.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q26",
+    "question": "Which of the following is an anabolic process?",
+    "choices": [
+      "Digesting a protein shake",
+      "Burning glycogen during a sprint",
+      "Synthesizing new muscle fibers after lifting",
+      "Breaking down triglycerides for energy"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The other three are all catabolic (breaking down). Building new muscle is the textbook anabolic process.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q27",
+    "question": "Kinetic energy is:",
+    "choices": [
+      "Stored energy based on position or chemical structure",
+      "Energy in motion",
+      "Only found in chemical bonds",
+      "The same as potential energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Kinetic energy is the energy of movement — a moving object, a flowing electron, molecular motion (heat).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q28",
+    "question": "Potential energy is:",
+    "choices": [
+      "Energy in motion",
+      "Stored energy, often related to position or chemical bonds",
+      "Only mechanical energy",
+      "The energy of heat transfer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Potential energy is stored — it has the 'potential' to become kinetic if released.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q29",
+    "question": "In biology, 'potential energy' most often refers to:",
+    "choices": [
+      "A falling rock",
+      "Energy stored in chemical bonds",
+      "Thermal energy",
+      "Light energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Biologists mostly care about chemical potential energy — the energy stored in bonds like the ones in glucose and ATP.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q30",
+    "question": "A loaded barbell held at the top of a deadlift has mostly ___ energy; as it drops toward the floor, that converts to ___ energy.",
+    "choices": [
+      "kinetic; potential",
+      "potential; kinetic",
+      "chemical; mechanical",
+      "electrical; thermal"
+    ],
+    "correctAnswer": 1,
+    "explanation": "At the top, the bar has gravitational potential energy. Falling converts that into kinetic energy of motion. | Gym Tie-In: Your ATP works the same way — stored potential energy in its phosphate bonds gets released as kinetic (molecular motion that powers muscle contraction).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q31",
+    "question": "The energy stored in the bonds of ATP is best described as:",
+    "choices": [
+      "Kinetic energy",
+      "Chemical potential energy",
+      "Thermal energy only",
+      "Electromagnetic energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Chemical bonds store potential energy. Breaking ATP's high-energy phosphate bond releases that stored energy to power cellular work.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q32",
+    "question": "A synthesis reaction follows the general form:",
+    "choices": [
+      "AB → A + B",
+      "A + B → AB",
+      "AB + CD → AD + CB",
+      "AB ⇌ A + B"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Synthesis joins smaller pieces into a larger one. A + B → AB.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q33",
+    "question": "A decomposition reaction follows the general form:",
+    "choices": [
+      "A + B → AB",
+      "AB → A + B",
+      "AB + CD → AD + CB",
+      "A + B ⇌ AB"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Decomposition breaks one molecule into smaller pieces. AB → A + B.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q34",
+    "question": "An exchange (displacement) reaction follows the general form:",
+    "choices": [
+      "A + B → AB",
+      "AB → A + B",
+      "AB + CD → AD + CB",
+      "AB ⇌ CD"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Exchange reactions swap partners — bonds break and new ones form. Acid-base buffer systems work this way.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q35",
+    "question": "Which best describes a reversible reaction?",
+    "choices": [
+      "It goes only in the forward direction",
+      "It can proceed in both directions depending on conditions",
+      "It only occurs with enzymes",
+      "It releases no energy"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reversible reactions (shown with ⇌) can run either direction based on concentrations, energy, and conditions.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q36",
+    "question": "Oxygen binding to and releasing from hemoglobin is an example of a:",
+    "choices": [
+      "Synthesis reaction",
+      "Decomposition reaction",
+      "Reversible reaction",
+      "One-way exchange reaction"
+    ],
+    "correctAnswer": 2,
+    "explanation": "In oxygen-rich lung tissue, hemoglobin binds O2; in oxygen-poor working muscle, it releases O2. Same reaction, both directions. | Gym Tie-In: This is why you can train at all — hemoglobin picks up O2 in your lungs and drops it off at your working muscles, then repeats.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q37",
+    "question": "Growth, tissue repair, and glycogen formation are examples of:",
+    "choices": [
+      "Catabolic reactions",
+      "Synthesis (anabolic) reactions",
+      "Exchange reactions",
+      "Hydrolysis only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "All three processes BUILD things — new tissue, repaired tissue, stored carbohydrates.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q38",
+    "question": "Digestion and cellular respiration are primarily examples of:",
+    "choices": [
+      "Anabolic reactions",
+      "Decomposition (catabolic) reactions",
+      "Synthesis reactions",
+      "Endergonic reactions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Both processes break large molecules into smaller ones — decomposition/catabolism.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q39",
+    "question": "Acid-base buffering systems are typically:",
+    "choices": [
+      "Synthesis reactions only",
+      "Decomposition reactions only",
+      "Exchange / reversible reactions",
+      "One-way hydrolysis reactions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Buffers swap H+ ions back and forth between weak acid and conjugate base forms — a classic reversible exchange.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q40",
+    "question": "Which reaction type is typically exergonic?",
+    "choices": [
+      "Synthesis",
+      "Anabolism",
+      "Decomposition",
+      "Polymerization"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Breaking complex molecules into simpler ones typically releases energy — exergonic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q41",
+    "question": "Which reaction type is typically endergonic?",
+    "choices": [
+      "Decomposition",
+      "Hydrolysis",
+      "Catabolism",
+      "Synthesis"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Building complex molecules requires energy input — endergonic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q42",
+    "question": "In the reaction: amino acid + amino acid → dipeptide + H₂O, this is an example of:",
+    "choices": [
+      "Hydrolysis",
+      "Dehydration synthesis",
+      "Exchange reaction",
+      "Decomposition"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Two amino acids joined into a dipeptide, and a water molecule is released. Classic dehydration synthesis. | Gym Tie-In: This is the exact reaction happening thousands of times in your muscle cells as they rebuild protein after you lift.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q43",
+    "question": "Glycogen + H₂O → glucose units. This is:",
+    "choices": [
+      "Dehydration synthesis",
+      "Hydrolysis",
+      "Anabolism",
+      "Synthesis reaction"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water is being added to break bonds between glucose units — hydrolysis (catabolism).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q44",
+    "question": "Enzymes speed up reactions by:",
+    "choices": [
+      "Adding energy to the reaction",
+      "Lowering the activation energy",
+      "Raising the activation energy",
+      "Becoming part of the product"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzymes provide an alternative pathway with lower activation energy. The reaction can now happen much faster at body temperature. | Gym Tie-In: Think of an enzyme like a well-designed cable machine at the gym — it doesn't lift the weight for you, but it makes the movement pattern vastly more efficient.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q45",
+    "question": "Which of the following is NOT true of enzymes?",
+    "choices": [
+      "They are reusable",
+      "They are consumed in the reaction",
+      "They lower activation energy",
+      "Their activity is influenced by pH"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzymes are NOT consumed. The same enzyme molecule catalyzes its reaction over and over. | Gym Tie-In: Like a spotter who helps on every rep — still the same spotter at set 5 as at set 1.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q46",
+    "question": "Most enzymes are made of:",
+    "choices": [
+      "Carbohydrates",
+      "Lipids",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Enzymes are almost always proteins. (A tiny subset called ribozymes are RNA — fine detail beyond Bio 40A.)",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q47",
+    "question": "Enzyme activity is influenced by all of the following EXCEPT:",
+    "choices": [
+      "Temperature",
+      "pH",
+      "Substrate concentration",
+      "The color of the cell"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Temperature, pH, and substrate concentration all shift enzyme activity. Color is irrelevant to enzyme function.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q48",
+    "question": "If an enzyme's environment is too hot or too acidic:",
+    "choices": [
+      "The enzyme works faster indefinitely",
+      "The enzyme can denature and lose function",
+      "The enzyme gains energy permanently",
+      "The substrate becomes an enzyme"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Denaturation = the enzyme's 3D shape unfolds. Since function depends on shape, it stops working. | Gym Tie-In: This is why a high fever is dangerous — your enzymes start denaturing.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q49",
+    "question": "An enzyme that has just catalyzed one reaction:",
+    "choices": [
+      "Is destroyed and must be made fresh",
+      "Can catalyze the same reaction again",
+      "Becomes part of the product",
+      "Converts into its substrate"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzymes are reusable. The same molecule can run its reaction thousands of times per second.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q50",
+    "question": "The molecule that an enzyme acts upon is called its:",
+    "choices": [
+      "Product",
+      "Cofactor",
+      "Substrate",
+      "Inhibitor"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Substrate goes in → product comes out. The enzyme stays the same.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q51",
+    "question": "Why does enzyme function depend on 3D shape?",
+    "choices": [
+      "Color changes with shape",
+      "The enzyme's shape forms a specific active site that fits its substrate",
+      "Shape determines the enzyme's mass",
+      "Shape only matters for transport proteins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The active site is shaped to bind one specific substrate — like a lock and key (or induced fit). | Gym Tie-In: Like how only a specific barbell collar fits a specific bar diameter — wrong shape, no fit, no reaction.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q52",
+    "question": "The best 'big picture' reason enzymes matter in the body is:",
+    "choices": [
+      "They create energy from nothing",
+      "They make biochemical reactions fast enough to sustain life at body temperature",
+      "They replace the need for water",
+      "They store energy as heat"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Without enzymes, most metabolic reactions would take hours, days, or years at 37°C. Enzymes make life possible.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q53",
+    "question": "An exergonic reaction run with an enzyme:",
+    "choices": [
+      "Requires more energy to start",
+      "Still releases the same net energy — just faster",
+      "Becomes endergonic",
+      "Requires more activation energy than without the enzyme"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Enzymes don't change the net energy of a reaction. They only lower the activation energy needed to get it going.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q54",
+    "question": "The four macromolecules of life are:",
+    "choices": [
+      "Water, salts, acids, bases",
+      "Carbohydrates, lipids, proteins, nucleic acids",
+      "Sugars, fats, enzymes, DNA",
+      "Glucose, cholesterol, hemoglobin, ATP"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The four classes: carbohydrates, lipids, proteins, nucleic acids. Every biological polymer falls into one of these.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q55",
+    "question": "What defines an organic molecule?",
+    "choices": [
+      "It contains carbon and hydrogen, usually with covalent C–H bonds",
+      "It was grown in a garden",
+      "It contains only oxygen",
+      "It must be water-soluble"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Organic = carbon-based with C–H bonds. Nothing to do with farming labels.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q56",
+    "question": "Inorganic molecules:",
+    "choices": [
+      "Contain many carbon-hydrogen bonds",
+      "Generally lack carbon (with some exceptions like CO₂)",
+      "Are only found in proteins",
+      "Are all acids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water, salts, and most minerals are inorganic. CO₂ is an edge case (contains carbon but no C–H bonds).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q57",
+    "question": "Macromolecules are typically BUILT by:",
+    "choices": [
+      "Hydrolysis",
+      "Dehydration synthesis",
+      "Oxidation only",
+      "Passive diffusion"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dehydration synthesis joins monomers and kicks out water. It's how every class of polymer gets built.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q58",
+    "question": "Macromolecules are typically BROKEN DOWN by:",
+    "choices": [
+      "Dehydration synthesis",
+      "Hydrolysis",
+      "Synthesis reactions",
+      "Endergonic reactions only"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Water is added at the bond to split it. Hydrolysis = breakdown across every class.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q59",
+    "question": "Carbohydrates are composed primarily of:",
+    "choices": [
+      "Carbon, nitrogen, phosphorus",
+      "Carbon, hydrogen, oxygen",
+      "Carbon, hydrogen, nitrogen",
+      "Carbon, sulfur, oxygen"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The name literally means 'hydrated carbon' — CHO, usually in a (CH₂O)ₙ ratio.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q60",
+    "question": "The primary fuel for ATP production in most cells is:",
+    "choices": [
+      "Fructose",
+      "Galactose",
+      "Glucose",
+      "Sucrose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Glucose is the standard substrate for cellular respiration. Other sugars usually get converted to glucose first. | Gym Tie-In: When you're mid-rep, glucose (from broken-down glycogen) is what feeds the ATP system powering the contraction.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q61",
+    "question": "A monosaccharide is:",
+    "choices": [
+      "A two-sugar molecule",
+      "A single simple sugar unit",
+      "A polymer of 10+ sugars",
+      "A fat molecule"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mono = one. Glucose, fructose, and galactose are all monosaccharides.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q62",
+    "question": "A disaccharide consists of:",
+    "choices": [
+      "One sugar",
+      "Two sugars linked",
+      "Three sugars linked",
+      "Many sugars in a chain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Di = two. Sucrose (glucose + fructose) and lactose (glucose + galactose) are common examples.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q63",
+    "question": "Which of the following is a disaccharide?",
+    "choices": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Glycogen"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Sucrose = glucose + fructose. Table sugar.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q64",
+    "question": "Glycogen is:",
+    "choices": [
+      "A simple sugar",
+      "A disaccharide",
+      "A polysaccharide used for carbohydrate storage in liver and muscle",
+      "A lipid"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Glycogen is a highly branched polymer of glucose — the animal storage form of carbohydrates. | Gym Tie-In: This is your body's carb bank account. A hard workout drains it; a post-workout meal refills it.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q65",
+    "question": "Where is most glycogen stored in the human body?",
+    "choices": [
+      "Brain and kidneys",
+      "Liver and skeletal muscles",
+      "Blood and bone",
+      "Skin and adipose"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Skeletal muscle holds the most by volume; the liver holds the pool that keeps blood glucose stable.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q66",
+    "question": "Fructose, galactose, and glucose are all:",
+    "choices": [
+      "Disaccharides",
+      "Monosaccharides",
+      "Polysaccharides",
+      "Lipids"
+    ],
+    "correctAnswer": 1,
+    "explanation": "All three are single-sugar molecules. They have different arrangements but the same C₆H₁₂O₆ formula.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q67",
+    "question": "The storage form of carbohydrate in the human body is:",
+    "choices": [
+      "Starch",
+      "Cellulose",
+      "Glycogen",
+      "Sucrose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Starch is the plant storage form; glycogen is the animal storage form. Cellulose is structural (plants only).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q68",
+    "question": "Lactose (milk sugar) is a:",
+    "choices": [
+      "Monosaccharide",
+      "Disaccharide",
+      "Polysaccharide",
+      "Steroid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Lactose = glucose + galactose. Two sugars linked = disaccharide.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q69",
+    "question": "Lipids are primarily:",
+    "choices": [
+      "Hydrophilic (water-loving)",
+      "Hydrophobic (water-fearing), though some are amphipathic",
+      "Made of amino acids",
+      "All water-soluble"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mostly carbon and hydrogen means they don't dissolve in water. Phospholipids are amphipathic — partly hydrophilic, partly hydrophobic.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q70",
+    "question": "A triglyceride consists of:",
+    "choices": [
+      "One glycerol + 2 fatty acids + a phosphate",
+      "One glycerol + 3 fatty acids",
+      "Three glucose molecules",
+      "Four carbon rings"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Triglyceride = tri (three) + glyceride. Glycerol backbone with three fatty acid chains attached. | Gym Tie-In: This is the fat stored in your adipose tissue — long-term energy for endurance work and caloric reserve.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q71",
+    "question": "Triglycerides are primarily used for:",
+    "choices": [
+      "Building cell membranes",
+      "Long-term energy storage, insulation, and cushioning",
+      "Catalyzing reactions",
+      "Storing genetic information"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Fat stores 9 kcal/g — more than twice carbs or protein. Plus insulation and mechanical cushioning around organs.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q72",
+    "question": "Saturated fatty acids:",
+    "choices": [
+      "Have kinks in the hydrocarbon chain",
+      "Have only single C–C bonds and pack tightly",
+      "Are always liquid at room temperature",
+      "Lack a carboxyl group"
+    ],
+    "correctAnswer": 1,
+    "explanation": "'Saturated' with hydrogen — no double bonds means straight chains that stack well. Think butter or beef tallow. | Gym Tie-In: Straight chains, tightly packed = solid at room temp.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q73",
+    "question": "Unsaturated fatty acids:",
+    "choices": [
+      "Have one or more double bonds that introduce kinks",
+      "Have no double bonds",
+      "Cannot be used for energy",
+      "Lack a carboxyl group"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Double bonds cause kinks in the chain, preventing tight stacking. Think olive oil — liquid at room temp.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q74",
+    "question": "Phospholipids are composed of:",
+    "choices": [
+      "Glycerol + 3 fatty acids",
+      "Glycerol + 2 fatty acids + a phosphate group",
+      "4 fused carbon rings",
+      "A single fatty acid chain"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Phospholipid = glycerol backbone + 2 fatty acid tails + phosphate head group. Amphipathic by design.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q75",
+    "question": "Phospholipids are the major component of:",
+    "choices": [
+      "DNA",
+      "Cell membranes",
+      "Enzymes",
+      "Bone matrix"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The phospholipid bilayer is the fundamental structure of every cell membrane in your body. | Gym Tie-In: Every muscle cell you trained yesterday is wrapped in a phospholipid bilayer. No phospholipids, no cells.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q76",
+    "question": "The hydrophilic 'head' and hydrophobic 'tails' of a phospholipid make it ideal for:",
+    "choices": [
+      "Energy storage",
+      "Forming a bilayer membrane with water on both sides",
+      "DNA replication",
+      "Catalyzing reactions"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The tails face inward (away from water), heads face outward (toward water on both sides). That's what creates the bilayer.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q77",
+    "question": "Steroids are characterized by:",
+    "choices": [
+      "Long unbranched hydrocarbon chains",
+      "Four fused carbon rings",
+      "Phosphate-containing heads",
+      "Amino acid polymers"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The signature steroid structure is four fused carbon rings (three six-membered, one five-membered).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q78",
+    "question": "Which of the following is a steroid?",
+    "choices": [
+      "Triglyceride",
+      "Glycogen",
+      "Cholesterol",
+      "Glucose"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Cholesterol has the four fused carbon rings. It's also the precursor for sex hormones and corticosteroids. | Gym Tie-In: And yes — 'anabolic steroids' that build muscle are chemically modified testosterone, which is built from cholesterol.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q79",
+    "question": "Cholesterol's primary role in cell membranes is to:",
+    "choices": [
+      "Store genetic information",
+      "Maintain membrane fluidity",
+      "Act as an enzyme",
+      "Trigger action potentials"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Cholesterol wedges between phospholipids and keeps the membrane at the right consistency — not too rigid, not too floppy.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q80",
+    "question": "Proteins are polymers of:",
+    "choices": [
+      "Nucleotides",
+      "Monosaccharides",
+      "Amino acids",
+      "Fatty acids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Proteins are chains of amino acids linked by peptide bonds.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q81",
+    "question": "The covalent bond between two amino acids is called a:",
+    "choices": [
+      "Hydrogen bond",
+      "Ionic bond",
+      "Peptide bond",
+      "Disulfide bond"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Peptide bond = the specific C-N covalent bond formed between the carboxyl of one amino acid and the amino of the next.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q82",
+    "question": "How many different amino acids are used to build human proteins?",
+    "choices": [
+      "4",
+      "10",
+      "20",
+      "64"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Twenty standard proteinogenic amino acids, combined in different sequences, generate all human proteins.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q83",
+    "question": "What determines one protein's function versus another's?",
+    "choices": [
+      "Its color",
+      "The order and composition of its amino acids, which determines its 3D shape",
+      "How many waters it contains",
+      "Its location in the cell alone"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Sequence → folding → shape → function. Change the sequence, change the shape, change what it can do.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q84",
+    "question": "Which statement is MOST accurate?",
+    "choices": [
+      "A polypeptide and a protein are always the same thing",
+      "A polypeptide is a linear amino acid chain; a protein is one or more folded polypeptides that are functional",
+      "Proteins have no 3D structure",
+      "Polypeptides only exist in DNA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Polypeptide = the chain. Protein = the folded, functional form (may have multiple polypeptides combined). | Gym Tie-In: Hemoglobin is one protein made of FOUR polypeptide subunits — and all four must come together to carry oxygen.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q85",
+    "question": "A peptide bond is formed by:",
+    "choices": [
+      "Hydrolysis",
+      "Dehydration synthesis",
+      "Ionic attraction only",
+      "A phosphate transfer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Forming the peptide bond releases one water molecule. Building = losing water. | Gym Tie-In: Every amino acid added to a growing muscle protein costs one water molecule.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q86",
+    "question": "Which is NOT a function of proteins in the body?",
+    "choices": [
+      "Enzymes",
+      "Cell surface receptors",
+      "Long-term energy storage as body fat",
+      "Cytoskeleton"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Long-term energy storage = triglycerides (lipids), not proteins. Proteins can be burned for energy in starvation, but they're not the storage form.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q87",
+    "question": "Channels, ion pumps, and aquaporins are examples of:",
+    "choices": [
+      "Carbohydrate functions",
+      "Lipid functions",
+      "Protein functions",
+      "Nucleic acid functions"
+    ],
+    "correctAnswer": 2,
+    "explanation": "All three are membrane proteins that control what crosses the cell membrane.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q88",
+    "question": "The four levels of protein structure are:",
+    "choices": [
+      "Primary, secondary, tertiary, quaternary",
+      "Alpha, beta, gamma, delta",
+      "Monomer, dimer, trimer, polymer",
+      "DNA, RNA, protein, enzyme"
+    ],
+    "correctAnswer": 0,
+    "explanation": "1° (sequence) → 2° (local folding like helices/sheets) → 3° (overall 3D shape of one chain) → 4° (multiple chains combined).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q89",
+    "question": "The primary structure of a protein refers to:",
+    "choices": [
+      "Its overall 3D folding",
+      "The linear sequence of amino acids",
+      "Multiple polypeptides joined together",
+      "The number of peptide bonds it has"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Primary structure = the bead-on-string order of amino acids. This determines everything else.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q90",
+    "question": "Quaternary structure refers to:",
+    "choices": [
+      "A single amino acid sequence",
+      "Local folding like alpha helix and beta sheet",
+      "The overall 3D shape of one polypeptide",
+      "Two or more polypeptide chains joined into a functional protein"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Not all proteins have quaternary structure — only those with multiple subunits. Hemoglobin is the classic example (4 subunits).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q91",
+    "question": "If a protein is denatured (unfolded), its function is:",
+    "choices": [
+      "Enhanced",
+      "Usually lost",
+      "Unchanged",
+      "Converted to DNA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Shape = function. No shape = no function. This is why fever, extreme pH, and strong heat all damage tissues. | Gym Tie-In: Cooking an egg denatures its proteins — same principle that happens to your enzymes if body temperature goes too high.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q92",
+    "question": "All electrolytes are:",
+    "choices": [
+      "Proteins",
+      "Sugars",
+      "Ions",
+      "Lipids"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Electrolytes are ions — charged particles dissolved in water. The name comes from their ability to conduct electricity in solution.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q93",
+    "question": "Electrolytes are critical for:",
+    "choices": [
+      "Nerve impulse transmission and muscle contraction",
+      "DNA storage",
+      "Fat digestion only",
+      "Enzyme catalysis only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Na⁺, K⁺, and Ca²⁺ drive the electrical signals that tell your nerves to fire and your muscles to contract. | Gym Tie-In: This is why you cramp when you're low on electrolytes — the signaling fails.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q94",
+    "question": "Which best defines a salt?",
+    "choices": [
+      "A molecule with a C-H bond",
+      "An ionic compound that dissociates in water into cations and anions that are NOT H⁺ or OH⁻",
+      "A protein that dissolves in water",
+      "Any sour-tasting liquid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Acids release H⁺, bases release OH⁻, salts release other ions (Na⁺, K⁺, Cl⁻, etc.).",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q95",
+    "question": "A buffer is:",
+    "choices": [
+      "A protein that builds muscle",
+      "A chemical system that resists changes in pH",
+      "A fat that stores energy",
+      "A sugar that dissolves in water"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Buffers absorb excess H⁺ or OH⁻ to keep pH steady. The bicarbonate buffer system keeps blood at pH ~7.4.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q96",
+    "question": "Calcium ions (Ca²⁺) are critical for:",
+    "choices": [
+      "Triggering muscle contraction",
+      "DNA replication only",
+      "Steroid synthesis only",
+      "Fat digestion only"
+    ],
+    "correctAnswer": 0,
+    "explanation": "When a nerve signal arrives, Ca²⁺ is released inside the muscle cell — that release is literally what starts the contraction. | Gym Tie-In: Every single rep you do starts with a Ca²⁺ release inside the muscle fibers.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q97",
+    "question": "A drop in blood sodium or potassium can cause:",
+    "choices": [
+      "Improved muscle performance",
+      "Muscle weakness, cramping, or even paralysis",
+      "Faster protein synthesis",
+      "Increased hemoglobin"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Action potentials depend on Na⁺/K⁺ gradients. If those gradients break down, nerves can't fire and muscles can't contract normally.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q98",
+    "question": "Why is pH regulation (buffering) so important in the body?",
+    "choices": [
+      "Because enzymes only function within a narrow pH range",
+      "Because proteins need highly acidic conditions to form",
+      "Because DNA requires low pH",
+      "It isn't actually important"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Most human enzymes work optimally around pH 7.4. A drop to 7.0 or rise to 7.8 is life-threatening. | Gym Tie-In: Your body works hard to keep blood pH in a tight range so every enzyme-driven process (including muscle recovery) can keep running.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q99",
+    "question": "Phosphate buffered saline (PBS) is commonly used in hospitals and labs to:",
+    "choices": [
+      "Kill bacteria",
+      "Maintain a stable pH and ion balance for biological samples or IV solutions",
+      "Dissolve fats",
+      "Denature proteins"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PBS mimics the ionic composition and pH of body fluids so cells, tissues, and samples stay stable during handling.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  },
+  {
+    "id": "lq5_q100",
+    "question": "After a tough lifting session, you eat a protein shake and some carbs. Which sequence BEST captures what happens inside your body?",
+    "choices": [
+      "Dehydration synthesis of the shake → build fat → convert to DNA",
+      "Hydrolysis of the shake → absorb amino acids → dehydration synthesis builds new muscle protein; glucose → ATP; enzymes speed every step; electrolytes signal contractions",
+      "Protein becomes glycogen, then electrolytes build muscle directly",
+      "Fats become amino acids, then amino acids become DNA"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Digestion = catabolic hydrolysis (exergonic). Muscle building = anabolic dehydration synthesis (endergonic). ATP from glucose powers the work. Enzymes catalyze every reaction. Electrolytes trigger the muscle contractions that made you need recovery in the first place. | Gym Tie-In: This is the whole chapter in one answer. Every concept connects through the act of training and recovering.",
+    "chapterID": "lq5",
+    "sectionID": "lq5_normal"
+  }
+]

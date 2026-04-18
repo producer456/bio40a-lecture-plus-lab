@@ -16,6 +16,9 @@ struct QuizHubView: View {
                 NavigationLink(destination: LectureQuiz4View()) {
                     quizRow(title: "Lecture Quiz 4", subtitle: "100 questions — comprehensive review, clinical cases, imaging", color: BodySystem.cardiovascular.primaryColor)
                 }
+                NavigationLink(destination: LectureQuiz5View()) {
+                    quizRow(title: "Lecture Quiz 5", subtitle: "100 questions — Ch.2 chemistry of life, metabolism, macromolecules", color: BodySystem.muscular.primaryColor)
+                }
             }
 
             Section("Custom Practice") {

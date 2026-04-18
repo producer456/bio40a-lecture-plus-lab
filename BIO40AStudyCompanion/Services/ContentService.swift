@@ -55,6 +55,8 @@ final class ContentService {
         allQuestions.append(contentsOf: lectureQuiz3)
         let lectureQuiz4: [QuizQuestion] = loadJSON(filename: "lecture_quiz4") ?? []
         allQuestions.append(contentsOf: lectureQuiz4)
+        let lectureQuiz5: [QuizQuestion] = loadJSON(filename: "lecture_quiz5") ?? []
+        allQuestions.append(contentsOf: lectureQuiz5)
         flashcardDecks = loadJSON(filename: "flashcards") ?? []
         labPrepData = loadJSON(filename: "labprep")
         comparisons = loadJSON(filename: "comparisons") ?? []
