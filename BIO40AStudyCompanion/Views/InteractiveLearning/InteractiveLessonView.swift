@@ -15,6 +15,7 @@ struct InteractiveLearningListView: View {
                     system: .muscular,
                     title: "Interactive Learning",
                     subtitle: "Inline quizzes & challenges as you read",
+                    badge: "INTERACTIVE",
                     height: 120
                 )
                 .listRowInsets(EdgeInsets())

@@ -792,12 +792,23 @@ struct BookmarksView: View {
 
 struct SettingsView: View {
     @Environment(ContentService.self) private var content
+    @EnvironmentObject var themeManager: ShaderThemeManager
     @AppStorage("userName") private var userName = ""
     @AppStorage("notificationsEnabled") private var notificationsEnabled = true
     @AppStorage("dailyFlashcardGoal") private var dailyFlashcardGoal = 20
 
     var body: some View {
         List {
+            Section("Visual Theme") {
+                Toggle("Living Biology Mode", isOn: $themeManager.isEnabled)
+                    .tint(Color(BodySystem.nervous.accentColor))
+                if themeManager.isEnabled {
+                    Text("Biological shader effects active")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+            }
+
             Section("Profile") {
                 HStack {
                     Text("Name")

@@ -30,6 +30,7 @@ struct LectureQuiz1View: View {
                     system: .skeletal,
                     title: "Lecture Quiz 1",
                     subtitle: "Anatomical terminology, body planes & cavities,\nelements, isotopes, bonds, properties of water",
+                    badge: "LECTURE QUIZ 1",
                     height: 140
                 )
                 .listRowInsets(EdgeInsets())

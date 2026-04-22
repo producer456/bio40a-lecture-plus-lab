@@ -30,6 +30,7 @@ struct LectureQuiz3View: View {
                     system: .endocrine,
                     title: "Lecture Quiz 3",
                     subtitle: "Chemistry & Biochemistry:\natoms, bonds, macromolecules, proteins",
+                    badge: "LECTURE QUIZ 3",
                     height: 140
                 )
                 .listRowInsets(EdgeInsets())

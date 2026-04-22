@@ -91,65 +91,73 @@ enum BodySystem: String, CaseIterable {
 struct BioHeroBanner: View {
     let system: BodySystem
     let title: String
-    let subtitle: String?
-    var height: CGFloat = 160
-
-    init(system: BodySystem, title: String, subtitle: String? = nil, height: CGFloat = 160) {
-        self.system = system
-        self.title = title
-        self.subtitle = subtitle
-        self.height = height
-    }
+    var subtitle: String? = nil
+    var badge: String? = nil
+    var height: CGFloat = 200
+    @EnvironmentObject var themeManager: ShaderThemeManager
 
     var body: some View {
         ZStack(alignment: .bottomLeading) {
-            // Background: gradient fallback if image missing
-            Rectangle()
-                .fill(
-                    LinearGradient(
-                        colors: system.gradientColors,
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-
-            // Background image (overlay on gradient fallback)
+            // Background with parallax
             Image(system.heroImage)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(height: height)
                 .frame(maxWidth: .infinity)
                 .clipped()
-                .overlay(
-                    LinearGradient(
-                        colors: [system.bannerColor.opacity(0.85), system.bannerColor.opacity(0.5), .clear],
-                        startPoint: .bottomLeading,
-                        endPoint: .topTrailing
-                    )
-                )
+                .shaderBanner(system: system)
 
-            // Text
-            VStack(alignment: .leading, spacing: 4) {
-                Text(system.displayName.uppercased())
+            // Multi-layer gradient overlay
+            LinearGradient(
+                stops: [
+                    .init(color: .clear, location: 0.0),
+                    .init(color: system.bannerColor.opacity(0.3), location: 0.4),
+                    .init(color: system.bannerColor.opacity(0.85), location: 0.85),
+                    .init(color: system.bannerColor, location: 1.0)
+                ],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+
+            // Radial glow from bottom-left
+            RadialGradient(
+                colors: [system.accentColor.opacity(0.3), .clear],
+                center: .bottomLeading,
+                startRadius: 0,
+                endRadius: 250
+            )
+
+            // Content
+            VStack(alignment: .leading, spacing: 8) {
+                // Section badge (custom label, or hidden if nil)
+                if let badgeText = badge {
+                Text(badgeText.uppercased())
                     .font(.caption2)
-                    .fontWeight(.bold)
-                    .tracking(1.5)
-                    .foregroundStyle(.white.opacity(0.7))
+                    .fontWeight(.heavy)
+                    .tracking(2.0)
+                    .foregroundStyle(.white.opacity(0.9))
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 4)
+                    .background(.ultraThinMaterial, in: Capsule())
+                    .overlay(Capsule().stroke(system.accentColor.opacity(0.5), lineWidth: 0.5))
+                }
+
                 Text(title)
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
+
                 if let subtitle {
                     Text(subtitle)
-                        .font(.caption)
-                        .foregroundStyle(.white.opacity(0.8))
+                        .font(.subheadline)
+                        .foregroundStyle(.white.opacity(0.75))
                 }
             }
-            .padding()
+            .padding(20)
         }
         .frame(height: height)
         .frame(maxWidth: .infinity)
-        .clipShape(RoundedRectangle(cornerRadius: 16))
+        .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 }
 
@@ -162,24 +170,40 @@ struct BioCard<Content: View>: View {
 
     var body: some View {
         content()
-            .padding()
+            .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
             .background {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 14)
-                        .fill(.ultraThinMaterial)
+                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        .fill(.regularMaterial)
+                        .shaderCard(system: system)
+
                     if let img = backgroundImage {
                         Image(img)
                             .resizable()
                             .aspectRatio(contentMode: .fill)
-                            .opacity(0.08)
-                            .clipShape(RoundedRectangle(cornerRadius: 14))
+                            .opacity(0.06)
+                            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
                     }
-                    RoundedRectangle(cornerRadius: 14)
-                        .stroke(system.primaryColor.opacity(0.2), lineWidth: 1)
+
+                    // Colored top accent line
+                    VStack {
+                        LinearGradient(
+                            colors: [system.primaryColor, system.accentColor],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        )
+                        .frame(height: 2)
+                        Spacer()
+                    }
+                    .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+
+                    RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        .stroke(system.primaryColor.opacity(0.1), lineWidth: 0.5)
                 }
             }
-            .clipShape(RoundedRectangle(cornerRadius: 14))
+            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
+            .shadow(color: system.primaryColor.opacity(0.12), radius: 10, y: 4)
     }
 }
 
@@ -360,6 +384,50 @@ struct BloodFlowProgress: View {
                 waveOffset = 2.0
             }
         }
+    }
+}
+
+// MARK: - Section Header
+
+struct BioSectionHeader: View {
+    let title: String
+    let icon: String
+    let system: BodySystem
+
+    var body: some View {
+        HStack(spacing: 8) {
+            Image(systemName: icon)
+                .font(.subheadline)
+                .foregroundStyle(system.accentColor)
+            Text(title)
+                .font(.headline)
+                .fontWeight(.semibold)
+            Spacer()
+        }
+        .padding(.top, 8)
+    }
+}
+
+// MARK: - Stat Badge
+
+struct BioStatBadge: View {
+    let value: String
+    let label: String
+    let system: BodySystem
+
+    var body: some View {
+        VStack(spacing: 4) {
+            Text(value)
+                .font(.title3)
+                .fontWeight(.bold)
+                .foregroundStyle(system.accentColor)
+            Text(label)
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 12)
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
     }
 }
 

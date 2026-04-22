@@ -30,6 +30,7 @@ struct LectureQuiz4View: View {
                     system: .cardiovascular,
                     title: "Lecture Quiz 4",
                     subtitle: "Comprehensive review: anatomy, chemistry,\nmacromolecules, clinical cases, imaging",
+                    badge: "LECTURE QUIZ 4",
                     height: 140
                 )
                 .listRowInsets(EdgeInsets())

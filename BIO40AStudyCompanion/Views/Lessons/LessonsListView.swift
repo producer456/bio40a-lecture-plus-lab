@@ -12,31 +12,27 @@ struct LessonsListView: View {
     }
 
     var body: some View {
-        VStack(spacing: 0) {
-            Picker("View", selection: $selectedView) {
-                ForEach(LessonViewMode.allCases, id: \.self) { mode in
-                    Text(mode.rawValue).tag(mode)
-                }
-            }
-            .pickerStyle(.segmented)
-            .padding()
-
-            List {
+        ScrollView {
+            VStack(spacing: 20) {
                 // Hero banner
-                Section {
-                    BioHeroBanner(
-                        system: .skeletal,
-                        title: "Lessons",
-                        subtitle: "\(content.chapters.count) chapters of anatomy & physiology",
-                        height: 120
-                    )
-                    .listRowInsets(EdgeInsets())
-                    .listRowBackground(Color.clear)
-                }
+                BioHeroBanner(
+                    system: .skeletal,
+                    title: "Lessons",
+                    subtitle: "\(content.chapters.count) chapters of anatomy & physiology",
+                    badge: "LESSONS",
+                    height: 120
+                )
 
-                // Interactive Learning prominent link
-                Section {
-                    NavigationLink(destination: InteractiveLearningListView()) {
+                Picker("View", selection: $selectedView) {
+                    ForEach(LessonViewMode.allCases, id: \.self) { mode in
+                        Text(mode.rawValue).tag(mode)
+                    }
+                }
+                .pickerStyle(.segmented)
+
+                // Interactive Learning prominent card
+                NavigationLink(destination: InteractiveLearningListView()) {
+                    BioCard(system: .muscular) {
                         HStack(spacing: 14) {
                             Image(systemName: "hand.tap.fill")
                                 .font(.title2)
@@ -46,12 +42,16 @@ struct LessonsListView: View {
                                 Text("Learning Through Interaction")
                                     .font(.subheadline)
                                     .fontWeight(.semibold)
+                                    .foregroundStyle(.primary)
                                 Text("Read lessons with inline quizzes & challenges")
                                     .font(.caption)
                                     .foregroundStyle(.secondary)
                             }
+                            Spacer(minLength: 0)
+                            Image(systemName: "chevron.right")
+                                .font(.caption)
+                                .foregroundStyle(.tertiary)
                         }
-                        .padding(.vertical, 4)
                     }
                 }
 
@@ -62,6 +62,8 @@ struct LessonsListView: View {
                     chapterView
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
         .navigationTitle("Lessons")
     }
@@ -72,23 +74,34 @@ struct LessonsListView: View {
     private var weekView: some View {
         if let syllabus = content.syllabus {
             ForEach(syllabus.lectureSchedule, id: \.week) { week in
-                Section("Week \(week.week): \(week.topic)") {
+                VStack(alignment: .leading, spacing: 12) {
+                    BioSectionHeader(title: "Week \(week.week): \(week.topic)", icon: "calendar", system: .skeletal)
+
                     ForEach(week.chapters ?? [], id: \.self) { chapterID in
                         if let chapter = content.chapter(id: chapterID) {
-                            chapterRow(chapter)
+                            NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
+                                chapterCard(chapter)
+                            }
                         }
                     }
 
                     if let labWeek = syllabus.labSchedule.first(where: { $0.week == week.week }) {
-                        HStack {
-                            Image(systemName: "flask.fill")
-                                .foregroundStyle(.purple)
-                            VStack(alignment: .leading) {
-                                Text("Lab")
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                                Text(labWeek.topic)
-                                    .font(.subheadline)
+                        BioCard(system: .organ) {
+                            HStack(spacing: 12) {
+                                Image(systemName: "flask.fill")
+                                    .font(.title3)
+                                    .foregroundStyle(BodySystem.organ.primaryColor)
+                                    .frame(width: 36, height: 36)
+                                VStack(alignment: .leading, spacing: 2) {
+                                    Text("Lab")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                    Text(labWeek.topic)
+                                        .font(.subheadline)
+                                        .fontWeight(.medium)
+                                        .foregroundStyle(.primary)
+                                }
+                                Spacer(minLength: 0)
                             }
                         }
                     }
@@ -102,32 +115,51 @@ struct LessonsListView: View {
     @ViewBuilder
     private var chapterView: some View {
         ForEach(content.chapters) { chapter in
-            chapterRow(chapter)
+            NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
+                chapterCard(chapter)
+            }
         }
     }
 
-    private func chapterRow(_ chapter: Chapter) -> some View {
-        NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
-            HStack {
-                RoundedRectangle(cornerRadius: 3)
-                    .fill(BodySystem.skeletal.primaryColor)
-                    .frame(width: 4, height: 36)
-                VStack(alignment: .leading, spacing: 4) {
-                    Text("Chapter \(chapter.number)")
-                        .font(.caption)
-                        .foregroundStyle(BodySystem.skeletal.primaryColor)
+    private func chapterCard(_ chapter: Chapter) -> some View {
+        BioCard(system: .skeletal) {
+            HStack(spacing: 12) {
+                // Chapter number circle
+                Text("\(chapter.number)")
+                    .font(.subheadline)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .frame(width: 36, height: 36)
+                    .background(BodySystem.skeletal.primaryColor, in: Circle())
+
+                VStack(alignment: .leading, spacing: 6) {
                     Text(chapter.title)
                         .font(.subheadline)
                         .fontWeight(.medium)
-                    Text("\(chapter.sections.count) sections \u{2022} \(chapter.totalQuestions) questions")
-                        .font(.caption2)
-                        .foregroundStyle(.secondary)
+                        .lineLimit(1)
+                        .foregroundStyle(.primary)
+
+                    HStack(spacing: 8) {
+                        Text("\(chapter.sections.count) sections \u{2022} \(chapter.totalQuestions) questions")
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                    }
+
+                    HStack(spacing: 8) {
+                        BloodFlowProgress(value: chapterProgress(chapter.id), system: .skeletal)
+                        Text("\(Int(chapterProgress(chapter.id) * 100))%")
+                            .font(.caption2)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(BodySystem.skeletal.primaryColor)
+                    }
                 }
-                Spacer()
-                CircularProgressView(progress: chapterProgress(chapter.id))
-                    .frame(width: 40, height: 40)
+
+                Spacer(minLength: 0)
+
+                Image(systemName: "chevron.right")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
             }
-            .padding(.vertical, 4)
         }
     }
 

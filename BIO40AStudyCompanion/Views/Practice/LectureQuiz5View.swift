@@ -15,6 +15,7 @@ struct LectureQuiz5View: View {
                     system: .muscular,
                     title: "Lecture Quiz 5",
                     subtitle: "Chapter 2 — Chemistry of Life\nbody cavities, water, metabolism, macromolecules",
+                    badge: "LECTURE QUIZ 5",
                     height: 140
                 )
                 .listRowInsets(EdgeInsets())

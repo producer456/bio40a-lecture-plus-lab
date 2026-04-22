@@ -12,14 +12,13 @@ struct HomeView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                // Hero banner with neuron image
+                // Hero banner
                 BioHeroBanner(
                     system: .nervous,
                     title: greetingText,
                     subtitle: currentWeek != nil ? "Week \(currentWeek!) \u{2022} \(currentWeekTopic)" : nil,
                     height: 180
                 )
-                .breathing(intensity: 0.008)
 
                 upcomingDueDatesSection
                 continueStudyingSection
@@ -27,7 +26,8 @@ struct HomeView: View {
                 weakSpotsPreviewSection
                 quickActionsSection
             }
-            .padding()
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
         .navigationTitle("BIO 40A")
     }
@@ -55,12 +55,27 @@ struct HomeView: View {
         return content.syllabus?.lectureSchedule.first { $0.week == week }?.topic ?? ""
     }
 
+    // MARK: - Section Header
+
+    private func sectionHeader(_ title: String, icon: String, system: BodySystem, trailing: AnyView? = nil) -> some View {
+        HStack(spacing: 8) {
+            Image(systemName: icon)
+                .foregroundStyle(system.accentColor)
+            Text(title)
+                .font(.headline)
+                .fontWeight(.semibold)
+            Spacer()
+            if let trailing {
+                trailing
+            }
+        }
+    }
+
     // MARK: - Upcoming Due Dates
 
     private var upcomingDueDatesSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Label("Upcoming Due Dates", systemImage: "clock.fill")
-                .font(.headline)
+            sectionHeader("Upcoming Due Dates", icon: "clock.badge.exclamationmark", system: .endocrine)
 
             let upcoming = upcomingAssignments
             if upcoming.isEmpty {
@@ -69,29 +84,7 @@ struct HomeView: View {
                     .font(.subheadline)
             } else {
                 ForEach(upcoming.prefix(5), id: \.name) { assignment in
-                    HStack {
-                        Circle()
-                            .fill(colorForType(assignment.type))
-                            .frame(width: 10, height: 10)
-                        VStack(alignment: .leading) {
-                            Text(assignment.name)
-                                .font(.subheadline)
-                                .fontWeight(.medium)
-                            if let due = parseDueDate(assignment.dueDate) {
-                                Text(due, style: .relative)
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
-                            }
-                        }
-                        Spacer()
-                        Text(assignment.type.rawValue.capitalized)
-                            .font(.caption2)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 4)
-                            .background(colorForType(assignment.type).opacity(0.15))
-                            .clipShape(Capsule())
-                    }
-                    .padding(.vertical, 4)
+                    dueDateRow(assignment)
                 }
             }
         }
@@ -103,11 +96,49 @@ struct HomeView: View {
         )
     }
 
+    private func dueDateRow(_ assignment: Assignment) -> some View {
+        HStack(spacing: 10) {
+            Circle()
+                .fill(colorForType(assignment.type))
+                .frame(width: 8, height: 8)
+
+            Text(assignment.name)
+                .font(.subheadline)
+                .fontWeight(.medium)
+                .lineLimit(1)
+
+            Spacer()
+
+            if let due = parseDueDate(assignment.dueDate) {
+                urgencyBadge(for: due)
+            }
+        }
+        .padding(.vertical, 4)
+    }
+
+    private func urgencyBadge(for date: Date) -> some View {
+        let interval = date.timeIntervalSince(Date())
+        let days = interval / 86400
+        let color: Color = days < 1 ? .red : (days < 3 ? .orange : .green)
+        let text: String
+        if days < 1 {
+            let hours = max(0, Int(interval / 3600))
+            text = "\(hours)h left"
+        } else {
+            text = "\(Int(days))d left"
+        }
+        return Text(text)
+            .font(.caption2)
+            .fontWeight(.semibold)
+            .foregroundStyle(color)
+            .padding(.horizontal, 8)
+            .padding(.vertical, 4)
+            .background(color.opacity(0.12), in: Capsule())
+    }
+
     private var upcomingAssignments: [Assignment] {
         guard let syllabus = content.syllabus else { return [] }
         let now = Date()
-        let formatter = ISO8601DateFormatter()
-        formatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]
 
         return syllabus.lectureSchedule
             .flatMap { $0.assignments ?? [] }
@@ -126,8 +157,7 @@ struct HomeView: View {
 
     private var continueStudyingSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Label("Continue Studying", systemImage: "book.fill")
-                .font(.headline)
+            sectionHeader("Continue Studying", icon: "book.fill", system: .skeletal)
 
             let chaptersInProgress = studyProgress
                 .filter { $0.readPercentage > 0 && $0.readPercentage < 1.0 }
@@ -136,14 +166,14 @@ struct HomeView: View {
             if chaptersInProgress.isEmpty {
                 if let firstChapter = content.chapters.first {
                     NavigationLink(destination: ChapterDetailView(chapter: firstChapter)) {
-                        studyCard(title: firstChapter.title, subtitle: "Start reading", progress: 0, chapter: firstChapter)
+                        studyCard(title: firstChapter.title, progress: 0, chapter: firstChapter)
                     }
                 }
             } else {
                 ForEach(Array(chaptersInProgress), id: \.chapterID) { progress in
                     if let chapter = content.chapter(id: progress.chapterID) {
                         NavigationLink(destination: ChapterDetailView(chapter: chapter)) {
-                            studyCard(title: chapter.title, subtitle: "Continue reading", progress: progress.readPercentage, chapter: chapter)
+                            studyCard(title: chapter.title, progress: progress.readPercentage, chapter: chapter)
                         }
                     }
                 }
@@ -151,43 +181,49 @@ struct HomeView: View {
         }
     }
 
-    private func studyCard(title: String, subtitle: String, progress: Double, chapter: Chapter) -> some View {
-        HStack {
-            VStack(alignment: .leading, spacing: 4) {
-                Text("Ch. \(chapter.number)")
-                    .font(.caption)
-                    .foregroundStyle(BodySystem.skeletal.primaryColor)
-                Text(title)
+    private func studyCard(title: String, progress: Double, chapter: Chapter) -> some View {
+        BioCard(system: .skeletal) {
+            HStack(spacing: 12) {
+                // Chapter number circle
+                Text("\(chapter.number)")
                     .font(.subheadline)
-                    .fontWeight(.medium)
-                    .lineLimit(1)
-                Text(subtitle)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .frame(width: 36, height: 36)
+                    .background(BodySystem.skeletal.primaryColor, in: Circle())
+
+                VStack(alignment: .leading, spacing: 6) {
+                    Text(title)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .lineLimit(1)
+                        .foregroundStyle(.primary)
+
+                    HStack(spacing: 8) {
+                        ProgressView(value: progress)
+                            .tint(BodySystem.skeletal.primaryColor)
+                        Text("\(Int(progress * 100))%")
+                            .font(.caption2)
+                            .fontWeight(.semibold)
+                            .foregroundStyle(BodySystem.skeletal.primaryColor)
+                    }
+                }
+
+                Spacer(minLength: 0)
             }
-            Spacer()
-            CircularProgressView(progress: progress)
-                .frame(width: 44, height: 44)
         }
-        .padding()
-        .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(.ultraThinMaterial)
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(BodySystem.skeletal.primaryColor.opacity(0.15), lineWidth: 1))
-        )
     }
 
     // MARK: - Weekly Overview
 
     private var weeklyOverviewSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Label("This Week", systemImage: "calendar")
-                .font(.headline)
+            sectionHeader("This Week", icon: "calendar", system: .cardiovascular)
 
-            HStack(spacing: 16) {
-                statCard(title: "Flashcards Due", value: "\(flashcardsDueCount)", icon: "rectangle.on.rectangle.angled", color: .orange)
-                statCard(title: "Quiz Avg", value: quizAverage, icon: "checkmark.circle", color: .green)
-                statCard(title: "Chapters Read", value: "\(chaptersCompleted)/\(content.chapters.count)", icon: "book.closed", color: .blue)
+            HStack(spacing: 12) {
+                BioStatBadge(value: "\(flashcardsDueCount)", label: "Flashcards", system: .endocrine)
+                BioStatBadge(value: quizAverage, label: "Quiz Avg", system: .cardiovascular)
+                BioStatBadge(value: "\(chaptersCompleted)/\(content.chapters.count)", label: "Chapters", system: .skeletal)
             }
         }
     }
@@ -209,41 +245,21 @@ struct HomeView: View {
         Set(studyProgress.filter { $0.readPercentage >= 1.0 }.map { $0.chapterID }).count
     }
 
-    private func statCard(title: String, value: String, icon: String, color: Color) -> some View {
-        VStack(spacing: 8) {
-            Image(systemName: icon)
-                .font(.title2)
-                .foregroundStyle(color)
-            Text(value)
-                .font(.title3)
-                .fontWeight(.bold)
-            Text(title)
-                .font(.caption2)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-        }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 12)
-        .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(.ultraThinMaterial)
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.2), lineWidth: 1))
-        )
-    }
-
     // MARK: - Weak Spots Preview
 
     private var weakSpotsPreviewSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Label("Weak Spots", systemImage: "exclamationmark.triangle.fill")
-                    .font(.headline)
-                Spacer()
-                NavigationLink("See All") {
-                    WeakSpotsView()
-                }
-                .font(.subheadline)
-            }
+            sectionHeader(
+                "Weak Spots",
+                icon: "exclamationmark.triangle.fill",
+                system: .muscular,
+                trailing: AnyView(
+                    NavigationLink("See All") {
+                        WeakSpotsView()
+                    }
+                    .font(.subheadline)
+                )
+            )
 
             let weakChapters = getWeakChapters()
             if weakChapters.isEmpty {
@@ -295,41 +311,48 @@ struct HomeView: View {
 
     private var quickActionsSection: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Quick Actions")
-                .font(.headline)
+            sectionHeader("Quick Actions", icon: "bolt.fill", system: .nervous)
 
-            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
+            LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
                 NavigationLink(destination: FlashcardDeckView()) {
-                    quickActionCard(title: "Flashcards", icon: "rectangle.on.rectangle.angled", color: .orange)
+                    quickActionCard(title: "Flashcards", icon: "rectangle.on.rectangle.angled", system: .endocrine)
                 }
                 NavigationLink(destination: QuizSetupView()) {
-                    quickActionCard(title: "Practice Quiz", icon: "checkmark.circle.fill", color: .green)
+                    quickActionCard(title: "Practice Quiz", icon: "checkmark.circle.fill", system: .cardiovascular)
                 }
                 NavigationLink(destination: GlossaryView()) {
-                    quickActionCard(title: "Glossary", icon: "character.book.closed.fill", color: .purple)
+                    quickActionCard(title: "Glossary", icon: "character.book.closed.fill", system: .organ)
                 }
                 NavigationLink(destination: SearchContentView()) {
-                    quickActionCard(title: "Search", icon: "magnifyingglass", color: .blue)
+                    quickActionCard(title: "Search", icon: "magnifyingglass", system: .nervous)
                 }
             }
         }
     }
 
-    private func quickActionCard(title: String, icon: String, color: Color) -> some View {
-        VStack(spacing: 8) {
+    private func quickActionCard(title: String, icon: String, system: BodySystem) -> some View {
+        VStack(spacing: 10) {
             Image(systemName: icon)
-                .font(.title2)
-                .foregroundStyle(color)
+                .font(.title)
+                .foregroundStyle(system.primaryColor)
             Text(title)
                 .font(.subheadline)
                 .fontWeight(.medium)
+                .foregroundStyle(.primary)
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 16)
+        .padding(.vertical, 20)
         .background(
-            RoundedRectangle(cornerRadius: 12)
-                .fill(.ultraThinMaterial)
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color.opacity(0.15), lineWidth: 1))
+            RoundedRectangle(cornerRadius: 14)
+                .fill(.regularMaterial)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 14)
+                        .fill(system.primaryColor.opacity(0.06))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 14)
+                        .stroke(system.primaryColor.opacity(0.15), lineWidth: 1)
+                )
         )
     }
 

@@ -3,9 +3,12 @@ import SwiftData
 
 @main
 struct BIO40AStudyCompanionApp: App {
+    @StateObject private var themeManager = ShaderThemeManager()
+
     var body: some Scene {
         WindowGroup {
             ContentRootView()
+                .environmentObject(themeManager)
         }
         .modelContainer(for: [
             StudyProgress.self,

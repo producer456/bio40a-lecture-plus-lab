@@ -13,6 +13,7 @@ struct GamesMenuView: View {
                     system: .integumentary,
                     title: "Games",
                     subtitle: "Learn anatomy through play",
+                    badge: "GAMES",
                     height: 110
                 )
                 .listRowInsets(EdgeInsets())
