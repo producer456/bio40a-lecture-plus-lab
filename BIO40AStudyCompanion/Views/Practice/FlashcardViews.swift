@@ -8,46 +8,70 @@ struct FlashcardDeckView: View {
     @Query private var flashcardProgress: [FlashcardProgress]
 
     var body: some View {
-        List {
-            // Review Due
-            let dueCount = flashcardProgress.filter { $0.nextReviewDate <= Date() }.count
-            if dueCount > 0 {
-                Section {
+        ScrollView {
+            VStack(spacing: 20) {
+                BioHeroBanner(
+                    system: .endocrine,
+                    title: "Flashcards",
+                    subtitle: "Spaced repetition for long-term retention",
+                    badge: "FLASHCARDS",
+                    height: 160
+                )
+
+                // Review Due
+                let dueCount = flashcardProgress.filter { $0.nextReviewDate <= Date() }.count
+                if dueCount > 0 {
                     NavigationLink(destination: FlashcardStudyView(chapterID: nil)) {
-                        HStack {
-                            Image(systemName: "clock.badge.exclamationmark.fill")
-                                .foregroundStyle(.orange)
-                            VStack(alignment: .leading) {
-                                Text("Review Due Cards")
-                                    .fontWeight(.medium)
-                                Text("\(dueCount) cards ready for review")
+                        BioCard(system: .endocrine) {
+                            HStack(spacing: 12) {
+                                Image(systemName: "clock.badge.exclamationmark.fill")
+                                    .font(.title2)
+                                    .foregroundStyle(BodySystem.endocrine.accentColor)
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text("Review Due Cards")
+                                        .font(.subheadline)
+                                        .fontWeight(.medium)
+                                        .foregroundStyle(.primary)
+                                    Text("\(dueCount) cards ready for review")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                                Spacer()
+                                Image(systemName: "chevron.right")
                                     .font(.caption)
-                                    .foregroundStyle(.secondary)
+                                    .foregroundStyle(.tertiary)
                             }
                         }
                     }
+                    .tint(.primary)
                 }
-            }
 
-            // By Chapter
-            Section("By Chapter") {
+                // By Chapter
+                BioSectionHeader(title: "By Chapter", icon: "book.closed.fill", system: .endocrine)
+
                 ForEach(content.flashcardDecks, id: \.chapterID) { deck in
                     NavigationLink(destination: FlashcardStudyView(chapterID: deck.chapterID)) {
-                        HStack {
-                            VStack(alignment: .leading, spacing: 4) {
-                                Text(content.chapter(id: deck.chapterID)?.title ?? deck.chapterID)
-                                    .font(.subheadline)
-                                    .fontWeight(.medium)
-                                Text("\(deck.cards.count) cards")
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
+                        BioCard(system: .endocrine) {
+                            HStack(spacing: 12) {
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text(content.chapter(id: deck.chapterID)?.title ?? deck.chapterID)
+                                        .font(.subheadline)
+                                        .fontWeight(.medium)
+                                        .foregroundStyle(.primary)
+                                    Text("\(deck.cards.count) cards")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
+                                Spacer()
+                                deckProgressView(for: deck)
                             }
-                            Spacer()
-                            deckProgressView(for: deck)
                         }
                     }
+                    .tint(.primary)
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
         .navigationTitle("Flashcards")
     }
@@ -95,39 +119,44 @@ struct FlashcardStudyView: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                 Spacer()
-                ProgressView(value: Double(currentIndex), total: Double(cards.count))
-                    .frame(width: 120)
+                BloodFlowProgress(
+                    value: Double(currentIndex) / max(1, Double(cards.count)),
+                    system: .endocrine
+                )
+                .frame(width: 120)
             }
-            .padding(.horizontal)
+            .padding(.horizontal, 16)
 
             Spacer()
 
             // Card
             let card = cards[currentIndex]
-            VStack(spacing: 16) {
-                Text(isFlipped ? "Definition" : "Term")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .textCase(.uppercase)
+            BioCard(system: .endocrine) {
+                VStack(spacing: 16) {
+                    Text(isFlipped ? "Definition" : "Term")
+                        .font(.caption)
+                        .foregroundStyle(BodySystem.endocrine.accentColor)
+                        .textCase(.uppercase)
+                        .fontWeight(.semibold)
 
-                Text(isFlipped ? card.definition : card.term)
-                    .font(isFlipped ? .body : .title2)
-                    .fontWeight(isFlipped ? .regular : .bold)
-                    .multilineTextAlignment(.center)
-                    .padding()
+                    Text(isFlipped ? card.definition : card.term)
+                        .font(isFlipped ? .body : .title2)
+                        .fontWeight(isFlipped ? .regular : .bold)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity)
 
-                Text("Tap to \(isFlipped ? "see term" : "reveal")")
-                    .font(.caption2)
-                    .foregroundStyle(.tertiary)
+                    Text("Tap to \(isFlipped ? "see term" : "reveal")")
+                        .font(.caption2)
+                        .foregroundStyle(.tertiary)
+                }
+                .frame(maxWidth: .infinity, minHeight: 220)
             }
-            .frame(maxWidth: .infinity, minHeight: 250)
-            .padding()
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 20))
             .onTapGesture {
                 withAnimation(.easeInOut(duration: 0.3)) {
                     isFlipped.toggle()
                 }
             }
+            .padding(.horizontal, 16)
 
             Spacer()
 
@@ -144,9 +173,10 @@ struct FlashcardStudyView: View {
                         ratingButton(grade: 5, label: "Easy", color: .blue)
                     }
                 }
+                .padding(.horizontal, 16)
             }
         }
-        .padding()
+        .padding(.vertical)
     }
 
     private func ratingButton(grade: Int, label: String, color: Color) -> some View {
@@ -174,13 +204,13 @@ struct FlashcardStudyView: View {
                 .fontWeight(.bold)
             Text(cards.isEmpty ? "No cards to review right now" : "You reviewed \(cards.count) cards")
                 .foregroundStyle(.secondary)
-            Button("Study Again") {
+            MuscleContractButton("Study Again", icon: "arrow.clockwise", color: BodySystem.endocrine.primaryColor) {
                 currentIndex = 0
                 sessionComplete = false
                 isFlipped = false
                 cards.shuffle()
             }
-            .buttonStyle(.borderedProminent)
+            .padding(.horizontal, 16)
         }
     }
 

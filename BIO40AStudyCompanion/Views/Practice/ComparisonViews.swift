@@ -27,18 +27,32 @@ struct ComparisonListView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
+                BioHeroBanner(
+                    system: .organ,
+                    title: "Comparisons",
+                    subtitle: "Venn diagrams for key concepts",
+                    badge: "COMPARE",
+                    height: 160
+                )
+
                 // Chapter group pills
+                BioSectionHeader(title: "Sections", icon: "folder.fill", system: .organ)
                 chapterGroupPills
 
                 // Topic pills
+                BioSectionHeader(title: "Topics", icon: "tag.fill", system: .organ)
                 topicPills
 
                 // Venn diagram
                 if let table = selectedTable ?? tablesForGroup.first {
-                    if table.terms.count == 2 {
-                        TwoTermVennView(table: table)
-                    } else {
-                        ThreeTermVennView(table: table)
+                    BioCard(system: .organ) {
+                        VStack(spacing: 0) {
+                            if table.terms.count == 2 {
+                                TwoTermVennView(table: table)
+                            } else {
+                                ThreeTermVennView(table: table)
+                            }
+                        }
                     }
                 }
 
@@ -47,9 +61,9 @@ struct ComparisonListView: View {
                     .font(.caption)
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
-                    .padding(.horizontal)
             }
-            .padding(.vertical)
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
         .navigationTitle("Comparisons")
         .onAppear {
@@ -82,7 +96,7 @@ struct ComparisonListView: View {
                             .padding(.vertical, 10)
                             .background(
                                 selectedGroup == group
-                                    ? Color.blue
+                                    ? BodySystem.organ.primaryColor
                                     : Color(.tertiarySystemFill),
                                 in: RoundedRectangle(cornerRadius: 10)
                             )
@@ -90,7 +104,6 @@ struct ComparisonListView: View {
                     }
                 }
             }
-            .padding(.horizontal)
         }
     }
 
@@ -109,15 +122,14 @@ struct ComparisonListView: View {
                         .padding(.vertical, 8)
                         .background(
                             selectedTable?.id == table.id
-                                ? Color.blue.opacity(0.2)
+                                ? BodySystem.organ.accentColor.opacity(0.25)
                                 : Color(.tertiarySystemFill),
                             in: RoundedRectangle(cornerRadius: 8)
                         )
-                        .foregroundStyle(selectedTable?.id == table.id ? .blue : .primary)
+                        .foregroundStyle(selectedTable?.id == table.id ? BodySystem.organ.primaryColor : .primary)
                 }
             }
         }
-        .padding(.horizontal)
     }
 }
 
@@ -126,8 +138,8 @@ struct ComparisonListView: View {
 struct TwoTermVennView: View {
     let table: ComparisonTable
 
-    private let leftColor = Color.blue
-    private let rightColor = Color.orange
+    private let leftColor = Color(red: 0.25, green: 0.60, blue: 0.58)   // organ teal
+    private let rightColor = Color(red: 0.40, green: 0.80, blue: 0.75)  // organ accent
 
     var body: some View {
         VStack(spacing: 0) {
@@ -220,7 +232,11 @@ struct TwoTermVennView: View {
 struct ThreeTermVennView: View {
     let table: ComparisonTable
 
-    private let colors: [Color] = [.blue, .purple, .orange]
+    private let colors: [Color] = [
+        Color(red: 0.25, green: 0.60, blue: 0.58),  // organ teal
+        Color(red: 0.40, green: 0.80, blue: 0.75),  // organ accent
+        Color(red: 0.65, green: 0.50, blue: 0.35)   // integumentary as contrast
+    ]
 
     var body: some View {
         VStack(spacing: 12) {

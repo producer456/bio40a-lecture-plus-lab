@@ -18,14 +18,27 @@ struct ScheduleView: View {
                 }
             }
             .pickerStyle(.segmented)
-            .padding()
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
 
-            List {
-                switch selectedView {
-                case .lecture: lectureSchedule
-                case .lab: labSchedule
-                case .all: allDueDates
+            ScrollView {
+                VStack(spacing: 20) {
+                    BioHeroBanner(
+                        system: .endocrine,
+                        title: "Schedule",
+                        subtitle: "Stay on track with your coursework",
+                        badge: "SCHEDULE",
+                        height: 150
+                    )
+
+                    switch selectedView {
+                    case .lecture: lectureSchedule
+                    case .lab: labSchedule
+                    case .all: allDueDates
+                    }
                 }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 12)
             }
         }
         .navigationTitle("Schedule")
@@ -35,44 +48,48 @@ struct ScheduleView: View {
     private var lectureSchedule: some View {
         if let syllabus = content.syllabus {
             ForEach(syllabus.lectureSchedule, id: \.week) { week in
-                Section {
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text(week.topic)
-                            .font(.subheadline)
-                            .fontWeight(.medium)
-                        Text("Starting \(week.startDate)")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-
-                        if let assignments = week.assignments, !assignments.isEmpty {
-                            Divider()
-                            ForEach(assignments, id: \.name) { assignment in
-                                HStack {
-                                    Circle()
-                                        .fill(colorForType(assignment.type))
-                                        .frame(width: 8, height: 8)
-                                    Text(assignment.name)
-                                        .font(.caption)
-                                    Spacer()
-                                    Text(formatDueDate(assignment.dueDate))
-                                        .font(.caption2)
-                                        .foregroundStyle(.secondary)
-                                }
-                            }
-                        }
-                    }
-                } header: {
+                VStack(alignment: .leading, spacing: 0) {
+                    // Week header
                     HStack {
-                        Text("Week \(week.week)")
+                        BioSectionHeader(title: "Week \(week.week)", icon: "calendar", system: .endocrine)
                         Spacer()
                         if isCurrentWeek(week.startDate) {
                             Text("CURRENT")
                                 .font(.caption2)
-                                .fontWeight(.bold)
+                                .fontWeight(.heavy)
+                                .tracking(1.0)
                                 .foregroundStyle(.white)
-                                .padding(.horizontal, 8)
-                                .padding(.vertical, 2)
-                                .background(.blue, in: Capsule())
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 4)
+                                .background(BodySystem.endocrine.primaryColor, in: Capsule())
+                        }
+                    }
+
+                    BioCard(system: .endocrine) {
+                        VStack(alignment: .leading, spacing: 8) {
+                            Text(week.topic)
+                                .font(.subheadline)
+                                .fontWeight(.medium)
+                            Text("Starting \(week.startDate)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+
+                            if let assignments = week.assignments, !assignments.isEmpty {
+                                Divider()
+                                ForEach(assignments, id: \.name) { assignment in
+                                    HStack {
+                                        Circle()
+                                            .fill(colorForType(assignment.type))
+                                            .frame(width: 8, height: 8)
+                                        Text(assignment.name)
+                                            .font(.caption)
+                                        Spacer()
+                                        Text(formatDueDate(assignment.dueDate))
+                                            .font(.caption2)
+                                            .foregroundStyle(.secondary)
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -84,18 +101,23 @@ struct ScheduleView: View {
     private var labSchedule: some View {
         if let syllabus = content.syllabus {
             ForEach(syllabus.labSchedule, id: \.week) { week in
-                Section("Week \(week.week)") {
-                    HStack {
-                        Image(systemName: "flask.fill")
-                            .foregroundStyle(.purple)
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(week.topic)
-                                .font(.subheadline)
-                                .fontWeight(.medium)
-                            if let chapters = week.chapters, !chapters.isEmpty {
-                                Text("Chapters: \(chapters.joined(separator: ", "))")
-                                    .font(.caption)
-                                    .foregroundStyle(.secondary)
+                VStack(alignment: .leading, spacing: 0) {
+                    BioSectionHeader(title: "Week \(week.week)", icon: "flask.fill", system: .endocrine)
+
+                    BioCard(system: .endocrine) {
+                        HStack(spacing: 12) {
+                            Image(systemName: "flask.fill")
+                                .font(.title3)
+                                .foregroundStyle(BodySystem.endocrine.accentColor)
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(week.topic)
+                                    .font(.subheadline)
+                                    .fontWeight(.medium)
+                                if let chapters = week.chapters, !chapters.isEmpty {
+                                    Text("Chapters: \(chapters.joined(separator: ", "))")
+                                        .font(.caption)
+                                        .foregroundStyle(.secondary)
+                                }
                             }
                         }
                     }
@@ -109,20 +131,30 @@ struct ScheduleView: View {
         let assignments = allAssignmentsSorted()
         let now = Date()
 
-        Section("Upcoming") {
-            ForEach(assignments.filter { parseDueDate($0.dueDate) ?? .distantPast > now }, id: \.name) { a in
-                assignmentRow(a)
+        let upcoming = assignments.filter { parseDueDate($0.dueDate) ?? .distantPast > now }
+        let past = assignments.filter { parseDueDate($0.dueDate) ?? .distantPast <= now }
+
+        if !upcoming.isEmpty {
+            BioSectionHeader(title: "Upcoming", icon: "clock.fill", system: .endocrine)
+            ForEach(upcoming, id: \.name) { a in
+                BioCard(system: .endocrine) {
+                    assignmentRowContent(a)
+                }
             }
         }
-        Section("Past") {
-            ForEach(assignments.filter { parseDueDate($0.dueDate) ?? .distantPast <= now }, id: \.name) { a in
-                assignmentRow(a)
-                    .opacity(0.6)
+
+        if !past.isEmpty {
+            BioSectionHeader(title: "Past", icon: "checkmark.circle", system: .endocrine)
+            ForEach(past, id: \.name) { a in
+                BioCard(system: .endocrine) {
+                    assignmentRowContent(a)
+                }
+                .opacity(0.6)
             }
         }
     }
 
-    private func assignmentRow(_ assignment: Assignment) -> some View {
+    private func assignmentRowContent(_ assignment: Assignment) -> some View {
         HStack {
             Circle()
                 .fill(colorForType(assignment.type))

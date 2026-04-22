@@ -7,46 +7,61 @@ struct GamesMenuView: View {
     @Environment(ContentService.self) private var content
 
     var body: some View {
-        List {
-            Section {
+        ScrollView {
+            VStack(spacing: 20) {
                 BioHeroBanner(
                     system: .integumentary,
                     title: "Games",
                     subtitle: "Learn anatomy through play",
                     badge: "GAMES",
-                    height: 110
+                    height: 160
                 )
-                .listRowInsets(EdgeInsets())
-                .listRowBackground(Color.clear)
-            }
 
-            Section("Choose a Game") {
+                BioSectionHeader(title: "Choose a Game", icon: "gamecontroller.fill", system: .integumentary)
+
                 NavigationLink(destination: MatchingGameView()) {
-                    gameRow(icon: "rectangle.grid.2x2.fill", title: "Term Matching", subtitle: "Match terms to their definitions", color: .blue)
+                    gameCard(icon: "rectangle.grid.2x2.fill", title: "Term Matching", subtitle: "Match terms to their definitions")
                 }
+                .tint(.primary)
+
                 NavigationLink(destination: FillInBlankView()) {
-                    gameRow(icon: "text.cursor", title: "Fill in the Blank", subtitle: "Complete sentences with key terms", color: .purple)
+                    gameCard(icon: "text.cursor", title: "Fill in the Blank", subtitle: "Complete sentences with key terms")
                 }
+                .tint(.primary)
+
                 NavigationLink(destination: VennGamesMenuView()) {
-                    gameRow(icon: "circle.grid.cross.fill", title: "Venn Diagram Games", subtitle: "3 games to master compare & contrast", color: .indigo)
+                    gameCard(icon: "circle.grid.cross.fill", title: "Venn Diagram Games", subtitle: "3 games to master compare & contrast")
                 }
+                .tint(.primary)
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
         .navigationTitle("Games")
     }
 
-    private func gameRow(icon: String, title: String, subtitle: String, color: Color) -> some View {
-        HStack(spacing: 14) {
-            Image(systemName: icon)
-                .font(.title2)
-                .foregroundStyle(color)
-                .frame(width: 36)
-            VStack(alignment: .leading) {
-                Text(title).font(.subheadline).fontWeight(.medium)
-                Text(subtitle).font(.caption).foregroundStyle(.secondary)
+    private func gameCard(icon: String, title: String, subtitle: String) -> some View {
+        BioCard(system: .integumentary) {
+            HStack(spacing: 14) {
+                Image(systemName: icon)
+                    .font(.title2)
+                    .foregroundStyle(BodySystem.integumentary.primaryColor)
+                    .frame(width: 40, height: 40)
+                    .background(BodySystem.integumentary.primaryColor.opacity(0.12), in: RoundedRectangle(cornerRadius: 10))
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(title)
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                    Text(subtitle)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                Spacer()
+                Image(systemName: "chevron.right")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
             }
         }
-        .padding(.vertical, 4)
     }
 }
 
@@ -78,24 +93,31 @@ struct MatchingGameView: View {
     }
 
     private var chapterPicker: some View {
-        List {
-            Section("Select Chapter") {
+        ScrollView {
+            VStack(spacing: 20) {
+                BioSectionHeader(title: "Select Chapter", icon: "book.closed.fill", system: .integumentary)
+
                 ForEach(content.chapters) { chapter in
                     Button {
                         startGame(chapterID: chapter.id)
                     } label: {
-                        HStack {
-                            Text("Ch. \(chapter.number): \(chapter.title)")
-                                .font(.subheadline)
-                            Spacer()
-                            Text("\(chapter.glossaryTerms.count) terms")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
+                        BioCard(system: .integumentary) {
+                            HStack {
+                                Text("Ch. \(chapter.number): \(chapter.title)")
+                                    .font(.subheadline)
+                                    .foregroundStyle(.primary)
+                                Spacer()
+                                Text("\(chapter.glossaryTerms.count) terms")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
                     }
                     .tint(.primary)
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
     }
 
@@ -103,15 +125,11 @@ struct MatchingGameView: View {
         ScrollView {
             VStack(spacing: 16) {
                 // Stats
-                HStack {
-                    Text("Matched: \(matched.count)/\(terms.count)")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("Attempts: \(attempts)")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                HStack(spacing: 12) {
+                    BioStatBadge(value: "\(matched.count)/\(terms.count)", label: "Matched", system: .integumentary)
+                    BioStatBadge(value: "\(attempts)", label: "Attempts", system: .integumentary)
                 }
-                .padding(.horizontal)
+                .padding(.horizontal, 16)
 
                 // Game grid
                 HStack(alignment: .top, spacing: 12) {
@@ -165,21 +183,21 @@ struct MatchingGameView: View {
                         }
                     }
                 }
-                .padding(.horizontal)
+                .padding(.horizontal, 16)
             }
-            .padding(.vertical)
+            .padding(.vertical, 12)
         }
     }
 
     private func termBackground(_ index: Int) -> some ShapeStyle {
         if matched.contains(index) { return AnyShapeStyle(.green.opacity(0.2)) }
-        if selectedTerm == index { return AnyShapeStyle(.blue.opacity(0.3)) }
+        if selectedTerm == index { return AnyShapeStyle(BodySystem.integumentary.primaryColor.opacity(0.3)) }
         return AnyShapeStyle(.ultraThinMaterial)
     }
 
     private func defBackground(_ defIndex: Int, originalIndex: Int) -> some ShapeStyle {
         if matched.contains(originalIndex) { return AnyShapeStyle(.green.opacity(0.2)) }
-        if selectedDef == defIndex { return AnyShapeStyle(.blue.opacity(0.3)) }
+        if selectedDef == defIndex { return AnyShapeStyle(BodySystem.integumentary.primaryColor.opacity(0.3)) }
         return AnyShapeStyle(.ultraThinMaterial)
     }
 
@@ -193,13 +211,13 @@ struct MatchingGameView: View {
                 .fontWeight(.bold)
             Text("Completed in \(attempts) attempts")
                 .foregroundStyle(.secondary)
-            Button("Play Again") {
+            MuscleContractButton("Play Again", icon: "arrow.clockwise", color: BodySystem.integumentary.primaryColor) {
                 terms = []
                 matched = []
                 attempts = 0
                 gameComplete = false
             }
-            .buttonStyle(.borderedProminent)
+            .padding(.horizontal, 16)
         }
     }
 
@@ -264,51 +282,75 @@ struct FillInBlankView: View {
     }
 
     private var chapterPicker: some View {
-        List {
-            Section("Select Chapter") {
+        ScrollView {
+            VStack(spacing: 20) {
+                BioSectionHeader(title: "Select Chapter", icon: "book.closed.fill", system: .integumentary)
+
                 ForEach(content.chapters) { chapter in
                     Button {
                         terms = Array(chapter.glossaryTerms.shuffled().prefix(10))
                         gameStarted = true
                     } label: {
-                        Text("Ch. \(chapter.number): \(chapter.title)")
-                            .font(.subheadline)
+                        BioCard(system: .integumentary) {
+                            HStack {
+                                Text("Ch. \(chapter.number): \(chapter.title)")
+                                    .font(.subheadline)
+                                    .foregroundStyle(.primary)
+                                Spacer()
+                                Image(systemName: "chevron.right")
+                                    .font(.caption)
+                                    .foregroundStyle(.tertiary)
+                            }
+                        }
                     }
                     .tint(.primary)
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 12)
         }
     }
 
     private var fillView: some View {
         VStack(spacing: 24) {
             // Progress
-            Text("\(currentTermIndex + 1) / \(terms.count)")
-                .font(.subheadline)
-                .foregroundStyle(.secondary)
+            HStack {
+                Text("\(currentTermIndex + 1) / \(terms.count)")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                Spacer()
+                BloodFlowProgress(
+                    value: Double(currentTermIndex) / max(1, Double(terms.count)),
+                    system: .integumentary
+                )
+                .frame(width: 120)
+            }
+            .padding(.horizontal, 16)
 
             Spacer()
 
             // Definition as clue
             let term = terms[currentTermIndex]
-            VStack(spacing: 16) {
-                Text("What term matches this definition?")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
+            BioCard(system: .integumentary) {
+                VStack(spacing: 12) {
+                    Text("What term matches this definition?")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
 
-                Text(term.definition)
-                    .font(.body)
-                    .multilineTextAlignment(.center)
-                    .padding()
-                    .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 16))
+                    Text(term.definition)
+                        .font(.body)
+                        .multilineTextAlignment(.center)
+                        .frame(maxWidth: .infinity)
+                }
             }
+            .padding(.horizontal, 16)
 
             // Input
             TextField("Type your answer...", text: $userInput)
                 .textFieldStyle(.roundedBorder)
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
-                .padding(.horizontal)
+                .padding(.horizontal, 16)
 
             if showAnswer {
                 VStack(spacing: 8) {
@@ -341,18 +383,19 @@ struct FillInBlankView: View {
                         if isCorrect { score += 1 }
                     }
                     .buttonStyle(.borderedProminent)
+                    .tint(BodySystem.integumentary.primaryColor)
                     .disabled(userInput.isEmpty)
                 }
             } else {
-                Button("Next") {
+                MuscleContractButton("Next", icon: "arrow.right", color: BodySystem.integumentary.primaryColor) {
                     currentTermIndex += 1
                     userInput = ""
                     showAnswer = false
                 }
-                .buttonStyle(.borderedProminent)
+                .padding(.horizontal, 16)
             }
         }
-        .padding()
+        .padding(.vertical)
     }
 
     private var resultsView: some View {
@@ -363,15 +406,20 @@ struct FillInBlankView: View {
             Text("Game Over!")
                 .font(.title2)
                 .fontWeight(.bold)
-            Text("\(score)/\(total) correct")
-                .font(.title3)
-            Button("Play Again") {
+
+            HStack(spacing: 12) {
+                BioStatBadge(value: "\(score)", label: "Correct", system: .integumentary)
+                BioStatBadge(value: "\(total)", label: "Total", system: .integumentary)
+            }
+            .padding(.horizontal, 16)
+
+            MuscleContractButton("Play Again", icon: "arrow.clockwise", color: BodySystem.integumentary.primaryColor) {
                 gameStarted = false
                 currentTermIndex = 0
                 score = 0
                 total = 0
             }
-            .buttonStyle(.borderedProminent)
+            .padding(.horizontal, 16)
         }
     }
 }
