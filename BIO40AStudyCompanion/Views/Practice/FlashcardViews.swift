@@ -129,28 +129,32 @@ struct FlashcardStudyView: View {
 
             Spacer()
 
-            // Card
+            // Card — clean, minimal background for readability
             let card = cards[currentIndex]
-            BioCard(system: .endocrine) {
-                VStack(spacing: 16) {
-                    Text(isFlipped ? "Definition" : "Term")
-                        .font(.caption)
-                        .foregroundStyle(BodySystem.endocrine.accentColor)
-                        .textCase(.uppercase)
-                        .fontWeight(.semibold)
+            VStack(spacing: 16) {
+                Text(isFlipped ? "Definition" : "Term")
+                    .font(.caption)
+                    .foregroundStyle(BodySystem.endocrine.accentColor)
+                    .textCase(.uppercase)
+                    .fontWeight(.semibold)
 
-                    Text(isFlipped ? card.definition : card.term)
-                        .font(isFlipped ? .body : .title2)
-                        .fontWeight(isFlipped ? .regular : .bold)
-                        .multilineTextAlignment(.center)
-                        .frame(maxWidth: .infinity)
+                Text(isFlipped ? card.definition : card.term)
+                    .font(isFlipped ? .body : .title2)
+                    .fontWeight(isFlipped ? .regular : .bold)
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
 
-                    Text("Tap to \(isFlipped ? "see term" : "reveal")")
-                        .font(.caption2)
-                        .foregroundStyle(.tertiary)
-                }
-                .frame(maxWidth: .infinity, minHeight: 220)
+                Text("Tap to \(isFlipped ? "see term" : "reveal")")
+                    .font(.caption2)
+                    .foregroundStyle(.tertiary)
             }
+            .frame(maxWidth: .infinity, minHeight: 220)
+            .padding(20)
+            .background(
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .fill(.background)
+                    .shadow(color: .black.opacity(0.15), radius: 8, y: 2)
+            )
             .onTapGesture {
                 withAnimation(.easeInOut(duration: 0.3)) {
                     isFlipped.toggle()
